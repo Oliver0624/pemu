@@ -583,17 +583,14 @@ bool Skin::loadText(c2d::Text *text, const std::vector<std::string> &tree) {
 
     text->setFont(getFont());
     text->setString(textGroup.text);
-
-    // OLIVER may black screen if enable some of it
-
     text->setCharacterSize(textGroup.size);
-    //text->setFillColor(textGroup.color);
-    //text->setOutlineColor(textGroup.outlineColor);
-    //text->setOutlineThickness(textGroup.outlineSize);
-    //text->setOrigin(textGroup.origin);
+    text->setFillColor(textGroup.color);
+    text->setOutlineColor(textGroup.outlineColor);
+    text->setOutlineThickness(textGroup.outlineSize);
+    text->setOrigin(textGroup.origin);
     text->setPosition(textGroup.rect.left, textGroup.rect.top);
-    //text->setOverflow(textGroup.overflow);
-    //text->setSizeMax(textGroup.rect.width, textGroup.rect.height);
+    text->setOverflow(textGroup.overflow);
+    text->setSizeMax(textGroup.rect.width, textGroup.rect.height);
 
     return true;
 }

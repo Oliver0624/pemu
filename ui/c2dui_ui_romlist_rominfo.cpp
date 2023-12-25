@@ -169,8 +169,8 @@ void UIRomInfo::load(const Game &game) {
         showText(ratingText, TEXT_ROMINFO_RATING TEXT_ROMINFO_DELIMITER + std::to_string(game.rating));
         showText(rotationText, TEXT_ROMINFO_ROTATION TEXT_ROMINFO_DELIMITER + std::to_string(game.rotation));
         showText(resolutionText,
-                 TEXT_ROMINFO_RESOLUTION TEXT_ROMINFO_DELIMITER + (game.resolution.empty() ? "UNKNOWN" : game.resolution));
-        showText(cloneofText, TEXT_ROMINFO_CLONEOF TEXT_ROMINFO_DELIMITER + (game.cloneOf.empty() ? "NONE" : game.cloneOf));
+                 TEXT_ROMINFO_RESOLUTION TEXT_ROMINFO_DELIMITER + (game.resolution.empty() ? TEXT_UNKOWN : game.resolution));
+        showText(cloneofText, TEXT_ROMINFO_CLONEOF TEXT_ROMINFO_DELIMITER + (game.cloneOf.empty() ? TEXT_NONE : game.cloneOf));
         showText(filenameText, TEXT_ROMINFO_FILE TEXT_ROMINFO_DELIMITER + game.path);
         showText(synoText, game.synopsis);
     }
