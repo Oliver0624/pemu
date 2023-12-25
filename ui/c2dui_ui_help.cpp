@@ -3,6 +3,7 @@
 //
 
 #include "c2dui.h"
+#include "c2dui_text_def.h"
 
 UiHelp::UiHelp(UiMain *ui) : SkinnedRectangle(ui, {"MAIN", "HELP"}) {
     int button1, button2;
@@ -10,19 +11,19 @@ UiHelp::UiHelp(UiMain *ui) : SkinnedRectangle(ui, {"MAIN", "HELP"}) {
 
     // navigation
     float pos = addItem(true, font, {ui->getSkin()->getButton(100)},
-                        "NAVIGATION", {4, getSize().y / 2});
+                        TEXT_NAVIGATION, {4, getSize().y / 2});
     // run
     button1 = ui->getConfig()->get(Option::Id::JOY_A)->getValueInt();
     pos = addItem(true, font, {ui->getSkin()->getButton(button1)},
-                  "RUN", {pos + 12, getSize().y / 2});
+                  TEXT_RUN, {pos + 12, getSize().y / 2});
     // favorite
     button1 = ui->getConfig()->get(Option::Id::JOY_X)->getValueInt();
     if (ui->getSize().x > 640) {
         pos = addItem(true, font, {ui->getSkin()->getButton(button1)},
-                      "ADD / REMOVE FAVORITE", {pos + 12, getSize().y / 2});
+                      TEXT_TOOGLE_FAVORITE, {pos + 12, getSize().y / 2});
     } else {
         pos = addItem(true, font, {ui->getSkin()->getButton(button1)},
-                      "FAVORITE", {pos + 12, getSize().y / 2});
+                      TEXT_FAVORITE, {pos + 12, getSize().y / 2});
     }
 
     if (ui->getSize().x > 640) {
@@ -32,18 +33,18 @@ UiHelp::UiHelp(UiMain *ui) : SkinnedRectangle(ui, {"MAIN", "HELP"}) {
             button2 = ui->getConfig()->get(Option::Id::JOY_RT)->getValueInt();
             addItem(true, font,
                     {ui->getSkin()->getButton(button1), ui->getSkin()->getButton(button2)},
-                    "SWITCH SYSTEM", {pos + 12, getSize().y / 2});
+                    TEXT_SWITCH_SYSTEM, {pos + 12, getSize().y / 2});
         }
     }
 
     // main menu
     button1 = ui->getConfig()->get(Option::Id::JOY_MENU1)->getValueInt();
     pos = addItem(false, font, {ui->getSkin()->getButton(button1)},
-                  "MAIN MENU", {getSize().x - 4, getSize().y / 2});
+                  TEXT_MAIN_MENU, {getSize().x - 4, getSize().y / 2});
 
     button1 = ui->getConfig()->get(Option::Id::JOY_MENU2)->getValueInt();
     addItem(false, font, {ui->getSkin()->getButton(button1)},
-            "ROM MENU", {pos - 12, getSize().y / 2});
+            TEXT_ROM_MENU, {pos - 12, getSize().y / 2});
 }
 
 float UiHelp::addItem(bool left, c2d::Font *font, const std::vector<Skin::Button *> &buttons,

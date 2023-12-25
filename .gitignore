@@ -5,5 +5,8 @@ ss_dev_pwd.key
 ss_user_id.key
 ss_user_pwd.key
 
+.vscode
+build
+
 # android
 keystore.properties

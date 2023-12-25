@@ -3,6 +3,7 @@
 //
 
 #include "c2dui.h"
+#include "c2dui_text_def.h"
 
 Config::Config(UiMain *ui, int ver, const std::string &defaultRomsPath) {
     m_ui = ui;
@@ -28,12 +29,12 @@ Config::Config(UiMain *ui, int ver, const std::string &defaultRomsPath) {
     /// main/gui config
     /////////////////////////////////////////////////
     append("MAIN", {"MAIN"}, 0, Option::Id::MENU_MAIN, Option::Flags::MENU);
-    append("SHOW_FAVORITES", {"OFF", "ON"}, 0, Option::Id::GUI_SHOW_FAVORITES,
+    append(TEXT_SHOW_FAVORITES, {"OFF", "ON"}, 0, Option::Id::GUI_SHOW_FAVORITES,
            Option::Flags::BOOLEAN);
-    append("SHOW_AVAILABLE", {"OFF", "ON"}, 0, Option::Id::GUI_SHOW_AVAILABLE,
+    append(TEXT_SHOW_AVAILABLE, {"OFF", "ON"}, 0, Option::Id::GUI_SHOW_AVAILABLE,
            Option::Flags::BOOLEAN);
     get()->at(get()->size() - 1).setInfo(
-            "YOU NEED TO RESTART THE APPLICATION AFTER CHANGING THIS OPTION");
+            TEXT_WARNING_RESTART);
     append("SHOW_CLONES", {"OFF", "ON"}, 0,
            Option::Id::GUI_FILTER_CLONES, Option::Flags::BOOLEAN | Option::Flags::HIDDEN);
     append("SHOW_ZIP_NAMES", {"OFF", "ON"}, 1, Option::Id::GUI_SHOW_ZIP_NAMES,
@@ -41,7 +42,7 @@ Config::Config(UiMain *ui, int ver, const std::string &defaultRomsPath) {
     append("SHOW_ICONS", {"OFF", "ON"}, 0, Option::Id::GUI_SHOW_ICONS,
            Option::Flags::BOOLEAN | Option::Flags::HIDDEN);
     get()->at(get()->size() - 1).setInfo(
-            "YOU NEED TO RESTART THE APPLICATION AFTER CHANGING THIS OPTION");
+            TEXT_WARNING_RESTART);
 #if 0 // TODO
     append("SCREEN_WIDTH", (int) C2DDevice::getResolution().x, Option::Id::GUI_SCREEN_WIDTH,
            Option::Flags::INTEGER | Option::Flags::HIDDEN);
@@ -50,7 +51,7 @@ Config::Config(UiMain *ui, int ver, const std::string &defaultRomsPath) {
 #endif
 #ifdef __FULLSCREEN__
     append("FULLSCREEN", {"OFF", "ON"}, 0, Option::Id::GUI_FULLSCREEN, Option::Flags::BOOLEAN);
-    get()->at(get()->size() - 1).setInfo("YOU NEED TO RESTART THE APPLICATION AFTER CHANGING THIS OPTION");
+    get()->at(get()->size() - 1).setInfo(TEXT_WARNING_RESTART);
 #endif
 
     // build  skin list
@@ -92,18 +93,18 @@ Config::Config(UiMain *ui, int ver, const std::string &defaultRomsPath) {
         append("SKIN", skins, index, Option::Id::GUI_SKIN, Option::Flags::STRING);
     }
     get()->at(get()->size() - 1).setInfo(
-            "YOU NEED TO RESTART THE APPLICATION AFTER CHANGING THIS OPTION");
+            TEXT_WARNING_RESTART);
 
     int aspect_index = ui->getSize().x / ui->getSize().y > 1.33 ? 0 : 1;
     append("SKIN_ASPECT", {"16/9", "4/3"},
            aspect_index, Option::Id::GUI_SKIN_ASPECT, Option::Flags::STRING);
     get()->at(get()->size() - 1).setInfo(
-            "YOU NEED TO RESTART THE APPLICATION AFTER CHANGING THIS OPTION");
+            TEXT_WARNING_RESTART);
 
     append("FONT_SCALING", {"0", "1", "2", "3", "4", "5"},
            0, Option::Id::GUI_FONT_SCALING, Option::Flags::STRING);
     get()->at(get()->size() - 1).setInfo(
-            "YOU NEED TO RESTART THE APPLICATION AFTER CHANGING THIS OPTION");
+            TEXT_WARNING_RESTART);
 
     append("VIDEO_SNAP_DELAY", {"3", "5", "7", "10"}, 1,
            Option::Id::GUI_VIDEO_SNAP_DELAY, Option::Flags::STRING);
@@ -340,7 +341,7 @@ void Config::save(const ss_api::Game &game) {
         } else {
             config_setting_t *setting = config_setting_add(sub_setting, option.getName().c_str(),
                                                            CONFIG_TYPE_STRING);
-            config_setting_set_string(setting, option.getValueString().c_str());
+            config_setting_set_string(setting, option.getValueString().c_str()); //  OLIVER BUG : setting always NULL
         }
     }
 

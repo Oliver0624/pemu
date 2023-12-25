@@ -72,19 +72,29 @@ Skin::Skin(UiMain *u) {
     ///
     /// GENERAL
     ///
-    config::Group gen("GENERAL");
+#if 1
+#define TEXT_GENERAL  "GENERAL"
+#define TEXT_FONT     "FONT"
+#define TEXT_COLORS   "COLORS"
+#else
+#define TEXT_GENERAL  "通用"
+#define TEXT_FONT     "字体"
+#define TEXT_COLORS   "颜色"
+#endif
+
+    config::Group gen(TEXT_GENERAL);
     gen.addOption({"resolution", Vector2f{1280.0f, 720.0f}});
     pConfig->addGroup(gen);
 
     /// FONT
-    config::Group font_group("FONT");
+    config::Group font_group(TEXT_FONT);
     font_group.addOption({"path", "default.ttf"});
     font_group.addOption({"offset", Vector2f{0, -4}});
     font_group.addOption({"texture_filtering", 0});
     pConfig->addGroup(font_group);
 
     /// COLORS
-    config::Group colors_group("COLORS");
+    config::Group colors_group(TEXT_COLORS);
     for (int i = 0; i < 50; i++) {
         colors_group.addOption({"color" + std::to_string(i), Color()});
     }
@@ -573,14 +583,17 @@ bool Skin::loadText(c2d::Text *text, const std::vector<std::string> &tree) {
 
     text->setFont(getFont());
     text->setString(textGroup.text);
+
+    // OLIVER may black screen if enable some of it
+
     text->setCharacterSize(textGroup.size);
-    text->setFillColor(textGroup.color);
-    text->setOutlineColor(textGroup.outlineColor);
-    text->setOutlineThickness(textGroup.outlineSize);
-    text->setOrigin(textGroup.origin);
+    //text->setFillColor(textGroup.color);
+    //text->setOutlineColor(textGroup.outlineColor);
+    //text->setOutlineThickness(textGroup.outlineSize);
+    //text->setOrigin(textGroup.origin);
     text->setPosition(textGroup.rect.left, textGroup.rect.top);
-    text->setOverflow(textGroup.overflow);
-    text->setSizeMax(textGroup.rect.width, textGroup.rect.height);
+    //text->setOverflow(textGroup.overflow);
+    //text->setSizeMax(textGroup.rect.width, textGroup.rect.height);
 
     return true;
 }

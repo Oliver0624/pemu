@@ -3,6 +3,7 @@
 //
 
 #include "c2dui.h"
+#include "c2dui_text_def.h"
 
 UIRomInfo::UIRomInfo(UiMain *u, UIRomList *uiRList, Font *fnt, int fntSize)
         : Rectangle(u->getSize()) {
@@ -159,18 +160,18 @@ void UIRomInfo::load(const Game &game) {
         printf("UIRomInfo::load(%s)\n", game.name.c_str());
         // load title/preview texture
         loadTexture(game);
-        showText(systemText, "System: " + game.system.name);
-        showText(developerText, "Developer: " + game.developer.name);
-        showText(editorText, "Editor: " + game.editor.name);
-        showText(dateText, "Date: " + game.date);
-        showText(genreText, "Genre: " + game.genre.name);
-        showText(playersText, "Players: " + game.players);
-        showText(ratingText, "Rating: " + std::to_string(game.rating));
-        showText(rotationText, "Rotation: " + std::to_string(game.rotation));
+        showText(systemText, TEXT_ROMINFO_SYSTEM TEXT_ROMINFO_DELIMITER + game.system.name);
+        showText(developerText, TEXT_ROMINFO_DEVELOPER TEXT_ROMINFO_DELIMITER + game.developer.name);
+        showText(editorText, TEXT_ROMINFO_EDITOR TEXT_ROMINFO_DELIMITER + game.editor.name);
+        showText(dateText, TEXT_ROMINFO_DATE TEXT_ROMINFO_DELIMITER + game.date);
+        showText(genreText, TEXT_ROMINFO_GENRE TEXT_ROMINFO_DELIMITER + game.genre.name);
+        showText(playersText, TEXT_ROMINFO_PLAYERS TEXT_ROMINFO_DELIMITER + game.players);
+        showText(ratingText, TEXT_ROMINFO_RATING TEXT_ROMINFO_DELIMITER + std::to_string(game.rating));
+        showText(rotationText, TEXT_ROMINFO_ROTATION TEXT_ROMINFO_DELIMITER + std::to_string(game.rotation));
         showText(resolutionText,
-                 "Resolution: " + (game.resolution.empty() ? "UNKNOWN" : game.resolution));
-        showText(cloneofText, "Clone Of: " + (game.cloneOf.empty() ? "NONE" : game.cloneOf));
-        showText(filenameText, "File: " + game.path);
+                 TEXT_ROMINFO_RESOLUTION TEXT_ROMINFO_DELIMITER + (game.resolution.empty() ? "UNKNOWN" : game.resolution));
+        showText(cloneofText, TEXT_ROMINFO_CLONEOF TEXT_ROMINFO_DELIMITER + (game.cloneOf.empty() ? "NONE" : game.cloneOf));
+        showText(filenameText, TEXT_ROMINFO_FILE TEXT_ROMINFO_DELIMITER + game.path);
         showText(synoText, game.synopsis);
     }
 }
