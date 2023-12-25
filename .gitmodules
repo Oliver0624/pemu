@@ -9,7 +9,8 @@
 	url = https://github.com/Cpasjuste/sscrap.git
 [submodule "libcross2d"]
 	path = libcross2d
-	url = https://github.com/Cpasjuste/libcross2d.git
+	url = https://github.com/Oliver0624/libcross2d
+	branch = support-utf8
 [submodule "cores/fbneo"]
 	path = cores/fbneo
 	url = https://github.com/finalburnneo/FBNeo.git
