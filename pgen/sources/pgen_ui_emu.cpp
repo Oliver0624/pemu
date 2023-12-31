@@ -34,7 +34,7 @@ PGENUiEmu::PGENUiEmu(UiMain *ui) : UiEmu(ui) {
 int PGENUiEmu::load(const ss_api::Game &game) {
     currentGame = game;
     getUi()->getUiProgressBox()->setTitle(game.name);
-    getUi()->getUiProgressBox()->setMessage("Please wait...");
+    getUi()->getUiProgressBox()->setMessage(TEXT_MSG_PLEASE_WAIT);
     getUi()->getUiProgressBox()->setProgress(0);
     getUi()->getUiProgressBox()->setVisibility(Visibility::Visible);
     getUi()->getUiProgressBox()->setLayer(1000);
@@ -47,9 +47,9 @@ int PGENUiEmu::load(const ss_api::Game &game) {
             || !pMain->getIo()->exist(CD_BIOS_JP)) {
             getUi()->getUiProgressBox()->setVisibility(Visibility::Hidden);
             getUi()->getUiMessageBox()->show(
-                    "WARNING",
-                    "MISSING MEGA-CD BIOS DETECTED, EMULATION WILL LIKELY NOT WORK...",
-                    "OK");
+                    TEXT_MSG_TITTLE_WARNING,
+                    TEXT_MSG_PGEN_MISSING_MEGA_CD_BIOS,
+                    TEXT_BUTTON_OK);
         }
     }
 
@@ -65,7 +65,7 @@ int PGENUiEmu::load(const ss_api::Game &game) {
     if (!load_rom((char *) path.c_str())) {
         getUi()->getUiProgressBox()->setVisibility(Visibility::Hidden);
         getUi()->getUiMessageBox()->show(
-                "ERROR", "INVALID FILE OR MISSING BIOS...", "OK");
+                TEXT_MSG_TITTLE_ERROR, TEXT_MSG_PGEN_INVALID_FILE_OR_MISSING_BIOS, TEXT_BUTTON_OK);
         stop();
         return -1;
     }

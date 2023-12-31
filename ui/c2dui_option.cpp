@@ -8,7 +8,10 @@
 
 Option::Option(const std::string &text,
                const std::vector<std::string> &options,
-               int defaultValueIndex, int id, unsigned int flags) {
+               int defaultValueIndex,
+               int id,
+               unsigned int flags,
+               const std::string &displayName) {
     this->flags = flags;
     this->name = text;
     this->options = options;
@@ -16,10 +19,19 @@ Option::Option(const std::string &text,
     if (defaultValueIndex < (int) this->options.size()) {
         current_option = this->options.at(defaultValueIndex);
     }
+    if (displayName.length() == 0) {
+        this->display_name = this->name;
+    } else {
+        this->display_name = displayName;
+    }
 }
 
 std::string Option::getName() const {
     return name;
+}
+
+std::string Option::getDisplayName() const {
+    return display_name;
 }
 
 std::string Option::getInfo() const {
@@ -160,6 +172,7 @@ void Option::set(const Option &option) {
     current_option = option.current_option;
     flags = option.flags;
     id = option.id;
+    display_name = option.display_name;
 }
 
 int Option::size() {

@@ -62,7 +62,7 @@ PSNESUiEmu::PSNESUiEmu(UiMain *ui) : UiEmu(ui) {
 
 int PSNESUiEmu::load(const ss_api::Game &game) {
     pMain->getUiProgressBox()->setTitle(game.name);
-    pMain->getUiProgressBox()->setMessage("Please wait...");
+    pMain->getUiProgressBox()->setMessage(TEXT_MSG_PLEASE_WAIT);
     pMain->getUiProgressBox()->setProgress(0);
     pMain->getUiProgressBox()->setVisibility(Visibility::Visible);
     pMain->getUiProgressBox()->setLayer(1000);
@@ -164,7 +164,7 @@ int PSNESUiEmu::load(const ss_api::Game &game) {
     if (!Memory.LoadROM(fullPath.c_str())) {
         printf("Could not open ROM: %s\n", fullPath.c_str());
         pMain->getUiProgressBox()->setVisibility(Visibility::Hidden);
-        pMain->getUiMessageBox()->show("ERROR", "INVALID ROM", "OK");
+        pMain->getUiMessageBox()->show(TEXT_MSG_TITTLE_ERROR, TEXT_MSG_PSNES_INVALID_ROM, TEXT_BUTTON_OK);
         stop();
         return -1;
     }

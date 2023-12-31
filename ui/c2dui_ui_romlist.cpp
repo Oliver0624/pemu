@@ -262,13 +262,13 @@ bool UIRomList::onInput(c2d::Input::Player *players) {
         Game game = getSelection();
         if (game.id > 0 && !pRomList->gameListFav->exist(game.id)) {
             int res = pMain->getUiMessageBox()->show(
-                    "FAVORITES", "Add to favorites ?", "OK", "CANCEL");
+                    TEXT_MSG_TITTLE_FAVORITES, TEXT_MSG_ADD_FAVORITES, TEXT_BUTTON_OK, TEXT_BUTTON_CANCEL);
             if (res == MessageBox::LEFT) {
                 pRomList->addFav(game);
             }
         } else if (game.id > 0 && pRomList->gameListFav->exist(game.id)) {
             int res = pMain->getUiMessageBox()->show(
-                    "FAVORITES", "Remove from favorites ?", "OK", "CANCEL");
+                    TEXT_MSG_TITTLE_FAVORITES, TEXT_MSG_REMOVE_FAVORITES, TEXT_BUTTON_OK, TEXT_BUTTON_CANCEL);
             if (res == MessageBox::LEFT) {
                 pRomList->removeFav(game);
                 if (pMain->getConfig()->get(Option::Id::GUI_SHOW_FAVORITES)->getValueBool()) {

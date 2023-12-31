@@ -104,10 +104,10 @@ static int DrvLoadRom(unsigned char *Dest, int *pnWrote, int i) {
         char szText[256];
         char *pszFilename;
         BurnDrvGetRomName(&pszFilename, i, 0);
-        sprintf(szText, "Error loading %s for %s.\nEmulation will likely have problems.",
+        sprintf(szText, TEXT_MSG_ERROR_LOADING,
                 pszFilename, BurnDrvGetTextA(DRV_NAME));
         printf("DrvLoadRom: %s\n", szText);
-        ui->getUiMessageBox()->show("ERROR", szText, "OK");
+        ui->getUiMessageBox()->show(TEXT_MSG_TITTLE_ERROR, szText, TEXT_BUTTON_OK);
     }
 
     BzipClose();
@@ -194,7 +194,7 @@ int ProgressUpdateBurner(double dProgress, const TCHAR *pszText, bool bAbs) {
         ui->getUiProgressBox()->setMessage(pszText);
         ui->getUiProgressBox()->setProgress((float) nProgressPosBurn);
     } else {
-        ui->getUiProgressBox()->setMessage("Please wait...");
+        ui->getUiProgressBox()->setMessage(TEXT_MSG_PLEASE_WAIT);
     }
 
     ui->flip();
@@ -203,7 +203,7 @@ int ProgressUpdateBurner(double dProgress, const TCHAR *pszText, bool bAbs) {
 }
 
 int AppError(TCHAR *szText, int bWarning) {
-    //ui->getUiMessageBox()->show("ERROR", szText ? szText : "UNKNOW ERROR", "OK");
+    //ui->getUiMessageBox()->show(TEXT_MSG_TITTLE_ERROR, szText ? szText : "UNKNOW ERROR", TEXT_BUTTON_OK);
     return 1;
 }
 

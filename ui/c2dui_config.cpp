@@ -28,30 +28,30 @@ Config::Config(UiMain *ui, int ver, const std::string &defaultRomsPath) {
     /////////////////////////////////////////////////
     /// main/gui config
     /////////////////////////////////////////////////
-    append("MAIN", {"MAIN"}, 0, Option::Id::MENU_MAIN, Option::Flags::MENU);
-    append(TEXT_SHOW_FAVORITES, {"OFF", "ON"}, 0, Option::Id::GUI_SHOW_FAVORITES,
+    append("MAIN",TEXT_MENU_MAIN, {"MAIN"}, 0, Option::Id::MENU_MAIN, Option::Flags::MENU);
+    append("SHOW_FAVORITES",TEXT_MENU_SHOW_FAVORITES, {"OFF", "ON"}, 0, Option::Id::GUI_SHOW_FAVORITES,
            Option::Flags::BOOLEAN);
-    append(TEXT_SHOW_AVAILABLE, {"OFF", "ON"}, 0, Option::Id::GUI_SHOW_AVAILABLE,
+    append("SHOW_AVAILABLE",TEXT_MENU_SHOW_AVAILABLE, {"OFF", "ON"}, 0, Option::Id::GUI_SHOW_AVAILABLE,
            Option::Flags::BOOLEAN);
     get()->at(get()->size() - 1).setInfo(
-            TEXT_WARNING_RESTART);
-    append("SHOW_CLONES", {"OFF", "ON"}, 0,
+            TEXT_MSG_NEED_APP_RESTART);
+    append("SHOW_CLONES",TEXT_MENU_SHOW_CLONES, {"OFF", "ON"}, 0,
            Option::Id::GUI_FILTER_CLONES, Option::Flags::BOOLEAN | Option::Flags::HIDDEN);
-    append("SHOW_ZIP_NAMES", {"OFF", "ON"}, 1, Option::Id::GUI_SHOW_ZIP_NAMES,
+    append("SHOW_ZIP_NAMES",TEXT_MENU_SHOW_ZIP_NAMES, {"OFF", "ON"}, 1, Option::Id::GUI_SHOW_ZIP_NAMES,
            Option::Flags::BOOLEAN);
-    append("SHOW_ICONS", {"OFF", "ON"}, 0, Option::Id::GUI_SHOW_ICONS,
+    append("SHOW_ICONS",TEXT_MENU_SHOW_ICONS, {"OFF", "ON"}, 0, Option::Id::GUI_SHOW_ICONS,
            Option::Flags::BOOLEAN | Option::Flags::HIDDEN);
     get()->at(get()->size() - 1).setInfo(
-            TEXT_WARNING_RESTART);
+            TEXT_MSG_NEED_APP_RESTART);
 #if 0 // TODO
-    append("SCREEN_WIDTH", (int) C2DDevice::getResolution().x, Option::Id::GUI_SCREEN_WIDTH,
+    append("SCREEN_WIDTH", TEXT_MENU_SCREEN_WIDTH, (int) C2DDevice::getResolution().x, Option::Id::GUI_SCREEN_WIDTH,
            Option::Flags::INTEGER | Option::Flags::HIDDEN);
-    append("SCREEN_HEIGHT", (int) C2DDevice::getResolution().y, Option::Id::GUI_SCREEN_HEIGHT,
+    append("SCREEN_HEIGHT", TEXT_MENU_SCREEN_HEIGHT, (int) C2DDevice::getResolution().y, Option::Id::GUI_SCREEN_HEIGHT,
            Option::Flags::INTEGER | Option::Flags::HIDDEN);
 #endif
 #ifdef __FULLSCREEN__
-    append("FULLSCREEN", {"OFF", "ON"}, 0, Option::Id::GUI_FULLSCREEN, Option::Flags::BOOLEAN);
-    get()->at(get()->size() - 1).setInfo(TEXT_WARNING_RESTART);
+    append("FULLSCREEN", TEXT_MENU_FULLSCREEN, {"OFF", "ON"}, 0, Option::Id::GUI_FULLSCREEN, Option::Flags::BOOLEAN);
+    get()->at(get()->size() - 1).setInfo(TEXT_MSG_NEED_APP_RESTART);
 #endif
 
     // build  skin list
@@ -90,103 +90,103 @@ Config::Config(UiMain *ui, int ver, const std::string &defaultRomsPath) {
                 index = (int) i;
             }
         }
-        append("SKIN", skins, index, Option::Id::GUI_SKIN, Option::Flags::STRING);
+        append("SKIN", TEXT_MENU_SKIN, skins, index, Option::Id::GUI_SKIN, Option::Flags::STRING);
     }
     get()->at(get()->size() - 1).setInfo(
-            TEXT_WARNING_RESTART);
+            TEXT_MSG_NEED_APP_RESTART);
 
     int aspect_index = ui->getSize().x / ui->getSize().y > 1.33 ? 0 : 1;
-    append("SKIN_ASPECT", {"16/9", "4/3"},
+    append("SKIN_ASPECT", TEXT_MENU_SKIN_ASPECT, {"16/9", "4/3"},
            aspect_index, Option::Id::GUI_SKIN_ASPECT, Option::Flags::STRING);
     get()->at(get()->size() - 1).setInfo(
-            TEXT_WARNING_RESTART);
+            TEXT_MSG_NEED_APP_RESTART);
 
-    append("FONT_SCALING", {"0", "1", "2", "3", "4", "5"},
+    append("FONT_SCALING", TEXT_MENU_FONT_SCALING, {"0", "1", "2", "3", "4", "5"},
            0, Option::Id::GUI_FONT_SCALING, Option::Flags::STRING);
     get()->at(get()->size() - 1).setInfo(
-            TEXT_WARNING_RESTART);
+            TEXT_MSG_NEED_APP_RESTART);
 
-    append("VIDEO_SNAP_DELAY", {"3", "5", "7", "10"}, 1,
+    append("VIDEO_SNAP_DELAY", TEXT_MENU_VIDEO_SNAP_DELAY, {"3", "5", "7", "10"}, 1,
            Option::Id::GUI_VIDEO_SNAP_DELAY, Option::Flags::STRING);
 
     /////////////////////////////////////////////////
     /// default rom config
     /////////////////////////////////////////////////
-    append("EMULATION", {"EMULATION"}, 0, Option::Id::MENU_ROM_OPTIONS, Option::Flags::MENU);
+    append("EMULATION", TEXT_MENU_EMULATION, {"EMULATION"}, 0, Option::Id::MENU_ROM_OPTIONS, Option::Flags::MENU);
     if (m_ui->getSize().y > 1080) {
-        append("SCALING", {"NONE", "2X", "3X", "4X", "5", "6", "7", "8", "9", "FIT", "FULL"},
+        append("SCALING", TEXT_MENU_SCALING, {"NONE", "2X", "3X", "4X", "5", "6", "7", "8", "9", "FIT", "FULL"},
                6, Option::Id::ROM_SCALING, Option::Flags::STRING);
     } else if (m_ui->getSize().y > 720) {
-        append("SCALING", {"NONE", "2X", "3X", "4X", "FIT", "FULL"},
+        append("SCALING", TEXT_MENU_SCALING, {"NONE", "2X", "3X", "4X", "FIT", "FULL"},
                4, Option::Id::ROM_SCALING, Option::Flags::STRING);
     } else if (m_ui->getSize().y > 544) {
-        append("SCALING", {"NONE", "2X", "3X", "FIT", "FULL"},
+        append("SCALING", TEXT_MENU_SCALING, {"NONE", "2X", "3X", "FIT", "FULL"},
                3, Option::Id::ROM_SCALING, Option::Flags::STRING);
     } else if (m_ui->getSize().y > 240) {
-        append("SCALING", {"NONE", "2X", "FIT", "FULL"},
+        append("SCALING", TEXT_MENU_SCALING, {"NONE", "2X", "FIT", "FULL"},
                2, Option::Id::ROM_SCALING, Option::Flags::STRING);
     } else {
-        append("SCALING", {"NONE", "FIT", "FULL"},
+        append("SCALING", TEXT_MENU_SCALING, {"NONE", "FIT", "FULL"},
                1, Option::Id::ROM_SCALING, Option::Flags::STRING);
     }
-    append("SCALING_MODE", {"AUTO", "ASPECT", "INTEGER"}, 1,
+    append("SCALING_MODE", TEXT_MENU_SCALING_MODE, {"AUTO", "ASPECT", "INTEGER"}, 1,
            Option::Id::ROM_SCALING_MODE, Option::Flags::STRING);
-    append("FILTER", {"POINT", "LINEAR"}, 0, Option::Id::ROM_FILTER, Option::Flags::STRING);
+    append("FILTER", TEXT_MENU_FILTER, {"POINT", "LINEAR"}, 0, Option::Id::ROM_FILTER, Option::Flags::STRING);
 #ifdef __VITA__
-    append("WAIT_RENDERING", {"OFF", "ON"}, 1, Option::Id::ROM_WAIT_RENDERING, Option::Flags::BOOLEAN);
+    append("WAIT_RENDERING", TEXT_MENU_WAIT_RENDERING, {"OFF", "ON"}, 1, Option::Id::ROM_WAIT_RENDERING, Option::Flags::BOOLEAN);
 #endif
-    append("SHOW_FPS", {"OFF", "ON"}, 0, Option::Id::ROM_SHOW_FPS, Option::Flags::BOOLEAN);
+    append("SHOW_FPS", TEXT_MENU_SHOW_FPS, {"OFF", "ON"}, 0, Option::Id::ROM_SHOW_FPS, Option::Flags::BOOLEAN);
 
     /// joysticks config
-    append("JOYPAD", {"JOYPAD"}, 0, Option::Id::MENU_JOYPAD, Option::Flags::MENU);
-    append("JOY_UP", KEY_JOY_UP_DEFAULT, Option::Id::JOY_UP, Option::Flags::INPUT);
-    append("JOY_DOWN", KEY_JOY_DOWN_DEFAULT, Option::Id::JOY_DOWN, Option::Flags::INPUT);
-    append("JOY_LEFT", KEY_JOY_LEFT_DEFAULT, Option::Id::JOY_LEFT, Option::Flags::INPUT);
-    append("JOY_RIGHT", KEY_JOY_RIGHT_DEFAULT, Option::Id::JOY_RIGHT, Option::Flags::INPUT);
-    append("JOY_A", KEY_JOY_A_DEFAULT, Option::Id::JOY_A, Option::Flags::INPUT);
-    append("JOY_B", KEY_JOY_B_DEFAULT, Option::Id::JOY_B, Option::Flags::INPUT);
-    append("JOY_X", KEY_JOY_X_DEFAULT, Option::Id::JOY_X, Option::Flags::INPUT);
-    append("JOY_Y", KEY_JOY_Y_DEFAULT, Option::Id::JOY_Y, Option::Flags::INPUT);
-    append("JOY_LT", KEY_JOY_LT_DEFAULT, Option::Id::JOY_LT, Option::Flags::INPUT);
-    append("JOY_RT", KEY_JOY_RT_DEFAULT, Option::Id::JOY_RT, Option::Flags::INPUT);
-    append("JOY_LB", KEY_JOY_LB_DEFAULT, Option::Id::JOY_LB, Option::Flags::INPUT);
-    append("JOY_RB", KEY_JOY_RB_DEFAULT, Option::Id::JOY_RB, Option::Flags::INPUT);
-    append("JOY_SELECT", KEY_JOY_SELECT_DEFAULT, Option::Id::JOY_SELECT, Option::Flags::INPUT);
-    append("JOY_START", KEY_JOY_START_DEFAULT, Option::Id::JOY_START, Option::Flags::INPUT);
-    append("JOY_MENU1", KEY_JOY_MENU1_DEFAULT, Option::Id::JOY_MENU1, Option::Flags::INPUT);
-    append("JOY_MENU2", KEY_JOY_MENU2_DEFAULT, Option::Id::JOY_MENU2, Option::Flags::INPUT);
+    append("JOYPAD", TEXT_MENU_JOYPAD, {"JOYPAD"}, 0, Option::Id::MENU_JOYPAD, Option::Flags::MENU);
+    append("JOY_UP", TEXT_MENU_JOY_UP, KEY_JOY_UP_DEFAULT, Option::Id::JOY_UP, Option::Flags::INPUT);
+    append("JOY_DOWN", TEXT_MENU_JOY_DOWN, KEY_JOY_DOWN_DEFAULT, Option::Id::JOY_DOWN, Option::Flags::INPUT);
+    append("JOY_LEFT", TEXT_MENU_JOY_LEFT, KEY_JOY_LEFT_DEFAULT, Option::Id::JOY_LEFT, Option::Flags::INPUT);
+    append("JOY_RIGHT", TEXT_MENU_JOY_RIGHT, KEY_JOY_RIGHT_DEFAULT, Option::Id::JOY_RIGHT, Option::Flags::INPUT);
+    append("JOY_A", TEXT_MENU_JOY_A, KEY_JOY_A_DEFAULT, Option::Id::JOY_A, Option::Flags::INPUT);
+    append("JOY_B", TEXT_MENU_JOY_B, KEY_JOY_B_DEFAULT, Option::Id::JOY_B, Option::Flags::INPUT);
+    append("JOY_X", TEXT_MENU_JOY_X, KEY_JOY_X_DEFAULT, Option::Id::JOY_X, Option::Flags::INPUT);
+    append("JOY_Y", TEXT_MENU_JOY_Y, KEY_JOY_Y_DEFAULT, Option::Id::JOY_Y, Option::Flags::INPUT);
+    append("JOY_LT", TEXT_MENU_JOY_LT, KEY_JOY_LT_DEFAULT, Option::Id::JOY_LT, Option::Flags::INPUT);
+    append("JOY_RT", TEXT_MENU_JOY_RT, KEY_JOY_RT_DEFAULT, Option::Id::JOY_RT, Option::Flags::INPUT);
+    append("JOY_LB", TEXT_MENU_JOY_LB, KEY_JOY_LB_DEFAULT, Option::Id::JOY_LB, Option::Flags::INPUT);
+    append("JOY_RB", TEXT_MENU_JOY_RB, KEY_JOY_RB_DEFAULT, Option::Id::JOY_RB, Option::Flags::INPUT);
+    append("JOY_SELECT", TEXT_MENU_JOY_SELECT, KEY_JOY_SELECT_DEFAULT, Option::Id::JOY_SELECT, Option::Flags::INPUT);
+    append("JOY_START", TEXT_MENU_JOY_START, KEY_JOY_START_DEFAULT, Option::Id::JOY_START, Option::Flags::INPUT);
+    append("JOY_MENU1", TEXT_MENU_JOY_MENU1, KEY_JOY_MENU1_DEFAULT, Option::Id::JOY_MENU1, Option::Flags::INPUT);
+    append("JOY_MENU2", TEXT_MENU_JOY_MENU2, KEY_JOY_MENU2_DEFAULT, Option::Id::JOY_MENU2, Option::Flags::INPUT);
     // TODO: add gui option for axis in option menu
-    append("JOY_AXIS_LX", KEY_JOY_AXIS_LX, Option::Id::JOY_AXIS_LX,
+    append("JOY_AXIS_LX", TEXT_MENU_JOY_AXIS_LX, KEY_JOY_AXIS_LX, Option::Id::JOY_AXIS_LX,
            Option::Flags::INPUT | Option::Flags::HIDDEN);
-    append("JOY_AXIS_LY", KEY_JOY_AXIS_LY, Option::Id::JOY_AXIS_LY,
+    append("JOY_AXIS_LY", TEXT_MENU_JOY_AXIS_LY, KEY_JOY_AXIS_LY, Option::Id::JOY_AXIS_LY,
            Option::Flags::INPUT | Option::Flags::HIDDEN);
-    append("JOY_AXIS_RX", KEY_JOY_AXIS_RX, Option::Id::JOY_AXIS_RX,
+    append("JOY_AXIS_RX", TEXT_MENU_JOY_AXIS_RX, KEY_JOY_AXIS_RX, Option::Id::JOY_AXIS_RX,
            Option::Flags::INPUT | Option::Flags::HIDDEN);
-    append("JOY_AXIS_RY", KEY_JOY_AXIS_RY, Option::Id::JOY_AXIS_RY,
+    append("JOY_AXIS_RY", TEXT_MENU_JOY_AXIS_RY, KEY_JOY_AXIS_RY, Option::Id::JOY_AXIS_RY,
            Option::Flags::INPUT | Option::Flags::HIDDEN);
-    append("JOY_DEADZONE",
+    append("JOY_DEADZONE", TEXT_MENU_JOY_DEADZONE,
            {"2000", "4000", "6000", "8000", "10000", "12000", "14000", "16000",
             "18000", "20000", "22000", "24000", "26000", "28000", "30000"}, joyDeadZoneIndex,
            Option::Id::JOY_DEADZONE, Option::Flags::STRING);
 #ifndef NO_KEYBOARD
     // keyboard
-    append("KEYBOARD", {"KEYBOARD"}, 0, Option::Id::MENU_KEYBOARD, Option::Flags::MENU);
-    append("KEY_UP", KEY_KB_UP_DEFAULT, Option::Id::KEY_UP, Option::Flags::INPUT);
-    append("KEY_DOWN", KEY_KB_DOWN_DEFAULT, Option::Id::KEY_DOWN, Option::Flags::INPUT);
-    append("KEY_LEFT", KEY_KB_LEFT_DEFAULT, Option::Id::KEY_LEFT, Option::Flags::INPUT);
-    append("KEY_RIGHT", KEY_KB_RIGHT_DEFAULT, Option::Id::KEY_RIGHT, Option::Flags::INPUT);
-    append("KEY_A", KEY_KB_A_DEFAULT, Option::Id::KEY_A, Option::Flags::INPUT);
-    append("KEY_B", KEY_KB_B_DEFAULT, Option::Id::KEY_B, Option::Flags::INPUT);
-    append("KEY_X", KEY_KB_X_DEFAULT, Option::Id::KEY_X, Option::Flags::INPUT);
-    append("KEY_Y", KEY_KB_Y_DEFAULT, Option::Id::KEY_Y, Option::Flags::INPUT);
-    append("KEY_LT", KEY_KB_LT_DEFAULT, Option::Id::KEY_LT, Option::Flags::INPUT);
-    append("KEY_RT", KEY_KB_RT_DEFAULT, Option::Id::KEY_RT, Option::Flags::INPUT);
-    append("KEY_LB", KEY_KB_LB_DEFAULT, Option::Id::KEY_LB, Option::Flags::INPUT);
-    append("KEY_RB", KEY_KB_RB_DEFAULT, Option::Id::KEY_RB, Option::Flags::INPUT);
-    append("KEY_SELECT", KEY_KB_SELECT_DEFAULT, Option::Id::KEY_SELECT, Option::Flags::INPUT);
-    append("KEY_START", KEY_KB_START_DEFAULT, Option::Id::KEY_START, Option::Flags::INPUT);
-    append("KEY_MENU1", KEY_KB_MENU1_DEFAULT, Option::Id::KEY_MENU1, Option::Flags::INPUT);
-    append("KEY_MENU2", KEY_KB_MENU2_DEFAULT, Option::Id::KEY_MENU2, Option::Flags::INPUT);
+    append("KEYBOARD", TEXT_MENU_KEYBOARD, {"KEYBOARD"}, 0, Option::Id::MENU_KEYBOARD, Option::Flags::MENU);
+    append("KEY_UP", TEXT_MENU_KEY_UP, KEY_KB_UP_DEFAULT, Option::Id::KEY_UP, Option::Flags::INPUT);
+    append("KEY_DOWN", TEXT_MENU_KEY_DOWN, KEY_KB_DOWN_DEFAULT, Option::Id::KEY_DOWN, Option::Flags::INPUT);
+    append("KEY_LEFT", TEXT_MENU_KEY_LEFT, KEY_KB_LEFT_DEFAULT, Option::Id::KEY_LEFT, Option::Flags::INPUT);
+    append("KEY_RIGHT", TEXT_MENU_KEY_RIGHT, KEY_KB_RIGHT_DEFAULT, Option::Id::KEY_RIGHT, Option::Flags::INPUT);
+    append("KEY_A", TEXT_MENU_KEY_A, KEY_KB_A_DEFAULT, Option::Id::KEY_A, Option::Flags::INPUT);
+    append("KEY_B", TEXT_MENU_KEY_B, KEY_KB_B_DEFAULT, Option::Id::KEY_B, Option::Flags::INPUT);
+    append("KEY_X", TEXT_MENU_KEY_X, KEY_KB_X_DEFAULT, Option::Id::KEY_X, Option::Flags::INPUT);
+    append("KEY_Y", TEXT_MENU_KEY_Y, KEY_KB_Y_DEFAULT, Option::Id::KEY_Y, Option::Flags::INPUT);
+    append("KEY_LT", TEXT_MENU_KEY_LT, KEY_KB_LT_DEFAULT, Option::Id::KEY_LT, Option::Flags::INPUT);
+    append("KEY_RT", TEXT_MENU_KEY_RT, KEY_KB_RT_DEFAULT, Option::Id::KEY_RT, Option::Flags::INPUT);
+    append("KEY_LB", TEXT_MENU_KEY_LB, KEY_KB_LB_DEFAULT, Option::Id::KEY_LB, Option::Flags::INPUT);
+    append("KEY_RB", TEXT_MENU_KEY_RB, KEY_KB_RB_DEFAULT, Option::Id::KEY_RB, Option::Flags::INPUT);
+    append("KEY_SELECT", TEXT_MENU_KEY_SELECT, KEY_KB_SELECT_DEFAULT, Option::Id::KEY_SELECT, Option::Flags::INPUT);
+    append("KEY_START", TEXT_MENU_KEY_START, KEY_KB_START_DEFAULT, Option::Id::KEY_START, Option::Flags::INPUT);
+    append("KEY_MENU1", TEXT_MENU_KEY_MENU1, KEY_KB_MENU1_DEFAULT, Option::Id::KEY_MENU1, Option::Flags::INPUT);
+    append("KEY_MENU2", TEXT_MENU_KEY_MENU2, KEY_KB_MENU2_DEFAULT, Option::Id::KEY_MENU2, Option::Flags::INPUT);
 #endif
 }
 
@@ -341,7 +341,7 @@ void Config::save(const ss_api::Game &game) {
         } else {
             config_setting_t *setting = config_setting_add(sub_setting, option.getName().c_str(),
                                                            CONFIG_TYPE_STRING);
-            config_setting_set_string(setting, option.getValueString().c_str()); //  OLIVER BUG : setting always NULL
+            config_setting_set_string(setting, option.getValueString().c_str());
         }
     }
 
@@ -396,12 +396,12 @@ Option *Config::get(int index, bool isRom) {
     return nullptr;
 }
 
-bool Config::add(int target, const std::string &text, const std::vector<std::string> &values,
+bool Config::add(int target, const std::string &text, const std::string &displayText, const std::vector<std::string> &values,
                  int defaultValue, int index, unsigned int flags) {
     for (unsigned int i = 0; i < options_gui.size(); i++) {
         if (options_gui[i].getId() == target) {
             options_gui.insert(options_gui.begin() + i + 1,
-                               Option(text, values, defaultValue, index, flags));
+                               Option(text, values, defaultValue, index, flags, displayText));
             return true;
         }
     }
@@ -411,11 +411,20 @@ bool Config::add(int target, const std::string &text, const std::vector<std::str
 
 void Config::append(const std::string &text, const std::vector<std::string> &values,
                     int defaultValue, int id, unsigned int flags) {
-    options_gui.emplace_back(text, values, defaultValue, id, flags);
+    options_gui.emplace_back(text, values, defaultValue, id, flags, text);
 }
 
 void Config::append(const std::string &text, int value, int id, unsigned int flags) {
     append(text, {std::to_string(value)}, 0, id, flags);
+}
+
+void Config::append(const std::string &text, const std::string &displayText, const std::vector<std::string> &values,
+                    int defaultValue, int id, unsigned int flags) {
+    options_gui.emplace_back(text, values, defaultValue, id, flags, displayText);
+}
+
+void Config::append(const std::string &text, const std::string &displayText, int value, int id, unsigned int flags) {
+    append(text, displayText, {std::to_string(value)}, 0, id, flags);
 }
 
 bool Config::hide(int index, bool isRom) {

@@ -118,9 +118,11 @@ namespace c2dui {
         Option() = default;
 
         Option(const std::string &name, const std::vector<std::string> &options,
-               int defaultValueIndex, int id, unsigned int flags = INTEGER);
+               int defaultValueIndex, int id, unsigned int flags = INTEGER, const std::string &displayName = "");
 
         std::string getName() const;
+
+        std::string getDisplayName() const;
 
         std::string getInfo() const;
 
@@ -162,6 +164,7 @@ namespace c2dui {
 
     private:
         std::string name;
+        std::string display_name;
         std::string info;
         std::vector<std::string> options;
         std::string current_option;

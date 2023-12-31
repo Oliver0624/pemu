@@ -33,7 +33,7 @@ PNESUiEmu::PNESUiEmu(UiMain *ui) : UiEmu(ui) {
 
 int PNESUiEmu::load(const ss_api::Game &game) {
     getUi()->getUiProgressBox()->setTitle(game.name);
-    getUi()->getUiProgressBox()->setMessage("Please wait...");
+    getUi()->getUiProgressBox()->setMessage(TEXT_MSG_PLEASE_WAIT);
     getUi()->getUiProgressBox()->setProgress(0);
     getUi()->getUiProgressBox()->setVisibility(Visibility::Visible);
     getUi()->getUiProgressBox()->setLayer(1000);
@@ -45,7 +45,7 @@ int PNESUiEmu::load(const ss_api::Game &game) {
     std::string fullPath = game.romsPath + game.path;
     if (nestopia_core_init(fullPath.c_str()) != 0) {
         getUi()->getUiProgressBox()->setVisibility(Visibility::Hidden);
-        getUi()->getUiMessageBox()->show("ERROR", "INVALID FILE", "OK");
+        getUi()->getUiMessageBox()->show(TEXT_MSG_TITTLE_ERROR, TEXT_MSG_PNES_INVALID_FILE, TEXT_BUTTON_OK);
         stop();
         return -1;
     }

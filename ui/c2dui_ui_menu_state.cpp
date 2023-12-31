@@ -21,7 +21,7 @@ public:
         outlineColorSelected = ui->getSkin()->getRectangleShape({"STATES_MENU"}).outlineColor;
 
         // text if no save/screenshot
-        middle_text = new C2DText("NO SAVE", 26, ui->getSkin()->getFont());
+        middle_text = new C2DText(TEXT_NO_SAVE, 26, ui->getSkin()->getFont());
         ui->getSkin()->loadText(middle_text, {"STATES_MENU", "STATES_ITEM", "STATES_TEXT"});
         middle_text->setOrigin(Origin::Center);
         middle_text->setPosition(UiState::getLocalBounds().left + UiState::getSize().x / 2,
@@ -30,7 +30,7 @@ public:
 
         // text for slot id
         char bottom_text_char[32];
-        snprintf(bottom_text_char, 32, "SLOT %i", id);
+        snprintf(bottom_text_char, 32, TEXT_SLOT " %i", id + 1);
         bottom_text = new C2DText(bottom_text_char, 26, ui->getSkin()->getFont());
         ui->getSkin()->loadText(bottom_text, {"STATES_MENU", "STATES_ITEM", "STATES_TEXT"});
         bottom_text->setString(bottom_text_char);
@@ -207,7 +207,7 @@ void UiStateMenu::setVisibility(c2d::Visibility visibility, bool tweenPlay) {
         ui->getUiRomList()->getBlur()->setVisibility(visibility, true);
     }
     if (ui->getUiEmu() && visibility == Visibility::Visible) {
-        title->setString(ui->getUiRomList()->getSelection().name);
+        title->setString(ui->getUiRomList()->getSelection().name); // OLIVER : may use CONSTANT STRING
         for (auto &state: uiStateList->states) {
             state->setRom(ui->getUiRomList()->getSelection());
         }
@@ -234,7 +234,7 @@ bool UiStateMenu::onInput(c2d::Input::Player *players) {
             if (state->exist) {
                 int res = ui->getUiMessageBox()->show(
                         state->bottom_text->getString(),
-                        "PRESS FIRE2 TO CANCEL", "LOAD", "SAVE");
+                        TEXT_MSG_PRESS_FIRE2_TO_CANCEL, TEXT_BUTTON_LOAD, TEXT_BUTTON_SAVE);
                 if (res == MessageBox::LEFT) {
                     state->load();
                     setVisibility(Visibility::Hidden);

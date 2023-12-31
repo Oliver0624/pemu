@@ -35,7 +35,7 @@ void PFBARomList::build(bool addArcadeSystem, const ss_api::System &system) {
         }
         gameList->append(gameListPath, ui->getConfig()->getRomPaths().at(i + 1),
                          false, filters, system, showAvailableOnly);
-        setLoadingText("Games: %li / %li", gameList->getAvailableCount(), gameList->games.size());
+        setLoadingText(TEXT_MSG_GAMES_SEARCH, gameList->getAvailableCount(), gameList->games.size());
         printf("RomList::build: %s, games found: %zu / %zu\n",
                gameListPath.c_str(), gameList->getAvailableCount(), gameList->games.size());
     }

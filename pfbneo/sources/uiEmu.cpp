@@ -57,8 +57,7 @@ int PFBAUiEmu::getSekCpuCore() {
     if (isHardware(hardware, HARDWARE_PREFIX_SNK) && Utility::contains(bios, "UNIBIOS")) {
         sekCpuCore = 1; // SEK_CORE_M68K: USE C M68K CORE
         pMain->getUiMessageBox()->show(
-                "WARNING", "UNIBIOS DOESNT SUPPORT THE M68K ASM CORE\n"
-                           "CYCLONE ASM CORE DISABLED", "OK");
+                TEXT_MSG_TITTLE_WARNING, TEXT_MSG_UNIBIOS_DONT_SUPPORT_M68K_ASM_CORE, TEXT_BUTTON_OK);
     }
 
     if (isHardware(hardware, HARDWARE_PREFIX_SEGA_MEGADRIVE)) {
@@ -71,8 +70,7 @@ int PFBAUiEmu::getSekCpuCore() {
             || hardware & HARDWARE_SEGA_FD1094_ENC_CPU2) {
             sekCpuCore = 1; // SEK_CORE_M68K: USE C M68K CORE
             pMain->getUiMessageBox()->show(
-                    "WARNING", "ROM IS CRYPTED, USE DECRYPTED ROM (CLONE)\n"
-                               "TO ENABLE CYCLONE ASM CORE (FASTER)", "OK");
+                    TEXT_MSG_TITTLE_WARNING, TEXT_MSG_ROM_CRYPTED, TEXT_BUTTON_OK);
         }
     } else if (isHardware(hardware, HARDWARE_PREFIX_TOAPLAN)) {
         zipList.emplace_back("batrider");
@@ -92,8 +90,7 @@ int PFBAUiEmu::getSekCpuCore() {
     std::string zip = BurnDrvGetTextA(DRV_NAME);
     for (unsigned int i = 0; i < zipList.size(); i++) {
         if (zipList[i].compare(0, zip.length(), zip) == 0) {
-            pMain->getUiStatusBox()->show("THIS GAME DOES NOT SUPPORT THE M68K ASM CORE\n"
-                                       "CYCLONE ASM CORE DISABLED");
+            pMain->getUiStatusBox()->show(TEXT_MSG_NOT_SUPPORT_M68K_ASM_CODE);
             sekCpuCore = 1; // SEK_CORE_M68K: USE C M68K CORE
             break;
         }
@@ -180,7 +177,7 @@ int PFBAUiEmu::load(const ss_api::Game &game) {
         printf("\nPFBAUiEmu::load: driver initialisation failed\n");
         delete (aud);
         pMain->getUiProgressBox()->setVisibility(Visibility::Hidden);
-        pMain->getUiMessageBox()->show("ERROR", "DRIVER INIT FAILED", "OK");
+        pMain->getUiMessageBox()->show(TEXT_MSG_TITTLE_ERROR, TEXT_MSG_DRIVER_INIT_FAILED, TEXT_BUTTON_OK);
         stop();
         return -1;
     }
@@ -293,8 +290,7 @@ void PFBAUiEmu::onUpdate() {
     if (buttons & Input::Button::Select) {
         if (clock.getElapsedTime().asSeconds() > 2) {
             if (pgi_reset) {
-                pMain->getUiStatusBox()->show("TIPS: PRESS START "
-                                           "BUTTON 2 SECONDS FOR DIAG MENU...");
+                pMain->getUiStatusBox()->show(TEXT_MSG_PRESS_BUTTON2_FOR_DIAG_MENU);
                 pgi_reset->Input.nVal = 1;
                 *(pgi_reset->Input.pVal) = pgi_reset->Input.nVal;
             }
@@ -305,8 +301,7 @@ void PFBAUiEmu::onUpdate() {
     } else if (buttons & Input::Button::Start) {
         if (clock.getElapsedTime().asSeconds() > 2) {
             if (pgi_diag) {
-                pMain->getUiStatusBox()->show("TIPS: PRESS COIN "
-                                           "BUTTON 2 SECONDS TO RESET CURRENT GAME...");
+                pMain->getUiStatusBox()->show(TEXT_MSG_PRESS_COIN_BUTTON_TO_RESET);
                 pgi_diag->Input.nVal = 1;
                 *(pgi_diag->Input.pVal) = pgi_diag->Input.nVal;
             }

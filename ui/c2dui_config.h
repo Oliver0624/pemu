@@ -51,13 +51,18 @@ namespace c2dui {
         Option *get(int id, bool isRom = false);
 
         bool add(int target,
-                 const std::string &text, const std::vector <std::string> &values,
+                 const std::string &text, const std::string &displayText, const std::vector <std::string> &values,
                  int defaultValue, int id, unsigned int flags);
 
         void append(const std::string &text, const std::vector <std::string> &values,
                     int defaultValue, int id, unsigned int flags);
 
         void append(const std::string &text, int value, int id, unsigned int flags);
+
+        void append(const std::string &text, const std::string &displayText, const std::vector <std::string> &values,
+                    int defaultValue, int id, unsigned int flags);
+
+        void append(const std::string &text, const std::string &displayText, int value, int id, unsigned int flags);
 
         bool hide(int id, bool isRom = false);
 

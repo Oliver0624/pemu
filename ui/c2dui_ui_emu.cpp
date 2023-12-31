@@ -50,7 +50,7 @@ void UiEmu::addVideo(uint8_t **pixels, int *pitch,
 int UiEmu::load(const Game &game) {
     printf("UiEmu::load: name: %s, path: %s\n",
            game.path.c_str(), game.romsPath.c_str());
-    pMain->getUiStatusBox()->show("TIPS: PRESS MENU1 + MENU2 BUTTONS FOR IN GAME MENU...");
+    pMain->getUiStatusBox()->show(TEXT_MSG_PRESS_MENU1_2_FOR_INGAME_MENU);
     currentGame = game;
 
     // set fps text on top

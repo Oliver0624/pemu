@@ -36,6 +36,8 @@
 #include "c2dui_ui_main.h"
 #include "c2dui_ui_help.h"
 
+#include "c2dui_text_def.h"
+
 using namespace c2d;
 using namespace c2dui;
 using namespace ss_api;

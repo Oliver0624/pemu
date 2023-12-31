@@ -38,32 +38,32 @@ PFBAConfig::PFBAConfig(UiMain *ui, int version) : Config(ui, version) {
     get(Option::Id::GUI_SHOW_ZIP_NAMES)->setValueBool(false);
 
     /// ROMS OPTIONS
-    add(Option::Id::ROM_FILTER, "FORCE_60HZ",
+    add(Option::Id::ROM_FILTER, "FORCE_60HZ", TEXT_MENU_FORCE_60HZ,
         {"OFF", "ON"}, 1, Option::Id::ROM_FORCE_60HZ, Option::Flags::BOOLEAN);
-    get(Option::Id::ROM_FORCE_60HZ)->setInfo("YOU NEED TO RESTART EMULATION AFTER CHANGING THIS OPTION");
+    get(Option::Id::ROM_FORCE_60HZ)->setInfo(TEXT_MSG_PFBNEO_NEED_EMLATION_RESTART);
 
     // audio
-    add(Option::Id::ROM_FORCE_60HZ, "AUDIO_FREQUENCY",
+    add(Option::Id::ROM_FORCE_60HZ, "AUDIO_FREQUENCY", TEXT_MENU_AUDIO_FREQUENCY,
         {"11025", "22050", "32000", "44100", "48000"}, 3, Option::Id::ROM_AUDIO_FREQ, Option::Flags::STRING);
-    get(Option::Id::ROM_AUDIO_FREQ)->setInfo("YOU NEED TO RESTART EMULATION AFTER CHANGING THIS OPTION");
+    get(Option::Id::ROM_AUDIO_FREQ)->setInfo(TEXT_MSG_PFBNEO_NEED_EMLATION_RESTART);
 
-    add(Option::Id::ROM_AUDIO_FREQ, "AUDIO_INTERPOLATION",
+    add(Option::Id::ROM_AUDIO_FREQ, "AUDIO_INTERPOLATION", TEXT_MENU_AUDIO_INTERPOLATION,
         {"0", "1", "3"}, 2, Option::Id::ROM_AUDIO_INTERPOLATION, Option::Flags::STRING);
     get(Option::Id::ROM_AUDIO_INTERPOLATION)->setInfo(
-            "YOU NEED TO RESTART EMULATION AFTER CHANGING THIS OPTION");
-    add(Option::Id::ROM_AUDIO_INTERPOLATION, "AUDIO_FM_INTERPOLATION",
+            TEXT_MSG_PFBNEO_NEED_EMLATION_RESTART);
+    add(Option::Id::ROM_AUDIO_INTERPOLATION, "AUDIO_FM_INTERPOLATION", TEXT_MENU_AUDIO_FM_INTERPOLATION,
         {"0", "1", "3"}, 2, Option::Id::ROM_AUDIO_FMINTERPOLATION, Option::Flags::STRING);
     get(Option::Id::ROM_AUDIO_FMINTERPOLATION)->setInfo(
-            "YOU NEED TO RESTART EMULATION AFTER CHANGING THIS OPTION");
+            TEXT_MSG_PFBNEO_NEED_EMLATION_RESTART);
 
 #ifdef __VITA__
-    add(Option::Id::ROM_AUDIO_FMINTERPOLATION, "ROTATION",
+    add(Option::Id::ROM_AUDIO_FMINTERPOLATION, "ROTATION", TEXT_MENU_ROTATION,
         {"OFF", "ON", "FLIP", "CAB MODE"}, 1, Option::Id::ROM_ROTATION, Option::Flags::STRING);
 #else
-    add(Option::Id::ROM_AUDIO_FMINTERPOLATION, "ROTATION",
+    add(Option::Id::ROM_AUDIO_FMINTERPOLATION, "ROTATION", TEXT_MENU_ROTATION,
         {"OFF", "ON", "FLIP"}, 1, Option::Id::ROM_ROTATION, Option::Flags::STRING);
 #endif
-    add(Option::Id::ROM_ROTATION, "NEOBIOS",
+    add(Option::Id::ROM_ROTATION, "NEOBIOS", TEXT_MENU_NEOBIOS,
         {"UNIBIOS_4_0", "UNIBIOS_3_3", "UNIBIOS_3_2", "UNIBIOS_3_1",
          "MVS_ASIA_EUR_V6S1", "MVS_ASIA_EUR_V5S1", "MVS_ASIA_EUR_V3S4",
          "MVS_USA_V5S2", "MVS_USA_V5S4", "MVS_USA_V5S6",
@@ -72,12 +72,12 @@ PFBAConfig::PFBAConfig(UiMain *ui, int version) : Config(ui, version) {
          "NEO_MVH_MV1CA", "NEO_MVH_MV1CJ",
          "DECK_V6", "DEVKIT"},
         0, Option::Id::ROM_NEOBIOS, Option::Flags::STRING);
-    get(Option::Id::ROM_NEOBIOS)->setInfo("YOU NEED TO RESTART EMULATION AFTER CHANGING THIS OPTION");
+    get(Option::Id::ROM_NEOBIOS)->setInfo(TEXT_MSG_PFBNEO_NEED_EMLATION_RESTART);
 #ifdef __PFBA_ARM__
     // do not use unibios as default on vita for cyclone asm compatibility
     get(Option::Id::ROM_NEOBIOS)->setIndex(4);
 
-    add(Option::Id::ROM_NEOBIOS, "FRAMESKIP",
+    add(Option::Id::ROM_NEOBIOS, "FRAMESKIP", TEXT_MENU_FRAMESKIP,
         {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"},
         0, Option::Id::ROM_FRAMESKIP, Option::Flags::STRING);
 #endif

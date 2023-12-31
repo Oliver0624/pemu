@@ -46,7 +46,7 @@ public:
         sprite->setVisibility(Visibility::Hidden);
 
         // reset
-        name->setString(option.getName());
+        name->setString(option.getDisplayName()); //OLIVER : Edit this to displayName, we should define struct for configName and displayName
         value->setVisibility(Visibility::Visible);
         setFillColor(Color::Transparent);
 
@@ -145,7 +145,7 @@ void UiMenu::load(bool isRom) {
         ui->getConfig()->load(game);
         title->setString(game.name);
     } else {
-        title->setString("MAIN OPTIONS");
+        title->setString(TEXT_TITTLE_MAIN_OPTIONS);
     }
 
     // set options items (remove hidden options)
@@ -291,10 +291,10 @@ bool UiMenu::onInput(c2d::Input::Player *players) {
             case Option::Id::GUI_FILTER_RESOLUTION:
             case Option::Id::GUI_FILTER_DATE:
             case Option::Id::GUI_FILTER_GENRE: {
-                std::string name = Utility::toUpper(option.getName());
+                std::string name = Utility::toUpper(option.getDisplayName());
                 std::string value = Utility::toUpper(option.getValueString());
                 if (option.getInfo().empty()) {
-                    ui->getUiStatusBox()->show("%s: %s", name.c_str(), value.c_str());
+                    ui->getUiStatusBox()->show("%s : %s", name.c_str(), value.c_str());
                 }
                 ui->getUiRomList()->updateRomList();
                 break;
@@ -315,19 +315,18 @@ bool UiMenu::onInput(c2d::Input::Player *players) {
                     float oh = gh * ui->getUiEmu()->getVideo()->getScale().y;
                     float ratio = std::max(ow / oh, oh / ow);
                     ui->getUiStatusBox()->show(
-                            "GAME: %ix%i - RATIO: %.2f | OUTPUT: %ix%i - RATIO: %.2f - SCALING: %.2fx%.2f",
+                            TEXT_MSG_DISPLAY_INFO,
                             (int) gw, (int) gh, gr, (int) ow, (int) oh, ratio,
                             ui->getUiEmu()->getVideo()->getScale().x, ui->getUiEmu()->getVideo()->getScale().y);
                 }
                 break;
             case Option::Id::ROM_SCALING_MODE:
                 if (option.getValueString() == "AUTO") {
-                    ui->getUiStatusBox()->show("TRY TO KEEP INTEGER SCALING IF ASPECT RATIO IS NOT TOO DIVERGENT");
+                    ui->getUiStatusBox()->show(TEXT_MSG_TRY_TO_KEEP_INTEGER_SCALING);
                 } else if (option.getValueString() == "ASPECT") {
-                    ui->getUiStatusBox()->show("KEEP GAME ASPECT RATIO - SOME SHADERS MAY NOT RENDER CORRECTLY");
+                    ui->getUiStatusBox()->show(TEXT_MSG_KEEP_ASPECT_RATIO);
                 } else {
-                    ui->getUiStatusBox()->show(
-                            "FORCE INTEGER SCALING - ASPECT RATIO MAY BE WRONG BUT SHADERS WILL RENDER CORRECTLY");
+                    ui->getUiStatusBox()->show(TEXT_MSG_FORCE_INTEGER_SCALING);
                 }
                 if (isEmuRunning) {
                     ui->getUiEmu()->getVideo()->updateScaling();
@@ -365,7 +364,7 @@ bool UiMenu::onInput(c2d::Input::Player *players) {
         Option option = lines.at(highlightIndex)->option;
         if (option.getFlags() == Option::Flags::INPUT) {
             int new_key = 0;
-            int res = ui->getUiMessageBox()->show("NEW INPUT", "PRESS A BUTTON", "", "", &new_key, 9);
+            int res = ui->getUiMessageBox()->show(TEXT_MSG_NEW_INPUT, TEXT_MSG_PRESS_A_BUTTON, "", "", &new_key, 9);
             if (res != MessageBox::TIMEOUT) {
                 needSave = true;
                 // update option everywhere (todo: simplify)

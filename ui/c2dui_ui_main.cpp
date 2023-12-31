@@ -100,10 +100,10 @@ void UiMain::setConfig(Config *cfg) {
     // add shaders, if any
     auto shaderList = getShaderList();
     if (shaderList) {
-        pConfig->add(Option::Id::ROM_FILTER, "EFFECT", shaderList->getNames(), 0,
+        pConfig->add(Option::Id::ROM_FILTER, "EFFECT", TEXT_MENU_EFFECT, shaderList->getNames(), 0,
                      Option::Id::ROM_SHADER, Option::Flags::STRING);
     } else {
-        pConfig->add(Option::Id::ROM_FILTER, "EFFECT", {"NONE"}, 0,
+        pConfig->add(Option::Id::ROM_FILTER, "EFFECT", TEXT_MENU_EFFECT, {"NONE"}, 0,
                      Option::Id::ROM_SHADER, Option::Flags::STRING | Option::Flags::HIDDEN);
     }
 }
