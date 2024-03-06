@@ -77,7 +77,7 @@ int main(int argc, char **argv) {
     std::string nestopia_version = "Nestopia 1.52.0";
     romList = new RomList(ui, nestopia_version, {".zip", ".nes", ".nez", ".unf", ".unif"});
     romList->build();
-    uiRomList = new UIRomList(ui, romList, ui->getSize());
+    uiRomList = new UIRomList(ui, romList, ui->getSize(), UIRomList::Pnes);
     uiMenu = new UiMenu(ui);
     uiEmu = new PNESUiEmu(ui);
     uiState = new PNESUIStateMenu(ui);

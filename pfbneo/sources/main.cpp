@@ -81,7 +81,7 @@ int main(int argc, char **argv) {
     fba_version += szAppBurnVer;
     romList = new PFBARomList(ui, fba_version, {".zip"});
     romList->build();
-    uiRomList = new UIRomList(ui, romList, ui->getSize());
+    uiRomList = new UIRomList(ui, romList, ui->getSize(), UIRomList::Pfbneo);
     uiMenu = new PFBAGuiMenu(ui);
     uiEmu = new PFBAUiEmu(ui);
     uiState = new PFBAUIStateMenu(ui);

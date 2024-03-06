@@ -37,7 +37,7 @@ Config::Config(UiMain *ui, int ver, const std::string &defaultRomsPath) {
             TEXT_MSG_NEED_APP_RESTART);
     append("SHOW_CLONES",TEXT_MENU_SHOW_CLONES, {"OFF", "ON"}, 0,
            Option::Id::GUI_FILTER_CLONES, Option::Flags::BOOLEAN | Option::Flags::HIDDEN);
-    append("SHOW_ZIP_NAMES",TEXT_MENU_SHOW_ZIP_NAMES, {"OFF", "ON"}, 1, Option::Id::GUI_SHOW_ZIP_NAMES,
+    append("SHOW_ZIP_NAMES",TEXT_MENU_SHOW_ZIP_NAMES, {"OFF", "ON"}, 0 /* use game-name default */, Option::Id::GUI_SHOW_ZIP_NAMES,
            Option::Flags::BOOLEAN);
     append("SHOW_ICONS",TEXT_MENU_SHOW_ICONS, {"OFF", "ON"}, 0, Option::Id::GUI_SHOW_ICONS,
            Option::Flags::BOOLEAN | Option::Flags::HIDDEN);

@@ -17,7 +17,15 @@ namespace c2dui {
             Vid
         };
 
-        UIRomList(UiMain *ui, RomList *romList, const c2d::Vector2f &size);
+        enum EmuType {
+            General = 0,
+            Pnes,
+            Psnes,
+            Pgen,
+            Pfbneo
+        };
+
+        UIRomList(UiMain *ui, RomList *romList, const c2d::Vector2f &size, EmuType emuType = General);
 
         ~UIRomList() override;
 
@@ -38,6 +46,8 @@ namespace c2dui {
         virtual void setVideoSnapDelay(int delay);
 
         void setVisibility(c2d::Visibility visibility, bool tweenPlay = false) override;
+
+        UIRomInfo *getRomInfo() { return pRomInfo; }
 
     protected:
 
@@ -63,6 +73,9 @@ namespace c2dui {
         c2d::C2DClock mTimerLoadVideo;
         int mTimerLoadVideoDelay = 5000;
         int mTimerLoadVideoDone = 0;
+
+    public:
+        EmuType emuType;
     };
 }
 

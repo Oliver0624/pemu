@@ -35,6 +35,10 @@ UiHelp::UiHelp(UiMain *ui) : SkinnedRectangle(ui, {"MAIN", "HELP"}) {
                     {ui->getSkin()->getButton(button1), ui->getSkin()->getButton(button2)},
                     TEXT_SWITCH_SYSTEM, {pos + 12, getSize().y / 2});
         }
+        auto button3 = ui->getConfig()->get(Option::Id::JOY_LB)->getValueInt();
+        auto button4 = ui->getConfig()->get(Option::Id::JOY_RB)->getValueInt();
+        pos = addItem(true, font, {ui->getSkin()->getButton(button3), ui->getSkin()->getButton(button4)},
+                  TEXT_SCROLL_DESC, {pos + 12, getSize().y / 2});
     }
 
     // main menu

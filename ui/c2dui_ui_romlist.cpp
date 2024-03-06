@@ -9,12 +9,15 @@ using namespace c2d;
 using namespace c2dui;
 using namespace ss_api;
 
-UIRomList::UIRomList(UiMain *main, RomList *romList, const c2d::Vector2f &size)
+UIRomList::UIRomList(UiMain *main, RomList *romList, const c2d::Vector2f &size, EmuType emuType)
         : SkinnedRectangle(main, {"SKIN_CONFIG", "MAIN"}) {
     printf("UIRomList\n");
     pMain = main;
     pRomList = romList;
+    this->emuType = emuType;
     Skin *skin = pMain->getSkin();
+
+    mGameList.loadPronCN(main->getIo()->getRomFsPath() + "pron_cn_utf8.csv");
 
     // add title image if available
     auto *title = new SkinnedRectangle(pMain, {"SKIN_CONFIG", "MAIN", "TITLE"});
@@ -283,6 +286,10 @@ bool UIRomList::onInput(c2d::Input::Player *players) {
         if (getSelection().id > 0) {
             pMain->getUiMenu()->load(true);
         }
+    } else if (buttons & Input::Button::LB) { // OLIVER scroll description
+        pMain->getUiRomList()->getRomInfo()->synoText->scrollText(Text::ScrollLeft);
+    } else if (buttons & Input::Button::RB) {
+        pMain->getUiRomList()->getRomInfo()->synoText->scrollText(Text::ScrollRight);
     }
 
     // only allow system switch if skin contains romlist title

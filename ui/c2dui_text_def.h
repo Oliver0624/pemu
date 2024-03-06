@@ -2,12 +2,18 @@
 #define C2DUI_TEXT_DEF_H_
 
 #if 0
+
+#define TEXT_YEAR                                       "/"
+#define TEXT_MONTH                                      "/"
+#define TEXT_DAY                                        ""
+
 // main framework
 #define TEXT_NAVIGATION                                 "NAVIGATION"
 #define TEXT_RUN                                        "RUN"
 #define TEXT_TOOGLE_FAVORITE                            "ADD / REMOVE FAVORITE"
 #define TEXT_FAVORITE                                   "FAVORITE"
 #define TEXT_SWITCH_SYSTEM                              "SWITCH SYSTEM"
+#define TEXT_SCROLL_DESC                                "SCROLL DESC"
 #define TEXT_MAIN_MENU                                  "MAIN MENU"
 #define TEXT_ROM_MENU                                   "ROM MENU"
 
@@ -170,20 +176,25 @@
 
 #else
 
+#define TEXT_YEAR                                       "年"
+#define TEXT_MONTH                                      "月"
+#define TEXT_DAY                                        "日"
+
 // main framework
 #define TEXT_NAVIGATION                                 "导航"
 #define TEXT_RUN                                        "运行"
 #define TEXT_TOOGLE_FAVORITE                            "添加/移出收藏"
 #define TEXT_FAVORITE                                   "收藏夹"
 #define TEXT_SWITCH_SYSTEM                              "切换机种"
+#define TEXT_SCROLL_DESC                                "描述翻页"
 #define TEXT_MAIN_MENU                                  "全局菜单"
 #define TEXT_ROM_MENU                                   "ROM菜单"
 
 #define TEXT_ROMINFO_DELIMITER                          ": "
 #define TEXT_ROMINFO_SYSTEM                             "机种"
-#define TEXT_ROMINFO_DEVELOPER                          "开发商"
-#define TEXT_ROMINFO_EDITOR                             "发行商"
-#define TEXT_ROMINFO_DATE                               "发售年份"
+#define TEXT_ROMINFO_DEVELOPER                          "制作"
+#define TEXT_ROMINFO_EDITOR                             "发行"
+#define TEXT_ROMINFO_DATE                               "发售日"
 #define TEXT_ROMINFO_GENRE                              "类型"
 #define TEXT_ROMINFO_PLAYERS                            "游玩人数"
 #define TEXT_ROMINFO_RATING                             "评分"

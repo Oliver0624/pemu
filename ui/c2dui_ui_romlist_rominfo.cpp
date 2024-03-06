@@ -35,10 +35,12 @@ UIRomInfo::UIRomInfo(UiMain *u, UIRomList *uiRList, Font *fnt, int fntSize)
         genreText = addInfoBoxText({"MAIN", "ROM_INFOS", "GENRE_TEXT"});
         playersText = addInfoBoxText({"MAIN", "ROM_INFOS", "PLAYERS_TEXT"});
         ratingText = addInfoBoxText({"MAIN", "ROM_INFOS", "RATING_TEXT"});
-        rotationText = addInfoBoxText({"MAIN", "ROM_INFOS", "ROTATION_TEXT"});
-        resolutionText = addInfoBoxText({"MAIN", "ROM_INFOS", "RESOLUTION_TEXT"});
-        cloneofText = addInfoBoxText({"MAIN", "ROM_INFOS", "CLONEOF_TEXT"});
-        filenameText = addInfoBoxText({"MAIN", "ROM_INFOS", "FILENAME_TEXT"});
+        if (uiRomList->emuType == UIRomList::Pfbneo) {
+            rotationText = addInfoBoxText({"MAIN", "ROM_INFOS", "ROTATION_TEXT"});
+            resolutionText = addInfoBoxText({"MAIN", "ROM_INFOS", "RESOLUTION_TEXT"});
+            cloneofText = addInfoBoxText({"MAIN", "ROM_INFOS", "CLONEOF_TEXT"});
+            filenameText = addInfoBoxText({"MAIN", "ROM_INFOS", "FILENAME_TEXT"});
+        }
         Rectangle::add(infoBox);
     } else {
         delete (infoBox);
@@ -147,10 +149,12 @@ void UIRomInfo::load(const Game &game) {
         hideText(genreText);
         hideText(playersText);
         hideText(ratingText);
-        hideText(rotationText);
-        hideText(resolutionText);
-        hideText(cloneofText);
-        hideText(filenameText);
+        if (uiRomList->emuType == UIRomList::Pfbneo) {
+            hideText(rotationText);
+            hideText(resolutionText);
+            hideText(cloneofText);
+            hideText(filenameText);
+        }
         hideText(synoText);
 #if __MPV__
         mpvTexture->setVisibility(Visibility::Hidden, true);
@@ -163,15 +167,31 @@ void UIRomInfo::load(const Game &game) {
         showText(systemText, TEXT_ROMINFO_SYSTEM TEXT_ROMINFO_DELIMITER + game.system.name);
         showText(developerText, TEXT_ROMINFO_DEVELOPER TEXT_ROMINFO_DELIMITER + game.developer.name);
         showText(editorText, TEXT_ROMINFO_EDITOR TEXT_ROMINFO_DELIMITER + game.editor.name);
-        showText(dateText, TEXT_ROMINFO_DATE TEXT_ROMINFO_DELIMITER + game.date);
+
+        if (game.date.size() >= 8) {
+            showText(dateText,
+                        TEXT_ROMINFO_DATE TEXT_ROMINFO_DELIMITER + game.date.substr(0,4) + TEXT_YEAR +
+                        game.date.substr(4,2) + TEXT_MONTH +
+                        game.date.substr(6,2) + TEXT_DAY);
+        } else if (game.date.size() >= 6) {
+            showText(dateText,
+                        TEXT_ROMINFO_DATE TEXT_ROMINFO_DELIMITER + game.date.substr(0,4) + TEXT_YEAR +
+                        game.date.substr(4,2) + TEXT_MONTH);
+        } else {
+            showText(dateText,
+                        TEXT_ROMINFO_DATE TEXT_ROMINFO_DELIMITER + game.date.substr(0,4) + TEXT_YEAR);
+        }
+
         showText(genreText, TEXT_ROMINFO_GENRE TEXT_ROMINFO_DELIMITER + game.genre.name);
         showText(playersText, TEXT_ROMINFO_PLAYERS TEXT_ROMINFO_DELIMITER + game.players);
         showText(ratingText, TEXT_ROMINFO_RATING TEXT_ROMINFO_DELIMITER + std::to_string(game.rating));
-        showText(rotationText, TEXT_ROMINFO_ROTATION TEXT_ROMINFO_DELIMITER + std::to_string(game.rotation));
-        showText(resolutionText,
-                 TEXT_ROMINFO_RESOLUTION TEXT_ROMINFO_DELIMITER + (game.resolution.empty() ? TEXT_UNKOWN : game.resolution));
-        showText(cloneofText, TEXT_ROMINFO_CLONEOF TEXT_ROMINFO_DELIMITER + (game.cloneOf.empty() ? TEXT_NONE : game.cloneOf));
-        showText(filenameText, TEXT_ROMINFO_FILE TEXT_ROMINFO_DELIMITER + game.path);
+        if (uiRomList->emuType == UIRomList::Pfbneo) {
+            showText(rotationText, TEXT_ROMINFO_ROTATION TEXT_ROMINFO_DELIMITER + std::to_string(game.rotation));
+            showText(resolutionText,
+                    TEXT_ROMINFO_RESOLUTION TEXT_ROMINFO_DELIMITER + (game.resolution.empty() ? TEXT_UNKOWN : game.resolution));
+            showText(cloneofText, TEXT_ROMINFO_CLONEOF TEXT_ROMINFO_DELIMITER + (game.cloneOf.empty() ? TEXT_NONE : game.cloneOf));
+            showText(filenameText, TEXT_ROMINFO_FILE TEXT_ROMINFO_DELIMITER + game.path);
+        }
         showText(synoText, game.synopsis);
     }
 }
