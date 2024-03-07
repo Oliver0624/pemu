@@ -14,3 +14,7 @@
 [submodule "cores/genesis"]
 	path = cores/genesis
 	url = https://github.com/ekeeke/Genesis-Plus-GX.git
+[submodule "sscrap"]
+	path = sscrap
+	url = https://github.com/Oliver0624/sscrap.git
+	branch = support-utf8
