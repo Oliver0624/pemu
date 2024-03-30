@@ -100,6 +100,12 @@
 #define TEXT_MENU_KEY_MENU1                             "KEY_MENU1"
 #define TEXT_MENU_KEY_MENU2                             "KEY_MENU2"
 
+#define TEXT_OTHER                                      "OTHER"
+#define TEXT_STATES                                     "STATES"
+#define TEXT_GO                                         "GO"
+
+#define TEXT_QUIT                                       "QUIT"
+
 #define TEXT_MENU_EFFECT                                "EFFECT"
 #define TEXT_MENU_FORCE_60HZ                            "FORCE_60HZ"
 #define TEXT_MENU_AUDIO_FREQUENCY                       "AUDIO_FREQUENCY"
@@ -130,6 +136,7 @@
 // misc
 #define TEXT_SLOT                                       "SLOT"
 #define TEXT_NO_SAVE                                    "NO SAVE"
+#define TEXT_NO_PIC                                     "NO PIC"
 
 // message
 #define TEXT_MSG_TITTLE_ERROR                           "ERROR"
@@ -273,6 +280,12 @@
 #define TEXT_MENU_KEY_MENU1                             "键盘 MENU1"
 #define TEXT_MENU_KEY_MENU2                             "键盘 MENU2"
 
+#define TEXT_OTHER                                      "其它"
+#define TEXT_STATES                                     "存档"
+#define TEXT_GO                                         "GO"
+
+#define TEXT_QUIT                                       "退出"
+
 #define TEXT_MENU_EFFECT                                "渲染效果"
 #define TEXT_MENU_FORCE_60HZ                            "强制60帧"
 #define TEXT_MENU_AUDIO_FREQUENCY                       "声音频率"
@@ -303,7 +316,8 @@
 
 // misc
 #define TEXT_SLOT                                       "存档"
-#define TEXT_NO_SAVE                                    "空"
+#define TEXT_NO_SAVE                                    "无存档"
+#define TEXT_NO_PIC                                     "无图像"
 
 // message
 #define TEXT_MSG_TITTLE_ERROR                           "出错了..."

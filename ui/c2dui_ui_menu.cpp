@@ -157,9 +157,9 @@ void UiMenu::load(bool isRom) {
                 return isOptionHidden(&opt) || opt.getFlags() & Option::Flags::HIDDEN;
             });
 
-    options.push_back({"OTHER", {}, 0, OPTION_ID_OTHER, Option::Flags::MENU});
-    if (isRomMenu) options.push_back({"STATES", {"GO"}, 0, OPTION_ID_STATES, Option::Flags::STRING});
-    options.push_back({"QUIT", {"GO"}, 0, OPTION_ID_QUIT, Option::Flags::STRING});
+    options.push_back({TEXT_OTHER, {}, 0, OPTION_ID_OTHER, Option::Flags::MENU});
+    if (isRomMenu) options.push_back({TEXT_STATES, {TEXT_GO}, 0, OPTION_ID_STATES, Option::Flags::STRING});
+    options.push_back({TEXT_QUIT, {TEXT_GO}, 0, OPTION_ID_QUIT, Option::Flags::STRING});
 
     setAlpha(isEmuRunning ? (uint8_t) (alpha - 50) : (uint8_t) alpha);
 

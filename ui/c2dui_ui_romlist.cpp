@@ -17,7 +17,7 @@ UIRomList::UIRomList(UiMain *main, RomList *romList, const c2d::Vector2f &size, 
     this->emuType = emuType;
     Skin *skin = pMain->getSkin();
 
-    mGameList.loadPronCN(main->getIo()->getRomFsPath() + "pron_cn_utf8.csv");
+    Api::loadPronCN(main->getIo()->getRomFsPath() + "utf8_cn_seq.bin");
 
     // add title image if available
     auto *title = new SkinnedRectangle(pMain, {"SKIN_CONFIG", "MAIN", "TITLE"});

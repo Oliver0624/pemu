@@ -62,12 +62,12 @@ public:
                 }
             }
             if (!texture || !texture->available) {
-                middle_text->setString("NO PIC");
+                middle_text->setString(TEXT_NO_PIC);
                 middle_text->setOrigin(Origin::Center);
                 middle_text->setVisibility(Visibility::Visible);
             }
         } else {
-            middle_text->setString("NO SAVE");
+            middle_text->setString(TEXT_NO_SAVE);
             middle_text->setOrigin(Origin::Center);
             middle_text->setVisibility(Visibility::Visible);
         }
