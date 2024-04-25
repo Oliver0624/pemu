@@ -172,7 +172,9 @@ void Option::set(const Option &option) {
     current_option = option.current_option;
     flags = option.flags;
     id = option.id;
-    display_name = option.display_name;
+    if (option.display_name != name) {
+        display_name = option.display_name;
+    }
 }
 
 int Option::size() {

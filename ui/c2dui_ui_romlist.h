@@ -22,7 +22,8 @@ namespace c2dui {
             Pnes,
             Psnes,
             Pgen,
-            Pfbneo
+            Pfbneo,
+            Pgba
         };
 
         UIRomList(UiMain *ui, RomList *romList, const c2d::Vector2f &size, EmuType emuType = General);
