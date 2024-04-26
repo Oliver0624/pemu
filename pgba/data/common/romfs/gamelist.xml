@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gameList>
+    <game id="1566608910">
+        <path>Rockman Zero 3(JP).7z</path>
+        <name>洛克人Zero 3 7z[日]</name>
+        <desc>卡普空经典动作游戏</desc>
+        <rating>0.90</rating>
+        <releasedate>20041221T000000</releasedate>
+        <developer id="2947">Capcom</developer>
+        <publisher id="2947">Capcom</publisher>
+        <genre>平台动作</genre>
+        <genreid>40</genreid>
+        <players>1</players>
+        <cloneof>0</cloneof>
+        <system id="3" parentid="0">GBA</system>
+        <image type="mixrbv2">media/mixrbv2/Rockman Zero 3(JP).png</image>
+        <video type="video">media/video/Rockman Zero 3(JP).mp4</video>
+    </game>
+    <game id="1566608910">
+        <path>Rockman Zero 3(JP).zip</path>
+        <name>洛克人Zero 3 zip[日]</name>
+        <desc>卡普空经典动作游戏</desc>
+        <rating>0.90</rating>
+        <releasedate>20041221T000000</releasedate>
+        <developer id="2947">Capcom</developer>
+        <publisher id="2947">Capcom</publisher>
+        <genre>平台动作</genre>
+        <genreid>40</genreid>
+        <players>1</players>
+        <cloneof>0</cloneof>
+        <system id="3" parentid="0">GBA</system>
+        <image type="mixrbv2">media/mixrbv2/Rockman Zero 3(JP).png</image>
+        <video type="video">media/video/Rockman Zero 3(JP).mp4</video>
+    </game>
+    <game id="1566608910">
+        <path>Rockman Zero 3(JP).gba</path>
+        <name>洛克人Zero 3 gba[日]</name>
+        <desc>卡普空经典动作游戏</desc>
+        <rating>0.90</rating>
+        <releasedate>20041221T000000</releasedate>
+        <developer id="2947">Capcom</developer>
+        <publisher id="2947">Capcom</publisher>
+        <genre>平台动作</genre>
+        <genreid>40</genreid>
+        <players>1</players>
+        <cloneof>0</cloneof>
+        <system id="3" parentid="0">GBA</system>
+        <image type="mixrbv2">media/mixrbv2/Rockman Zero 3(JP).png</image>
+        <video type="video">media/video/Rockman Zero 3(JP).mp4</video>
+    </game>
+</gameList>
