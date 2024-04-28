@@ -72,29 +72,19 @@ Skin::Skin(UiMain *u) {
     ///
     /// GENERAL
     ///
-#if 1
-#define TEXT_GENERAL  "GENERAL"
-#define TEXT_FONT     "FONT"
-#define TEXT_COLORS   "COLORS"
-#else
-#define TEXT_GENERAL  "通用"
-#define TEXT_FONT     "字体"
-#define TEXT_COLORS   "颜色"
-#endif
-
-    config::Group gen(TEXT_GENERAL);
+    config::Group gen("GENERAL");
     gen.addOption({"resolution", Vector2f{1280.0f, 720.0f}});
     pConfig->addGroup(gen);
 
     /// FONT
-    config::Group font_group(TEXT_FONT);
+    config::Group font_group("FONT");
     font_group.addOption({"path", "default.ttf"});
     font_group.addOption({"offset", Vector2f{0, -4}});
     font_group.addOption({"texture_filtering", 0});
     pConfig->addGroup(font_group);
 
     /// COLORS
-    config::Group colors_group(TEXT_COLORS);
+    config::Group colors_group("COLORS");
     for (int i = 0; i < 50; i++) {
         colors_group.addOption({"color" + std::to_string(i), Color()});
     }
