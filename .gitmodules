@@ -18,3 +18,6 @@
 	path = sscrap
 	url = https://github.com/Oliver0624/sscrap.git
 	branch = support-utf8
+[submodule "cores/mgba"]
+	path = cores/mgba
+	url = https://github.com/mgba-emu/mgba.git
