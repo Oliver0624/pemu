@@ -100,6 +100,8 @@
 #define TEXT_MENU_KEY_MENU1                             "KEY_MENU1"
 #define TEXT_MENU_KEY_MENU2                             "KEY_MENU2"
 
+#define TEXT_PNES_DISK_FLIP                             "FLIP DISK(FDS ONLY)"
+
 #define TEXT_OTHER                                      "OTHER"
 #define TEXT_STATES                                     "STATES"
 #define TEXT_GO                                         "GO"
@@ -280,9 +282,11 @@
 #define TEXT_MENU_KEY_MENU1                             "键盘 MENU1"
 #define TEXT_MENU_KEY_MENU2                             "键盘 MENU2"
 
+#define TEXT_PNES_DISK_FLIP                             "碟片换面（仅磁碟机）"
+
 #define TEXT_OTHER                                      "其它"
 #define TEXT_STATES                                     "存档"
-#define TEXT_GO                                         "GO"
+#define TEXT_GO                                         "执行"
 
 #define TEXT_QUIT                                       "退出"
 

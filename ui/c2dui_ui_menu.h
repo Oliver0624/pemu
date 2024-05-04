@@ -5,8 +5,6 @@
 #ifndef C2DUI_UI_MENU_NEW_H
 #define C2DUI_UI_MENU_NEW_H
 
-class MenuLine;
-
 namespace c2dui {
 
     class UiMenu : public SkinnedRectangle {
@@ -17,7 +15,7 @@ namespace c2dui {
 
         ~UiMenu() override;
 
-        void load(bool isRomMenu = false);
+        virtual void load(bool isRomMenu = false);
 
         UiMain *getUi() { return ui; };
 
@@ -33,7 +31,7 @@ namespace c2dui {
 
         void setVisibility(c2d::Visibility visibility, bool tweenPlay = false) override;
 
-    private:
+    protected:
 
         void updateLines();
 

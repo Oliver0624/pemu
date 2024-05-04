@@ -9,6 +9,10 @@ using namespace c2d;
 using namespace c2dui;
 
 PNESConfig::PNESConfig(UiMain *ui, int version) : Config(ui, version) {
+    roms_paths.clear();
+    roms_paths.emplace_back(ui->getIo()->getDataPath() + "roms/nes/");
+    roms_paths.emplace_back(ui->getIo()->getDataPath() + "roms/fds/");
+
     // no need for auto-scaling mode on pnes
     get(Option::Id::ROM_SCALING_MODE)->set(
             {"SCALING_MODE", {"ASPECT", "INTEGER"}, 0,

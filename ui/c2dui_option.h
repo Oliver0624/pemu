@@ -65,6 +65,7 @@ namespace c2dui {
             ROM_SHOW_FPS,
             ROM_FRAMESKIP,
             ROM_NEOBIOS,
+            ROM_PNES_DISK_FLIP,
             ROM_PSNES_CHEATS,
             ROM_PSNES_BLOCK_VRAM,
             ROM_PSNES_TRANSPARENCY,

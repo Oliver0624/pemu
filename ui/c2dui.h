@@ -26,6 +26,7 @@
 
 #include "c2dui_ui_listbox.h"
 #include "c2dui_ui_highlight.h"
+#include "c2dui_ui_menu_line.h"
 #include "c2dui_ui_menu.h"
 #include "c2dui_ui_emu.h"
 #include "c2dui_ui_romlist.h"

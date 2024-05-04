@@ -21,6 +21,8 @@
 #include "uiEmu.h"
 #include "uiStateMenu.h"
 #include "pnes_config.h"
+#include "pnes_menu.h"
+#include "pnes_romlist.h"
 #include "pnes_io.h"
 
 using namespace c2d;
@@ -34,11 +36,11 @@ using namespace c2dui;
 extern "C" int sceSystemServiceLoadExec(const char *path, const char *args[]);
 #endif
 
-UiMenu *uiMenu;
+PNESUiMenu *uiMenu;
 PNESUiEmu *uiEmu;
 PNESConfig *cfg;
 PNESUIStateMenu *uiState;
-RomList *romList;
+PNESRomList *romList;
 
 UiMain *ui;
 Skin *skin;
@@ -75,10 +77,10 @@ int main(int argc, char **argv) {
 
     // ui
     std::string nestopia_version = "Nestopia 1.52.0";
-    romList = new RomList(ui, nestopia_version, {".zip", ".nes", ".nez", ".unf", ".unif"});
+    romList = new PNESRomList(ui, nestopia_version, {".zip", ".nes", ".nez", ".fds", ".unf", ".unif"});
     romList->build();
     uiRomList = new UIRomList(ui, romList, ui->getSize(), UIRomList::Pnes);
-    uiMenu = new UiMenu(ui);
+    uiMenu = new PNESUiMenu(ui);
     uiEmu = new PNESUiEmu(ui);
     uiState = new PNESUIStateMenu(ui);
     ui->init(uiRomList, uiMenu, uiEmu, uiState);
