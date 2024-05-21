@@ -117,8 +117,9 @@ namespace c2dui {
         };
 
         Option() = default;
+        Option(const Option &option);
 
-        Option(const std::string &name, const std::vector<std::string> &options,
+        Option(const std::string &name, const std::vector<std::pair<std::string, std::string>> &options,
                int defaultValueIndex, int id, unsigned int flags = INTEGER, const std::string &displayName = "");
 
         std::string getName() const;
@@ -131,6 +132,8 @@ namespace c2dui {
 
         std::string getValueString() const;
 
+        std::string getValueDisplayString() const;
+
         void setValueString(const std::string &value);
 
         int getValueInt(int defValue = 0);
@@ -141,7 +144,7 @@ namespace c2dui {
 
         void setValueBool(bool value);
 
-        std::vector<std::string> *getValues();
+        std::vector<std::string> getValues();
 
         int getIndex();
 
@@ -167,10 +170,12 @@ namespace c2dui {
         std::string name;
         std::string display_name;
         std::string info;
-        std::vector<std::string> options;
-        std::string current_option;
+        std::vector<std::pair<std::string, std::string>> options;
+        int cur_index;
         unsigned int flags = INTEGER;
         int id = 0;
+
+        void adjustCurIndex();
     };
 }
 

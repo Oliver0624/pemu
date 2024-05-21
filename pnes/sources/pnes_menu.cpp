@@ -40,10 +40,10 @@ void PNESUiMenu::load(bool isRom) {
 
     options.push_back({TEXT_OTHER, {}, 0, OPTION_ID_OTHER, Option::Flags::MENU});
     if (isRomMenu) {
-        options.push_back({TEXT_PNES_DISK_FLIP, {TEXT_GO}, 0, Option::Id::ROM_PNES_DISK_FLIP, Option::Flags::STRING});
-        options.push_back({TEXT_STATES, {TEXT_GO}, 0, OPTION_ID_STATES, Option::Flags::STRING});
+        options.push_back({TEXT_PNES_DISK_FLIP, {std::make_pair("GO",TEXT_GO)}, 0, Option::Id::ROM_PNES_DISK_FLIP, Option::Flags::STRING});
+        options.push_back({TEXT_STATES, {std::make_pair("GO",TEXT_GO)}, 0, OPTION_ID_STATES, Option::Flags::STRING});
     }
-    options.push_back({TEXT_QUIT, {TEXT_GO}, 0, OPTION_ID_QUIT, Option::Flags::STRING});
+    options.push_back({TEXT_QUIT, {std::make_pair("GO",TEXT_GO)}, 0, OPTION_ID_QUIT, Option::Flags::STRING});
 
     setAlpha(isEmuRunning ? (uint8_t) (alpha - 50) : (uint8_t) alpha);
 

@@ -165,11 +165,11 @@ void UIRomInfo::load(const Game &game) {
         // load title/preview texture
         loadTexture(game);
         showText(systemText, TEXT_ROMINFO_SYSTEM TEXT_ROMINFO_DELIMITER + game.system.name);
-        showText(developerText, TEXT_ROMINFO_DEVELOPER TEXT_ROMINFO_DELIMITER + (game.developer.name == "UNKNOWN" ? TEXT_UNKOWN : game.developer.name));
-        showText(editorText, TEXT_ROMINFO_EDITOR TEXT_ROMINFO_DELIMITER + (game.editor.name == "UNKNOWN" ? TEXT_UNKOWN : game.editor.name));
+        showText(developerText, TEXT_ROMINFO_DEVELOPER TEXT_ROMINFO_DELIMITER + (game.developer.name == "UNKNOWN" ? TEXT_UNKNOWN : game.developer.name));
+        showText(editorText, TEXT_ROMINFO_EDITOR TEXT_ROMINFO_DELIMITER + (game.editor.name == "UNKNOWN" ? TEXT_UNKNOWN : game.editor.name));
 
         if (game.date == "UNKNOWN") {
-            showText(dateText, TEXT_ROMINFO_DATE TEXT_ROMINFO_DELIMITER TEXT_UNKOWN);
+            showText(dateText, TEXT_ROMINFO_DATE TEXT_ROMINFO_DELIMITER TEXT_UNKNOWN);
         } else if (game.date.size() >= 8) {
             showText(dateText,
                         TEXT_ROMINFO_DATE TEXT_ROMINFO_DELIMITER + game.date.substr(0,4) + TEXT_YEAR +
@@ -184,13 +184,13 @@ void UIRomInfo::load(const Game &game) {
                         TEXT_ROMINFO_DATE TEXT_ROMINFO_DELIMITER + game.date.substr(0,4) + TEXT_YEAR);
         }
 
-        showText(genreText, TEXT_ROMINFO_GENRE TEXT_ROMINFO_DELIMITER + (game.genre.name.empty() ? TEXT_UNKOWN : game.genre.name));
-        showText(playersText, TEXT_ROMINFO_PLAYERS TEXT_ROMINFO_DELIMITER +  (game.players == "UNKNOWN" ? TEXT_UNKOWN :  game.players));
-        showText(ratingText, TEXT_ROMINFO_RATING TEXT_ROMINFO_DELIMITER + ((0 == game.rating) ? TEXT_UNKOWN : std::to_string(game.rating)));
+        showText(genreText, TEXT_ROMINFO_GENRE TEXT_ROMINFO_DELIMITER + (game.genre.name.empty() ? TEXT_UNKNOWN : game.genre.name));
+        showText(playersText, TEXT_ROMINFO_PLAYERS TEXT_ROMINFO_DELIMITER +  (game.players == "UNKNOWN" ? TEXT_UNKNOWN :  game.players));
+        showText(ratingText, TEXT_ROMINFO_RATING TEXT_ROMINFO_DELIMITER + ((0 == game.rating) ? TEXT_UNKNOWN : std::to_string(game.rating)));
         if (uiRomList->emuType == UIRomList::Pfbneo) {
             showText(rotationText, TEXT_ROMINFO_ROTATION TEXT_ROMINFO_DELIMITER + std::to_string(game.rotation));
             showText(resolutionText,
-                    TEXT_ROMINFO_RESOLUTION TEXT_ROMINFO_DELIMITER + (game.resolution.empty() ? TEXT_UNKOWN : game.resolution));
+                    TEXT_ROMINFO_RESOLUTION TEXT_ROMINFO_DELIMITER + (game.resolution.empty() ? TEXT_UNKNOWN : game.resolution));
             showText(cloneofText, TEXT_ROMINFO_CLONEOF TEXT_ROMINFO_DELIMITER + (game.cloneOf.empty() ? TEXT_NONE : game.cloneOf));
             showText(filenameText, TEXT_ROMINFO_FILE TEXT_ROMINFO_DELIMITER + game.path);
         }

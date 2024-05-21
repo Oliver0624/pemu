@@ -296,14 +296,14 @@ bool UIRomList::onInput(c2d::Input::Player *players) {
     if (pTitleText && pTitleText->available) {
         if (buttons & Input::Button::LT) {
             Option *sysOpt = pMain->getConfig()->get(Option::Id::GUI_FILTER_SYSTEM);
-            size_t sysCount = sysOpt->getValues()->size();
+            size_t sysCount = sysOpt->getValues().size();
             if (sysCount > 1) {
                 sysOpt->prev();
                 updateRomList();
             }
         } else if (buttons & Input::Button::RT) {
             Option *sysOpt = pMain->getConfig()->get(Option::Id::GUI_FILTER_SYSTEM);
-            size_t sysCount = sysOpt->getValues()->size();
+            size_t sysCount = sysOpt->getValues().size();
             if (sysCount > 1) {
                 sysOpt->next();
                 updateRomList();

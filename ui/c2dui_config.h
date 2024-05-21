@@ -54,12 +54,18 @@ namespace c2dui {
                  const std::string &text, const std::string &displayText, const std::vector <std::string> &values,
                  int defaultValue, int id, unsigned int flags);
 
-        void append(const std::string &text, const std::vector <std::string> &values,
+        void append(const std::string &text, const std::vector<std::pair<std::string, std::string>> &values,
+                    int defaultValue, int id, unsigned int flags);
+
+        void append(const std::string &text, const std::vector<std::string> &values,
                     int defaultValue, int id, unsigned int flags);
 
         void append(const std::string &text, int value, int id, unsigned int flags);
 
-        void append(const std::string &text, const std::string &displayText, const std::vector <std::string> &values,
+        void append(const std::string &text, const std::string &displayText, const std::vector<std::pair<std::string, std::string>> &values,
+                    int defaultValue, int id, unsigned int flags);
+
+        void append(const std::string &text, const std::string &displayText, const std::vector<std::string> &values,
                     int defaultValue, int id, unsigned int flags);
 
         void append(const std::string &text, const std::string &displayText, int value, int id, unsigned int flags);

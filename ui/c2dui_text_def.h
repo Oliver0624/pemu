@@ -30,7 +30,7 @@
 #define TEXT_ROMINFO_CLONEOF                            "Clone Of"
 #define TEXT_ROMINFO_FILE                               "File"
 
-#define TEXT_UNKOWN                                     "UNKNOWN"
+#define TEXT_UNKNOWN                                    "UNKNOWN"
 #define TEXT_NONE                                       "NONE"
 
 #define TEXT_BUTTON_LOAD                                "LOAD"
@@ -192,7 +192,7 @@
 // main framework
 #define TEXT_NAVIGATION                                 "导航"
 #define TEXT_RUN                                        "运行"
-#define TEXT_TOOGLE_FAVORITE                            "添加/移出收藏"
+#define TEXT_TOOGLE_FAVORITE                            "增删收藏"
 #define TEXT_FAVORITE                                   "收藏夹"
 #define TEXT_SWITCH_SYSTEM                              "切换机种"
 #define TEXT_SCROLL_DESC                                "描述翻页"
@@ -212,7 +212,7 @@
 #define TEXT_ROMINFO_CLONEOF                            "原版"
 #define TEXT_ROMINFO_FILE                               "文件名"
 
-#define TEXT_UNKOWN                                     "未知"
+#define TEXT_UNKNOWN                                    "未知"
 #define TEXT_NONE                                       "无"
 
 #define TEXT_BUTTON_LOAD                                "读取"
@@ -317,6 +317,19 @@
 #define TEXT_MENU_FILTER_RATING                         "筛选评分"
 #define TEXT_MENU_FILTER_ROTATION                       "筛选屏幕旋转角度"
 #define TEXT_MENU_FILTER_RESOLUTION                     "筛选分辨率"
+
+// Options
+#define TEXT_OPTION_ON                                  "打开"
+#define TEXT_OPTION_OFF                                 "关闭"
+#define TEXT_OPTION_ALL                                 "全部"
+#define TEXT_OPTION_POINT                               "临近点采样"
+#define TEXT_OPTION_LINEAR                              "双线性"
+#define TEXT_OPTION_ASPECT                              "保持高宽比"
+#define TEXT_OPTION_INTEGER                             "整数倍"
+#define TEXT_OPTION_FIT                                 "拉伸"
+#define TEXT_OPTION_FULL                                "全屏"
+#define TEXT_OPTION_AUTO                                "自动"
+#define TEXT_OPTION_FACTOR                              "倍"
 
 // misc
 #define TEXT_SLOT                                       "存档"

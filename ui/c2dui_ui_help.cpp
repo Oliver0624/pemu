@@ -31,7 +31,7 @@ UiHelp::UiHelp(UiMain *ui) : SkinnedRectangle(ui, {"MAIN", "HELP"}) {
             // system
             button1 = ui->getConfig()->get(Option::Id::JOY_LT)->getValueInt();
             button2 = ui->getConfig()->get(Option::Id::JOY_RT)->getValueInt();
-            addItem(true, font,
+            pos = addItem(true, font,
                     {ui->getSkin()->getButton(button1), ui->getSkin()->getButton(button2)},
                     TEXT_SWITCH_SYSTEM, {pos + 12, getSize().y / 2});
         }

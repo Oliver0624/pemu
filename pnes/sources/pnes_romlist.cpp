@@ -5,7 +5,7 @@
 #include "c2dui.h"
 #include "pnes_romlist.h"
 
-void PNESRomList::build(bool addArcadeSystem, const ss_api::System &system) {
+void PNESRomList::build(bool addArcadeSystem, const ss_api::System &system, bool skipAppend) {
     std::vector<std::string> gameLists = {
             "gamelist_nes.xml",
             "gamelist_fds.xml"
@@ -27,5 +27,8 @@ void PNESRomList::build(bool addArcadeSystem, const ss_api::System &system) {
                gameListPath.c_str(), gameList->getAvailableCount(), gameList->games.size());
     }
 
-    RomList::build(addArcadeSystem);
+    RomList::build(addArcadeSystem, {}, true);
+
+    // enable system filtering
+    ui->getConfig()->get(Option::Id::GUI_FILTER_SYSTEM)->setFlags(Option::Flags::STRING);
 }

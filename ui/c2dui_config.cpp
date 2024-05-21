@@ -28,21 +28,21 @@ Config::Config(UiMain *ui, int ver, const std::string &defaultRomsPath) {
     /////////////////////////////////////////////////
     /// main/gui config
     /////////////////////////////////////////////////
+    #define C2DUI_CONFIG_SWITCH_VECTOR  {std::make_pair("OFF",TEXT_OPTION_OFF), std::make_pair("ON",TEXT_OPTION_ON)}
+
     append("MAIN",TEXT_MENU_MAIN, {"MAIN"}, 0, Option::Id::MENU_MAIN, Option::Flags::MENU);
-    append("SHOW_FAVORITES",TEXT_MENU_SHOW_FAVORITES, {"OFF", "ON"}, 0, Option::Id::GUI_SHOW_FAVORITES,
-           Option::Flags::BOOLEAN);
-    append("SHOW_AVAILABLE",TEXT_MENU_SHOW_AVAILABLE, {"OFF", "ON"}, 0, Option::Id::GUI_SHOW_AVAILABLE,
-           Option::Flags::BOOLEAN);
-    get()->at(get()->size() - 1).setInfo(
-            TEXT_MSG_NEED_APP_RESTART);
-    append("SHOW_CLONES",TEXT_MENU_SHOW_CLONES, {"OFF", "ON"}, 0,
-           Option::Id::GUI_FILTER_CLONES, Option::Flags::BOOLEAN | Option::Flags::HIDDEN);
-    append("SHOW_ZIP_NAMES",TEXT_MENU_SHOW_ZIP_NAMES, {"OFF", "ON"}, 0 /* use game-name default */, Option::Id::GUI_SHOW_ZIP_NAMES,
-           Option::Flags::BOOLEAN);
-    append("SHOW_ICONS",TEXT_MENU_SHOW_ICONS, {"OFF", "ON"}, 0, Option::Id::GUI_SHOW_ICONS,
-           Option::Flags::BOOLEAN | Option::Flags::HIDDEN);
-    get()->at(get()->size() - 1).setInfo(
-            TEXT_MSG_NEED_APP_RESTART);
+    append("SHOW_FAVORITES",TEXT_MENU_SHOW_FAVORITES, C2DUI_CONFIG_SWITCH_VECTOR,
+            0, Option::Id::GUI_SHOW_FAVORITES, Option::Flags::BOOLEAN);
+    append("SHOW_AVAILABLE",TEXT_MENU_SHOW_AVAILABLE, C2DUI_CONFIG_SWITCH_VECTOR,
+            0, Option::Id::GUI_SHOW_AVAILABLE, Option::Flags::BOOLEAN);
+    get()->at(get()->size() - 1).setInfo(TEXT_MSG_NEED_APP_RESTART);
+    append("SHOW_CLONES",TEXT_MENU_SHOW_CLONES, C2DUI_CONFIG_SWITCH_VECTOR, 0,
+            Option::Id::GUI_FILTER_CLONES, Option::Flags::BOOLEAN | Option::Flags::HIDDEN);
+    append("SHOW_ZIP_NAMES",TEXT_MENU_SHOW_ZIP_NAMES, C2DUI_CONFIG_SWITCH_VECTOR, 0 /* use game-name default */,
+            Option::Id::GUI_SHOW_ZIP_NAMES, Option::Flags::BOOLEAN);
+    append("SHOW_ICONS",TEXT_MENU_SHOW_ICONS, C2DUI_CONFIG_SWITCH_VECTOR, 0,
+            Option::Id::GUI_SHOW_ICONS, Option::Flags::BOOLEAN | Option::Flags::HIDDEN);
+    get()->at(get()->size() - 1).setInfo(TEXT_MSG_NEED_APP_RESTART);
 #if 0 // TODO
     append("SCREEN_WIDTH", TEXT_MENU_SCREEN_WIDTH, (int) C2DDevice::getResolution().x, Option::Id::GUI_SCREEN_WIDTH,
            Option::Flags::INTEGER | Option::Flags::HIDDEN);
@@ -50,7 +50,8 @@ Config::Config(UiMain *ui, int ver, const std::string &defaultRomsPath) {
            Option::Flags::INTEGER | Option::Flags::HIDDEN);
 #endif
 #ifdef __FULLSCREEN__
-    append("FULLSCREEN", TEXT_MENU_FULLSCREEN, {"OFF", "ON"}, 0, Option::Id::GUI_FULLSCREEN, Option::Flags::BOOLEAN);
+    append("FULLSCREEN", TEXT_MENU_FULLSCREEN, C2DUI_CONFIG_SWITCH_VECTOR, 0, 
+            Option::Id::GUI_FULLSCREEN, Option::Flags::BOOLEAN);
     get()->at(get()->size() - 1).setInfo(TEXT_MSG_NEED_APP_RESTART);
 #endif
 
@@ -96,7 +97,7 @@ Config::Config(UiMain *ui, int ver, const std::string &defaultRomsPath) {
             TEXT_MSG_NEED_APP_RESTART);
 
     int aspect_index = ui->getSize().x / ui->getSize().y > 1.33 ? 0 : 1;
-    append("SKIN_ASPECT", TEXT_MENU_SKIN_ASPECT, {"16/9", "4/3"},
+    append("SKIN_ASPECT", TEXT_MENU_SKIN_ASPECT, {std::make_pair("16/9", "16:9"),std::make_pair("4/3", "4:3")},
            aspect_index, Option::Id::GUI_SKIN_ASPECT, Option::Flags::STRING);
     get()->at(get()->size() - 1).setInfo(
             TEXT_MSG_NEED_APP_RESTART);
@@ -112,30 +113,69 @@ Config::Config(UiMain *ui, int ver, const std::string &defaultRomsPath) {
     /////////////////////////////////////////////////
     /// default rom config
     /////////////////////////////////////////////////
+    #define C2DUI_CONFIG_SCALING_FACTOR(x)  std::make_pair(#x "X", #x TEXT_OPTION_FACTOR)
+
     append("EMULATION", TEXT_MENU_EMULATION, {"EMULATION"}, 0, Option::Id::MENU_ROM_OPTIONS, Option::Flags::MENU);
     if (m_ui->getSize().y > 1080) {
-        append("SCALING", TEXT_MENU_SCALING, {"NONE", "2X", "3X", "4X", "5", "6", "7", "8", "9", "FIT", "FULL"},
-               6, Option::Id::ROM_SCALING, Option::Flags::STRING);
+        append("SCALING", TEXT_MENU_SCALING,
+                {std::make_pair("NONE",TEXT_NONE),
+                C2DUI_CONFIG_SCALING_FACTOR(2),
+                C2DUI_CONFIG_SCALING_FACTOR(3),
+                C2DUI_CONFIG_SCALING_FACTOR(4),
+                C2DUI_CONFIG_SCALING_FACTOR(5),
+                C2DUI_CONFIG_SCALING_FACTOR(6),
+                C2DUI_CONFIG_SCALING_FACTOR(7),
+                C2DUI_CONFIG_SCALING_FACTOR(8),
+                C2DUI_CONFIG_SCALING_FACTOR(9),
+                std::make_pair("FIT",TEXT_OPTION_FIT),
+                std::make_pair("FULL",TEXT_OPTION_FULL)},
+                6, Option::Id::ROM_SCALING, Option::Flags::STRING);
     } else if (m_ui->getSize().y > 720) {
-        append("SCALING", TEXT_MENU_SCALING, {"NONE", "2X", "3X", "4X", "FIT", "FULL"},
-               4, Option::Id::ROM_SCALING, Option::Flags::STRING);
+        append("SCALING", TEXT_MENU_SCALING,
+                {std::make_pair("NONE",TEXT_NONE),
+                C2DUI_CONFIG_SCALING_FACTOR(2),
+                C2DUI_CONFIG_SCALING_FACTOR(3),
+                C2DUI_CONFIG_SCALING_FACTOR(4),
+                std::make_pair("FIT",TEXT_OPTION_FIT),
+                std::make_pair("FULL",TEXT_OPTION_FULL)},
+                4, Option::Id::ROM_SCALING, Option::Flags::STRING);
     } else if (m_ui->getSize().y > 544) {
-        append("SCALING", TEXT_MENU_SCALING, {"NONE", "2X", "3X", "FIT", "FULL"},
-               3, Option::Id::ROM_SCALING, Option::Flags::STRING);
+        append("SCALING", TEXT_MENU_SCALING,
+                {std::make_pair("NONE",TEXT_NONE),
+                C2DUI_CONFIG_SCALING_FACTOR(2),
+                C2DUI_CONFIG_SCALING_FACTOR(3),
+                std::make_pair("FIT",TEXT_OPTION_FIT),
+                std::make_pair("FULL",TEXT_OPTION_FULL)},
+                3, Option::Id::ROM_SCALING, Option::Flags::STRING);
     } else if (m_ui->getSize().y > 240) {
-        append("SCALING", TEXT_MENU_SCALING, {"NONE", "2X", "FIT", "FULL"},
-               2, Option::Id::ROM_SCALING, Option::Flags::STRING);
+        append("SCALING", TEXT_MENU_SCALING,
+                {std::make_pair("NONE",TEXT_NONE),
+                C2DUI_CONFIG_SCALING_FACTOR(2),
+                std::make_pair("FIT",TEXT_OPTION_FIT),
+                std::make_pair("FULL",TEXT_OPTION_FULL)},
+                2, Option::Id::ROM_SCALING, Option::Flags::STRING);
     } else {
-        append("SCALING", TEXT_MENU_SCALING, {"NONE", "FIT", "FULL"},
-               1, Option::Id::ROM_SCALING, Option::Flags::STRING);
+        append("SCALING", TEXT_MENU_SCALING,
+                {std::make_pair("NONE",TEXT_NONE),
+                std::make_pair("FIT",TEXT_OPTION_FIT),
+                std::make_pair("FULL",TEXT_OPTION_FULL)},
+                1, Option::Id::ROM_SCALING, Option::Flags::STRING);
     }
-    append("SCALING_MODE", TEXT_MENU_SCALING_MODE, {"AUTO", "ASPECT", "INTEGER"}, 1,
-           Option::Id::ROM_SCALING_MODE, Option::Flags::STRING);
-    append("FILTER", TEXT_MENU_FILTER, {"POINT", "LINEAR"}, 0, Option::Id::ROM_FILTER, Option::Flags::STRING);
+    append("SCALING_MODE", TEXT_MENU_SCALING_MODE,
+            {std::make_pair("AUTO",TEXT_OPTION_AUTO),
+            std::make_pair("ASPECT",TEXT_OPTION_ASPECT),
+            std::make_pair("INTEGER",TEXT_OPTION_INTEGER)},
+            1, Option::Id::ROM_SCALING_MODE, Option::Flags::STRING);
+    append("FILTER", TEXT_MENU_FILTER,
+            {std::pair("POINT",TEXT_OPTION_POINT),
+            std::pair("LINEAR",TEXT_OPTION_LINEAR)},
+            0, Option::Id::ROM_FILTER, Option::Flags::STRING);
 #ifdef __VITA__
-    append("WAIT_RENDERING", TEXT_MENU_WAIT_RENDERING, {"OFF", "ON"}, 1, Option::Id::ROM_WAIT_RENDERING, Option::Flags::BOOLEAN);
+    append("WAIT_RENDERING", TEXT_MENU_WAIT_RENDERING,
+            C2DUI_CONFIG_SWITCH_VECTOR, 1, Option::Id::ROM_WAIT_RENDERING, Option::Flags::BOOLEAN);
 #endif
-    append("SHOW_FPS", TEXT_MENU_SHOW_FPS, {"OFF", "ON"}, 0, Option::Id::ROM_SHOW_FPS, Option::Flags::BOOLEAN);
+    append("SHOW_FPS", TEXT_MENU_SHOW_FPS,
+            C2DUI_CONFIG_SWITCH_VECTOR, 0, Option::Id::ROM_SHOW_FPS, Option::Flags::BOOLEAN);
 
     /// joysticks config
     append("JOYPAD", TEXT_MENU_JOYPAD, {"JOYPAD"}, 0, Option::Id::MENU_JOYPAD, Option::Flags::MENU);
@@ -398,10 +438,25 @@ Option *Config::get(int index, bool isRom) {
 
 bool Config::add(int target, const std::string &text, const std::string &displayText, const std::vector<std::string> &values,
                  int defaultValue, int index, unsigned int flags) {
+    std::vector<std::pair<std::string, std::string>> vectValues;
+    for (auto & value : values) {
+        std::string displayText;
+        if ("ALL" == value) {
+            displayText = TEXT_OPTION_ALL;
+        } else if ("NONE" == value) {
+            displayText = TEXT_NONE;
+        } else if ("UNKNOWN" == value) {
+            displayText = TEXT_UNKNOWN;
+        } else {
+            displayText = value;
+        }
+        vectValues.emplace_back(value, displayText);
+    }
+
     for (unsigned int i = 0; i < options_gui.size(); i++) {
         if (options_gui[i].getId() == target) {
             options_gui.insert(options_gui.begin() + i + 1,
-                               Option(text, values, defaultValue, index, flags, displayText));
+                               Option(text, vectValues, defaultValue, index, flags, displayText));
             return true;
         }
     }
@@ -409,22 +464,41 @@ bool Config::add(int target, const std::string &text, const std::string &display
     return false;
 }
 
-void Config::append(const std::string &text, const std::vector<std::string> &values,
+void Config::append(const std::string &text, const std::vector<std::pair<std::string, std::string>> &values,
                     int defaultValue, int id, unsigned int flags) {
     options_gui.emplace_back(text, values, defaultValue, id, flags, text);
 }
 
-void Config::append(const std::string &text, int value, int id, unsigned int flags) {
-    append(text, {std::to_string(value)}, 0, id, flags);
+void Config::append(const std::string &text, const std::vector<std::string> &values,
+                    int defaultValue, int id, unsigned int flags) {
+    std::vector<std::pair<std::string, std::string>> vectValues;
+    for (auto & str : values) {
+        vectValues.emplace_back(str,str);
+    }
+    options_gui.emplace_back(text, vectValues, defaultValue, id, flags, text);
 }
 
-void Config::append(const std::string &text, const std::string &displayText, const std::vector<std::string> &values,
+void Config::append(const std::string &text, int value, int id, unsigned int flags) {
+    append(text, {std::to_string(value),std::to_string(value)}, 0, id, flags);
+}
+
+void Config::append(const std::string &text, const std::string &displayText, const std::vector<std::pair<std::string, std::string>> &values,
                     int defaultValue, int id, unsigned int flags) {
     options_gui.emplace_back(text, values, defaultValue, id, flags, displayText);
 }
 
+void Config::append(const std::string &text, const std::string &displayText, const std::vector<std::string> &values,
+                    int defaultValue, int id, unsigned int flags)
+{
+    std::vector<std::pair<std::string, std::string>> vectValues;
+    for (auto & str : values) {
+        vectValues.emplace_back(str,str);
+    }
+    append(text, displayText, vectValues, defaultValue, id, flags);
+}
+
 void Config::append(const std::string &text, const std::string &displayText, int value, int id, unsigned int flags) {
-    append(text, displayText, {std::to_string(value)}, 0, id, flags);
+    append(text, displayText, {std::to_string(value),std::to_string(value)}, 0, id, flags);
 }
 
 bool Config::hide(int index, bool isRom) {

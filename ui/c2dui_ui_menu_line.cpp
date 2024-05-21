@@ -39,7 +39,7 @@ void MenuLine::set(const Option &opt) {
     sprite->setVisibility(Visibility::Hidden);
 
     // reset
-    name->setString(option.getDisplayName()); //OLIVER : Edit this to displayName, we should define struct for configName and displayName
+    name->setString(option.getDisplayName());
     value->setVisibility(Visibility::Visible);
     setFillColor(Color::Transparent);
 
@@ -72,6 +72,6 @@ void MenuLine::set(const Option &opt) {
         setFillColor(pMain->getUiMenu()->getOutlineColor());
     } else {
         value->setVisibility(Visibility::Visible);
-        value->setString(option.getValueString());
+        value->setString(option.getValueDisplayString());
     }
 }

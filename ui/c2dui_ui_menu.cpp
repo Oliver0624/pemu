@@ -77,8 +77,8 @@ void UiMenu::load(bool isRom) {
             });
 
     options.push_back({TEXT_OTHER, {}, 0, OPTION_ID_OTHER, Option::Flags::MENU});
-    if (isRomMenu) options.push_back({TEXT_STATES, {TEXT_GO}, 0, OPTION_ID_STATES, Option::Flags::STRING});
-    options.push_back({TEXT_QUIT, {TEXT_GO}, 0, OPTION_ID_QUIT, Option::Flags::STRING});
+    if (isRomMenu) options.push_back({TEXT_STATES, {std::pair("GO",TEXT_GO)}, 0, OPTION_ID_STATES, Option::Flags::STRING});
+    options.push_back({TEXT_QUIT, {std::pair("GO",TEXT_GO)}, 0, OPTION_ID_QUIT, Option::Flags::STRING});
 
     setAlpha(isEmuRunning ? (uint8_t) (alpha - 50) : (uint8_t) alpha);
 
@@ -178,7 +178,7 @@ bool UiMenu::onInput(c2d::Input::Player *players) {
     // LEFT /RIGHT
     if (buttons & Input::Button::Left || buttons & Input::Button::Right) {
         Option option = lines.at(highlightIndex)->option;
-        if (option.getValues()->size() <= 1) {
+        if (option.getValues().size() <= 1) {
             return true;
         }
         needSave = true;
@@ -211,7 +211,7 @@ bool UiMenu::onInput(c2d::Input::Player *players) {
             case Option::Id::GUI_FILTER_DATE:
             case Option::Id::GUI_FILTER_GENRE: {
                 std::string name = Utility::toUpper(option.getDisplayName());
-                std::string value = Utility::toUpper(option.getValueString());
+                std::string value = Utility::toUpper(option.getValueDisplayString());
                 if (option.getInfo().empty()) {
                     ui->getUiStatusBox()->show("%s : %s", name.c_str(), value.c_str());
                 }
@@ -259,7 +259,7 @@ bool UiMenu::onInput(c2d::Input::Player *players) {
             case Option::Id::ROM_SHADER:
                 if (isEmuRunning) {
                     ui->getUiEmu()->getVideo()->setShader(option.getIndex());
-                    ui->getUiStatusBox()->show(option.getValueString());
+                    ui->getUiStatusBox()->show(option.getValueDisplayString());
                 }
                 break;
 #ifdef __VITA__

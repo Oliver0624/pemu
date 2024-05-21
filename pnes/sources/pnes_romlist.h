@@ -12,7 +12,7 @@ public:
     PNESRomList(c2dui::UiMain *ui, const std::string &emuVersion, const std::vector<std::string> &filters)
             : c2dui::RomList(ui, emuVersion, filters) {};
 
-    void build(bool addArcadeSystem = false, const ss_api::System &system = {}) override;
+    void build(bool addArcadeSystem = false, const ss_api::System &system = {}, bool skipAppend = false) override;
 };
 
 #endif //PNES_ROMLIST_H
