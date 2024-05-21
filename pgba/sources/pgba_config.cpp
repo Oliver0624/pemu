@@ -9,10 +9,15 @@ using namespace c2d;
 using namespace c2dui;
 
 PGBAConfig::PGBAConfig(UiMain *ui, int version) : Config(ui, version) {
-    // no need for auto-scaling mode on pnes
+    roms_paths.clear();
+    roms_paths.emplace_back(ui->getIo()->getDataPath() + "roms/gb/");
+    roms_paths.emplace_back(ui->getIo()->getDataPath() + "roms/gbc/");
+    roms_paths.emplace_back(ui->getIo()->getDataPath() + "roms/gba/");
+
+    // no need for auto-scaling mode on pgba
     get(Option::Id::ROM_SCALING_MODE)->set(
-            {"SCALING_MODE", {"ASPECT", "INTEGER"}, 0,
-             Option::Id::ROM_SCALING_MODE, Option::Flags::STRING});
+            {"SCALING_MODE", {std::make_pair("ASPECT",TEXT_OPTION_ASPECT), std::make_pair("INTEGER",TEXT_OPTION_INTEGER)}, 0,
+            Option::Id::ROM_SCALING_MODE, Option::Flags::STRING});
 
 #ifdef __SWITCH__
     // on nintendo switch invert A/B buttons

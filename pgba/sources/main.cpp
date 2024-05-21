@@ -6,6 +6,7 @@
 #include "uiEmu.h"
 #include "uiStateMenu.h"
 #include "pgba_config.h"
+#include "pgba_romlist.h"
 #include "pgba_io.h"
 #include "pgba_core.h"
 
@@ -24,7 +25,7 @@ UiMenu *uiMenu;
 PGBAUiEmu *uiEmu;
 PGBAConfig *cfg;
 PGBAUIStateMenu *uiState;
-RomList *romList;
+PGBARomList *romList;
 
 UiMain *ui;
 Skin *skin;
@@ -62,7 +63,7 @@ int main(int argc, char **argv) {
 
     // ui
     std::string mgba_version = "mGBA " MGBA_VERSION ;
-    romList = new RomList(ui, mgba_version, {".zip", ".7z", ".gba", ".gbc", ".gb", ".sgb"});
+    romList = new PGBARomList(ui, mgba_version, {".zip", ".7z", ".gba", ".gbc", ".gb", ".sgb"});
     romList->build();
     uiRomList = new UIRomList(ui, romList, ui->getSize(), UIRomList::Pnes);
     uiMenu = new UiMenu(ui);
