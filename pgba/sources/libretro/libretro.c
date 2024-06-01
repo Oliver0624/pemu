@@ -1396,12 +1396,16 @@ static void _startImage(struct mImageSource* image, unsigned w, unsigned h, int 
 	camData = NULL;
 	imcapWidth = w;
 	imcapHeight = h;
-	cam.start();
+	if (cam.start) {
+		cam.start();
+	}
 }
 
 static void _stopImage(struct mImageSource* image) {
 	UNUSED(image);
-	cam.stop();	
+	if (cam.stop) {
+		cam.stop();
+	}
 }
 
 static void _requestImage(struct mImageSource* image, const void** buffer, size_t* stride, enum mColorFormat* colorFormat) {

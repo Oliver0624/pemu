@@ -94,7 +94,9 @@ int Option::getValueInt(int defValue) {
 }
 
 void Option::setValueInt(int value) {
-    setValueString(std::to_string(value));
+    if (0 <= cur_index && cur_index < (int)options.size()) {
+        options.at(cur_index).first = std::to_string(value);
+    }
 }
 
 bool Option::getValueBool() {

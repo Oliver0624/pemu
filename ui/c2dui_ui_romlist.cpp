@@ -101,7 +101,7 @@ void UIRomList::updateRomList() {
     sortRomList();
 
     if (pTitleText && pTitleText->available) {
-        std::string sys = pMain->getConfig()->get(Option::Id::GUI_FILTER_SYSTEM)->getValueString();
+        std::string sys = pMain->getConfig()->get(Option::Id::GUI_FILTER_SYSTEM)->getValueDisplayString();
         pTitleText->setString(sys);
     }
 

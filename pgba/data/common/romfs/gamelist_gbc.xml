@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gameList>
+    <game id="1566608910">
+        <path>Metal Gear Ghost Babel.zip</path>
+        <name>合金装备：幽灵通天塔[汉化]</name>
+        <desc>经典潜入动作游戏</desc>
+        <rating>0.90</rating>
+        <releasedate>20041221T000000</releasedate>
+        <developer id="2948">Konami</developer>
+        <publisher id="2948">Konami</publisher>
+        <genre>动作</genre>
+        <genreid>40</genreid>
+        <players>1</players>
+        <cloneof>0</cloneof>
+        <system id="4" parentid="0">GBC</system>
+        <image type="mixrbv2">media/mixrbv2/Metal Gear Ghost Babel.png</image>
+        <video type="video">media/video/Metal Gear Ghost Babel.mp4</video>
+    </game>
+</gameList>

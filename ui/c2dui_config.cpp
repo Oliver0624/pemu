@@ -498,7 +498,7 @@ void Config::append(const std::string &text, const std::string &displayText, con
 }
 
 void Config::append(const std::string &text, const std::string &displayText, int value, int id, unsigned int flags) {
-    append(text, displayText, {std::to_string(value),std::to_string(value)}, 0, id, flags);
+    append(text, displayText, {std::to_string(value)}, 0, id, flags);
 }
 
 bool Config::hide(int index, bool isRom) {
