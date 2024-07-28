@@ -44,7 +44,7 @@ PSNESConfig::PSNESConfig(UiMain *ui, int version) : Config(ui, version) {
 
     // no need for auto-scaling mode on psnes
     get(Option::Id::ROM_SCALING_MODE)->set( // OLIVER TODO
-            {"SCALING_MODE", {"ASPECT", "INTEGER"}, 0,
+            {"SCALING_MODE", {std::make_pair("ASPECT",TEXT_OPTION_ASPECT), std::make_pair("INTEGER",TEXT_OPTION_INTEGER)}, 0,
              Option::Id::ROM_SCALING_MODE, Option::Flags::STRING});
 
     // "c2dui_romlist" will also reload config, but we need new roms paths
