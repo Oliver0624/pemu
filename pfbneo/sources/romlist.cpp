@@ -5,7 +5,7 @@
 #include "c2dui.h"
 #include "romlist.h"
 
-void PFBARomList::build(bool addArcadeSystem, const ss_api::System &system) {
+void PFBARomList::build(bool addArcadeSystem, const ss_api::System &system, bool skipAppend) {
 #ifndef __PFBN_LIGHT__
     std::vector<std::string> gameLists = {
             "gamelist_channelf.xml",
