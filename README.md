@@ -30,5 +30,5 @@ PEMU系列模拟器（pNES/pSNES/pGEN/pFBNeo）是使用自制的GUI库调用著
 - 游戏列表不支持对长游戏名进行滚动显示，如果游戏名太长，会被截断
 
 **下载地址**
-
-[Google网盘](https://drive.google.com/drive/folders/1j-C3CLtyPjLatxhQVJqAGC6ECaEmHDUA?usp=sharing)
+- [Switch汉化版](https://drive.google.com/drive/folders/1j-C3CLtyPjLatxhQVJqAGC6ECaEmHDUA?usp=sharing)
+- [封面图](https://drive.google.com/drive/folders/1ziw5VpA-U17kTeetDAz2-lyaWudYM-OS?usp=sharing)
