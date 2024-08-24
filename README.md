@@ -1,6 +1,7 @@
 ## pEMU模拟器汉化版
 
 **背景**
+
 PEMU系列模拟器（pNES/pSNES/pGEN/pFBNeo）是使用自制的GUI库调用著名开源模拟器内核的模拟器前端。在Switch平台上，是retroarch（全能模拟器）的一个替代选择，其使用的开源模拟器内核的兼容性好于任天堂官方模拟器。
 但是PEMU系列模拟器只支持英语，准确地说，它不支持多字节编码（包括GBK/UTF-8）的文字和字体。作者似乎没有考虑支持其他语言，在代码中直接将显示的文本写死了，而且文本和配置项是耦合的。
 本次汉化工作针对PEMU系列模拟器进行了改进，使其支持UTF-8编码的文本，进而显示中文游戏列表和简介。在此基础上，做了一些改进，以增强易用性。
@@ -29,4 +30,5 @@ PEMU系列模拟器（pNES/pSNES/pGEN/pFBNeo）是使用自制的GUI库调用著
 - 游戏列表不支持对长游戏名进行滚动显示，如果游戏名太长，会被截断
 
 **下载地址**
+
 [Google网盘](https://drive.google.com/drive/folders/1j-C3CLtyPjLatxhQVJqAGC6ECaEmHDUA?usp=sharing)
