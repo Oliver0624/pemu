@@ -17,8 +17,8 @@ UIRomInfo::UIRomInfo(UiMain *u, UIRomList *uiRList, Font *fnt, int fntSize)
     // synopsis box
     synoBox = new RectangleShape({16, 16});
     if (main->getSkin()->loadRectangleShape(synoBox, {"MAIN", "ROM_SYNOPSIS"})) {
-        synoText = new Text("", (unsigned int) fontSize, font);
-        main->getSkin()->loadText(synoText, {"MAIN", "ROM_SYNOPSIS", "TEXT"});
+        synoText = new AnimatedPageText();
+        synoText->applyTextGroup(main->getSkin()->getText({"MAIN", "ROM_SYNOPSIS", "TEXT"}), font);
         synoBox->add(synoText);
         Rectangle::add(synoBox);
     } else {
@@ -82,6 +82,20 @@ void UIRomInfo::showText(Text *text, const std::string &msg) {
 }
 
 void UIRomInfo::hideText(Text *text) {
+    if (text != nullptr) {
+        text->setVisibility(Visibility::Hidden);
+        text->setString("");
+    }
+}
+
+static void showAnimatedText(AnimatedPageText *text, const std::string &msg) {
+    if (text != nullptr) {
+        text->setString(msg);
+        text->setVisibility(Visibility::Visible);
+    }
+}
+
+static void hideAnimatedText(AnimatedPageText *text) {
     if (text != nullptr) {
         text->setVisibility(Visibility::Hidden);
         text->setString("");
@@ -155,7 +169,7 @@ void UIRomInfo::load(const Game &game) {
             hideText(cloneofText);
             hideText(filenameText);
         }
-        hideText(synoText);
+        hideAnimatedText(synoText);
 #if __MPV__
         mpvTexture->setVisibility(Visibility::Hidden, true);
         mpv->stop();
@@ -194,7 +208,7 @@ void UIRomInfo::load(const Game &game) {
             showText(cloneofText, TEXT_ROMINFO_CLONEOF TEXT_ROMINFO_DELIMITER + (game.cloneOf.empty() ? TEXT_NONE : game.cloneOf));
             showText(filenameText, TEXT_ROMINFO_FILE TEXT_ROMINFO_DELIMITER + game.path);
         }
-        showText(synoText, game.synopsis);
+        showAnimatedText(synoText, game.synopsis);
     }
 }
 

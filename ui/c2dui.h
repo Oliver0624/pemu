@@ -24,6 +24,7 @@
 #include "skin/SkinnedRectangle.h"
 #include "skin/SkinnedText.h"
 
+#include "c2dui_animated_page_text.h"
 #include "c2dui_ui_listbox.h"
 #include "c2dui_ui_highlight.h"
 #include "c2dui_ui_menu_line.h"

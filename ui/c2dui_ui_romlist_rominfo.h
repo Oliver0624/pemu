@@ -34,7 +34,7 @@ public:
     int fontSize;
     //
     c2d::RectangleShape *synoBox = nullptr;
-    c2d::Text *synoText = nullptr;
+    c2dui::AnimatedPageText *synoText = nullptr;
     //
     c2d::RectangleShape *previewBox = nullptr;
     //
