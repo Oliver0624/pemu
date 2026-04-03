@@ -5,6 +5,8 @@
 #ifndef C2DUI_LISTBOX_H
 #define C2DUI_LISTBOX_H
 
+#include "c2dui_marquee_text.h"
+
 namespace c2dui {
 
     class UIListBoxLine : public c2d::RectangleShape {
@@ -33,7 +35,7 @@ namespace c2dui {
 
         RectangleShape *iconRect = nullptr;
         c2d::Texture *icon = nullptr;
-        c2d::Text *text = nullptr;
+        MarqueeText *text = nullptr;
         bool use_icons = false;
     };
 

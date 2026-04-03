@@ -15,7 +15,7 @@ UIListBoxLine::UIListBoxLine(
     //printf("ListBoxLine(%p)\n", this);
     icon = i;
     use_icons = use_ic;
-    text = new Text(str, fontSize, font);
+    text = new MarqueeText(str, fontSize, font);
     text->setOutlineColor(Color::Black);
     text->setOrigin(Origin::Left);
 
@@ -31,11 +31,12 @@ UIListBoxLine::UIListBoxLine(
         // icon added in ListBox::setSelection (setIcon)
         // set text
         text->setPosition(iconRect->getSize().x + 8, UIListBoxLine::getSize().y / 2);
-        text->setSizeMax(UIListBoxLine::getSize().x - (float) fontSize - iconRect->getSize().x, 0);
     } else {
         text->setPosition(2 * scaling.x, UIListBoxLine::getSize().y / 2);
-        text->setSizeMax(UIListBoxLine::getSize().x - text->getSize().x - (2 * scaling.x) - 2, 0);
     }
+
+    float textMaxWidth = UIListBoxLine::getSize().x - text->getPosition().x - 2;
+    text->setSizeMax(std::max(0.0f, textMaxWidth), 0);
 
     UIListBoxLine::add(text);
 }
@@ -46,7 +47,8 @@ void UIListBoxLine::setSize(const Vector2f &size) {
 
 void UIListBoxLine::setSize(float width, float height) {
     RectangleShape::setSize(width, height);
-    text->setSizeMax(getSize().x - 8, 0);
+    float textMaxWidth = getSize().x - text->getPosition().x - 2;
+    text->setSizeMax(std::max(0.0f, textMaxWidth), 0);
 }
 
 void UIListBoxLine::setString(const std::string &string) {
