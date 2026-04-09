@@ -368,7 +368,7 @@
     <genre>清版射击</genre>
     <players>1-2</players>
     <rating>0.65</rating>
-    <desc>《侵略者》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《侵略者》是一款老派清版射击游戏，核心在移动躲弹、持续火力压制和一波波敌人的节奏处理。它的玩法目标很直接：活下来、清掉敌群、把分数往上推。放在 GBA 上，这类作品最看重的是短局压力和操作反馈是否够干脆。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0642 - Invader(EU).png</image>
@@ -385,7 +385,7 @@
     <genre>体育</genre>
     <players>1-2</players>
     <rating>0.20</rating>
-    <desc>《芭比：益智游戏合集》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《芭比：益智游戏合集》是一张面向轻松游玩的小游戏合集，内容偏派对、益智和短局挑战。它的重点不在复杂系统，而在芭比题材包装、简单规则和随时开局的便携感，比较适合低门槛休闲玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0651 - Barbie Groovy Games(EU).png</image>
@@ -487,7 +487,7 @@
     <genre>策略</genre>
     <players>1</players>
     <rating>0.60</rating>
-    <desc>《分裂细胞》是一款偏思考和规划的策略游戏，玩家需要在资源、单位或地图布局之间做出取舍，再通过多回合推进逐步扩大优势。GBA 上这类作品如果做得好，通常会兼顾掌机短局节奏和中长期决策，因此很适合慢慢打磨一关一关地推进。</desc>
+    <desc>《分裂细胞》是一款以潜入、观察和规避正面冲突为核心的动作冒险作品。玩家需要利用视野死角、时机判断和环境路线悄悄推进任务，重点不在硬拼火力，而在尽量不被发现地完成渗透。放在 GBA 上，它更像把系列的特工潜入感压缩成便携版关卡体验。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0993 - Tom Clancy's Splinter Cell(US).png</image>
@@ -538,7 +538,7 @@
     <genre>格斗</genre>
     <players>1-2</players>
     <rating>0.55</rating>
-    <desc>《战斗机器人：超越战斗空间》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《战斗机器人：超越战斗空间》是一款以改装、对战和赛事推进为核心的机器人题材作品。玩家需要围绕零件搭配、机体性能和擂台战斗不断调整策略，整体更接近轻量对战加养成路线，而不是传统一对一格斗。它的看点主要在 BattleBots 题材和不同机体组合带来的变化。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1066 - BattleBots - Beyond the BattleBox(EU).png</image>
@@ -555,7 +555,7 @@
     <genre>格斗运动</genre>
     <players>1</players>
     <rating>0.50</rating>
-    <desc>《击倒王》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《击倒王》是一款街机取向的拳击游戏，重点在出拳时机、防守闪避和体力消耗的判断。它不像传统格斗那样强调复杂招式表，而是把对手节奏、破绽捕捉和连续进攻压进短局比赛里，适合随时打一场。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1079 - Punch King - Arcade Boxing(EU).png</image>
@@ -572,7 +572,7 @@
     <genre>清版动作</genre>
     <players>1</players>
     <rating>0.60</rating>
-    <desc>《怪物史瑞克：恶臭大灾难》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《怪物史瑞克：恶臭大灾难》是一款电影题材的掌机清版动作游戏，重点在关卡推进、近身攻击和史瑞克式的夸张幽默。它不靠复杂系统取胜，而是把动画角色、简单战斗和短流程闯关做成适合 GBA 的轻量体验。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1126 - Shrek - Reekin' Havoc(US).png</image>
@@ -606,7 +606,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《闪灵二人组：邪眼封印！》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《闪灵二人组：邪眼封印！》是一款以剧情推进、事件冒险和角色能力运用为核心的题材改编作品。玩家围绕任务、关卡和角色战斗不断推进流程，整体更接近动漫改编的动作角色扮演路线，而不是通用 JRPG 模板。它的吸引力主要来自原作人物、能力设定和掌机化的推进节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1144 - GetBackers Dakkanya - Jagan Fuuin!(JP).png</image>
@@ -674,7 +674,7 @@
     <genre>格斗运动</genre>
     <players>1-2</players>
     <rating />
-    <desc>《小拳王：赤热之战》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《小拳王：赤热之战》改编自经典拳击漫画，玩法围绕擂台攻防、出拳节奏和角色对决展开。它的看点不只是拳击比赛本身，也在于把原作那种热血、执着和宿命感压进掌机短局战斗里，粉丝向色彩很明显。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1342 - Ashita no Joe - Makka ni Moeagare!(JP).png</image>
@@ -691,7 +691,7 @@
     <genre>清版动作</genre>
     <players>1-2</players>
     <rating>0.60</rating>
-    <desc>《兽王记：王国的守护者》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《兽王记：王国的守护者》延续了《兽王记》系列的变身动作卖点，玩家在横版关卡中通过战斗推进，并利用兽化形态强化攻击和生存能力。它的核心吸引力在于“人形战斗到怪兽形态”的转换，而不是普通清版动作模板。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1345 - Altered Beast - Guardian of the Realms(EU).png</image>
@@ -895,7 +895,7 @@
     <genre>竞速运动</genre>
     <players>1</players>
     <rating>0.80</rating>
-    <desc>《侠盗猎车手Advance》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《侠盗猎车手Advance》把系列早期的俯视角犯罪都市玩法带到 GBA 上，重点在城市探索、任务推进、驾驶和枪战。它不是单纯赛车游戏，而是把自由行动、黑帮剧情和开放式地图压缩成掌机规格，是系列里很特别的一次便携化尝试。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1728 - Grand Theft Auto Advance(US).png</image>
@@ -912,7 +912,7 @@
     <genre>模拟</genre>
     <players>1</players>
     <rating />
-    <desc>《茶犬Kururin：轻松拼图，放松一下？》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《茶犬Kururin：轻松拼图，放松一下？》是一款茶犬题材的休闲益智游戏，重心在可爱包装、轻松规则和短局拼图反馈。它不追求高压挑战，而是用角色氛围和简单盘面处理营造放松感，很适合作为掌机上的小品游戏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1733 - Ochaken Kururin - Honwaka Puzzle de Hotto Shiyo(JP).png</image>
@@ -929,7 +929,7 @@
     <genre>清版动作</genre>
     <players>1-4</players>
     <rating>0.70</rating>
-    <desc>《忍者神龟2：并肩作战》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《忍者神龟2：并肩作战》是一款清版动作游戏，核心在角色切换、近身连击和关卡推进。它把四只神龟各自的武器特点压进 GBA 的短流程战斗里，节奏比复杂动作游戏更直接，也更偏动画粉丝向的轻快闯关体验。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1780 - Teenage Mutant Ninja Turtles 2 - Battle Nexus(EU).png</image>
@@ -1065,7 +1065,7 @@
     <genre>合集</genre>
     <players>1-2</players>
     <rating />
-    <desc>《星际宝贝2 + 小飞侠2：梦不落帝国》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张迪士尼双合一卡把《星际宝贝2》和《小飞侠2：梦不落帝国》放在一起，内容都偏动画改编的轻动作冒险。它的价值主要在一次提供两种不同童话/动画题材，适合喜欢迪士尼掌机改编作的玩家随手切换游玩。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2230 - 2 Games in 1 - Peter Pan - Return to Neverland + Lilo &amp; Stitch 2(EU).png</image>
@@ -1082,7 +1082,7 @@
     <genre>竞速运动</genre>
     <players>1-4</players>
     <rating />
-    <desc>《风火轮赛车：特技挑战赛 + 风火轮赛车：世界竞速》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>这张双合一卡把两部《风火轮赛车》作品打包在一起，重点是玩具车题材下的高速赛道、特技挑战和短局竞速。它不只是单作赛车简介，而是一次提供两种风火轮掌机竞速内容，适合喜欢换赛道、刷成绩和轻量驾驶的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2537 - 2 Games in 1 - Hot Wheels - Stunt Track Challenge + Hot Wheels - World Race(US).png</image>
@@ -1099,7 +1099,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.60</rating>
-    <desc>《火柴盒任务：紧急响应 + 火柴盒任务：海陆空救援》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张合辑把两部《火柴盒任务》作品收进同一张卡里，内容都围绕救援、驾驶和任务推进展开。它的价值主要在一次提供两种不同的紧急行动题材，对喜欢轻量载具任务和儿童向救援主题的玩家来说很方便。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2608 - 2 Games in 1 - Matchbox Emergency Response + Matchbox Air, Land &amp; Sea Rescue(EU).png</image>
@@ -1116,7 +1116,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.60</rating>
-    <desc>《火柴盒任务：紧急响应 + 火柴盒任务：海陆空救援》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张合辑把两部《火柴盒任务》作品收进同一张卡里，内容都围绕救援、驾驶和任务推进展开。它的价值主要在一次提供两种不同的紧急行动题材，对喜欢轻量载具任务和儿童向救援主题的玩家来说很方便。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2522 - 2 Games in 1 - Matchbox Emergency Response + Matchbox Air, Land &amp; Sea Rescue(US).png</image>
@@ -1133,7 +1133,7 @@
     <genre>卡牌</genre>
     <players>1-4</players>
     <rating>0.75</rating>
-    <desc>《优诺牌 + Skip-Bo》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《优诺牌 + Skip-Bo》把两种规则清晰、上手很快的纸牌游戏放进同一张卡里，适合随时开一局。它的重点不在剧情或成长，而在摸牌、出牌与节奏判断带来的轻量对局感，对喜欢桌游式掌机作品的玩家来说很实用。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2681 - 2 Games in 1 - Uno + Skip-Bo(EU).png</image>
@@ -1150,7 +1150,7 @@
     <genre>卡牌</genre>
     <players>1-4</players>
     <rating>0.75</rating>
-    <desc>《优诺牌 + Skip-Bo》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《优诺牌 + Skip-Bo》把两种规则清晰、上手很快的纸牌游戏放进同一张卡里，适合随时开一局。它的重点不在剧情或成长，而在摸牌、出牌与节奏判断带来的轻量对局感，对喜欢桌游式掌机作品的玩家来说很实用。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2514 - 2 Games in 1 - Uno + Skip-Bo(US).png</image>
@@ -1167,7 +1167,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《海绵宝宝：争霸比基尼海滩 + 反斗家族：打破规则》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把《海绵宝宝：争霸比基尼海滩》和《反斗家族：打破规则》收在一起，都是尼克频道动画改编的轻动作关卡作品。它的卖点在于角色题材丰富、流程轻快，一张卡就能在两种熟悉动画世界之间切换。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2632 - 2 Games in 1 - SpongeBob SquarePants - Battle for Bikini Bottom + Fairly Odd Parents!, The - Breakin' da Rules(US).png</image>
@@ -1201,7 +1201,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《龙珠Z：悟空遗产I &amp; II》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张合辑把《龙珠Z：悟空遗产》前两作收进同一张卡里，核心是龙珠剧情改编、动作 RPG 战斗和角色成长推进。它的价值主要在一次补完两段 GBA 龙珠冒险，适合想连续体验悟空与悟饭路线的系列粉丝。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2288 - 2 Games in 1 - Dragon Ball Z I &amp; II(US).png</image>
@@ -1252,7 +1252,7 @@
     <genre>竞速运动</genre>
     <players>1-2</players>
     <rating />
-    <desc>《风火轮赛车：时速X + 风火轮赛车：世界竞速》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>这张双合一卡把《风火轮赛车：时速X》和《风火轮赛车：世界竞速》放在一起，走的是玩具车题材的掌机竞速路线。它的重点在赛道切换、车辆手感和短局挑战，一张卡提供两套风火轮赛车内容，方便玩家换口味刷成绩。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1722 - 2 Games in 1 - Hot Wheels - Velocity X + Hot Wheels - World Race(EU).png</image>
@@ -1269,7 +1269,7 @@
     <genre>竞速运动</genre>
     <players>1-2</players>
     <rating />
-    <desc>《风火轮赛车：时速X + 风火轮赛车：世界竞速》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>这张双合一卡把《风火轮赛车：时速X》和《风火轮赛车：世界竞速》放在一起，走的是玩具车题材的掌机竞速路线。它的重点在赛道切换、车辆手感和短局挑战，一张卡提供两套风火轮赛车内容，方便玩家换口味刷成绩。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2153 - 2 Games in 1 - Hot Wheels - Velocity X + Hot Wheels - World Race(US).png</image>
@@ -1320,7 +1320,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《史酷比鬼屋历险 + 史酷比：神秘混乱》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把《史酷比鬼屋历险》和《史酷比：神秘混乱》收在一起，都是围绕谜团、怪物和动画式冒险展开的掌机改编作。它的卖点在于一次提供两段史酷比题材流程，适合想补同系列 GBA 作品的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2010 - 2 Games in 1 - Scooby-Doo! - Mystery Mayhem + Scooby-Doo and the Cyber Chase(EU).png</image>
@@ -1337,7 +1337,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《海绵宝宝 + 海绵宝宝：飞翔的荷兰人的复仇》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把两部《海绵宝宝》掌机作品收在一起，内容都围绕比基尼海滩、轻动作关卡和动画式幽默展开。它的价值不在新系统，而在一次提供两段同题材流程，适合海绵宝宝粉丝补完早期 GBA 改编作。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1824 - 2 Games in 1 - SpongeBob SquarePants - SuperSponge + Revenge of the Flying Dutchman(EU).png</image>
@@ -1354,7 +1354,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《海绵宝宝 + 海绵宝宝：飞翔的荷兰人的复仇》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把两部《海绵宝宝》掌机作品收在一起，内容都围绕比基尼海滩、轻动作关卡和动画式幽默展开。它的价值不在新系统，而在一次提供两段同题材流程，适合海绵宝宝粉丝补完早期 GBA 改编作。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1935 - 2 Games in 1 - SpongeBob SquarePants - SuperSponge + Revenge of the Flying Dutchman(US).png</image>
@@ -1388,7 +1388,7 @@
     <genre>合集</genre>
     <players />
     <rating />
-    <desc>《乐高 生化战士 + 骑士王国》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把《乐高 生化战士》和《乐高 骑士王国》放在一起，题材分别偏科幻机械和中世纪骑士。它的意义在于把两种乐高授权掌机动作内容合并提供，适合喜欢乐高世界观、想在不同题材之间切换的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2007 - 2 Games in 1 - LEGO Bionicle + LEGO Knights' Kingdom(EU).png</image>
@@ -1439,7 +1439,7 @@
     <genre>合集</genre>
     <players>1-4</players>
     <rating>0.70</rating>
-    <desc>《宝石王冠 + 啾啾火箭！》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《宝石王冠 + 啾啾火箭！》把两部世嘉系益智作品合在一起，前者偏落物消除与连锁，后者偏路线规划和即时判断。它的价值不在剧情，而在两种规则都适合短局反复挑战，作为 GBA 益智双包相当实用。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2225 - 2 Games in 1 - Columns Crown + Chu Chu Rocket!(EU).png</image>
@@ -1473,7 +1473,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《迪士尼公主 + 狮子王》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把《迪士尼公主》和《狮子王》收进同一份内容里，都是偏家庭向的迪士尼掌机改编作。它的吸引力主要来自题材差异：一边是公主童话式关卡，一边是动物冒险和电影桥段，适合想一次补两种迪士尼风格的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2042 - 2 Games in 1 - Disney Princesas + Rey Leon, El(ES).png</image>
@@ -1575,7 +1575,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《迪士尼公主 + 狮子王》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把《迪士尼公主》和《狮子王》收进同一份内容里，都是偏家庭向的迪士尼掌机改编作。它的吸引力主要来自题材差异：一边是公主童话式关卡，一边是动物冒险和电影桥段，适合想一次补两种迪士尼风格的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1827 - 2 Games in 1 - Roi Lion, Le + Disney Princesse(FR).png</image>
@@ -1592,7 +1592,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《迪士尼公主 + 狮子王》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把《迪士尼公主》和《狮子王》收进同一份内容里，都是偏家庭向的迪士尼掌机改编作。它的吸引力主要来自题材差异：一边是公主童话式关卡，一边是动物冒险和电影桥段，适合想一次补两种迪士尼风格的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2480 - 2 Games in 1 - Disney Principesse + Re Leone, Il(IT).png</image>
@@ -1643,7 +1643,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《迪士尼公主 + 狮子王》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把《迪士尼公主》和《狮子王》收进同一份内容里，都是偏家庭向的迪士尼掌机改编作。它的吸引力主要来自题材差异：一边是公主童话式关卡，一边是动物冒险和电影桥段，适合想一次补两种迪士尼风格的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1815 - 2 Games in 1 - Disneys Konig der Lowen + Disneys Prinzessinnen(DE).png</image>
@@ -1796,7 +1796,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《原野小兵兵 + 海绵宝宝：超级海绵》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把《原野小兵兵》和《海绵宝宝：超级海绵》放在一起，走的是尼克频道动画改编路线。内容重点在熟悉角色、轻动作关卡和低门槛掌机节奏，适合想用一张卡体验两种卡通题材的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2721 - 2 Games in 1 - Les Razmoket Rencontrent les Delajungle + SpongeBob SquarePants - SuperSponge(FR).png</image>
@@ -1881,7 +1881,7 @@
     <genre>竞速运动</genre>
     <players>1-2</players>
     <rating />
-    <desc>《GP摩托 + GT3职业概念锦标赛》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>这张双合一卡把《GP摩托》和《GT3职业概念锦标赛》放在一起，分别提供摩托与汽车竞速体验。它的价值在于一张卡覆盖两种驾驶手感，适合喜欢短局刷赛道、又想在两轮和四轮之间换口味的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1787 - 2 Games in 1 - GT Advance 3 + Moto GP(EU).png</image>
@@ -1898,7 +1898,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.50</rating>
-    <desc>《超凡战队：忍者风暴 + 超凡战队：时间特警》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把两部《超凡战队》GBA 作品打包在一起，主题集中在变身英雄、横版动作和关卡推进。它的优势不是单作深挖，而是让玩家一次体验两个战队题材流程，适合喜欢特摄式动作改编的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1839 - 2 Games in 1 - Power Rangers - Ninja Storm + Power Rangers - Time Force(DE).png</image>
@@ -1915,7 +1915,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.50</rating>
-    <desc>《超凡战队：忍者风暴 + 超凡战队：时间特警》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把两部《超凡战队》GBA 作品打包在一起，主题集中在变身英雄、横版动作和关卡推进。它的优势不是单作深挖，而是让玩家一次体验两个战队题材流程，适合喜欢特摄式动作改编的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2077 - 2 Games in 1 - Power Rangers - Ninja Storm + Power Rangers - Time Force(FR).png</image>
@@ -1932,7 +1932,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《原野小兵兵 + 海绵宝宝：超级海绵》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把《原野小兵兵》和《海绵宝宝：超级海绵》放在一起，走的是尼克频道动画改编路线。内容重点在熟悉角色、轻动作关卡和低门槛掌机节奏，适合想用一张卡体验两种卡通题材的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2057 - 2 Games in 1 - Rugrats - Go Wild + SpongeBob SquarePants - SuperSponge(EU).png</image>
@@ -1949,7 +1949,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《史酷比 + 史酷比2：怪兽偷跑》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把两部《史酷比》改编作集中到一起，内容围绕调查、怪物题材和轻动作关卡展开。它的重点不在复杂系统，而在把动画式悬疑氛围和掌机闯关节奏合在一起，适合喜欢史酷比题材的玩家一次补两作。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2133 - 2 Games in 1 - Scooby-Doo + Scooby-Doo 2 - Desatado(ES).png</image>
@@ -1966,7 +1966,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《史酷比 + 史酷比2：怪兽偷跑》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把两部《史酷比》改编作集中到一起，内容围绕调查、怪物题材和轻动作关卡展开。它的重点不在复杂系统，而在把动画式悬疑氛围和掌机闯关节奏合在一起，适合喜欢史酷比题材的玩家一次补两作。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2698 - 2 Games in 1 - Scooby-Doo + Scooby-Doo 2 - Les Monstres Se Dechainent(FR).png</image>
@@ -2000,7 +2000,7 @@
     <genre>合集</genre>
     <players>1-4</players>
     <rating>0.65</rating>
-    <desc>《索尼克Advance + 索尼克：战斗》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张合辑把《索尼克Advance》和《索尼克：战斗》并在一起，前者是高速平台动作，后者则把索尼克角色拉进更直接的对战结构。它的价值在于一张卡同时覆盖跑关和格斗两种节奏，适合想看系列在 GBA 上不同侧面的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2228 - 2 Games in 1 - Sonic Advance + Sonic Battle(EU).png</image>
@@ -2034,7 +2034,7 @@
     <genre>合集</genre>
     <players>1-2</players>
     <rating>0.60</rating>
-    <desc>《索尼克：战斗 + 啾啾火箭！》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张合辑把《索尼克：战斗》和《啾啾火箭！》放在一起，一个偏角色对战，一个偏路线规划益智。两作节奏差异很大，但都很适合短局反复游玩，也让这张卡不只是单纯的索尼克粉丝向收藏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2750 - 2 Games in 1 - Sonic Battle + Chu Chu Rocket!(EU).png</image>
@@ -2068,7 +2068,7 @@
     <genre>合集</genre>
     <players>1-2</players>
     <rating>0.70</rating>
-    <desc>《索尼克弹珠台 + 宝石王冠》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张合辑收录《索尼克弹珠台》和《宝石王冠》，一边是街机式弹珠台，一边是《Columns》系落物消除。它的组合很偏休闲和高分挑战，适合在 GBA 上随手开一局，也比单一动作合辑更换口味。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2752 - 2 Games in 1 - Sonic Pinball Party + Columns Crown(EU).png</image>
@@ -2085,7 +2085,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《海绵宝宝：争霸比基尼海滩 + 天才小子吉米》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把《海绵宝宝：争霸比基尼海滩》和《天才小子吉米》放在一起，走的都是尼克频道动画改编路线。它的价值主要在一次提供两种熟悉题材和轻动作关卡体验，适合喜欢欧美儿童动画的玩家随手切换游玩。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2082 - 2 Games in 1 - SpongeBob SquarePants - Battle for Bikini Bottom + Jimmy Neutron - Boy Genius(EU).png</image>
@@ -2102,7 +2102,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《海绵宝宝：超级海绵 + 海绵宝宝：争霸比基尼海滩》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张合辑收录两部《海绵宝宝》GBA 作品，核心都是轻动作、平台跳跃和比基尼海滩题材的关卡推进。它不强调新系统，而是让玩家在同一张卡里连续体验两段海绵宝宝式的掌机冒险，粉丝向价值很明确。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1825 - 2 Games in 1 - SpongeBob SquarePants - SuperSponge + SpongeBob SquarePants - Battle for Bikini Bottom(EU).png</image>
@@ -2119,7 +2119,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《海绵宝宝：超级海绵 + 海绵宝宝：争霸比基尼海滩》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张合辑收录两部《海绵宝宝》GBA 作品，核心都是轻动作、平台跳跃和比基尼海滩题材的关卡推进。它不强调新系统，而是让玩家在同一张卡里连续体验两段海绵宝宝式的掌机冒险，粉丝向价值很明确。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2682 - 2 Games in 1 - SpongeBob SquarePants - SuperSponge + SpongeBob SquarePants - Battle for Bikini Bottom(EU).png</image>
@@ -2136,7 +2136,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《海绵宝宝历险记 + 海绵宝宝：定格狂欢》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把《海绵宝宝历险记》和《海绵宝宝：定格狂欢》收在一起，前者偏电影改编的轻动作冒险，后者更偏拍照题材和小游戏式关卡。它的优势在于同一角色题材下提供两种节奏，适合粉丝在掌机上轮流换口味。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2624 - 2 Games in 1 - SpongeBob SquarePants - The Movie + SpongeBob SquarePants and Friends - Freeze Frame Frenzy(EU).png</image>
@@ -2153,7 +2153,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《史酷比 + 史酷比2：怪兽偷跑》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把两部《史酷比》改编作集中到一起，内容围绕调查、怪物题材和轻动作关卡展开。它的重点不在复杂系统，而在把动画式悬疑氛围和掌机闯关节奏合在一起，适合喜欢史酷比题材的玩家一次补两作。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2716 - 2 Games in 1 - Scooby-Doo + Scooby-Doo 2 - Monsters Unleashed(EU).png</image>
@@ -2170,7 +2170,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《史酷比 + 史酷比2：怪兽偷跑》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把两部《史酷比》改编作集中到一起，内容围绕调查、怪物题材和轻动作关卡展开。它的重点不在复杂系统，而在把动画式悬疑氛围和掌机闯关节奏合在一起，适合喜欢史酷比题材的玩家一次补两作。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2571 - 2 Games in 1 - Scooby-Doo + Scooby-Doo 2 - Monsters Unleashed(US).png</image>
@@ -2187,7 +2187,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《史酷比鬼屋历险 + 史酷比：神秘混乱》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把《史酷比鬼屋历险》和《史酷比：神秘混乱》收在一起，都是围绕谜团、怪物和动画式冒险展开的掌机改编作。它的卖点在于一次提供两段史酷比题材流程，适合想补同系列 GBA 作品的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1936 - 2 Games in 1 - Scooby-Doo! - Mystery Mayhem + Scooby-Doo and the Cyber Chase(US).png</image>
@@ -2204,7 +2204,7 @@
     <genre>合集</genre>
     <players />
     <rating />
-    <desc>《海绵宝宝：争霸比基尼海滩 + 海绵宝宝：定格狂欢》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把《海绵宝宝：争霸比基尼海滩》和《海绵宝宝：定格狂欢》收在一起，前者偏轻动作闯关，后者更偏拍照和小游戏式任务。它的价值主要在题材统一、玩法节奏不同，适合海绵宝宝粉丝随手换着玩。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2570 - 2 Games in 1 - SpongeBob SquarePants - Battle for Bikini Bottom + Nicktoons - Freeze Frame Frenzy(US).png</image>
@@ -2221,7 +2221,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.50</rating>
-    <desc>《超凡战队：忍者风暴 + 超凡战队：时间特警》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把两部《超凡战队》GBA 作品打包在一起，主题集中在变身英雄、横版动作和关卡推进。它的优势不是单作深挖，而是让玩家一次体验两个战队题材流程，适合喜欢特摄式动作改编的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2134 - 2 Games in 1 - Power Rangers - Ninja Storm + Power Rangers - Time Force(EU).png</image>
@@ -2238,7 +2238,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.50</rating>
-    <desc>《超凡战队：忍者风暴 + 超凡战队：时间特警》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把两部《超凡战队》GBA 作品打包在一起，主题集中在变身英雄、横版动作和关卡推进。它的优势不是单作深挖，而是让玩家一次体验两个战队题材流程，适合喜欢特摄式动作改编的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2139 - 2 Games in 1 - Power Rangers - Ninja Storm + Power Rangers - Time Force(US).png</image>
@@ -2255,7 +2255,7 @@
     <genre>合集</genre>
     <players>1-2</players>
     <rating />
-    <desc>《龙珠Z：布欧的愤怒 + 龙珠GT：突变》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把《龙珠Z：布欧的愤怒》和《龙珠GT：突变》收进同一份内容里，前者偏动作 RPG 冒险，后者更偏横版清版动作。它的价值在于一次覆盖两条龙珠掌机路线，适合粉丝在剧情冒险和爽快战斗之间切换。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2472 - 2 Games in 1 - Dragon Ball Z - Buu's Fury + Dragon Ball GT - Transformation(US).png</image>
@@ -2272,7 +2272,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.65</rating>
-    <desc>《铁手套 + 领土之战》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《铁手套 + 领土之战》把两种老街机气质放进同一张卡里：一边是俯视角地下城动作，一边是筑墙、防守与炮击构成的策略攻防。它不是单一类型合集，而是靠复古规则、短局压力和明确目标形成耐玩性。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2217 - Gauntlet - Rampart(EU).png</image>
@@ -2289,7 +2289,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.65</rating>
-    <desc>《铁手套 + 领土之战》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《铁手套 + 领土之战》把两种老街机气质放进同一张卡里：一边是俯视角地下城动作，一边是筑墙、防守与炮击构成的策略攻防。它不是单一类型合集，而是靠复古规则、短局压力和明确目标形成耐玩性。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2141 - Gauntlet - Rampart(US).png</image>
@@ -2306,7 +2306,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.45</rating>
-    <desc>《送报男孩 + 狂暴巨兽》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《送报男孩 + 狂暴巨兽》是一张很有 Midway 味道的老街机双包：前者围绕送报路线、障碍躲避和投掷节奏，后者则让怪兽一路破坏城市。两作方向完全不同，但都强调直观规则和短局重开，很适合作为掌机怀旧拼盘。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2195 - Paperboy - Rampage(EU).png</image>
@@ -2323,7 +2323,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.45</rating>
-    <desc>《送报男孩 + 狂暴巨兽》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《送报男孩 + 狂暴巨兽》是一张很有 Midway 味道的老街机双包：前者围绕送报路线、障碍躲避和投掷节奏，后者则让怪兽一路破坏城市。两作方向完全不同，但都强调直观规则和短局重开，很适合作为掌机怀旧拼盘。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2114 - Paperboy - Rampage(US).png</image>
@@ -2340,7 +2340,7 @@
     <genre>竞速运动</genre>
     <players>1</players>
     <rating>0.65</rating>
-    <desc>《间谍猎人 + 超级冲刺赛》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《间谍猎人 + 超级冲刺赛》把车辆战斗和俯视角竞速装在同一张卡里，前者强调武装车辆的追逐与生存，后者更接近老街机式赛道竞争。它不该只当普通赛车看，真正的卖点是两种经典驾驶玩法之间的切换。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2244 - Spy Hunter - Super Sprint(EU).png</image>
@@ -2357,7 +2357,7 @@
     <genre>竞速运动</genre>
     <players>1</players>
     <rating>0.65</rating>
-    <desc>《间谍猎人 + 超级冲刺赛》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《间谍猎人 + 超级冲刺赛》把车辆战斗和俯视角竞速装在同一张卡里，前者强调武装车辆的追逐与生存，后者更接近老街机式赛道竞争。它不该只当普通赛车看，真正的卖点是两种经典驾驶玩法之间的切换。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2146 - Spy Hunter - Super Sprint(US).png</image>
@@ -2374,7 +2374,7 @@
     <genre>合集</genre>
     <players>1-2</players>
     <rating>0.65</rating>
-    <desc>《吃豆人世界 + 吃豆人小姐：迷宫疯狂》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《吃豆人世界 + 吃豆人小姐：迷宫疯狂》把吃豆人题材的两种掌机路线合在一起：一个偏平台冒险和收集推进，一个偏迷宫、机关与追逐解谜。它的价值在于既保留经典吃豆人的迷宫感，又能提供更现代的关卡式体验。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2391 - 2 Games in 1 - Pac-Man World + Ms. Pac-Man - Maze Madness(EU).png</image>
@@ -2391,7 +2391,7 @@
     <genre>合集</genre>
     <players>1-2</players>
     <rating>0.65</rating>
-    <desc>《吃豆人世界 + 吃豆人小姐：迷宫疯狂》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《吃豆人世界 + 吃豆人小姐：迷宫疯狂》把吃豆人题材的两种掌机路线合在一起：一个偏平台冒险和收集推进，一个偏迷宫、机关与追逐解谜。它的价值在于既保留经典吃豆人的迷宫感，又能提供更现代的关卡式体验。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2572 - 2 Games in 1 - Pac-Man World + Ms. Pac-Man - Maze Madness(US).png</image>
@@ -2408,7 +2408,7 @@
     <genre>竞速运动</genre>
     <players>1-2</players>
     <rating>0.70</rating>
-    <desc>《V拉力3 + 特技驾驶员》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《V拉力3 + 特技驾驶员》把两种驾驶体验放在同一张卡里，前者偏拉力赛道、路线控制和车辆调校感，后者则更强调按要求完成特技驾驶任务。它的组合价值在于同样是开车，却分别服务于竞速和任务挑战两种目标。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2041 - 2 Games in 1 - V-Rally 3 + Stuntman(EU).png</image>
@@ -2425,7 +2425,7 @@
     <genre>合集</genre>
     <players />
     <rating>0.75</rating>
-    <desc>《蜘蛛侠1+2》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《蜘蛛侠1+2》把两部 GBA 版蜘蛛侠改编作合在一起，核心是蛛丝摆荡、平台动作、近身战斗和漫画式关卡推进。它的优势在于一次补完两段掌机蜘蛛侠流程，也方便比较系列在 GBA 上前后两作的处理方式。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2552 - 2 Games in 1 - Spider-Man + Spider-Man 2(US).png</image>
@@ -2459,7 +2459,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.55</rating>
-    <desc>《怪物史瑞克2 + 鲨鱼故事》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《怪物史瑞克2 + 鲨鱼故事》是一张梦工厂动画改编双包，内容偏轻动作、关卡推进和角色题材包装。它不靠单一系统深度取胜，而是让玩家在两部电影世界之间切换，适合喜欢动画改编小品的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2083 - 2 Games in 1 - Shrek 2 + Shark Tale(EU).png</image>
@@ -2476,7 +2476,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.55</rating>
-    <desc>《怪物史瑞克2 + 鲨鱼故事》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《怪物史瑞克2 + 鲨鱼故事》是一张梦工厂动画改编双包，内容偏轻动作、关卡推进和角色题材包装。它不靠单一系统深度取胜，而是让玩家在两部电影世界之间切换，适合喜欢动画改编小品的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2532 - 2 Games in 1 - Shrek 2 + Shark Tale(US).png</image>
@@ -2493,7 +2493,7 @@
     <genre>合集</genre>
     <players />
     <rating>0.75</rating>
-    <desc>《蜘蛛侠1+2》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《蜘蛛侠1+2》把两部 GBA 版蜘蛛侠改编作合在一起，核心是蛛丝摆荡、平台动作、近身战斗和漫画式关卡推进。它的优势在于一次补完两段掌机蜘蛛侠流程，也方便比较系列在 GBA 上前后两作的处理方式。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2099 - 2 Games in 1 - Spider-Man + Spider-Man 2(EU).png</image>
@@ -2510,7 +2510,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.60</rating>
-    <desc>《坏小子迪德夫：恶作剧机器 + 坏小子迪德夫：超级比赛》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把《坏小子迪德夫：恶作剧机器》和《超级比赛》放在一起，前者偏平台动作和整蛊题材关卡，后者更偏轻松比赛与派对项目。它的统一点不是玩法类型，而是法式漫画改编那种调皮、夸张和低门槛的气质。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2382 - 2 Games in 1 - Titeuf - Ze Gagmachine + Titeuf - Mega Compet'(FR).png</image>
@@ -2527,7 +2527,7 @@
     <genre>弹珠台</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《布偶弹珠台》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《布偶弹珠台》把布偶角色题材包装进弹珠台玩法里，核心仍是挡板控球、目标触发和不断刷新分数。它的看点不在剧情，而在主题桌面、声光反馈和短局反复挑战，很适合 GBA 上随手打一局。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2017 - Muppet Pinball Mayhem(EU).png</image>
@@ -2561,7 +2561,7 @@
     <genre>合集</genre>
     <players />
     <rating />
-    <desc>《高卢英雄传合集》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《高卢英雄传合集》是一张把多部《高卢英雄传》相关内容收进同一卡带的合辑，重点在于集中提供轻动作、冒险推进和卡通题材的掌机体验。对喜欢法式漫画改编作品的玩家来说，这类合集最大的价值就是省事、耐玩，也方便一次补完同系列内容。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2030 - 2 Games in 1 - Asterix &amp; Obelix - Bash Them All! + Asterix &amp; Obelix XXL(EU).png</image>
@@ -2578,7 +2578,7 @@
     <genre>弹珠台</genre>
     <players>1-4</players>
     <rating>0.70</rating>
-    <desc>《死亡弹珠台》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《死亡弹珠台》把僵尸恐怖题材和弹珠台玩法硬生生揉在了一起，是一款相当有记忆点的邪典作品。玩家一边要维持弹珠节奏，一边又能看到灾难电影式的夸张演出，这种混搭感在 GBA 上非常少见。它的魅力正来自弹珠台和恐怖氛围拼在一起后的反差。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2065 - Pinball of the Dead, The(EU).png</image>
@@ -2595,7 +2595,7 @@
     <genre>清版射击</genre>
     <players>1</players>
     <rating>0.65</rating>
-    <desc>《钢铁帝国》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《钢铁帝国》是一款蒸汽朋克气质很强的横版射击游戏，卖点在厚重机械设计、持续压迫的敌兵编队和扎实的关卡推进。它不是那种满屏弹幕型作品，而更强调飞行手感、火力选择和美术风格带来的辨识度。喜欢老派横版 STG 的玩家通常很容易记住它。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2080 - Steel Empire(EU).png</image>
@@ -2612,7 +2612,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《蜘蛛侠：密斯特里奥的威胁 + X战警2：金刚狼的复仇》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把《蜘蛛侠》和《金刚狼》各自的动作闯关作品装进同一份内容里，主题很明确，就是让漫威粉一次体验两位人气角色。两作都偏横版动作与关卡推进路线，适合喜欢美漫改编掌机作的玩家轮流换着玩。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2104 - 2 Games in 1 - Spider-Man - Mysterio's Menace + X2 - Wolverine's Revenge(UE).png</image>
@@ -2697,7 +2697,7 @@
     <genre>RPG</genre>
     <players>1-4</players>
     <rating>0.75</rating>
-    <desc>《魔法俏佳人》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《魔法俏佳人》是一款以关卡推进、魔法能力和少女动画题材为卖点的轻动作冒险作品。玩家围绕场景探索、机关处理和角色能力运用不断前进，整体更偏粉丝向掌机冒险路线，而不是传统 JRPG。它的看点主要在题材代入感、角色能力和轻松明快的流程节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2255 - Winx Club(EU).png</image>
@@ -2748,7 +2748,7 @@
     <genre>竞速运动</genre>
     <players>1</players>
     <rating>0.65</rating>
-    <desc>《福特赛车3》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《福特赛车3》主打福特授权车型和多赛道驾驶，核心是用不同车辆完成常规竞速挑战。它的卖点并不复杂：品牌车款、赛道熟悉度和掌机上随时跑一局的节奏，适合喜欢真实车厂授权赛车的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2313 - Ford Racing 3(EU).png</image>
@@ -2782,7 +2782,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.80</rating>
-    <desc>《朱卡与单声威胁》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《朱卡与单声威胁》是一款以探索、解谜和轻战斗推进为核心的动作冒险游戏。玩家需要在场景中运用角色能力处理机关、敌人和路线障碍，整体更接近掌机平台动作加冒险解谜的路线，而不是传统 JRPG。它的吸引力主要来自童话科幻风格和偏轻量的过关节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2390 - Juka and the Monophonic Menace(EU).png</image>
@@ -2850,7 +2850,7 @@
     <genre>竞速运动</genre>
     <players>1-2</players>
     <rating>0.50</rating>
-    <desc>《ATV雷霆机车》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《ATV雷霆机车》围绕四轮越野摩托展开，重点在颠簸地形、过弯节奏和越野赛道的路线控制。它和普通公路赛车的气质不同，更强调泥地、跳跃和粗犷的户外竞速感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2520 - ATV Thunder Ridge Riders(US).png</image>
@@ -2867,7 +2867,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.65</rating>
-    <desc>《斯派罗传说：新的开始》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《斯派罗传说：新的开始》属于《小龙斯派罗》后期重启路线的掌机改编，重点从单纯收集平台动作转向更强的剧情冒险和龙息战斗。GBA 版受平台限制更精简，但仍保留了斯派罗探索、战斗和奇幻题材的核心气质。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2530 - Legend of Spyro, The - A New Beginning(US).png</image>
@@ -2918,7 +2918,7 @@
     <genre>格斗</genre>
     <players>1</players>
     <rating>0.90</rating>
-    <desc>《最终幻想VI Advance》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《最终幻想VI Advance》是《最终幻想VI》的 GBA 掌机强化移植版，以多主角群像叙事、ATB 指令战斗和后期角色培养为核心魅力。玩家将穿越魔导科技与帝国战争交织的世界，逐步集结同伴、推进剧情，并在掌机版中体验追加迷宫、额外召唤兽与补充内容。它最吸引人的地方不只是名作移植，而是那种兼具史诗感、人物塑造和系统深度的经典 JRPG 气质。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2599 - Final Fantasy VI Advance(JP).png</image>
@@ -2952,7 +2952,7 @@
     <genre>合集</genre>
     <players />
     <rating />
-    <desc>《马达加斯加 + 怪物史瑞克2》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《马达加斯加 + 怪物史瑞克2》是一张梦工厂动画改编双包，内容围绕电影角色、轻动作关卡和低门槛任务推进展开。它的价值主要在一次收两部热门动画题材 GBA 作品，适合粉丝向或家庭向玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2695 - 2 Games in 1 - Shrek 2 + Madagascar(EU).png</image>
@@ -3020,7 +3020,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《迪士尼公主 + 狮子王》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张双合一卡把《迪士尼公主》和《狮子王》放在一起，前者偏童话角色与轻量任务，后者偏动画改编平台动作。它的统一点是迪士尼题材和低门槛掌机节奏，适合想用一张卡体验两种家庭向动画内容的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2745 - 2 Games in 1 - Lion King, The + Disney Princess(EU).png</image>
@@ -3054,7 +3054,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《马达加斯加：企鹅行动 + 怪物史瑞克2》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《马达加斯加：企鹅行动 + 怪物史瑞克2》是一张梦工厂动画双包，前者围绕企鹅小队的任务式关卡，后者则延续《怪物史瑞克2》的轻动作改编路线。它的卖点是题材热闹、玩法门槛低，一张卡能换两种电影世界。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2717 - 2 Games in 1 - Shrek 2 + Madagascar - Operation Penguin(EU).png</image>
@@ -3071,7 +3071,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《马达加斯加：企鹅行动 + 怪物史瑞克2》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《马达加斯加：企鹅行动 + 怪物史瑞克2》是一张梦工厂动画双包，前者围绕企鹅小队的任务式关卡，后者则延续《怪物史瑞克2》的轻动作改编路线。它的卖点是题材热闹、玩法门槛低，一张卡能换两种电影世界。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2573 - 2 Games in 1 - Shrek 2 + Madagascar - Operation Penguin(US).png</image>
@@ -3088,7 +3088,7 @@
     <genre>合集</genre>
     <players />
     <rating />
-    <desc>《马达加斯加 + 怪物史瑞克2》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《马达加斯加 + 怪物史瑞克2》是一张梦工厂动画改编双包，内容围绕电影角色、轻动作关卡和低门槛任务推进展开。它的价值主要在一次收两部热门动画题材 GBA 作品，适合粉丝向或家庭向玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2644 - 2 Games in 1 - Shrek 2 + Madagascar(US).png</image>
@@ -3156,7 +3156,7 @@
     <genre>合集</genre>
     <players />
     <rating />
-    <desc>《淘气小兵兵：我要参加宴会 + 海绵宝宝：超级海绵 + 塔克和符咒的神力》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张三合一卡把《淘气小兵兵》《海绵宝宝》和《塔克和符咒的神力》三部儿童向动作作品装进同一份内容里，整体就是轻松、上手快、角色辨识度高的掌机拼盘。它的吸引力主要来自题材丰富和切换方便，很适合喜欢欧美动画改编作的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2434 - 3 Games in 1 - Rugrats - I Gotta Go Party + SpongeBob SquarePants - SuperSponge + Tak and the Power of Juju(EU).png</image>
@@ -3173,7 +3173,7 @@
     <genre>合集</genre>
     <players>1-4</players>
     <rating>0.55</rating>
-    <desc>《Breakout + 蜈蚣 + 军阀》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《Breakout + 蜈蚣 + 军阀》把三款 Atari 早期街机名作放进一张卡里，内容横跨打砖块、固定画面射击和竞技对抗。它的价值主要在怀旧与耐玩度，规则都很直观，特别适合掌机上随手开一局、反复挑战高分。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2184 - Centipede - Breakout - Warlords(EU).png</image>
@@ -3190,7 +3190,7 @@
     <genre>合集</genre>
     <players>1-4</players>
     <rating>0.55</rating>
-    <desc>《Breakout + 蜈蚣 + 军阀》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《Breakout + 蜈蚣 + 军阀》把三款 Atari 早期街机名作放进一张卡里，内容横跨打砖块、固定画面射击和竞技对抗。它的价值主要在怀旧与耐玩度，规则都很直观，特别适合掌机上随手开一局、反复挑战高分。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2112 - Centipede - Breakout - Warlords(US).png</image>
@@ -3207,7 +3207,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.60</rating>
-    <desc>《Super Breakout + 千足虫 + 登陆月球》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《Super Breakout + 千足虫 + 登陆月球》是一张典型的 Atari 经典合集卡，把打砖块、固定画面射击和登月操作挑战集中到一起。几款游戏都很强调短局反复、分数挑战和手感熟悉度，放在掌机上很适合轮流玩几把。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2246 - Millipede - Super Breakout - Lunar Lander(EU).png</image>
@@ -3224,7 +3224,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.60</rating>
-    <desc>《Super Breakout + 千足虫 + 登陆月球》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《Super Breakout + 千足虫 + 登陆月球》是一张典型的 Atari 经典合集卡，把打砖块、固定画面射击和登月操作挑战集中到一起。几款游戏都很强调短局反复、分数挑战和手感熟悉度，放在掌机上很适合轮流玩几把。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2142 - Millipede - Super Breakout - Lunar Lander(US).png</image>
@@ -3241,7 +3241,7 @@
     <genre>合集</genre>
     <players>1-2</players>
     <rating>0.50</rating>
-    <desc>《亚尔的复仇 + 爆破彗星 + 乓》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《亚尔的复仇 + 爆破彗星 + 乓》是一张偏 Atari 经典路线的合集卡，把早期射击、打砖块变体和球拍对战装进同一份内容里。每款游戏规则都很直白，重心在反应、路线判断和高分挑战，放在 GBA 上很适合碎片时间轮流玩几局。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2247 - Pong - Asteroids - Yars' Revenge(EU).png</image>
@@ -3258,7 +3258,7 @@
     <genre>合集</genre>
     <players>1-2</players>
     <rating>0.50</rating>
-    <desc>《亚尔的复仇 + 爆破彗星 + 乓》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《亚尔的复仇 + 爆破彗星 + 乓》是一张偏 Atari 经典路线的合集卡，把早期射击、打砖块变体和球拍对战装进同一份内容里。每款游戏规则都很直白，重心在反应、路线判断和高分挑战，放在 GBA 上很适合碎片时间轮流玩几局。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2115 - Pong - Asteroids - Yars' Revenge(US).png</image>
@@ -3292,7 +3292,7 @@
     <genre>竞速运动</genre>
     <players>1-2</players>
     <rating />
-    <desc>《GTA职业概念锦标赛1/2/3 + GP摩托》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>这张四合一卡把《GT Advance》三作和《GP摩托》打包在一起，卖点就是一次提供多种四轮与两轮竞速内容。它更像便携赛车拼盘，适合喜欢刷赛道、换车和短局重开的玩家，比单作更强调量大和口味切换。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2775 - Four Pack Racing - GT Advance + GT Advance 2 + GT Advance 3 + Moto GP(US).png</image>
@@ -3309,7 +3309,7 @@
     <genre>合集</genre>
     <players>1-2</players>
     <rating>0.65</rating>
-    <desc>《尼克卡通4合1》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《尼克卡通4合1》把几部 Nickelodeon 动画改编作装进同一张卡里，整体走的是轻动作、平台跳跃和关卡推进路线。它的意义不在单作深度，而在一次提供多种熟悉角色和不同玩法节奏，比较适合喜欢欧美动画题材的掌机玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2714 - Nickelodeon Vol. 1 GBA 4-Pack(US).png</image>
@@ -3445,7 +3445,7 @@
     <genre>合集</genre>
     <players>1-2</players>
     <rating>0.75</rating>
-    <desc>《动视经典合集》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《动视经典合集》把一批 Activision 早期经典作品搬到 GBA 上，定位是怀旧向游戏拼盘。它的价值主要在保存和便携游玩，规则普遍直观、单局很短，适合想随手体验 Atari 时代老游戏节奏的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1313 - Activision Anthology(US).png</image>
@@ -3496,7 +3496,7 @@
     <genre>格斗</genre>
     <players>1-4</players>
     <rating>0.65</rating>
-    <desc>《守护英雄Advance》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《守护英雄Advance》是一款把横向清版动作、多人乱斗和角色成长结合起来的掌机动作作品，也是《守护英雄》系在 GBA 上的延伸版本。玩家需要在横向场景中清理敌人、切换角色思路并利用升级与装备强化队伍，整体比传统一对一格斗更偏闯关与团战节奏。它的看点主要在 Treasure 擅长的热闹打感，以及掌机上少见的多人动作乱战气质。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1897 - Advance Guardian Heroes(EU).png</image>
@@ -3513,7 +3513,7 @@
     <genre>格斗</genre>
     <players>1-4</players>
     <rating>0.65</rating>
-    <desc>《守护英雄Advance》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《守护英雄Advance》是一款把横向清版动作、多人乱斗和角色成长结合起来的掌机动作作品，也是《守护英雄》系在 GBA 上的延伸版本。玩家需要在横向场景中清理敌人、切换角色思路并利用升级与装备强化队伍，整体比传统一对一格斗更偏闯关与团战节奏。它的看点主要在 Treasure 擅长的热闹打感，以及掌机上少见的多人动作乱战气质。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1662 - Advance Guardian Heroes(JP).png</image>
@@ -3530,7 +3530,7 @@
     <genre>格斗</genre>
     <players>1-4</players>
     <rating>0.65</rating>
-    <desc>《守护英雄Advance》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《守护英雄Advance》是一款把横向清版动作、多人乱斗和角色成长结合起来的掌机动作作品，也是《守护英雄》系在 GBA 上的延伸版本。玩家需要在横向场景中清理敌人、切换角色思路并利用升级与装备强化队伍，整体比传统一对一格斗更偏闯关与团战节奏。它的看点主要在 Treasure 擅长的热闹打感，以及掌机上少见的多人动作乱战气质。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1653 - Advance Guardian Heroes(US).png</image>
@@ -3785,7 +3785,7 @@
     <genre>格斗</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《三角洲空军部队》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《三角洲空军部队》是一款以现代空战为主题的飞行射击/飞行战斗作品。玩家驾驶战机执行任务，在锁定、规避导弹和火力压制之间不断切换，整体更重视空中机动与任务推进，而不是近距离格斗。它的价值主要在于把主机系空战题材压缩到掌机节奏里，提供一轮一轮完成任务的便携体验。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0646 - Airforce Delta II(JP).png</image>
@@ -3802,7 +3802,7 @@
     <genre>格斗</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《三角洲空军部队》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《三角洲空军部队》是一款以现代空战为主题的飞行射击/飞行战斗作品。玩家驾驶战机执行任务，在锁定、规避导弹和火力压制之间不断切换，整体更重视空中机动与任务推进，而不是近距离格斗。它的价值主要在于把主机系空战题材压缩到掌机节奏里，提供一轮一轮完成任务的便携体验。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0596 - Airforce Delta Storm(US).png</image>
@@ -3853,7 +3853,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《阿拉丁》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《阿拉丁》把迪士尼动画的集市、洞窟和魔毯冒险改成横版平台动作，核心是跳跃、投掷苹果、躲避敌人和穿过熟悉场景。它最重要的不是系统复杂度，而是能不能把电影那种明快、活泼的冒险感保留下来。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1410 - Aladdin(EU).png</image>
@@ -3870,7 +3870,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《阿拉丁》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《阿拉丁》把迪士尼动画的集市、洞窟和魔毯冒险改成横版平台动作，核心是跳跃、投掷苹果、躲避敌人和穿过熟悉场景。它最重要的不是系统复杂度，而是能不能把电影那种明快、活泼的冒险感保留下来。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1115 - Aladdin(JP).png</image>
@@ -3887,7 +3887,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《阿拉丁》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《阿拉丁》把迪士尼动画的集市、洞窟和魔毯冒险改成横版平台动作，核心是跳跃、投掷苹果、躲避敌人和穿过熟悉场景。它最重要的不是系统复杂度，而是能不能把电影那种明快、活泼的冒险感保留下来。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1872 - Aladdin(US).png</image>
@@ -4074,7 +4074,7 @@
     <genre>清版动作</genre>
     <players>1-2</players>
     <rating>0.60</rating>
-    <desc>《兽王记：王国的守护者》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《兽王记：王国的守护者》延续了系列“变身兽人作战”的核心卖点，把清版动作、关卡推进和形态变化压缩到 GBA 上。它的看点不只是打敌人，而是不同兽化形态带来的攻击方式和老派世嘉动作气质。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0774 - Altered Beast - Guardian of the Realms(US).png</image>
@@ -4108,7 +4108,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.50</rating>
-    <desc>《美国龙：亨特斯克兰的崛起》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《美国龙：亨特斯克兰的崛起》是迪士尼动画改编的掌机动作游戏，重点在杰克的龙化能力、横向关卡和对抗猎龙组织的英雄题材。它的价值主要来自动画角色包装和轻快动作节奏，而不是复杂系统深度。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2499 - American Dragon - Jake Long - Rise of the Huntsclan!(UE).png</image>
@@ -4142,7 +4142,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《美国鼠谭：淘金记》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《美国鼠谭：淘金记》把动画电影的冒险气质改成 GBA 上的轻量平台动作，重点在小角色穿越场景、躲避危险和推进关卡。它更像一部家庭向授权小品，吸引力主要来自熟悉题材和掌机化的短流程。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0327 - American Tail, An - Fievel's Gold Rush(EU).png</image>
@@ -4159,7 +4159,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《美国鼠谭：淘金记》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《美国鼠谭：淘金记》把动画电影的冒险气质改成 GBA 上的轻量平台动作，重点在小角色穿越场景、躲避危险和推进关卡。它更像一部家庭向授权小品，吸引力主要来自熟悉题材和掌机化的短流程。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1861 - American Tail, An - Fievel's Gold Rush(US).png</image>
@@ -4516,7 +4516,7 @@
     <genre>格斗</genre>
     <players>1-2</players>
     <rating>0.70</rating>
-    <desc>《高卢英雄传》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《高卢英雄传》是一款以漫画角色为卖点的横向动作/清版闯关作品。玩家操控阿斯特克斯与奥贝里克斯一路清兵、跳跃和推进关卡，整体更像轻量化的掌机动作闯关，而不是传统对战格斗。它的吸引力主要来自角色题材、双主角风格差异和热闹直接的漫画改编气氛。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0278 - Asterix &amp; Obelix - Bash Them All!(EU).png</image>
@@ -4550,7 +4550,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.90</rating>
-    <desc>《铁臂阿童木：原子之心的秘密》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《铁臂阿童木：原子之心的秘密》是 GBA 上评价很高的横版动作游戏，既有流畅的近身连击和飞行射击，也有 Treasure 式的爽快演出。它不只是普通动漫改编作，而是把手冢角色、快节奏战斗和掌机关卡压缩得很有辨识度。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1900 - Astro Boy - Omega Factor(EU).png</image>
@@ -4567,7 +4567,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.90</rating>
-    <desc>《铁臂阿童木：原子之心的秘密》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《铁臂阿童木：原子之心的秘密》是 GBA 上评价很高的横版动作游戏，既有流畅的近身连击和飞行射击，也有 Treasure 式的爽快演出。它不只是普通动漫改编作，而是把手冢角色、快节奏战斗和掌机关卡压缩得很有辨识度。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1569 - Astro Boy - Omega Factor(US).png</image>
@@ -4584,7 +4584,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.90</rating>
-    <desc>《铁臂阿童木：原子之心的秘密》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《铁臂阿童木：原子之心的秘密》是 GBA 上评价很高的横版动作游戏，既有流畅的近身连击和飞行射击，也有 Treasure 式的爽快演出。它不只是普通动漫改编作，而是把手冢角色、快节奏战斗和掌机关卡压缩得很有辨识度。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1332 - Astro Boy - Tetsuwan Atom - Atom Heart no Himitsu(JP).png</image>
@@ -4601,7 +4601,7 @@
     <genre>合集</genre>
     <players>1-2</players>
     <rating>0.60</rating>
-    <desc>《雅达利周年合集》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《雅达利周年合集》是一张纪念 Atari 早期街机与主机经典的怀旧合集，重点在把规则简单、反馈直接的老游戏带到掌机上。它不追求现代化改造，而是保留短局、高分挑战和历史收藏价值。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1401 - Atari Anniversary Advance(EU).png</image>
@@ -4618,7 +4618,7 @@
     <genre>合集</genre>
     <players>1-2</players>
     <rating>0.60</rating>
-    <desc>《雅达利周年合集》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《雅达利周年合集》是一张纪念 Atari 早期街机与主机经典的怀旧合集，重点在把规则简单、反馈直接的老游戏带到掌机上。它不追求现代化改造，而是保留短局、高分挑战和历史收藏价值。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0380 - Atari Anniversary Advance(US).png</image>
@@ -4635,7 +4635,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《亚特兰蒂斯：失落的帝国》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《亚特兰蒂斯：失落的帝国》是迪士尼电影改编的掌机冒险动作游戏，围绕遗迹探索、机关场景和电影式探险题材展开。它的看点不只是跳平台，而是把寻找失落文明的气氛压缩进一段段 GBA 关卡里。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0188 - Atlantis - The Lost Empire(EU).png</image>
@@ -4652,7 +4652,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《亚特兰蒂斯：失落的帝国》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《亚特兰蒂斯：失落的帝国》是迪士尼电影改编的掌机冒险动作游戏，围绕遗迹探索、机关场景和电影式探险题材展开。它的看点不只是跳平台，而是把寻找失落文明的气氛压缩进一段段 GBA 关卡里。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0102 - Atlantis - The Lost Empire(UE).png</image>
@@ -4669,7 +4669,7 @@
     <genre>格斗</genre>
     <players>1</players>
     <rating>0.50</rating>
-    <desc>《超级贝蒂》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《超级贝蒂》是一款以关卡推进、跳跃战斗和动画题材为卖点的横版动作游戏。玩家操控主角在各类关卡中处理敌人和机关，整体更偏轻快的掌机平台动作路线，而不是传统格斗。它的吸引力主要来自卡通风格、角色能力和偏轻松的过关节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2241 - Atomic Betty(UE).png</image>
@@ -4686,7 +4686,7 @@
     <genre>竞速运动</genre>
     <players>1-2</players>
     <rating>0.55</rating>
-    <desc>《ATV四轮摩托车赛》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《ATV四轮摩托车赛》主打四轮越野摩托题材，乐趣来自泥地赛道、跳跃落地和不稳定地形下的路线控制。它不是精密公路竞速，而是更偏粗犷、短局和户外运动感的掌机赛车。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0554 - ATV Quad Power Racing(UE).png</image>
@@ -4703,7 +4703,7 @@
     <genre>竞速运动</genre>
     <players>1-2</players>
     <rating>0.50</rating>
-    <desc>《ATV雷霆机车》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《ATV雷霆机车》围绕四轮越野摩托展开，重点在颠簸地形、过弯节奏和越野赛道的路线控制。它和普通公路赛车的气质不同，更强调泥地、跳跃和粗犷的户外竞速感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2688 - ATV Thunder Ridge Riders(EU).png</image>
@@ -5111,7 +5111,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating />
-    <desc>《爆旋陀螺2002：上吧！爆斗！超磁力战！！》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《爆旋陀螺2002：上吧！爆斗！超磁力战！！》是一款以陀螺对战、大会挑战和部件搭配为核心的题材作品。玩家围绕机体性能、发射时机和赛事推进不断强化自己的陀螺，整体更接近动漫改编的收集对战路线，而不是传统 JRPG。它的重点在题材代入感、配件调整和一场场比赛连着打下去的掌机节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0495 - Bakuten Shoot Beyblade 2002 - Ikuze! Bakutou! Chou Jiryoku Battle!!(JP).png</image>
@@ -5128,7 +5128,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《博德之门：黑暗联盟》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《博德之门：黑暗联盟》是一款以地牢探索、即时战斗和装备成长为核心的动作角色扮演游戏。玩家在掌机上围绕清怪、拾取战利品和强化角色不断推进，整体更接近西式暗黑风 ARPG，而不是传统日式回合 RPG。它的看点主要在轻量刷宝节奏和奇幻冒险氛围。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1368 - Baldur's Gate - Dark Alliance(EU).png</image>
@@ -5145,7 +5145,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《博德之门：黑暗联盟》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《博德之门：黑暗联盟》是一款以地牢探索、即时战斗和装备成长为核心的动作角色扮演游戏。玩家在掌机上围绕清怪、拾取战利品和强化角色不断推进，整体更接近西式暗黑风 ARPG，而不是传统日式回合 RPG。它的看点主要在轻量刷宝节奏和奇幻冒险氛围。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1356 - Baldur's Gate - Dark Alliance(US).png</image>
@@ -5162,7 +5162,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.80</rating>
-    <desc>《班卓熊：格兰蒂的复仇》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《班卓熊：格兰蒂的复仇》把系列招牌的卡通动作冒险搬到 GBA 上，主打跳跃、收集、角色配合和轻探索。它保留了班卓熊系列那种幽默、热闹又有点顽皮的气质，重点不是单纯闯关，而是掌机化后的收集冒险感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1216 - Banjo-Kazooie - Grunty's Revenge(EU).png</image>
@@ -5179,7 +5179,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.80</rating>
-    <desc>《班卓熊：格兰蒂的复仇》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《班卓熊：格兰蒂的复仇》把系列招牌的卡通动作冒险搬到 GBA 上，主打跳跃、收集、角色配合和轻探索。它保留了班卓熊系列那种幽默、热闹又有点顽皮的气质，重点不是单纯闯关，而是掌机化后的收集冒险感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1398 - Banjo-Kazooie - La Vendetta di Grunty(IT).png</image>
@@ -5196,7 +5196,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.80</rating>
-    <desc>《班卓熊：格兰蒂的复仇》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《班卓熊：格兰蒂的复仇》把系列招牌的卡通动作冒险搬到 GBA 上，主打跳跃、收集、角色配合和轻探索。它保留了班卓熊系列那种幽默、热闹又有点顽皮的气质，重点不是单纯闯关，而是掌机化后的收集冒险感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1904 - Banjo-Kazooie - La Venganza de Grunty(ES).png</image>
@@ -5213,7 +5213,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.80</rating>
-    <desc>《班卓熊：格兰蒂的复仇》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《班卓熊：格兰蒂的复仇》把系列招牌的卡通动作冒险搬到 GBA 上，主打跳跃、收集、角色配合和轻探索。它保留了班卓熊系列那种幽默、热闹又有点顽皮的气质，重点不是单纯闯关，而是掌机化后的收集冒险感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1154 - Banjo-Kazooie - Grunty's Revenge(US).png</image>
@@ -5230,7 +5230,7 @@
     <genre>竞速运动</genre>
     <players>1-4</players>
     <rating>0.90</rating>
-    <desc>《班卓熊飞行员》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《班卓熊飞行员》把 Rare 的班卓熊角色搬进空中竞速，重点在飞机驾驶、道具竞争和角色化赛道。它不是平台动作续作，而是一部带吉祥物气质的掌机飞行赛车，卖点在轻松、热闹和系列角色包装。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1899 - Banjo Pilot(EU).png</image>
@@ -5247,7 +5247,7 @@
     <genre>竞速运动</genre>
     <players>1-4</players>
     <rating>0.90</rating>
-    <desc>《班卓熊飞行员》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《班卓熊飞行员》把 Rare 的班卓熊角色搬进空中竞速，重点在飞机驾驶、道具竞争和角色化赛道。它不是平台动作续作，而是一部带吉祥物气质的掌机飞行赛车，卖点在轻松、热闹和系列角色包装。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1864 - Banjo Pilot(US).png</image>
@@ -5264,7 +5264,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《芭比：公主与乞丐》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《芭比：公主与乞丐》是芭比动画电影改编作，重点在童话包装、角色切换和低压力关卡推进。它面向的不是硬核平台动作玩家，而是喜欢芭比题材、服装气质和轻量冒险节奏的家庭向受众。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1645 - Barbie - The Princess and the Pauper(US).png</image>
@@ -5281,7 +5281,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《芭比：公主与乞丐》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《芭比：公主与乞丐》是芭比动画电影改编作，重点在童话包装、角色切换和低压力关卡推进。它面向的不是硬核平台动作玩家，而是喜欢芭比题材、服装气质和轻量冒险节奏的家庭向受众。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1673 - Barbie - The Princess and the Pauper(EU).png</image>
@@ -5298,7 +5298,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.80</rating>
-    <desc>《芭比与魔法天马》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《芭比与魔法天马》围绕芭比动画电影的奇幻题材展开，重点在童话场景、轻量任务和适合低龄玩家的冒险节奏。它不是靠高难平台动作取胜，而是靠角色、色彩和魔法天马题材形成亲和力。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2202 - Barbie and the Magic of Pegasus(EU).png</image>
@@ -5315,7 +5315,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.80</rating>
-    <desc>《芭比与魔法天马》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《芭比与魔法天马》围绕芭比动画电影的奇幻题材展开，重点在童话场景、轻量任务和适合低龄玩家的冒险节奏。它不是靠高难平台动作取胜，而是靠角色、色彩和魔法天马题材形成亲和力。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2132 - Barbie and the Magic of Pegasus(US).png</image>
@@ -5332,7 +5332,7 @@
     <genre>休闲</genre>
     <players>1-2</players>
     <rating>0.50</rating>
-    <desc>《芭比之森林公主》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《芭比之森林公主》是芭比动画电影改编作，重点在森林、动物伙伴和童话式轻冒险氛围。它的定位很明确：低门槛、粉丝向、重题材包装，不需要用硬核动作或复杂系统来衡量。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2778 - Barbie as the Island Princess(US).png</image>
@@ -5349,7 +5349,7 @@
     <genre>体育</genre>
     <players>1-2</players>
     <rating>0.20</rating>
-    <desc>《芭比：益智游戏合集》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《芭比：益智游戏合集》是一张面向轻松游玩的小游戏合集，内容偏派对、益智和短局挑战。它的重点不在复杂系统，而在芭比题材包装、简单规则和随时开局的便携感，比较适合低门槛休闲玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0599 - Barbie Groovy Games(US).png</image>
@@ -5400,7 +5400,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.50</rating>
-    <desc>《芭比和12个跳舞的公主》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《芭比和12个跳舞的公主》围绕芭比动画电影的舞蹈与童话题材展开，内容更偏轻冒险、收集和面向低龄玩家的关卡推进。它的吸引力主要来自角色包装和梦幻氛围，而不是高难动作挑战。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2663 - Barbie in the 12 Dancing Princesses(EU).png</image>
@@ -5417,7 +5417,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.50</rating>
-    <desc>《芭比和12个跳舞的公主》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《芭比和12个跳舞的公主》围绕芭比动画电影的舞蹈与童话题材展开，内容更偏轻冒险、收集和面向低龄玩家的关卡推进。它的吸引力主要来自角色包装和梦幻氛围，而不是高难动作挑战。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2521 - Barbie in the 12 Dancing Princesses(US).png</image>
@@ -5434,7 +5434,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.30</rating>
-    <desc>《芭比：秘密特工 + 益智游戏合集》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张芭比双合一卡把《秘密特工》和《益智游戏合集》放在一起，前者偏轻动作/任务关卡，后者偏休闲小游戏。它的意义在于把芭比品牌下两种完全不同的掌机节奏合并提供，适合想要题材统一但玩法换口味的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2148 - 2 Games in 1 - Barbie Groovy Games + Secret Agent Barbie - Royal Jewels Mission(US).png</image>
@@ -5451,7 +5451,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.30</rating>
-    <desc>《芭比：秘密特工 + 益智游戏合集》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张芭比双合一卡把《秘密特工》和《益智游戏合集》放在一起，前者偏轻动作/任务关卡，后者偏休闲小游戏。它的意义在于把芭比品牌下两种完全不同的掌机节奏合并提供，适合想要题材统一但玩法换口味的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2162 - 2 Games in 1 - Barbie Groovy Games + Secret Agent Barbie - Royal Jewels Mission(EU).png</image>
@@ -5536,7 +5536,7 @@
     <genre>竞速运动</genre>
     <players>1</players>
     <rating>0.30</rating>
-    <desc>《蝙蝠侠：辛特组的复活》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《蝙蝠侠：辛特组的复活》是蝙蝠侠题材的动作改编，重点在街头战斗、关卡推进和漫画反派带来的任务压力。它显然不是赛车游戏，真正要看的应是蝙蝠侠在 GBA 上如何被压缩成清版动作式的英雄流程。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1223 - Batman - Rise of Sin Tzu(US).png</image>
@@ -5570,7 +5570,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.60</rating>
-    <desc>《蝙蝠侠诞生》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《蝙蝠侠诞生》根据电影《Batman Begins》改编，GBA 版重点在潜入、近身战斗、道具使用和关卡式任务推进。它不该只按普通平台跳跃来看，核心更接近把黑暗骑士的潜行与动作流程压缩成掌机版英雄冒险。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2021 - Batman Begins(UE).png</image>
@@ -5604,7 +5604,7 @@
     <genre>格斗</genre>
     <players>1-2</players>
     <rating>0.70</rating>
-    <desc>《B传说！战斗弹珠人：燃烧吧！弹珠魂》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《B传说！战斗弹珠人：燃烧吧！弹珠魂》是一款以弹珠对射、装备强化和关卡挑战为核心的动作作品。玩家围绕瞄准、发射时机和机体改装来推进战斗，整体更接近动漫改编的掌机轻动作/射击路线，而不是传统对战格斗。它的看点主要在题材代入感、弹珠系统和收集强化带来的成长乐趣。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2463 - Battle B-Daman(US).png</image>
@@ -5638,7 +5638,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《洛克人EXE 2》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《洛克人EXE 2》是一款把网络世界探索与即时卡片战斗结合起来的动作角色扮演游戏。玩家在现实与电网空间之间切换，通过芯片搭配、站位移动和程序事件推进剧情，整体节奏明显不同于传统 JRPG。它的魅力主要在系列独特的战斗系统、收集构筑和数码世界题材。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0243 - Battle Network Rockman EXE 2(JP).png</image>
@@ -5655,7 +5655,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《洛克人EXE 2》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《洛克人EXE 2》是一款把网络世界探索与即时卡片战斗结合起来的动作角色扮演游戏。玩家在现实与电网空间之间切换，通过芯片搭配、站位移动和程序事件推进剧情，整体节奏明显不同于传统 JRPG。它的魅力主要在系列独特的战斗系统、收集构筑和数码世界题材。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2811 - Battle Network RockMan EXE 2(JP).png</image>
@@ -5672,7 +5672,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating>0.90</rating>
-    <desc>《洛克人EXE 3：蓝》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《洛克人EXE 3：蓝》是一款把网络冒险、芯片构筑和即时战斗进一步打磨的动作角色扮演游戏。玩家在现实与电网空间之间来回行动，通过芯片组合、站位反应和程序事件推进流程，整体仍是系列独有的 EXE 路线，而不是传统 JRPG。它的看点主要在更成熟的战斗系统、收集深度和掌机连机乐趣。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0865 - Battle Network Rockman EXE 3 Black(JP).png</image>
@@ -5740,7 +5740,7 @@
     <genre>格斗</genre>
     <players>1-2</players>
     <rating>0.55</rating>
-    <desc>《战斗机器人：超越战斗空间》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《战斗机器人：超越战斗空间》是一款以改装、对战和赛事推进为核心的机器人题材作品。玩家需要围绕零件搭配、机体性能和擂台战斗不断调整策略，整体更接近轻量对战加养成路线，而不是传统一对一格斗。它的看点主要在 BattleBots 题材和不同机体组合带来的变化。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0806 - BattleBots - Beyond the BattleBox(US).png</image>
@@ -5757,7 +5757,7 @@
     <genre>格斗</genre>
     <players>1-2</players>
     <rating>0.40</rating>
-    <desc>《战斗机器人：设计与破坏》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《战斗机器人：设计与破坏》是一款围绕机体设计、部件调整和擂台对战展开的机器人题材作品。玩家需要先搭配机器人性能，再在比赛中利用武器和撞击节奏取胜，整体更像轻量改装加竞技挑战，而不是传统格斗游戏。它的乐趣主要来自自定义和不同机体配置的试验空间。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1183 - BattleBots - Design &amp; Destroy(US).png</image>
@@ -5791,7 +5791,7 @@
     <genre>格斗</genre>
     <players>1-2</players>
     <rating>0.70</rating>
-    <desc>《B传说！战斗弹珠人：燃烧吧！弹珠魂》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《B传说！战斗弹珠人：燃烧吧！弹珠魂》是一款以弹珠对射、装备强化和关卡挑战为核心的动作作品。玩家围绕瞄准、发射时机和机体改装来推进战斗，整体更接近动漫改编的掌机轻动作/射击路线，而不是传统对战格斗。它的看点主要在题材代入感、弹珠系统和收集强化带来的成长乐趣。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1606 - B-Legends! Battle B-Daman - Moero! B-Damashii!!(JP).png</image>
@@ -5876,7 +5876,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.95</rating>
-    <desc>《爆旋陀螺G点旋转》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《爆旋陀螺G点旋转》是一款围绕陀螺比赛、部件调整和赛事推进展开的题材作品。玩家需要根据对手和场地不断搭配零件、参加对战并逐步提升机体性能，整体更偏收集对战和大会流程，而不是传统 JRPG。它的乐趣主要来自爆旋陀螺题材、配件组合和一轮轮挑战对手的掌机节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1798 - Beyblade G-Revolution(EU).png</image>
@@ -5893,7 +5893,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.95</rating>
-    <desc>《爆旋陀螺G点旋转》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《爆旋陀螺G点旋转》是一款围绕陀螺比赛、部件调整和赛事推进展开的题材作品。玩家需要根据对手和场地不断搭配零件、参加对战并逐步提升机体性能，整体更偏收集对战和大会流程，而不是传统 JRPG。它的乐趣主要来自爆旋陀螺题材、配件组合和一轮轮挑战对手的掌机节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1781 - Beyblade G-Revolution(US).png</image>
@@ -5910,7 +5910,7 @@
     <genre>格斗</genre>
     <players>1-2</players>
     <rating>0.60</rating>
-    <desc>《爆旋陀螺V-Force》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《爆旋陀螺V-Force》是一款围绕陀螺对战、部件调整和赛事推进展开的题材作品。玩家需要根据零件组合和比赛表现不断强化机体，整体更偏收集、培养和大会流程，而不是传统格斗。它的看点主要在爆旋陀螺题材、配件搭配和一轮轮挑战对手的掌机节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1253 - Beyblade V-Force - Ultimate Blader Jam(EU).png</image>
@@ -5927,7 +5927,7 @@
     <genre>格斗</genre>
     <players>1-2</players>
     <rating>0.60</rating>
-    <desc>《爆旋陀螺V-Force》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《爆旋陀螺V-Force》是一款围绕陀螺对战、部件调整和赛事推进展开的题材作品。玩家需要根据零件组合和比赛表现不断强化机体，整体更偏收集、培养和大会流程，而不是传统格斗。它的看点主要在爆旋陀螺题材、配件搭配和一轮轮挑战对手的掌机节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1279 - Beyblade V-Force - Ultimate Blader Jam(US).png</image>
@@ -5978,7 +5978,7 @@
     <genre>竞速运动</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《重金属卡车》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《重金属卡车》主打重型卡车驾驶和更粗犷的车辆手感，重点不是轻巧漂移，而是大车在赛道上的惯性、碰撞和力量感。它适合想在 GBA 上换一种驾驶题材的玩家，而不是只追求传统跑车竞速的人。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2312 - Big Mutha Truckers(EU).png</image>
@@ -5995,7 +5995,7 @@
     <genre>竞速运动</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《重金属卡车》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《重金属卡车》主打重型卡车驾驶和更粗犷的车辆手感，重点不是轻巧漂移，而是大车在赛道上的惯性、碰撞和力量感。它适合想在 GBA 上换一种驾驶题材的玩家，而不是只追求传统跑车竞速的人。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2219 - Big Mutha Truckers(US).png</image>
@@ -6029,7 +6029,7 @@
     <genre>格斗</genre>
     <players>1</players>
     <rating>0.80</rating>
-    <desc>《乐高生化战士：暗影迷宫》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《乐高生化战士：暗影迷宫》是一款以迷宫探索、近战清敌和机关推进为核心的动作冒险作品。玩家在黑暗地城中一路前进、解开路线并与敌人交战，整体更偏俯视角或迷宫式动作流程，而不是传统格斗。它的看点主要在生化战士题材、关卡推进感和掌机上相对紧凑的冒险节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1945 - Bionicle - Maze of Shadows(EU).png</image>
@@ -6046,7 +6046,7 @@
     <genre>格斗</genre>
     <players>1</players>
     <rating>0.80</rating>
-    <desc>《乐高生化战士：暗影迷宫》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《乐高生化战士：暗影迷宫》是一款以迷宫探索、近战清敌和机关推进为核心的动作冒险作品。玩家在黑暗地城中一路前进、解开路线并与敌人交战，整体更偏俯视角或迷宫式动作流程，而不是传统格斗。它的看点主要在生化战士题材、关卡推进感和掌机上相对紧凑的冒险节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2140 - Bionicle - Maze of Shadows(US).png</image>
@@ -6267,7 +6267,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《魔笛师传说》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《魔笛师传说》是一款以地城探索和恶魔收集为核心的掌机 RPG。玩家在迷宫中前进、战斗，并尝试说服恶魔加入队伍，再通过相性组合与合成培育出更强的成员。它的看点主要在劝诱、合体和不断向更深层地城推进的循环。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0328 - Black Black - Bura Bura(JP).png</image>
@@ -6284,7 +6284,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《正邪幻想曲Zero》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《正邪幻想曲Zero》是一款以格子地图推进、单位培养和回合制战斗为核心的战棋 SRPG。玩家需要围绕角色站位、兵种能力和关卡目标逐步推进战局，整体更接近掌机战术游戏，而不是通用 JRPG 模板。它的看点主要在黑暗奇幻题材、阵营气氛和一关关推进的策略感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0564 - Black Matrix Zero(JP).png</image>
@@ -6437,7 +6437,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating />
-    <desc>《爆裂鼻毛真拳：9极战士 搞笑融合》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《爆裂鼻毛真拳：9极战士 搞笑融合》是一款把搞笑动漫题材、角色对战和合体要素结合起来的改编作品。玩家围绕角色招式、夸张演出和题材小游戏不断推进，整体更像粉丝向的轻量对战/冒险路线，而不是通用 JRPG 模板。它的看点主要在原作恶搞气质和角色混合带来的变化。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1440 - Boboboubo Boubobo - 9 Kyoku Senshi Gag Yuugou(JP).png</image>
@@ -6471,7 +6471,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating />
-    <desc>《爆裂鼻毛真拳：真拳战斗》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《爆裂鼻毛真拳：真拳战斗》是一款以夸张搞笑招式、角色对抗和题材演出为核心的改编作品。玩家围绕角色能力、对战节奏和原作式胡闹气氛不断推进，整体更接近粉丝向轻对战路线，而不是传统 JRPG。它的乐趣主要来自《爆裂鼻毛真拳》特有的恶搞感和角色招式表现。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1137 - Boboboubo Boubobo - Maji de!! Shinken Battle(JP).png</image>
@@ -6488,7 +6488,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating />
-    <desc>《爆裂鼻毛真拳：奥义87.5》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《爆裂鼻毛真拳：奥义87.5》是一款以恶搞角色、夸张招式和题材改编乐趣为核心的掌机作品。玩家围绕角色对抗、特殊招式和原作式搞笑演出不断推进，整体更像动漫改编的轻量动作/对战路线，而不是通用 JRPG 模板。它的吸引力主要在题材辨识度和胡闹风格带来的娱乐感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0835 - Boboboubo Boubobo - Ougi 87.5 Bakuretsu Hanage Shinken(JP).png</image>
@@ -6539,7 +6539,7 @@
     <genre>平台动作</genre>
     <players>1-4</players>
     <rating>0.90</rating>
-    <desc>《续·我们的太阳：太阳少年加戈》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《续·我们的太阳：太阳少年加戈》延续了小岛秀夫系掌机动作冒险的太阳能题材，核心在地城探索、潜入式推进和阳光能量管理。它不是普通横版平台动作，而是把 GBA 硬件特色、吸血鬼题材和资源控制结合起来的异色续作。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2013 - Boktai 2 - Solar Boy Django(EU).png</image>
@@ -6556,7 +6556,7 @@
     <genre>平台动作</genre>
     <players>1-4</players>
     <rating>0.90</rating>
-    <desc>《续·我们的太阳：太阳少年加戈》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《续·我们的太阳：太阳少年加戈》延续了小岛秀夫系掌机动作冒险的太阳能题材，核心在地城探索、潜入式推进和阳光能量管理。它不是普通横版平台动作，而是把 GBA 硬件特色、吸血鬼题材和资源控制结合起来的异色续作。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1719 - Boktai 2 - Solar Boy Django(US).png</image>
@@ -6607,7 +6607,7 @@
     <genre>模拟</genre>
     <players>1</players>
     <rating>0.80</rating>
-    <desc>《牧场物语：矿石镇的伙伴们 女孩篇》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《牧场物语：矿石镇的伙伴们 女孩篇》把经典农场生活换成女性主角视角，核心仍是种田、养动物、经营日程、交友和恋爱。它的魅力不在刺激反馈，而在日复一日把小镇生活经营出个人节奏，是 GBA 上很耐玩的生活模拟作。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1324 - Bokujou Monogatari - Mineral Town no Nakamatachi for Girl(JP).png</image>
@@ -6760,7 +6760,7 @@
     <genre>平台动作</genre>
     <players>1-4</players>
     <rating>0.70</rating>
-    <desc>《炸弹人传说》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《炸弹人传说》把炸弹人系列的爆破解谜和动作冒险结构结合起来，玩家通过放置炸弹、清理障碍、击败敌人来推进区域。它不是传统平台跳跃，而是更偏俯视角探索与炸弹机制的掌机冒险，系列辨识度很强。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0027 - Bomberman Story(JP).png</image>
@@ -6777,7 +6777,7 @@
     <genre>平台动作</genre>
     <players>1-4</players>
     <rating>0.70</rating>
-    <desc>《炸弹人传说》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《炸弹人传说》把炸弹人系列的爆破解谜和动作冒险结构结合起来，玩家通过放置炸弹、清理障碍、击败敌人来推进区域。它不是传统平台跳跃，而是更偏俯视角探索与炸弹机制的掌机冒险，系列辨识度很强。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0058 - Bomberman Tournament(UE).png</image>
@@ -6811,7 +6811,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《冒险游记：传说之门》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《冒险游记：传说之门》是一款把动画题材、怪物培养和冒险推进结合起来的掌机 RPG。玩家围绕队伍成长、敌人挑战和剧情事件不断前进，整体更偏子供向收集养成冒险，而不是空泛的 JRPG 模板。它的看点主要在题材代入感、角色培养和轻快的掌机推进节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1035 - Bouken Yuuki Pluster World - Densetsu no Plust Gate(JP).png</image>
@@ -6828,7 +6828,7 @@
     <genre>RPG</genre>
     <players>1-4</players>
     <rating />
-    <desc>《冒险游记：传说之门EX》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《冒险游记：传说之门EX》延续了《冒险游记》系在怪物培养、队伍成长和题材冒险上的掌机 RPG 路线。玩家围绕角色强化、队伍编成和剧情推进不断扩展玩法，整体仍偏向子供向收集养成节奏。它的魅力主要在系列题材、成长感和比前作更完整的掌机内容量。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2027 - Bouken Yuuki Pluster World - Densetsu no Plust Gate EX(JP).png</image>
@@ -6862,7 +6862,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《冒险王比特：克星之路》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《冒险王比特：克星之路》是一款把少年漫画题材、队伍成长和冒险推进结合起来的掌机 RPG。玩家围绕角色能力、敌人挑战和剧情事件不断前进，整体更偏动漫改编的王道冒险路线，而不是空泛的 JRPG 模板。它的看点主要在原作题材、角色成长和粉丝向代入感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1870 - Bouken-Ou Beet - Busters Road(JP).png</image>
@@ -9361,7 +9361,7 @@
     <genre>合集</genre>
     <players />
     <rating />
-    <desc>《古惑狼&amp;小龙斯派罗超级包 卷2》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《古惑狼&amp;小龙斯派罗超级包 卷2》把《小龙斯派罗2：火焰季节》和《古惑狼赛车》装在一起，一边是平台冒险，一边是卡丁车竞速。它的组合比卷1更换口味，适合想在斯派罗探索和古惑狼赛车之间切换的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2054 - 2 Games in 1 - Spyro 2 - Season of Flame + Crash Nitro Kart(EU).png</image>
@@ -9395,7 +9395,7 @@
     <genre>合集</genre>
     <players />
     <rating />
-    <desc>《古惑狼&amp;小龙斯派罗超级包：小龙斯派罗：冰雪季节 + 古惑狼：无尽的冒险》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张《古惑狼&amp;小龙斯派罗超级包》把《小龙斯派罗：冰雪季节》和《古惑狼：无尽的冒险》收在一起，都是 GBA 早期很有代表性的掌机平台动作作品。它的吸引力在于一张卡同时补两大吉祥物系列的掌机起点。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2784 - 2 Games in 1 - Crash &amp; Spyro Super Pack - Spyro - Season of Ice + Crash Bandicoot - The Huge Adventure(US).png</image>
@@ -10160,7 +10160,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《我爱泰迪熊》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《我爱泰迪熊》是一款以照料、互动和轻量陪伴内容为核心的休闲作品。玩家更多是在掌机上围绕宠物熊或玩偶题材进行简单操作与日常推进，整体更接近儿童向养成或小品游戏，而不是传统角色扮演游戏。它的吸引力主要来自题材可爱和轻松无压力的节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0625 - Daisuki Teddy(JP).png</image>
@@ -10551,7 +10551,7 @@
     <genre>格斗</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《三角洲空军部队》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《三角洲空军部队》是一款以现代空战和任务制关卡为核心的飞行射击游戏。玩家驾驶战机完成拦截、突击和空中缠斗等任务，体验更偏向掌机化的飞行战斗路线，而不是传统格斗。它的看点主要在战机题材、任务节奏和空中机动带来的压迫感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0698 - Deadly Skies(EU).png</image>
@@ -10670,7 +10670,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.60</rating>
-    <desc>《真女神转生：光之书》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《真女神转生：光之书》是《恶魔之子》系的一部掌机 RPG，核心在于恶魔收集、属性相克和队伍培养。它比本传《真女神转生》更偏向面向年轻玩家的分支路线，但仍保留了系列招牌的仲魔、合成和世界观气质。对喜欢收集培养和怪物编队的玩家来说，这类作品很容易投入很久。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1202 - DemiKids - Light Version(US).png</image>
@@ -10772,7 +10772,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《传说的斯塔菲》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《传说的斯塔菲》是任天堂阵营里气质很可爱的平台动作作品，主角斯塔菲看上去软萌，实际移动和水中操作都相当灵活。它和马力欧系平台游戏不同，整体更圆润、更亲切，也因此在日本有稳定的系列粉丝。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0579 - Densetsu no Stafy(JP).png</image>
@@ -10789,7 +10789,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《传说的斯塔菲2》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《传说的斯塔菲2》在前作轻快手感基础上继续扩展内容，依旧强调水中与陆地混合的灵活闯关节奏。系列最讨喜的地方，是它既有任天堂平台动作的扎实设计，又保留了非常独特的可爱风味。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1143 - Densetsu no Stafy 2(JP).png</image>
@@ -10806,7 +10806,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《传说的斯塔菲3》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《传说的斯塔菲3》是 GBA 时期的系列收束作之一，关卡内容和角色互动都比前作更成熟。它看着很儿童向，真正玩起来却相当顺手，尤其适合喜欢轻松平台动作和可爱世界观的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1609 - Densetsu no Stafy 3(JP).png</image>
@@ -10823,7 +10823,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《传说的斯塔菲3》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《传说的斯塔菲3》是 GBA 时期的系列收束作之一，关卡内容和角色互动都比前作更成熟。它看着很儿童向，真正玩起来却相当顺手，尤其适合喜欢轻松平台动作和可爱世界观的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2818 - Densetsu no Stafy 3(JP).png</image>
@@ -10993,7 +10993,7 @@
     <genre>清版动作</genre>
     <players>1</players>
     <rating>0.55</rating>
-    <desc>《超人总动员》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《超人总动员》把超能一家人的团队概念做进了动作关卡里，不同角色能力切换是它最重要的卖点。比起单一主角一路打到底，这种“全家都有用武之地”的设计更能体现原作魅力。对喜欢电影的人来说，角色分工和题材还原感就是它最吸引人的部分。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1793 - Unglaublichen, Die(DE).png</image>
@@ -11095,7 +11095,7 @@
     <genre>格斗</genre>
     <players>1-2</players>
     <rating>0.65</rating>
-    <desc>《数码宝贝：格斗之魂2》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《数码宝贝：格斗之魂2》是数码宝贝题材的对战动作游戏，核心在不同数码兽的招式、进化演出和多人乱斗节奏。它的看点不是剧情养成，而是把动画角色压进短局、直接、容易反复开的掌机格斗体验。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1916 - Digimon - Battle Spirit 2(EU).png</image>
@@ -11112,7 +11112,7 @@
     <genre>格斗</genre>
     <players>1-2</players>
     <rating>0.65</rating>
-    <desc>《数码宝贝：格斗之魂2》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《数码宝贝：格斗之魂2》是数码宝贝题材的对战动作游戏，核心在不同数码兽的招式、进化演出和多人乱斗节奏。它的看点不是剧情养成，而是把动画角色压进短局、直接、容易反复开的掌机格斗体验。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1182 - Digimon - Battle Spirit 2(US).png</image>
@@ -11129,7 +11129,7 @@
     <genre>格斗</genre>
     <players>1-4</players>
     <rating>0.40</rating>
-    <desc>《数码宝贝赛车》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《数码宝贝赛车》把数码兽角色放进卡丁车式竞速里，重点在角色化赛道、道具干扰和轻松的多人竞赛感。它不是养成 RPG，而是用数码宝贝题材包装的掌机派对赛车。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1467 - Digimon Racing(EU).png</image>
@@ -11146,7 +11146,7 @@
     <genre>格斗</genre>
     <players>1-4</players>
     <rating>0.40</rating>
-    <desc>《数码宝贝赛车》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《数码宝贝赛车》把数码兽角色放进卡丁车式竞速里，重点在角色化赛道、道具干扰和轻松的多人竞赛感。它不是养成 RPG，而是用数码宝贝题材包装的掌机派对赛车。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1441 - Digimon Racing(JP).png</image>
@@ -11163,7 +11163,7 @@
     <genre>格斗</genre>
     <players>1-4</players>
     <rating>0.40</rating>
-    <desc>《数码宝贝赛车》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《数码宝贝赛车》把数码兽角色放进卡丁车式竞速里，重点在角色化赛道、道具干扰和轻松的多人竞赛感。它不是养成 RPG，而是用数码宝贝题材包装的掌机派对赛车。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1633 - Digimon Racing(US).png</image>
@@ -11214,7 +11214,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.80</rating>
-    <desc>《迪士尼公主》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《迪士尼公主》把多位迪士尼公主的童话场景做成低门槛掌机冒险，重点在角色题材、轻量任务和家庭向节奏。它不是硬核平台动作，而是让目标玩家在熟悉的公主世界里完成简单关卡与收集。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1939 - Disney Princesas(ES).png</image>
@@ -11248,7 +11248,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.80</rating>
-    <desc>《迪士尼公主》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《迪士尼公主》把多位迪士尼公主的童话场景做成低门槛掌机冒险，重点在角色题材、轻量任务和家庭向节奏。它不是硬核平台动作，而是让目标玩家在熟悉的公主世界里完成简单关卡与收集。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0942 - Disney Princess(UE).png</image>
@@ -11282,7 +11282,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.80</rating>
-    <desc>《迪士尼公主》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《迪士尼公主》把多位迪士尼公主的童话场景做成低门槛掌机冒险，重点在角色题材、轻量任务和家庭向节奏。它不是硬核平台动作，而是让目标玩家在熟悉的公主世界里完成简单关卡与收集。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1220 - Disney Princesse(FR).png</image>
@@ -11299,7 +11299,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.80</rating>
-    <desc>《迪士尼公主》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《迪士尼公主》把多位迪士尼公主的童话场景做成低门槛掌机冒险，重点在角色题材、轻量任务和家庭向节奏。它不是硬核平台动作，而是让目标玩家在熟悉的公主世界里完成简单关卡与收集。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1372 - Disney Principesse(IT).png</image>
@@ -11418,7 +11418,7 @@
     <genre>竞速运动</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《迪士尼运动：越野摩托》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《迪士尼运动：越野摩托》把迪士尼角色放进越野摩托赛道，卖点在角色化包装、跳跃地形和轻松竞速。它比普通摩托赛车更偏家庭向和派对感，适合短局比赛而不是严肃模拟驾驶。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1068 - Disney Sports - Motocross(EU).png</image>
@@ -11435,7 +11435,7 @@
     <genre>竞速运动</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《迪士尼运动：越野摩托》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《迪士尼运动：越野摩托》把迪士尼角色放进越野摩托赛道，卖点在角色化包装、跳跃地形和轻松竞速。它比普通摩托赛车更偏家庭向和派对感，适合短局比赛而不是严肃模拟驾驶。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1058 - Disney Sports - Motocross(JP).png</image>
@@ -11452,7 +11452,7 @@
     <genre>竞速运动</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《迪士尼运动：越野摩托》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《迪士尼运动：越野摩托》把迪士尼角色放进越野摩托赛道，卖点在角色化包装、跳跃地形和轻松竞速。它比普通摩托赛车更偏家庭向和派对感，适合短局比赛而不是严肃模拟驾驶。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0987 - Disney Sports - Motocross(US).png</image>
@@ -11622,7 +11622,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.65</rating>
-    <desc>《迪士尼 灰姑娘：魔法之梦》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《迪士尼 灰姑娘：魔法之梦》围绕《灰姑娘》的童话题材展开，重点在轻量任务、熟悉场景和低压力家庭向节奏。它更像迪士尼公主线的掌机小冒险，而不是追求高难平台动作的作品。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2430 - Cinderella - Magical Dreams(EU).png</image>
@@ -11639,7 +11639,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.65</rating>
-    <desc>《迪士尼 灰姑娘：魔法之梦》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《迪士尼 灰姑娘：魔法之梦》围绕《灰姑娘》的童话题材展开，重点在轻量任务、熟悉场景和低压力家庭向节奏。它更像迪士尼公主线的掌机小冒险，而不是追求高难平台动作的作品。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2152 - Cinderella - Magical Dreams(US).png</image>
@@ -11928,7 +11928,7 @@
     <genre>教育</genre>
     <players>1</players>
     <rating>0.85</rating>
-    <desc>《宠物狗》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《宠物狗》是一款面向低龄和休闲玩家的宠物照料作品，重点在给小狗喂养、互动、训练和完成日常目标。它的乐趣不是强对抗，而是用可爱题材和短循环在掌机上营造轻松陪伴感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2577 - Dogz(EU).png</image>
@@ -11945,7 +11945,7 @@
     <genre>教育</genre>
     <players>1</players>
     <rating>0.85</rating>
-    <desc>《宠物狗》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《宠物狗》是一款面向低龄和休闲玩家的宠物照料作品，重点在给小狗喂养、互动、训练和完成日常目标。它的乐趣不是强对抗，而是用可爱题材和短循环在掌机上营造轻松陪伴感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2668 - Dogz(EU).png</image>
@@ -11962,7 +11962,7 @@
     <genre>教育</genre>
     <players>1</players>
     <rating>0.85</rating>
-    <desc>《宠物狗》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《宠物狗》是一款面向低龄和休闲玩家的宠物照料作品，重点在给小狗喂养、互动、训练和完成日常目标。它的乐趣不是强对抗，而是用可爱题材和短循环在掌机上营造轻松陪伴感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2758 - Dogz(FR).png</image>
@@ -11979,7 +11979,7 @@
     <genre>教育</genre>
     <players>1</players>
     <rating>0.85</rating>
-    <desc>《宠物狗》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《宠物狗》是一款面向低龄和休闲玩家的宠物照料作品，重点在给小狗喂养、互动、训练和完成日常目标。它的乐趣不是强对抗，而是用可爱题材和短循环在掌机上营造轻松陪伴感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2278 - Dogz(US).png</image>
@@ -11996,7 +11996,7 @@
     <genre>模拟</genre>
     <players>1-2</players>
     <rating>0.30</rating>
-    <desc>《宠物狗2（Dogz 2）》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《宠物狗2（Dogz 2）》延续宠物照料路线，重点仍是和小狗互动、完成日常养成目标，并用更丰富的宠物生活内容支撑碎片时间游玩。它适合喜欢轻松陪伴型软件的玩家，而不是追求动作或竞速刺激的人。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2747 - Dogz 2(EU).png</image>
@@ -12013,7 +12013,7 @@
     <genre>模拟</genre>
     <players>1-2</players>
     <rating>0.30</rating>
-    <desc>《宠物狗2（Dogz 2）》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《宠物狗2（Dogz 2）》延续宠物照料路线，重点仍是和小狗互动、完成日常养成目标，并用更丰富的宠物生活内容支撑碎片时间游玩。它适合喜欢轻松陪伴型软件的玩家，而不是追求动作或竞速刺激的人。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2754 - Dogz 2(EU).png</image>
@@ -12132,7 +12132,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《多摩君之不可思议的电视》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《多摩君之不可思议的电视》是一款以迷你游戏、题材互动和轻量挑战为核心的趣味作品。玩家围绕电视节目式的小关卡和角色互动不断推进，整体更像卡通题材的掌机小品合集，而不是传统 JRPG。它的看点主要在多摩君的角色魅力和短局式游玩节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0331 - Domo-kun no Fushigi Terebi(JP).png</image>
@@ -12234,7 +12234,7 @@
     <genre>平台动作</genre>
     <players>1-4</players>
     <rating>0.90</rating>
-    <desc>《超级大金刚2》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《超级大金刚2》把 SFC 名作《Donkey Kong Country 2》带到 GBA 上，核心是迪迪与迪克茜的双角色平台动作、隐藏收集和高密度关卡设计。它不是普通授权平台游戏，而是 Rare 时代大金刚系列最有代表性的掌机移植之一。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1540 - Donkey Kong Country 2(EU).png</image>
@@ -12251,7 +12251,7 @@
     <genre>平台动作</genre>
     <players>1-4</players>
     <rating>0.90</rating>
-    <desc>《超级大金刚2》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《超级大金刚2》把 SFC 名作《Donkey Kong Country 2》带到 GBA 上，核心是迪迪与迪克茜的双角色平台动作、隐藏收集和高密度关卡设计。它不是普通授权平台游戏，而是 Rare 时代大金刚系列最有代表性的掌机移植之一。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1776 - Donkey Kong Country 2(US).png</image>
@@ -12268,7 +12268,7 @@
     <genre>平台动作</genre>
     <players>1-2</players>
     <rating>0.85</rating>
-    <desc>《超级大金刚3》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《超级大金刚3》把《Donkey Kong Country 3》的双角色冒险移到 GBA，重点在迪克茜与丁奇的能力差异、地图探索、隐藏收集和多样关卡。它的分量来自经典平台动作移植本身，而不只是“能跳能收集”的通用类型。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2214 - Donkey Kong Country 3(EU).png</image>
@@ -12285,7 +12285,7 @@
     <genre>平台动作</genre>
     <players>1-2</players>
     <rating>0.85</rating>
-    <desc>《超级大金刚3》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《超级大金刚3》把《Donkey Kong Country 3》的双角色冒险移到 GBA，重点在迪克茜与丁奇的能力差异、地图探索、隐藏收集和多样关卡。它的分量来自经典平台动作移植本身，而不只是“能跳能收集”的通用类型。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2220 - Donkey Kong Country 3(US).png</image>
@@ -12319,7 +12319,7 @@
     <genre>平台射击</genre>
     <players>1-4</players>
     <rating>0.60</rating>
-    <desc>《毁灭战士II》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《毁灭战士II》是经典第一人称射击名作的 GBA 移植版，核心仍是高速移动、钥匙门探索、恶魔群战和资源压力。它的意义在于把这种老派硬核 FPS 体验压进掌机，哪怕受硬件限制，也依然很有冲劲。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1579 - Doom II(EU).png</image>
@@ -12336,7 +12336,7 @@
     <genre>平台射击</genre>
     <players>1-4</players>
     <rating>0.60</rating>
-    <desc>《毁灭战士II》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《毁灭战士II》是经典第一人称射击名作的 GBA 移植版，核心仍是高速移动、钥匙门探索、恶魔群战和资源压力。它的意义在于把这种老派硬核 FPS 体验压进掌机，哪怕受硬件限制，也依然很有冲劲。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0686 - Doom II(US).png</image>
@@ -12455,7 +12455,7 @@
     <genre>桌游</genre>
     <players>1-4</players>
     <rating />
-    <desc>《机器猫：棋盘游戏》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《机器猫：棋盘游戏》把哆啦A梦角色放进桌面棋盘式玩法里，重点在掷骰推进、道具事件和多人同乐感。它的价值主要来自角色题材和轻松派对节奏，而不是传统动作或冒险流程。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0427 - Doraemon - Dokodemo Walker(JP).png</image>
@@ -12523,7 +12523,7 @@
     <genre>赌博</genre>
     <players>1</players>
     <rating>0.60</rating>
-    <desc>《黄金掘金赌场&amp;德州扑克》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《黄金掘金赌场&amp;德州扑克》是一张赌场题材双包，重点在把常见赌场项目和德州扑克对局放进掌机环境。它的乐趣不在剧情推进，而在规则熟悉、下注选择和短局胜负，属于很明确的便携休闲牌桌软件。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2046 - 2 Games in 1 - Golden Nugget Casino + Texas Hold'em Poker(US).png</image>
@@ -12574,7 +12574,7 @@
     <genre>赌博</genre>
     <players>1</players>
     <rating>0.60</rating>
-    <desc>《黄金掘金赌场&amp;德州扑克》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《黄金掘金赌场&amp;德州扑克》是一张赌场题材双包，重点在把常见赌场项目和德州扑克对局放进掌机环境。它的乐趣不在剧情推进，而在规则熟悉、下注选择和短局胜负，属于很明确的便携休闲牌桌软件。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2332 - 2 Games in 1 - Golden Nugget Casino + Texas Hold'em Poker(EU).png</image>
@@ -12625,7 +12625,7 @@
     <genre>合集</genre>
     <players>1-4</players>
     <rating>0.65</rating>
-    <desc>《索尼克Advance + 索尼克：战斗》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>这张合辑把《索尼克Advance》和《索尼克：战斗》并在一起，前者是高速平台动作，后者则把索尼克角色拉进更直接的对战结构。它的价值在于一张卡同时覆盖跑关和格斗两种节奏，适合想看系列在 GBA 上不同侧面的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2401 - 2 Games in 1 - Sonic Battle + Sonic Advance(JP).png</image>
@@ -12676,7 +12676,7 @@
     <genre>竞速运动</genre>
     <players>1</players>
     <rating>0.50</rating>
-    <desc>《下压力赛车》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《下压力赛车》主打方程式风格的公路竞速，重点在高速赛道、过弯稳定性和不断压低圈速。它的题材比卡通赛车更严肃，适合想在 GBA 上体验轻量化开放轮赛车节奏的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0440 - Downforce(UE).png</image>
@@ -12693,7 +12693,7 @@
     <genre>清版动作</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《热血物语EX》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《热血物语EX》把《国夫君》系列标志性的街头乱斗、角色成长和校园帮派喜剧感重新带到 GBA 上。它不是单纯清版动作，真正的味道在于一边打架一边买东西强化、推进街区事件，老派但很有个性。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1400 - Downtown - Nekketsu Monogatari EX(JP).png</image>
@@ -12761,7 +12761,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.50</rating>
-    <desc>《苏斯博士：绿鸡蛋和火腿》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《苏斯博士：绿鸡蛋和火腿》是童书题材的家庭向平台动作改编，重点在夸张角色、轻松关卡和适合低龄玩家的推进节奏。它的卖点更多来自苏斯博士式的奇趣包装，而不是高难度操作挑战。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1288 - Green Eggs and Ham by Dr. Seuss(US).png</image>
@@ -12778,7 +12778,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.40</rating>
-    <desc>《苏斯博士：戴帽子的猫》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《苏斯博士：戴帽子的猫》把经典童书角色改成 GBA 平台动作，重点在奇怪场景、轻量收集和家庭向关卡推进。它更适合按授权童书改编小品来理解，而不是拿硬核平台游戏标准去衡量。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1244 - Dr. Seuss' The Cat in the Hat(US).png</image>
@@ -13135,7 +13135,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《驭龙少年》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《驭龙少年》是一款把驭龙题材、怪物培养和冒险推进结合起来的掌机 RPG。玩家围绕龙兽编队、能力成长和剧情事件不断前进，整体更偏动漫改编的收集养成路线，而不是泛泛的 JRPG 模板。它的看点主要在龙兽题材、队伍培养和粉丝向冒险氛围。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1112 - Dragon Drive - World D Break(JP).png</image>
@@ -13152,7 +13152,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《特鲁尼克大冒险2：不可思议的迷宫》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《特鲁尼克大冒险2：不可思议的迷宫》是一款以随机迷宫为核心的 roguelike RPG。玩家每次下地城都会面对重新生成的楼层、道具和敌人配置，既要权衡资源，也要承担倒下后损失战利品的风险。它的魅力不在长篇剧情，而在一趟趟试探、回收和再挑战带来的紧张感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0258 - Dragon Quest Characters - Torneco no Daibouken 2 Advance - Fushigi no Dungeon(JP).png</image>
@@ -13186,7 +13186,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《勇者斗恶龙怪兽篇：旅团之心》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《勇者斗恶龙怪兽篇：旅团之心》是一款以怪物收集、队伍编成和旅团推进为核心的掌机 RPG。玩家需要围绕怪物招募、培养和路线选择不断扩充队伍，体验与正传不同的怪物系冒险节奏。它的魅力主要在《勇者斗恶龙》怪物阵容、收集养成和便携式长线培养感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0930 - Dragon Quest Monsters - Caravan Heart(JP).png</image>
@@ -13254,7 +13254,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《螺旋破坏者：轰振钻子》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《螺旋破坏者：轰振钻子》是 Game Freak 在 GBA 上很有个性的动作作品，核心围绕“钻头”展开：钻开障碍、切换转向、解谜并打穿敌人。它的魅力正是这个单一机制被不断变化使用，而不是普通平台跳跃模板。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2308 - Drill Dozer(US).png</image>
@@ -13271,7 +13271,7 @@
     <genre>竞速运动</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《车神3》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《车神3》是《Driver》系列在 GBA 上的移植/改编，重点不是单纯跑圈竞速，而是城市驾驶、任务推进、追逐和犯罪电影式氛围。它更适合当作驾驶动作游戏来看，而不是传统赛道赛车。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2172 - Driver 3(EU).png</image>
@@ -13492,7 +13492,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating>0.65</rating>
-    <desc>《决斗大师：前辈传奇》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《决斗大师：前辈传奇》是一款把卡牌对战、卡组构筑和冒险推进结合起来的题材改编作品。玩家围绕牌组强化、对手挑战和事件推进不断前进，整体更像集换式卡牌题材的掌机 RPG，而不是泛泛的 JRPG 模板。它的看点主要在决斗大师世界观、牌组搭配和逐步变强的收集感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1735 - Duel Masters - Sempai Legends(EU).png</image>
@@ -13509,7 +13509,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating>0.65</rating>
-    <desc>《决斗大师：前辈传奇》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《决斗大师：前辈传奇》是一款把卡牌对战、卡组构筑和冒险推进结合起来的题材改编作品。玩家围绕牌组强化、对手挑战和事件推进不断前进，整体更像集换式卡牌题材的掌机 RPG，而不是泛泛的 JRPG 模板。它的看点主要在决斗大师世界观、牌组搭配和逐步变强的收集感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1511 - Duel Masters - Sempai Legends(US).png</image>
@@ -13628,7 +13628,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.50</rating>
-    <desc>《龙与地下城：魔眼杀机》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《龙与地下城：魔眼杀机》是一款以迷宫探索、队伍管理和第一人称地牢推进为核心的角色扮演游戏。玩家在狭窄地下城中围绕地图探索、战斗和资源消耗逐步前进，整体更接近经典西式地牢 RPG，而不是普通日式 RPG。它的看点主要在《龙与地下城》题材和偏硬核的迷宫气氛。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0758 - Dungeons &amp; Dragons - Eye of the Beholder(EU).png</image>
@@ -13645,7 +13645,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.50</rating>
-    <desc>《龙与地下城：魔眼杀机》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《龙与地下城：魔眼杀机》是一款以迷宫探索、队伍管理和第一人称地牢推进为核心的角色扮演游戏。玩家在狭窄地下城中围绕地图探索、战斗和资源消耗逐步前进，整体更接近经典西式地牢 RPG，而不是普通日式 RPG。它的看点主要在《龙与地下城》题材和偏硬核的迷宫气氛。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0706 - Dungeons &amp; Dragons - Eye of the Beholder(US).png</image>
@@ -14036,7 +14036,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《龙骑士》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《龙骑士》是一款改编自奇幻电影题材的动作 RPG。玩家围绕近战攻击、能力成长、任务推进和场景探索不断前进，整体更接近西式奇幻冒险在掌机上的简化版本，而不是传统日式 RPG 的节奏。它的卖点主要在驭龙题材、电影改编氛围和偏动作化的推进方式。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2586 - Eragon(EU).png</image>
@@ -14053,7 +14053,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《龙骑士》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《龙骑士》是一款改编自奇幻电影题材的动作 RPG。玩家围绕近战攻击、能力成长、任务推进和场景探索不断前进，整体更接近西式奇幻冒险在掌机上的简化版本，而不是传统日式 RPG 的节奏。它的卖点主要在驭龙题材、电影改编氛围和偏动作化的推进方式。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2587 - Eragon(US).png</image>
@@ -14070,7 +14070,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《武器种族传说：被封印的诗歌》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《武器种族传说：被封印的诗歌》是一款把动漫题材、角色成长和冒险推进结合起来的掌机 RPG。玩家围绕角色能力、队伍协作和剧情事件不断前进，整体更偏粉丝向奇幻冒险路线，而不是空泛的 JRPG 模板。它的魅力主要在《武器种族传说》世界观、角色关系和题材代入感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2047 - Erementar Gerad(JP).png</image>
@@ -15617,7 +15617,7 @@
     <genre>格斗</genre>
     <players>1</players>
     <rating>0.90</rating>
-    <desc>《最终幻想VI Advance》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《最终幻想VI Advance》是《最终幻想VI》的 GBA 掌机强化移植版，以多主角群像叙事、ATB 指令战斗和后期角色培养为核心魅力。玩家将穿越魔导科技与帝国战争交织的世界，逐步集结同伴、推进剧情，并在掌机版中体验追加迷宫、额外召唤兽与补充内容。它最吸引人的地方不只是名作移植，而是那种兼具史诗感、人物塑造和系统深度的经典 JRPG 气质。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2753 - Final Fantasy VI Advance(EU).png</image>
@@ -15634,7 +15634,7 @@
     <genre>格斗</genre>
     <players>1</players>
     <rating>0.90</rating>
-    <desc>《最终幻想VI Advance》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《最终幻想VI Advance》是《最终幻想VI》的 GBA 掌机强化移植版，以多主角群像叙事、ATB 指令战斗和后期角色培养为核心魅力。玩家将穿越魔导科技与帝国战争交织的世界，逐步集结同伴、推进剧情，并在掌机版中体验追加迷宫、额外召唤兽与补充内容。它最吸引人的地方不只是名作移植，而是那种兼具史诗感、人物塑造和系统深度的经典 JRPG 气质。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2689 - Final Fantasy VI Advance(US).png</image>
@@ -15651,7 +15651,7 @@
     <genre>清版动作</genre>
     <players>1-2</players>
     <rating>0.75</rating>
-    <desc>《快打旋风One》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《快打旋风One》把清版动作黄金时代最有代表性的招牌之一带到了 GBA 上。玩家围绕走位、连段、抓投和清场节奏一路打穿街头关卡，体验仍然是最经典的横向清版路线。对喜欢老派街机味和《快打旋风》名号的玩家来说，便携化本身就是它的重要价值。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0083 - Final Fight One(EU).png</image>
@@ -15668,7 +15668,7 @@
     <genre>清版动作</genre>
     <players>1-2</players>
     <rating>0.75</rating>
-    <desc>《快打旋风One》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《快打旋风One》把清版动作黄金时代最有代表性的招牌之一带到了 GBA 上。玩家围绕走位、连段、抓投和清场节奏一路打穿街头关卡，体验仍然是最经典的横向清版路线。对喜欢老派街机味和《快打旋风》名号的玩家来说，便携化本身就是它的重要价值。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0026 - Final Fight One(JP).png</image>
@@ -15685,7 +15685,7 @@
     <genre>清版动作</genre>
     <players>1-2</players>
     <rating>0.75</rating>
-    <desc>《快打旋风One》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《快打旋风One》把清版动作黄金时代最有代表性的招牌之一带到了 GBA 上。玩家围绕走位、连段、抓投和清场节奏一路打穿街头关卡，体验仍然是最经典的横向清版路线。对喜欢老派街机味和《快打旋风》名号的玩家来说，便携化本身就是它的重要价值。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0128 - Final Fight One(US).png</image>
@@ -17708,7 +17708,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating>0.70</rating>
-    <desc>《宝石也疯狂》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《宝石也疯狂》是一款以宝石推动、机关解谜和关卡挑战为核心的拼图动作游戏。玩家需要在场景中搬运宝石、处理地形和敌人压力，整体更接近带动作元素的益智过关路线，而不是角色扮演游戏。它的乐趣主要来自谜题设计和一关接一关的掌机短局节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1149 - Gem Smashers(US).png</image>
@@ -17810,7 +17810,7 @@
     <genre>RPG</genre>
     <players />
     <rating />
-    <desc>《闪灵二人组：首都夺还作战》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《闪灵二人组：首都夺还作战》是一款以剧情推进、任务冒险和角色战斗为核心的题材改编作品。玩家围绕事件调查、关卡探索和角色能力运用不断推进，整体更像动漫改编的动作角色扮演路线，而不是传统 JRPG。它的看点主要在原作人物、能力设定和掌机化的任务节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1030 - GetBackers Dakkanya - Metropolis Dakkan Sakusen!(JP).png</image>
@@ -17827,7 +17827,7 @@
     <genre>格斗</genre>
     <players>1</players>
     <rating>0.80</rating>
-    <desc>《恶灵骑士》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《恶灵骑士》是一款以摩托追击、锁链攻击和横向闯关为核心的动作作品。玩家需要在高速移动与近战清敌之间不断切换，整体更像漫画改编的掌机动作闯关，而不是传统对战格斗。它的辨识度主要来自火焰骷髅、机车题材和偏暴力化的漫画英雄气质。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2694 - Ghost Rider(UE).png</image>
@@ -17861,7 +17861,7 @@
     <genre>益智</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《拼图数独九宫格》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《拼图数独九宫格》就是一款围绕数独规则展开的掌机益智游戏，卖点非常纯粹：随时开一局、慢慢提升熟练度。它不需要复杂包装，真正重要的是题量、难度曲线和解题手感。对喜欢数独的人来说，这种作品天然就很适合掌机。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2316 - Global Star Sudoku Fever(US).png</image>
@@ -17878,7 +17878,7 @@
     <genre>体育</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《荣誉日：战争精髓》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《荣誉日：战争精髓》把飞行、空投和前线支援混成了一种很有个性的战场游戏，既不是纯空战，也不是纯即时战略。玩家需要在空中机动与战场支援之间反复切换，因此节奏和一般军事题材作品很不一样。它最大的辨识点就是这种类型混合带来的独特味道。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1932 - Glory Days - The Essence of War(EU).png</image>
@@ -18303,7 +18303,7 @@
     <genre>格斗</genre>
     <players>1-4</players>
     <rating />
-    <desc>《圣石小子：光与暗大决战》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《圣石小子：光与暗大决战》是一款以动漫角色对抗和关卡推进为核心的动作作品。玩家围绕近战攻击、移动躲避和题材角色能力来推进流程，整体更偏漫画改编的轻动作/乱斗路线，而不是传统一对一格斗。它的看点主要在《RAVE》角色阵容和热闹直接的掌机战斗感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0363 - Groove Adventure Rave - Hikari to Yami no Daikessen(JP).png</image>
@@ -18558,7 +18558,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating>0.60</rating>
-    <desc>《格兰宝》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《格兰宝》是一款带有机器人养成与进化要素的掌机 RPG。玩家围绕机体强化、战斗推进和单位成长不断前进，整体卖点不在宏大叙事，而在看着己方机器人一点点升级变强的过程。加上双人要素，它也比一般单线推进的 RPG 更偏收集和培育乐趣。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0291 - Guranbo(JP).png</image>
@@ -18677,7 +18677,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《钢之炼金术师：迷走的轮舞曲》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《钢之炼金术师：迷走的轮舞曲》是一款以关卡推进、即时战斗和动漫题材为核心的动作角色扮演游戏。玩家围绕炼金术招式、敌人应对和剧情事件不断推进流程，整体更偏粉丝向的掌机动作冒险路线，而不是传统 JRPG。它的吸引力主要来自原作角色、招式演出和题材代入感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1430 - Hagane no Renkinjutsushi - Meisou no Rondo(JP).png</image>
@@ -18830,7 +18830,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating />
-    <desc>《仓鼠物语合集》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《仓鼠物语合集》把《仓鼠物语》系列内容集中到同一张 GBA 卡带里，重点在仓鼠照料、互动和轻量养成。它不是高强度动作或剧情作品，而是靠可爱的宠物题材、短流程互动和收集照料循环形成掌机上的轻松陪伴感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1089 - Hamster Monogatari Collection(JP).png</image>
@@ -19102,7 +19102,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《哈罗机器人：机器人英雄大会战》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《哈罗机器人：机器人英雄大会战》是一款以机器人收集、改装对战和题材推进为核心的作品。玩家围绕机体性能、队伍搭配和战斗挑战不断推进，整体更接近掌机机器人题材的养成对战路线，而不是普通 JRPG。它的看点主要在机体组合、收集培养和机器人动画式氛围。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0649 - Harobots - Robo Hero Battling!!(JP).png</image>
@@ -19204,7 +19204,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.50</rating>
-    <desc>《哈利·波特合集》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《哈利·波特合集》把多部 GBA 版哈利·波特改编作集中到同一张卡里，内容围绕霍格沃茨探索、法术、剧情事件和轻动作冒险展开。它的价值主要在一次补完几段掌机魔法世界流程，适合系列粉丝连续体验。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2797 - Harry Potter Collection(EU).png</image>
@@ -19833,7 +19833,7 @@
     <genre>平台动作</genre>
     <players>1-4</players>
     <rating>0.80</rating>
-    <desc>《星之卡比：梦之泉 豪华版》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《星之卡比：梦之泉 豪华版》把 FC 经典《梦之泉》重制到 GBA 上，也把卡比复制能力初次大放异彩的乐趣重新带回来。帝帝帝大王夺走星之杖、噩梦侵入梦境这条主线至今仍是卡比故事里很经典的一段。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0682 - Hoshi no Kirby - Yume no Izumi Deluxe(JP).png</image>
@@ -19850,7 +19850,7 @@
     <genre>竞速运动</genre>
     <players>1</players>
     <rating>0.60</rating>
-    <desc>《火热的马铃薯！》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《火热的马铃薯！》是一款围绕接力、反应和小型竞技项目展开的派对小游戏。它不是传统赛车，而是更偏向多人同乐或单人挑战的轻量合集，需要玩家在短局中快速理解规则、抓准时机并应对不断变化的小任务。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0519 - Hot Potato!(EU).png</image>
@@ -19867,7 +19867,7 @@
     <genre>竞速运动</genre>
     <players>1</players>
     <rating>0.60</rating>
-    <desc>《火热的马铃薯！》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《火热的马铃薯！》是一款围绕接力、反应和小型竞技项目展开的派对小游戏。它不是传统赛车，而是更偏向多人同乐或单人挑战的轻量合集，需要玩家在短局中快速理解规则、抓准时机并应对不断变化的小任务。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1666 - Hot Potato!(EU).png</image>
@@ -19884,7 +19884,7 @@
     <genre>竞速运动</genre>
     <players>1</players>
     <rating>0.60</rating>
-    <desc>《火热的马铃薯！》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《火热的马铃薯！》是一款围绕接力、反应和小型竞技项目展开的派对小游戏。它不是传统赛车，而是更偏向多人同乐或单人挑战的轻量合集，需要玩家在短局中快速理解规则、抓准时机并应对不断变化的小任务。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0057 - Hot Potato!(US).png</image>
@@ -20428,7 +20428,7 @@
     <genre>清版动作</genre>
     <players>1</players>
     <rating>0.55</rating>
-    <desc>《超人总动员》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《超人总动员》把超能一家人的团队概念做进了动作关卡里，不同角色能力切换是它最重要的卖点。比起单一主角一路打到底，这种“全家都有用武之地”的设计更能体现原作魅力。对喜欢电影的人来说，角色分工和题材还原感就是它最吸引人的部分。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1806 - Incredibili, Gli(IT).png</image>
@@ -21125,7 +21125,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.80</rating>
-    <desc>《朱卡与单声威胁》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《朱卡与单声威胁》是一款以探索、解谜和轻战斗推进为核心的动作冒险游戏。玩家需要在场景中运用角色能力处理机关、敌人和路线障碍，整体更接近掌机平台动作加冒险解谜的路线，而不是传统 JRPG。它的吸引力主要来自童话科幻风格和偏轻量的过关节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2559 - Juka and the Monophonic Menace(US).png</image>
@@ -22196,7 +22196,7 @@
     <genre>平台动作</genre>
     <players>1-4</players>
     <rating>0.80</rating>
-    <desc>《星之卡比：梦之泉 豪华版》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《星之卡比：梦之泉 豪华版》把 FC 经典《梦之泉》重制到 GBA 上，也把卡比复制能力初次大放异彩的乐趣重新带回来。帝帝帝大王夺走星之杖、噩梦侵入梦境这条主线至今仍是卡比故事里很经典的一段。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1179 - Kirby - Nightmare in Dream Land(EU).png</image>
@@ -22213,7 +22213,7 @@
     <genre>平台动作</genre>
     <players>1-4</players>
     <rating>0.80</rating>
-    <desc>《星之卡比：梦之泉 豪华版》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《星之卡比：梦之泉 豪华版》把 FC 经典《梦之泉》重制到 GBA 上，也把卡比复制能力初次大放异彩的乐趣重新带回来。帝帝帝大王夺走星之杖、噩梦侵入梦境这条主线至今仍是卡比故事里很经典的一段。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0775 - Kirby - Nightmare in Dream Land(US).png</image>
@@ -22825,7 +22825,7 @@
     <genre>清版射击</genre>
     <players>1</players>
     <rating>0.65</rating>
-    <desc>《钢铁帝国》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《钢铁帝国》是一款蒸汽朋克气质很强的横版射击游戏，卖点在厚重机械设计、持续压迫的敌兵编队和扎实的关卡推进。它不是那种满屏弹幕型作品，而更强调飞行手感、火力选择和美术风格带来的辨识度。喜欢老派横版 STG 的玩家通常很容易记住它。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1481 - Koutetsu Teikoku from HOT-B(JP).png</image>
@@ -23199,7 +23199,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《苏生龙王传说：复苏试炼之岛》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《苏生龙王传说：复苏试炼之岛》是一款以怪兽题材和子供向冒险氛围为核心的掌机 RPG。玩家围绕伙伴收集、能力培养、战斗推进和剧情事件逐步前进，整体更接近动漫改编作品常见的养成收集路线。它的吸引力主要在龙兽题材、队伍培养和轻冒险节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1596 - Rejienzu - Yomigaeru Shiren no Shima(JP).png</image>
@@ -23896,7 +23896,7 @@
     <genre>清版动作</genre>
     <players>1</players>
     <rating>0.55</rating>
-    <desc>《超人总动员》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《超人总动员》把超能一家人的团队概念做进了动作关卡里，不同角色能力切换是它最重要的卖点。比起单一主角一路打到底，这种“全家都有用武之地”的设计更能体现原作魅力。对喜欢电影的人来说，角色分工和题材还原感就是它最吸引人的部分。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1906 - Increibles, Los(ES).png</image>
@@ -24321,7 +24321,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《指轮传奇》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《指轮传奇》是一款以幻想世界冒险、怪物收集和队伍培养为核心的掌机 RPG。玩家围绕生物搭配、属性克制和区域推进不断前进，整体更接近收集养成取向的奇幻冒险路线，而不是泛泛的 JRPG 模板。它的看点主要在异世界设定、怪物编队和持续成长带来的收集乐趣。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0804 - Magi Nation(JP).png</image>
@@ -24814,7 +24814,7 @@
     <genre>竞速运动</genre>
     <players>1-4</players>
     <rating>0.85</rating>
-    <desc>《马力欧高尔夫：高级巡回赛》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《马力欧高尔夫：高级巡回赛》把高尔夫比赛和角色成长结合得很自然。玩家不是直接固定使用马力欧明星，而是先培养自己的新人球手，再通过训练、赛事和装备逐步提升能力。它的魅力就在于把体育游戏打出了明显的冒险和养成感，这也是 Camelot 最擅长的一套。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1566 - Mario Golf - Advance Tour(AU).png</image>
@@ -24831,7 +24831,7 @@
     <genre>竞速运动</genre>
     <players>1-4</players>
     <rating>0.85</rating>
-    <desc>《马力欧高尔夫：高级巡回赛》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《马力欧高尔夫：高级巡回赛》把高尔夫比赛和角色成长结合得很自然。玩家不是直接固定使用马力欧明星，而是先培养自己的新人球手，再通过训练、赛事和装备逐步提升能力。它的魅力就在于把体育游戏打出了明显的冒险和养成感，这也是 Camelot 最擅长的一套。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1654 - Mario Golf - Advance Tour(DE).png</image>
@@ -24848,7 +24848,7 @@
     <genre>竞速运动</genre>
     <players>1-4</players>
     <rating>0.85</rating>
-    <desc>《马力欧高尔夫：高级巡回赛》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《马力欧高尔夫：高级巡回赛》把高尔夫比赛和角色成长结合得很自然。玩家不是直接固定使用马力欧明星，而是先培养自己的新人球手，再通过训练、赛事和装备逐步提升能力。它的魅力就在于把体育游戏打出了明显的冒险和养成感，这也是 Camelot 最擅长的一套。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1938 - Mario Golf - Advance Tour(EU).png</image>
@@ -24865,7 +24865,7 @@
     <genre>竞速运动</genre>
     <players>1-4</players>
     <rating>0.85</rating>
-    <desc>《马力欧高尔夫：高级巡回赛》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《马力欧高尔夫：高级巡回赛》把高尔夫比赛和角色成长结合得很自然。玩家不是直接固定使用马力欧明星，而是先培养自己的新人球手，再通过训练、赛事和装备逐步提升能力。它的魅力就在于把体育游戏打出了明显的冒险和养成感，这也是 Camelot 最擅长的一套。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1656 - Mario Golf - Advance Tour(FR).png</image>
@@ -24882,7 +24882,7 @@
     <genre>竞速运动</genre>
     <players>1-4</players>
     <rating>0.85</rating>
-    <desc>《马力欧高尔夫：高级巡回赛》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《马力欧高尔夫：高级巡回赛》把高尔夫比赛和角色成长结合得很自然。玩家不是直接固定使用马力欧明星，而是先培养自己的新人球手，再通过训练、赛事和装备逐步提升能力。它的魅力就在于把体育游戏打出了明显的冒险和养成感，这也是 Camelot 最擅长的一套。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1655 - Mario Golf - Advance Tour(IT).png</image>
@@ -24899,7 +24899,7 @@
     <genre>竞速运动</genre>
     <players>1-4</players>
     <rating>0.85</rating>
-    <desc>《马力欧高尔夫：高级巡回赛》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《马力欧高尔夫：高级巡回赛》把高尔夫比赛和角色成长结合得很自然。玩家不是直接固定使用马力欧明星，而是先培养自己的新人球手，再通过训练、赛事和装备逐步提升能力。它的魅力就在于把体育游戏打出了明显的冒险和养成感，这也是 Camelot 最擅长的一套。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1690 - Mario Golf - Advance Tour(ES).png</image>
@@ -24916,7 +24916,7 @@
     <genre>竞速运动</genre>
     <players>1-4</players>
     <rating>0.85</rating>
-    <desc>《马力欧高尔夫：高级巡回赛》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《马力欧高尔夫：高级巡回赛》把高尔夫比赛和角色成长结合得很自然。玩家不是直接固定使用马力欧明星，而是先培养自己的新人球手，再通过训练、赛事和装备逐步提升能力。它的魅力就在于把体育游戏打出了明显的冒险和养成感，这也是 Camelot 最擅长的一套。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1544 - Mario Golf - Advance Tour(US).png</image>
@@ -24933,7 +24933,7 @@
     <genre>竞速运动</genre>
     <players>1-4</players>
     <rating>0.85</rating>
-    <desc>《马力欧高尔夫：高级巡回赛》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《马力欧高尔夫：高级巡回赛》把高尔夫比赛和角色成长结合得很自然。玩家不是直接固定使用马力欧明星，而是先培养自己的新人球手，再通过训练、赛事和装备逐步提升能力。它的魅力就在于把体育游戏打出了明显的冒险和养成感，这也是 Camelot 最擅长的一套。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1458 - Mario Golf - GBA Tour(JP).png</image>
@@ -25936,7 +25936,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《洛克人EXE 2》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《洛克人EXE 2》是一款把网络世界探索与即时卡片战斗结合起来的动作角色扮演游戏。玩家在现实与电网空间之间切换，通过芯片搭配、站位移动和程序事件推进剧情，整体节奏明显不同于传统 JRPG。它的魅力主要在系列独特的战斗系统、收集构筑和数码世界题材。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0694 - Megaman Battle Network 2(EU).png</image>
@@ -25953,7 +25953,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《洛克人EXE 2》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《洛克人EXE 2》是一款把网络世界探索与即时卡片战斗结合起来的动作角色扮演游戏。玩家在现实与电网空间之间切换，通过芯片搭配、站位移动和程序事件推进剧情，整体节奏明显不同于传统 JRPG。它的魅力主要在系列独特的战斗系统、收集构筑和数码世界题材。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0468 - Megaman Battle Network 2(US).png</image>
@@ -25970,7 +25970,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating>0.90</rating>
-    <desc>《洛克人EXE 3：蓝》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《洛克人EXE 3：蓝》是一款把网络冒险、芯片构筑和即时战斗进一步打磨的动作角色扮演游戏。玩家在现实与电网空间之间来回行动，通过芯片组合、站位反应和程序事件推进流程，整体仍是系列独有的 EXE 路线，而不是传统 JRPG。它的看点主要在更成熟的战斗系统、收集深度和掌机连机乐趣。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1204 - Megaman Battle Network 3 Blue(EU).png</image>
@@ -25987,7 +25987,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating>0.90</rating>
-    <desc>《洛克人EXE 3：蓝》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《洛克人EXE 3：蓝》是一款把网络冒险、芯片构筑和即时战斗进一步打磨的动作角色扮演游戏。玩家在现实与电网空间之间来回行动，通过芯片组合、站位反应和程序事件推进流程，整体仍是系列独有的 EXE 路线，而不是传统 JRPG。它的看点主要在更成熟的战斗系统、收集深度和掌机连机乐趣。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1078 - Megaman Battle Network 3 Blue(US).png</image>
@@ -26378,7 +26378,7 @@
     <genre>策略</genre>
     <players>1</players>
     <rating>0.55</rating>
-    <desc>《我的宠物旅店》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《我的宠物旅店》是一款以经营和照料循环为核心的模拟作品。玩家需要安排宠物住宿、处理日常需求并尽量维持旅店运转，乐趣主要来自照看、整理和一点点把经营节奏拉顺。它更接近轻量管理游戏，而不是强调反应或闯关的类型。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2256 - My Pet Hotel(EU).png</image>
@@ -26888,7 +26888,7 @@
     <genre>策略</genre>
     <players>1</players>
     <rating>0.55</rating>
-    <desc>《我的宠物旅店》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《我的宠物旅店》是一款以经营和照料循环为核心的模拟作品。玩家需要安排宠物住宿、处理日常需求并尽量维持旅店运转，乐趣主要来自照看、整理和一点点把经营节奏拉顺。它更接近轻量管理游戏，而不是强调反应或闯关的类型。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2737 - Mijn Dierenpension(NL).png</image>
@@ -26905,7 +26905,7 @@
     <genre>格斗运动</genre>
     <players>1-2</players>
     <rating>0.40</rating>
-    <desc>《麦克·泰森拳击》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《麦克·泰森拳击》是一款以擂台攻防、出拳时机和体力控制为核心的拳击游戏。玩家需要判断距离、寻找破绽并在攻守转换间逐步压制对手，体验更接近比赛节奏而不是传统格斗连招。它的重点在回合感、重拳反馈和拳击规则带来的对抗张力。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0323 - Mike Tyson Boxing(EU).png</image>
@@ -26922,7 +26922,7 @@
     <genre>格斗运动</genre>
     <players>1-2</players>
     <rating>0.40</rating>
-    <desc>《麦克·泰森拳击》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《麦克·泰森拳击》是一款以擂台攻防、出拳时机和体力控制为核心的拳击游戏。玩家需要判断距离、寻找破绽并在攻守转换间逐步压制对手，体验更接近比赛节奏而不是传统格斗连招。它的重点在回合感、重拳反馈和拳击规则带来的对抗张力。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0346 - Mike Tyson Boxing(US).png</image>
@@ -27398,7 +27398,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《桃太郎祭典》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《桃太郎祭典》是一款以迷你游戏、聚会挑战和轻松题材气氛为核心的派对作品。玩家围绕一组短小项目不断比拼和闯关，整体更接近掌机上的小游戏合集，而不是传统角色扮演游戏。它的吸引力主要来自桃太郎系列的亲切感和随拿随玩的短局节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0023 - Momotarou Matsuri(JP).png</image>
@@ -27534,7 +27534,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《怪兽之门2 ~大迷宫~ 封印的宝珠》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《怪兽之门2 ~大迷宫~ 封印的宝珠》是一款以地牢探索、怪物编队和持续闯关为核心的掌机 RPG。玩家围绕迷宫推进、战斗资源和队伍培养不断深入，整体更偏怪物收集加迷宫冒险路线，而不是空泛的 JRPG 模板。它的看点主要在迷宫结构、怪物养成和一层层深入的推进感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1063 - Monster Gate - Ooinaru Dungeon - Fuuin no Orb(JP).png</image>
@@ -27551,7 +27551,7 @@
     <genre>RPG</genre>
     <players />
     <rating />
-    <desc>《怪兽之门》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《怪兽之门》是一款以迷宫探索、怪物战斗和队伍成长为核心的掌机 RPG。玩家需要在不断深入的地下城里围绕资源管理、队伍配置和战斗推进做选择，整体更接近地牢与怪物收集结合的路线。它的吸引力主要来自迷宫闯关、怪物培养和持续冒险带来的长期投入感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0499 - Monster Gate(JP).png</image>
@@ -27568,7 +27568,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《怪物守护者》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《怪物守护者》是一款以怪物收集、队伍搭配和冒险推进为核心的掌机 RPG。玩家围绕怪物能力、属性相性和区域探索逐步强化队伍，整体更像子供向怪物养成冒险，而不是泛泛的 JRPG 模板。它的看点主要在怪物阵容、培养路线和轻便的掌机推进节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0024 - Monster Guardians(JP).png</image>
@@ -27670,7 +27670,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《怪兽制造者4：闪光卡片》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《怪兽制造者4：闪光卡片》是一款以幻想冒险、队伍培养和系列设定为核心的掌机 RPG。玩家围绕角色成长、怪物与队伍配置不断推进，整体仍是老派日式幻想路线，但比通用模板更强调系列题材和长线培养。它的吸引力主要在奇幻世界观、编队感和稳定的掌机推进节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0801 - Monster Maker 4 - Flash Card(JP).png</image>
@@ -27687,7 +27687,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《怪兽制造者4：杀手骰子》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《怪兽制造者4：杀手骰子》是一款以幻想冒险、队伍培养和系列设定为核心的掌机 RPG。玩家围绕角色成长、怪物与队伍配置不断推进，整体仍是老派日式幻想路线，但比通用模板更强调系列题材和长线培养。它的吸引力主要在奇幻世界观、编队感和稳定的掌机推进节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0802 - Monster Maker 4 - Killer Dice(JP).png</image>
@@ -28299,7 +28299,7 @@
     <genre>清版动作</genre>
     <players>1</players>
     <rating>0.55</rating>
-    <desc>《超人总动员》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《超人总动员》把超能一家人的团队概念做进了动作关卡里，不同角色能力切换是它最重要的卖点。比起单一主角一路打到底，这种“全家都有用武之地”的设计更能体现原作魅力。对喜欢电影的人来说，角色分工和题材还原感就是它最吸引人的部分。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1983 - Mr. Incredible(JP).png</image>
@@ -28384,7 +28384,7 @@
     <genre>弹珠台</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《布偶弹珠台》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《布偶弹珠台》把布偶角色题材包装进弹珠台玩法里，核心仍是挡板控球、目标触发和不断刷新分数。它的看点不在剧情，而在主题桌面、声光反馈和短局反复挑战，很适合 GBA 上随手打一局。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0455 - Muppet Pinball Mayhem(US).png</image>
@@ -28571,7 +28571,7 @@
     <genre>策略</genre>
     <players>1</players>
     <rating />
-    <desc>《小朋友幼稚园》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《小朋友幼稚园》是一款题材很生活化的幼儿园养成/管理向作品，重点应在照看孩子、安排活动和推进日常事件，而不是传统战斗或竞速。它的吸引力主要来自少见题材和低压力节奏，属于面向特定受众的掌机小品。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0678 - Nakayoshi Youchien - Sukoyaka Enji Ikusei Game(JP).png</image>
@@ -28588,7 +28588,7 @@
     <genre>合集</genre>
     <players>1-2</players>
     <rating>0.50</rating>
-    <desc>《Namco博物馆：50周年纪念版》是一部把多种规则或多款作品收进同一张卡带的 GBA 合集。它的价值通常不在单一系统深度，而在于内容覆盖面广、随时开一小段就能玩，以及便携平台上少见的“把一批旧作装进口袋”的收藏感。</desc>
+    <desc>《Namco博物馆：50周年纪念版》是面向街机怀旧玩家的纪念合集，重点在把《吃豆人》《大蜜蜂》等 Namco 早期代表作带到 GBA 上。它的价值不在新系统，而在随时重开、高分挑战和系列历史保存感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2362 - Namco Museum 50th Anniversary(EU).png</image>
@@ -28605,7 +28605,7 @@
     <genre>合集</genre>
     <players>1-2</players>
     <rating>0.50</rating>
-    <desc>《Namco博物馆：50周年纪念版》是一部把多种规则或多款作品收进同一张卡带的 GBA 合集。它的价值通常不在单一系统深度，而在于内容覆盖面广、随时开一小段就能玩，以及便携平台上少见的“把一批旧作装进口袋”的收藏感。</desc>
+    <desc>《Namco博物馆：50周年纪念版》是面向街机怀旧玩家的纪念合集，重点在把《吃豆人》《大蜜蜂》等 Namco 早期代表作带到 GBA 上。它的价值不在新系统，而在随时重开、高分挑战和系列历史保存感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2113 - Namco Museum 50th Anniversary(US).png</image>
@@ -28622,7 +28622,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.65</rating>
-    <desc>《Namco博物馆》是一部把多种规则或多款作品收进同一张卡带的 GBA 合集。它的价值通常不在单一系统深度，而在于内容覆盖面广、随时开一小段就能玩，以及便携平台上少见的“把一批旧作装进口袋”的收藏感。</desc>
+    <desc>《Namco博物馆》是一张典型的 Namco 经典街机合集，卖点是把《吃豆人》等早期名作压进掌机卡带。它适合按高分挑战和短局轮换来玩，真正价值在于便携保存和随时回味街机黄金时代的规则手感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1198 - Namco Museum(EU).png</image>
@@ -28639,7 +28639,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.65</rating>
-    <desc>《Namco博物馆》是一部把多种规则或多款作品收进同一张卡带的 GBA 合集。它的价值通常不在单一系统深度，而在于内容覆盖面广、随时开一小段就能玩，以及便携平台上少见的“把一批旧作装进口袋”的收藏感。</desc>
+    <desc>《Namco博物馆》是一张典型的 Namco 经典街机合集，卖点是把《吃豆人》等早期名作压进掌机卡带。它适合按高分挑战和短局轮换来玩，真正价值在于便携保存和随时回味街机黄金时代的规则手感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0240 - Namco Museum(JP).png</image>
@@ -28656,7 +28656,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.65</rating>
-    <desc>《Namco博物馆》是一部把多种规则或多款作品收进同一张卡带的 GBA 合集。它的价值通常不在单一系统深度，而在于内容覆盖面广、随时开一小段就能玩，以及便携平台上少见的“把一批旧作装进口袋”的收藏感。</desc>
+    <desc>《Namco博物馆》是一张典型的 Namco 经典街机合集，卖点是把《吃豆人》等早期名作压进掌机卡带。它适合按高分挑战和短局轮换来玩，真正价值在于便携保存和随时回味街机黄金时代的规则手感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0035 - Namco Museum(US).png</image>
@@ -29506,7 +29506,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.90</rating>
-    <desc>《海贼王：龙之梦》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《海贼王：龙之梦》是一款把《海贼王》题材带进掌机冒险流程的改编作品。玩家围绕剧情事件、关卡推进和角色能力运用不断前进，整体更重视题材代入和轻量冒险节奏，而不是通用 JRPG 模板。它的吸引力主要来自草帽一伙题材、角色互动和粉丝向氛围。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1977 - One Piece - Dragon Dream(JP).png</image>
@@ -29574,7 +29574,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.65</rating>
-    <desc>《鬼武者战略版》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《鬼武者战略版》是一款以格子地图推进、部队配置和回合制战斗为核心的战棋 SRPG。玩家需要根据地形、攻击范围和单位能力逐步推进关卡，整体更接近掌机战术游戏，而不是普通 JRPG。它的看点主要在《鬼武者》题材、简化后的战棋节奏和便携式关卡推进感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1305 - Onimusha Tactics(EU).png</image>
@@ -29591,7 +29591,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.65</rating>
-    <desc>《鬼武者战略版》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《鬼武者战略版》是一款以格子地图推进、部队配置和回合制战斗为核心的战棋 SRPG。玩家需要根据地形、攻击范围和单位能力逐步推进关卡，整体更接近掌机战术游戏，而不是普通 JRPG。它的看点主要在《鬼武者》题材、简化后的战棋节奏和便携式关卡推进感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1107 - Onimusha Tactics(JP).png</image>
@@ -29608,7 +29608,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.65</rating>
-    <desc>《鬼武者战略版》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《鬼武者战略版》是一款以格子地图推进、部队配置和回合制战斗为核心的战棋 SRPG。玩家需要根据地形、攻击范围和单位能力逐步推进关卡，整体更接近掌机战术游戏，而不是普通 JRPG。它的看点主要在《鬼武者》题材、简化后的战棋节奏和便携式关卡推进感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1258 - Onimusha Tactics(US).png</image>
@@ -29625,7 +29625,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《阴阳大战记：零式》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《阴阳大战记：零式》是一款以式神题材和动漫世界观为卖点的掌机 RPG。玩家围绕伙伴收集、队伍培养、事件推进和战斗成长不断前进，整体更偏子供向改编作常见的收集养成路线。它的吸引力主要在阴阳术设定、式神编成和粉丝向冒险氛围。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1833 - Onmyou Taisenki Zeroshiki(JP).png</image>
@@ -29710,7 +29710,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《天外魔境：青之天外》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《天外魔境：青之天外》是一款强调东方奇想风格与长线冒险感的日式 RPG。玩家围绕城镇探索、事件推进、回合制战斗和队伍成长不断前进，整体保留了《天外魔境》系列重视世界观、旅途氛围和角色塑造的路线。放在 GBA 上，它更像一部把主机式王道冒险压缩进掌机节奏里的作品。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1214 - Oriental Blue - Ao no Tengai(JP).png</image>
@@ -29999,7 +29999,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《吃豆人合集》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《吃豆人合集》是一张围绕《吃豆人》系列展开的怀旧合辑，把 Namco 早期代表作集中到掌机上。它的重点不在单一长流程，而在不同版本之间的规则变化、迷宫追逐和高分挑战，对喜欢经典街机味道的玩家来说很适合随时开一局。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0287 - Pac-Man Collection(EU).png</image>
@@ -30016,7 +30016,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《吃豆人合集》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《吃豆人合集》是一张围绕《吃豆人》系列展开的怀旧合辑，把 Namco 早期代表作集中到掌机上。它的重点不在单一长流程，而在不同版本之间的规则变化、迷宫追逐和高分挑战，对喜欢经典街机味道的玩家来说很适合随时开一局。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0275 - Pac-Man Collection(JP).png</image>
@@ -30033,7 +30033,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《吃豆人合集》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《吃豆人合集》是一张围绕《吃豆人》系列展开的怀旧合辑，把 Namco 早期代表作集中到掌机上。它的重点不在单一长流程，而在不同版本之间的规则变化、迷宫追逐和高分挑战，对喜欢经典街机味道的玩家来说很适合随时开一局。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0064 - Pac-Man Collection(US).png</image>
@@ -30169,7 +30169,7 @@
     <genre>策略</genre>
     <players>1</players>
     <rating>0.55</rating>
-    <desc>《我的宠物旅店》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《我的宠物旅店》是一款以经营和照料循环为核心的模拟作品。玩家需要安排宠物住宿、处理日常需求并尽量维持旅店运转，乐趣主要来自照看、整理和一点点把经营节奏拉顺。它更接近轻量管理游戏，而不是强调反应或闯关的类型。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2324 - Paws &amp; Claws - Pet Resort(US).png</image>
@@ -30203,7 +30203,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating>0.70</rating>
-    <desc>《宝石也疯狂》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《宝石也疯狂》是一款以宝石推动、机关解谜和关卡挑战为核心的拼图动作游戏。玩家需要在场景中搬运宝石、处理地形和敌人压力，整体更接近带动作元素的益智过关路线，而不是角色扮演游戏。它的乐趣主要来自谜题设计和一关接一关的掌机短局节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1310 - Pazunin - Uminin no Puzzle de Nimu(JP).png</image>
@@ -30458,7 +30458,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.80</rating>
-    <desc>《梦幻之星合集》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《梦幻之星合集》是一款把《梦幻之星》早期作品集中到掌机上的经典 RPG 合集。玩家可以在 GBA 上体验系列早期的迷宫探索、回合战斗和科幻奇幻混合世界观，它的价值更多在于便携收藏和补课意义，而不是一款单独的新作。对喜欢老式 JRPG 的玩家来说，这类合集的吸引力在于一次补完系列源头。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0890 - Phantasy Star Collection(EU).png</image>
@@ -30475,7 +30475,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.80</rating>
-    <desc>《梦幻之星合集》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《梦幻之星合集》是一款把《梦幻之星》早期作品集中到掌机上的经典 RPG 合集。玩家可以在 GBA 上体验系列早期的迷宫探索、回合战斗和科幻奇幻混合世界观，它的价值更多在于便携收藏和补课意义，而不是一款单独的新作。对喜欢老式 JRPG 的玩家来说，这类合集的吸引力在于一次补完系列源头。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0770 - Phantasy Star Collection(US).png</image>
@@ -31665,7 +31665,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《宝可梦 不可思议的迷宫：赤之救助队》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《宝可梦 不可思议的迷宫：赤之救助队》把宝可梦世界与《不可思议的迷宫》式随机地城玩法结合在一起。玩家以宝可梦身份组成救助队，在不断变化的迷宫里移动、战斗、搜集道具并完成委托。它和正传的收集对战路线不同，更强调地城探索、资源管理和一次次下迷宫救援的循环。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2239 - Pokemon Fushigi no Dungeon - Aka no Kyuujotai(JP).png</image>
@@ -31716,7 +31716,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《宝可梦 不可思议的迷宫：赤之救助队》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《宝可梦 不可思议的迷宫：赤之救助队》把宝可梦世界与《不可思议的迷宫》式随机地城玩法结合在一起。玩家以宝可梦身份组成救助队，在不断变化的迷宫里移动、战斗、搜集道具并完成委托。它和正传的收集对战路线不同，更强调地城探索、资源管理和一次次下迷宫救援的循环。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2567 - Pokemon Mystery Dungeon - Red Rescue Team(EU).png</image>
@@ -31733,7 +31733,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《宝可梦 不可思议的迷宫：赤之救助队》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《宝可梦 不可思议的迷宫：赤之救助队》把宝可梦世界与《不可思议的迷宫》式随机地城玩法结合在一起。玩家以宝可梦身份组成救助队，在不断变化的迷宫里移动、战斗、搜集道具并完成委托。它和正传的收集对战路线不同，更强调地城探索、资源管理和一次次下迷宫救援的循环。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2485 - Pokemon Mystery Dungeon - Red Rescue Team(US).png</image>
@@ -32736,7 +32736,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《眼睛君》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《眼睛君》是一款以搞笑漫画题材、小游戏关卡和角色互动为核心的轻量作品。玩家主要围绕短关卡挑战和原作风格演出推进流程，整体更接近粉丝向掌机小品，而不是传统角色扮演游戏。它的吸引力主要来自题材还原和偏无厘头的节奏感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1475 - Pyuu to Fuku! Jaguar - Byoo to Deru! Megane-kun(JP).png</image>
@@ -32974,7 +32974,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《雷曼10周年纪念合集》是一部把多种规则或多款作品收进同一张卡带的 GBA 合集。它的价值通常不在单一系统深度，而在于内容覆盖面广、随时开一小段就能玩，以及便携平台上少见的“把一批旧作装进口袋”的收藏感。</desc>
+    <desc>《雷曼10周年纪念合集》把《雷曼Advance》和《雷曼3》打包在一起，是一张很明确的周年纪念双包。它的价值在于一次收下两段 GBA 雷曼平台动作流程，既适合补系列，也方便比较早期移植和后续掌机新作的差异。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2144 - Rayman 10th Anniversary - Rayman Advance + Rayman 3(US).png</image>
@@ -33093,7 +33093,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《雷曼10周年纪念合集》是一部把多种规则或多款作品收进同一张卡带的 GBA 合集。它的价值通常不在单一系统深度，而在于内容覆盖面广、随时开一小段就能玩，以及便携平台上少见的“把一批旧作装进口袋”的收藏感。</desc>
+    <desc>《雷曼10周年纪念合集》把《雷曼Advance》和《雷曼3》打包在一起，是一张很明确的周年纪念双包。它的价值在于一次收下两段 GBA 雷曼平台动作流程，既适合补系列，也方便比较早期移植和后续掌机新作的差异。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2121 - Rayman 10th Anniversary - Rayman Advance + Rayman 3(EU).png</image>
@@ -33348,7 +33348,7 @@
     <genre>清版动作</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《热血物语EX》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《热血物语EX》把《国夫君》系列标志性的街头乱斗、角色成长和校园帮派喜剧感重新带到 GBA 上。它不是单纯清版动作，真正的味道在于一边打架一边买东西强化、推进街区事件，老派但很有个性。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1502 - River City Ransom EX(US).png</image>
@@ -33365,7 +33365,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.80</rating>
-    <desc>《约束之地》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《约束之地》是一款以章节事件、队伍编成和回合制战斗推进的日式 RPG。它不像传统地图探索型作品那样把重心放在大世界移动上，而是更强调剧情分支、战斗准备和角色关系带来的流程变化。对 GBA 玩家来说，这种较强叙事驱动和关卡式推进也更符合掌机节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2039 - Riviera - The Promised Land(US).png</image>
@@ -33382,7 +33382,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.80</rating>
-    <desc>《约束之地》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《约束之地》是一款以章节事件、队伍编成和回合制战斗推进的日式 RPG。它不像传统地图探索型作品那样把重心放在大世界移动上，而是更强调剧情分支、战斗准备和角色关系带来的流程变化。对 GBA 玩家来说，这种较强叙事驱动和关卡式推进也更符合掌机节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1803 - Yakusoku no Chi Riviera(JP).png</image>
@@ -33535,7 +33535,7 @@
     <genre>格斗</genre>
     <players>1-4</players>
     <rating>0.45</rating>
-    <desc>《机器人战争：高级毁灭》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《机器人战争：高级毁灭》是一款以机器人对战、擂台破坏和赛事推进为核心的竞技作品。玩家要在封闭场地中利用武器、撞击和场地效果击败对手，体验更接近电视节目改编的机械竞技，而不是传统格斗。它的看点主要在机器人题材和擂台混战带来的直接反馈。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0214 - Robot Wars - Advanced Destruction(EU).png</image>
@@ -33552,7 +33552,7 @@
     <genre>格斗</genre>
     <players>1-4</players>
     <rating>0.45</rating>
-    <desc>《机器人战争：高级毁灭》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《机器人战争：高级毁灭》是一款以机器人对战、擂台破坏和赛事推进为核心的竞技作品。玩家要在封闭场地中利用武器、撞击和场地效果击败对手，体验更接近电视节目改编的机械竞技，而不是传统格斗。它的看点主要在机器人题材和擂台混战带来的直接反馈。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1896 - Robot Wars - Advanced Destruction(US).png</image>
@@ -33569,7 +33569,7 @@
     <genre>格斗</genre>
     <players />
     <rating />
-    <desc>《机器人战争：无尽毁灭》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《机器人战争：无尽毁灭》是一款以机器人对撞、场地淘汰和连续赛事为核心的竞技作品。玩家围绕机体操控、武器运用和场地风险来争取胜利，整体更像机械竞技节目改编作，而不是传统格斗。它的吸引力主要来自题材辨识度和偏直接的擂台对抗感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0679 - Robot Wars - Extreme Destruction(EU).png</image>
@@ -33637,7 +33637,7 @@
     <genre>格斗</genre>
     <players>1</players>
     <rating>0.55</rating>
-    <desc>《机器人拳击赛》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《机器人拳击赛》是一款以机器人拳击对决和时机判断为核心的轻量竞技作品。玩家围绕出拳、闪避和连击节奏争取击倒对手，整体更接近街机化的机器人拳击题材游戏，而不是复杂的传统格斗。它的乐趣主要来自简单直接的对打反馈和玩具题材还原。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2654 - Rock'em Sock'em Robots(EU).png</image>
@@ -33654,7 +33654,7 @@
     <genre>格斗</genre>
     <players>1</players>
     <rating>0.55</rating>
-    <desc>《机器人拳击赛》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《机器人拳击赛》是一款以机器人拳击对决和时机判断为核心的轻量竞技作品。玩家围绕出拳、闪避和连击节奏争取击倒对手，整体更接近街机化的机器人拳击题材游戏，而不是复杂的传统格斗。它的乐趣主要来自简单直接的对打反馈和玩具题材还原。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2515 - Rock'em Sock'em Robots(US).png</image>
@@ -34317,7 +34317,7 @@
     <genre>RPG</genre>
     <players />
     <rating />
-    <desc>《武士进化：樱国之魂》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《武士进化：樱国之魂》是一款以和风奇想世界和武士题材为卖点的掌机 RPG。玩家围绕队伍成长、事件推进和战斗养成不断前进，整体更偏少年向幻想冒险路线。它的看点主要在日式题材包装、角色培育和适合掌机慢慢推进的剧情节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0609 - Samurai Evolution - Oukoku Geist(JP).png</image>
@@ -34419,7 +34419,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《育龙战记1×2》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《育龙战记1×2》把《Sansara Naga》系列的怪奇幻想氛围和育龙题材打包带上了 GBA。玩家围绕冒险推进、回合制战斗、伙伴成长和龙相关设定不断前进，整体既有传统 RPG 的流程，也带着比较鲜明的异色世界观。对喜欢老派掌机 RPG 的玩家来说，它的辨识点就在育龙主题和偏怪诞的冒险气质。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0267 - Sansara Naga 1x2(JP).png</image>
@@ -34810,7 +34810,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《蜂巢》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《蜂巢》是一款把俯视角射击、探索推进和科幻惊悚气氛结合起来的动作冒险作品。玩家需要在封闭设施中处理敌人压力、寻找路线并逐步解锁区域，整体更接近掌机化的科幻动作探索路线，而不是传统 JRPG。它的看点主要在压迫感、连续探索和战斗节奏的结合。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2544 - Scurge - Hive(EU).png</image>
@@ -34827,7 +34827,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《蜂巢》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《蜂巢》是一款把俯视角射击、探索推进和科幻惊悚气氛结合起来的动作冒险作品。玩家需要在封闭设施中处理敌人压力、寻找路线并逐步解锁区域，整体更接近掌机化的科幻动作探索路线，而不是传统 JRPG。它的看点主要在压迫感、连续探索和战斗节奏的结合。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2560 - Scurge - Hive(US).png</image>
@@ -34878,7 +34878,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《SD高达G世纪Advance》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《SD高达G世纪Advance》是一款以机体编成、格子地图推进和回合制战斗为核心的战棋 SRPG。玩家需要围绕高达机体、驾驶员能力和关卡目标逐步推进战局，整体属于系列一贯的战术模拟路线，而不是普通 JRPG。它的看点主要在高达阵容收集、编队搭配和跨作品参战乐趣。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1294 - SD Gundam G-Generation Advance(JP).png</image>
@@ -34946,7 +34946,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.85</rating>
-    <desc>《世嘉街机合集》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《世嘉街机合集》把几部世嘉早期街机代表作收进同一张卡里，重点在怀旧、耐玩和随时开局的便利性。合集内作品大多规则直观、节奏明快，既能让老玩家回味街机黄金时代，也很适合在 GBA 上轮流挑战高分。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1014 - Sega Arcade Gallery(EU).png</image>
@@ -34963,7 +34963,7 @@
     <genre>合集</genre>
     <players>1</players>
     <rating>0.85</rating>
-    <desc>《世嘉街机合集》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《世嘉街机合集》把几部世嘉早期街机代表作收进同一张卡里，重点在怀旧、耐玩和随时开局的便利性。合集内作品大多规则直观、节奏明快，既能让老玩家回味街机黄金时代，也很适合在 GBA 上轮流挑战高分。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1877 - Sega Arcade Gallery(US).png</image>
@@ -35031,7 +35031,7 @@
     <genre>合集</genre>
     <players>1-2</players>
     <rating>0.60</rating>
-    <desc>《世嘉经典游戏集》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《世嘉经典游戏集》是一张面向怀旧玩家的合集卡，把几部世嘉老作品集中到掌机上。它的优势不在新鲜系统，而在类型丰富、开局门槛低，能让玩家在短时间里体验到多种经典街机节奏，是很典型的“随身街机拼盘”。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1057 - Sega Smash Pack(EU).png</image>
@@ -35048,7 +35048,7 @@
     <genre>合集</genre>
     <players>1-2</players>
     <rating>0.60</rating>
-    <desc>《世嘉经典游戏集》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《世嘉经典游戏集》是一张面向怀旧玩家的合集卡，把几部世嘉老作品集中到掌机上。它的优势不在新鲜系统，而在类型丰富、开局门槛低，能让玩家在短时间里体验到多种经典街机节奏，是很典型的“随身街机拼盘”。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0610 - Sega Smash Pack(US).png</image>
@@ -35065,7 +35065,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《战国革命外传》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《战国革命外传》是一款以幻想化战国舞台为背景的动作 RPG。玩家围绕实时战斗、能力成长和事件推进不断前进，整体把战国题材、热血演出和一点奇想风格揉在了一起。放在 GBA 上，它更像一部节奏偏快、重视动作感的战国冒险作品。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0959 - Sengoku Kakumei Gaiden(JP).png</image>
@@ -35116,7 +35116,7 @@
     <genre>平台射击</genre>
     <players>1-2</players>
     <rating>0.55</rating>
-    <desc>《英雄萨姆Advance》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《英雄萨姆Advance》把《英雄萨姆》那种成群怪物压上来的爽快射击感压缩进了掌机。玩家一路狂奔、开火和清怪，重点在持续火力、快速反应和把敌群压回去的节奏。它的价值主要就在于把主机系那种简单直接的轰杀快感做成了便携版。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1480 - Serious Sam Advance(EU).png</image>
@@ -35133,7 +35133,7 @@
     <genre>平台射击</genre>
     <players>1-2</players>
     <rating>0.55</rating>
-    <desc>《英雄萨姆Advance》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《英雄萨姆Advance》把《英雄萨姆》那种成群怪物压上来的爽快射击感压缩进了掌机。玩家一路狂奔、开火和清怪，重点在持续火力、快速反应和把敌群压回去的节奏。它的价值主要就在于把主机系那种简单直接的轰杀快感做成了便携版。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1465 - Serious Sam Advance(US).png</image>
@@ -35150,7 +35150,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating>0.60</rating>
-    <desc>《通灵王：精神遗产 翱翔之鹰》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《通灵王：精神遗产 翱翔之鹰》是一款以灵体收集、队伍培养和题材冒险为核心的掌机 RPG。玩家围绕角色能力、灵体搭配和剧情推进不断强化队伍，整体更像动漫改编的收集养成路线，而不是空泛的 JRPG 模板。它的看点主要在《通灵王》题材、阵容培养和版本差异。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1885 - Shaman King - Legacy of the Spirits - Soaring Hawk(US).png</image>
@@ -35167,7 +35167,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating>0.60</rating>
-    <desc>《通灵王：精神遗产 疾速之狼》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《通灵王：精神遗产 疾速之狼》是一款以灵体收集、队伍培养和题材冒险为核心的掌机 RPG。玩家围绕角色能力、灵体搭配和剧情推进不断强化队伍，整体更像动漫改编的收集养成路线，而不是空泛的 JRPG 模板。它的看点主要在《通灵王》题材、阵容培养和版本差异。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1886 - Shaman King - Legacy of the Spirits - Sprinting Wolf(US).png</image>
@@ -35184,7 +35184,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《通灵王：精神大师》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《通灵王：精神大师》是一款把横版探索、能力收集和题材闯关结合起来的动作冒险作品。玩家围绕灵体能力、地图推进和战斗节奏逐步解锁区域，整体更接近掌机动作探索路线，而不是传统 JRPG。它的看点主要在《通灵王》题材和逐步扩张行动能力的闯关感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2131 - Shaman King - Master of Spirits(EU).png</image>
@@ -35201,7 +35201,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《通灵王：精神大师》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《通灵王：精神大师》是一款把横版探索、能力收集和题材闯关结合起来的动作冒险作品。玩家围绕灵体能力、地图推进和战斗节奏逐步解锁区域，整体更接近掌机动作探索路线，而不是传统 JRPG。它的看点主要在《通灵王》题材和逐步扩张行动能力的闯关感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1762 - Shaman King - Master of Spirits(US).png</image>
@@ -35269,7 +35269,7 @@
     <genre>RPG</genre>
     <players />
     <rating />
-    <desc>《通灵王 超占事略决3》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《通灵王 超占事略决3》是一款以卡牌对战、牌组调整和题材收集为核心的掌机作品。玩家围绕卡片搭配、对战推进和角色要素不断扩展玩法，整体更接近动漫改编的卡牌路线，而不是通用 JRPG 模板。它的吸引力主要来自《通灵王》题材和逐步完善牌组的收集感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0798 - Shaman King Card Game - Chou Senjiryakketsu 3(JP).png</image>
@@ -35320,7 +35320,7 @@
     <genre>桌游</genre>
     <players />
     <rating />
-    <desc>《上海Advance》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《上海Advance》是一款以麻将牌配对消除为核心的益智游戏。玩家需要观察牌面层次、寻找可消组合并尽量避免把关键牌压死，乐趣主要来自盘面判断和残局处理。它属于非常适合掌机碎片时间反复开局的经典桌面益智路线。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0289 - Shanghai Advance(JP).png</image>
@@ -35490,7 +35490,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating />
-    <desc>《新·我们的太阳：萨巴塔的逆袭》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《新·我们的太阳：萨巴塔的逆袭》是一款把太阳感应、即时战斗和冒险推进结合起来的动作角色扮演游戏。玩家需要在关卡探索中运用武器、收集与环境要素持续推进，整体仍保留《我们的太阳》系列独特的掌机户外体验，而不是普通 JRPG。它的看点主要在题材设定、动作节奏和太阳系统带来的差异化玩法。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2069 - Shin Bokura no Taiyou - Gyakushuu no Sabata(JP).png</image>
@@ -35558,7 +35558,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.60</rating>
-    <desc>《真女神转生：光之书》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《真女神转生：光之书》是《恶魔之子》系的一部掌机 RPG，核心在于恶魔收集、属性相克和队伍培养。它比本传《真女神转生》更偏向面向年轻玩家的分支路线，但仍保留了系列招牌的仲魔、合成和世界观气质。对喜欢收集培养和怪物编队的玩家来说，这类作品很容易投入很久。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0756 - Shin Megami Tensei Devil Children - Hikari no Sho(JP).png</image>
@@ -35592,7 +35592,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.75</rating>
-    <desc>《真·女神转生》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《真·女神转生》是一款以迷宫探索、恶魔交涉与合体为核心的经典 RPG。玩家在近未来废土氛围中推进剧情，同时围绕属性克制、仲魔编队和路线选择逐步强化队伍。它的魅力不只在数值成长，更在阴郁世界观、分支倾向和系列独有的恶魔系统。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0933 - Shin Megami Tensei(JP).png</image>
@@ -35609,7 +35609,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《真·女神转生：炎之书》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《真·女神转生：炎之书》延续了《恶魔之子》系更偏亲和的掌机 RPG 路线，重点仍是恶魔收集、属性搭配和队伍培养。它比本传更容易上手，但保留了系列在仲魔、合成和题材设定上的辨识度。对喜欢怪物收集和版本差异的玩家来说，这类条目通常会很有吸引力。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1171 - Shin Megami Tensei Devil Children - Honoo no Sho(JP).png</image>
@@ -35626,7 +35626,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《真·女神转生：冰之书》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《真·女神转生：冰之书》延续了《恶魔之子》系更偏亲和的掌机 RPG 路线，重点仍是恶魔收集、属性搭配和队伍培养。它比本传更容易上手，但保留了系列在仲魔、合成和题材设定上的辨识度。对喜欢怪物收集和版本差异的玩家来说，这类条目通常会很有吸引力。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1170 - Shin Megami Tensei Devil Children - Koori no Sho(JP).png</image>
@@ -35660,7 +35660,7 @@
     <genre>益智</genre>
     <players>1</players>
     <rating />
-    <desc>《真·女神转生 恶魔之子：谜题的呼唤！》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《真·女神转生 恶魔之子：谜题的呼唤！》把《恶魔之子》题材转成了轻量益智路线。玩家围绕规则解题、盘面处理和系列角色要素反复挑战，体验更像粉丝向的换口味外传，而不是正传式冒险。它的价值主要在题材辨识度和适合碎片时间游玩的短局节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1124 - Shin Megami Tensei Devil Children - Puzzle de Call!(JP).png</image>
@@ -35677,7 +35677,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.55</rating>
-    <desc>《真·女神转生II》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《真·女神转生II》是一款以迷宫推进、恶魔交涉与合体培养为核心的经典 RPG。玩家在更完整的末世设定里围绕仲魔、属性克制和路线选择不断前进，整体仍保留系列一贯的高压气氛和思考空间。它的看点主要在世界观、恶魔系统和比普通 JRPG 更鲜明的价值取向。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1189 - Shin Megami Tensei II(JP).png</image>
@@ -35694,7 +35694,7 @@
     <genre>格斗</genre>
     <players>1-2</players>
     <rating />
-    <desc>《新日本职业摔跤：斗魂烈传》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《新日本职业摔跤：斗魂烈传》是一款以职业摔跤规则、擒抱技和擂台攻防为核心的竞技游戏。玩家要围绕体力消耗、招式时机和压制节奏争取胜利，体验更接近摔跤比赛编排，而不是传统格斗。它的看点主要在新日本职业摔跤题材和摔角式攻防节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0971 - Shin Nippon Pro Wrestling - Toukon Retsuden Advance(JP).png</image>
@@ -35728,7 +35728,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《徽章战士：锹形虫版》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《徽章战士：锹形虫版》是一款以机体收集、零件改装和回合制对战为核心的掌机 RPG。玩家需要围绕徽章战士的部件搭配、属性相克和队伍培养持续推进，版本差异也是系列乐趣的一部分。它的魅力主要在机械题材、改装深度和一场场机器人对战带来的成长感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1844 - Shingata Medarot - Kabuto Version(JP).png</image>
@@ -35745,7 +35745,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《徽章战士：甲胄版》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《徽章战士：甲胄版》是一款以机体收集、零件改装和回合制对战为核心的掌机 RPG。玩家需要围绕徽章战士的部件搭配、属性相克和队伍培养持续推进，版本差异也是系列乐趣的一部分。它的魅力主要在机械题材、改装深度和一场场机器人对战带来的成长感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1845 - Shingata Medarot - Kuwagata Version(JP).png</image>
@@ -35762,7 +35762,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.90</rating>
-    <desc>《光明力量：暗黑龙的复活》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《光明力量：暗黑龙的复活》是一款以格子地图推进、部队培养和回合制战斗为核心的战棋 SRPG。玩家需要根据兵种、地形和站位逐步推进战局，整体属于《光明力量》系列典型的掌机战术路线，而不是普通 JRPG。它的价值主要在于经典名作重制、便携化体验和稳定的战棋节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1603 - Shining Force - Kuroki Ryuu no Fukkatsu(JP).png</image>
@@ -35779,7 +35779,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.90</rating>
-    <desc>《光明力量：暗黑龙的复活》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《光明力量：暗黑龙的复活》是一款以格子地图推进、部队培养和回合制战斗为核心的战棋 SRPG。玩家需要根据兵种、地形和站位逐步推进战局，整体属于《光明力量》系列典型的掌机战术路线，而不是普通 JRPG。它的价值主要在于经典名作重制、便携化体验和稳定的战棋节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1470 - Shining Force - Resurrection of the Dark Dragon(EU).png</image>
@@ -35796,7 +35796,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.90</rating>
-    <desc>《光明力量：暗黑龙的复活》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《光明力量：暗黑龙的复活》是一款以格子地图推进、部队培养和回合制战斗为核心的战棋 SRPG。玩家需要根据兵种、地形和站位逐步推进战局，整体属于《光明力量》系列典型的掌机战术路线，而不是普通 JRPG。它的价值主要在于经典名作重制、便携化体验和稳定的战棋节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1530 - Shining Force - Resurrection of the Dark Dragon(US).png</image>
@@ -35898,7 +35898,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating>0.70</rating>
-    <desc>《新约·圣剑传说》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《新约·圣剑传说》是一款以即时战斗、地图探索和武器成长为核心的动作角色扮演游戏。玩家围绕近战攻击、魔法运用和场景推进不断冒险，整体延续《圣剑传说》系列的 ARPG 路线，而不是传统回合 JRPG。它的看点主要在清爽的掌机动作节奏和系列经典的奇幻冒险氛围。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1136 - Shinyaku Seiken Densetsu(JP).png</image>
@@ -36017,7 +36017,7 @@
     <genre>格斗</genre>
     <players>1-4</players>
     <rating>0.30</rating>
-    <desc>《怪物史瑞克：超级满贯》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《怪物史瑞克：超级满贯》是一款以多人乱斗、场地互动和角色必杀为核心的派对式对战游戏。玩家围绕击飞、道具和场地变化争取胜利，整体更接近轻量欢乐乱斗，而不是讲究距离判定的传统格斗。它的吸引力主要来自《史瑞克》角色阵容和偏闹腾的派对对抗感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2236 - Shrek Super Slam(EU).png</image>
@@ -36034,7 +36034,7 @@
     <genre>格斗</genre>
     <players>1-4</players>
     <rating>0.30</rating>
-    <desc>《怪物史瑞克：超级满贯》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《怪物史瑞克：超级满贯》是一款以多人乱斗、场地互动和角色必杀为核心的派对式对战游戏。玩家围绕击飞、道具和场地变化争取胜利，整体更接近轻量欢乐乱斗，而不是讲究距离判定的传统格斗。它的吸引力主要来自《史瑞克》角色阵容和偏闹腾的派对对抗感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2224 - Shrek Super Slam(US).png</image>
@@ -36187,7 +36187,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.85</rating>
-    <desc>《西格玛星际传奇》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《西格玛星际传奇》是一款把纵版射击关卡和角色冒险流程结合起来的异色作品。玩家在地面探索与宇宙射击战之间来回切换，体验更偏动作冒险加 STG 混合的掌机路线，而不是传统 JRPG。它的看点主要在类型拼接、科幻题材和一关一关切换玩法的新鲜感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2090 - Sigma Star Saga(UE).png</image>
@@ -36204,7 +36204,7 @@
     <genre>动作</genre>
     <players>1-4</players>
     <rating>0.60</rating>
-    <desc>《Silent Scope》是一款由Konami于1999年推出的街机游戏，玩家扮演一名狙击手，参与一系列反恐行动。游戏背景设定在美国第一家庭在伊利诺伊州芝加哥遭遇恐怖袭击后，总统全家被恐怖分子绑架，要求释放其领袖以换取总统安全。美国政府决定秘密使用军事力量解决问题。玩家在游戏中协助警方解救总统的女儿，追击恐怖分子头目以救出总统夫人，并最终潜入恐怖分子基地，击败最终boss Monica，解放总统。游戏使用实体步枪控制器，玩家需调整位置以精准射击，可使用夜视镜在黑暗环境中作战。玩家有限定的时间和生命值，通过击杀敌人获得额外时间，瞄准美女可获得额外生命和积分。游戏分为三个关卡，每个关卡对应第一家庭成员，玩家需在限定时间内尽可能多地击杀敌人，面对小boss和大boss。玩家可选择不同难度路径，影响后续任务和boss。游戏得分基于击中部位和连续命中次数，头射得最高分。家用版本有作弊码可交换生命和时间，还有隐藏目标指示器的难度增加秘籍。《Silent Scope》最初在家用机上推出时获得了适度好评。Metacritic网站给出的平均分为63%，表明"褒贬不一"，但这一评分基于样本量少且代表性不足的评论。AllGame的Brett Alan Weiss认为街机版"玩起来很有趣，但若能增加一些更真实的狙击任务会更好。画面可接受，动画不错，但音乐在动作中难以辨认，配音则无意中显得滑稽。"GamePro的Major Mike在2000年11月刊中评价PS2版："在这个缺乏竞争的领域，Silent Scope是一个强大的第一代产品，也是完美的街机移植。虽然是否值得购买还有待商榷，但Silent Scope无疑是一个必租的标题。"后来的一期中，Jake The Snake表示Dreamcast版的多个训练课程"提供了多样化的乐趣，包括不允许错过任何一枪、弹出目标和移动目标。但你在购买Silent Scope之前应该先租来看看，是否想在几小时后继续玩。"Edge给同一Dreamcast版打了7/10的分数，称"大多数玩家不会花太长时间完成游戏，但Silent Scope是关于通过高准确性获得高分的。这就是Konami需要移植到家用机的，一枪一杀的瞬间的狂喜和绝望使这成为成功。"NextGen的Randy Nelson评价PS2版："它不是开创性的，但是一个具有独特玩法机制的坚实射击游戏。"在日本，Famitsu给GBA版打了23/40的分数。Game Machine杂志在1999年9月1日的一期中，将街机版列为当月第二成功的专用街机游戏。</desc>
+    <desc>《Silent Scope》是一款以狙击和定点射击为核心的掌机动作射击游戏。玩家需要在限定时间内快速锁定目标、处理远距离敌人并尽量减少失误，乐趣主要来自高命中率和一枪解决关键目标的紧张感。它和普通扫图式射击不同，更强调瞄准、节奏和任务压力。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1919 - Silent Scope(EU).png</image>
@@ -36221,7 +36221,7 @@
     <genre>动作</genre>
     <players>1-4</players>
     <rating>0.60</rating>
-    <desc>《Silent Scope》是一款由Konami于1999年推出的街机游戏，玩家扮演一名狙击手，参与一系列反恐行动。游戏背景设定在美国第一家庭在伊利诺伊州芝加哥遭遇恐怖袭击后，总统全家被恐怖分子绑架，要求释放其领袖以换取总统安全。美国政府决定秘密使用军事力量解决问题。玩家在游戏中协助警方解救总统的女儿，追击恐怖分子头目以救出总统夫人，并最终潜入恐怖分子基地，击败最终boss Monica，解放总统。游戏使用实体步枪控制器，玩家需调整位置以精准射击，可使用夜视镜在黑暗环境中作战。玩家有限定的时间和生命值，通过击杀敌人获得额外时间，瞄准美女可获得额外生命和积分。游戏分为三个关卡，每个关卡对应第一家庭成员，玩家需在限定时间内尽可能多地击杀敌人，面对小boss和大boss。玩家可选择不同难度路径，影响后续任务和boss。游戏得分基于击中部位和连续命中次数，头射得最高分。家用版本有作弊码可交换生命和时间，还有隐藏目标指示器的难度增加秘籍。《Silent Scope》最初在家用机上推出时获得了适度好评。Metacritic网站给出的平均分为63%，表明"褒贬不一"，但这一评分基于样本量少且代表性不足的评论。AllGame的Brett Alan Weiss认为街机版"玩起来很有趣，但若能增加一些更真实的狙击任务会更好。画面可接受，动画不错，但音乐在动作中难以辨认，配音则无意中显得滑稽。"GamePro的Major Mike在2000年11月刊中评价PS2版："在这个缺乏竞争的领域，Silent Scope是一个强大的第一代产品，也是完美的街机移植。虽然是否值得购买还有待商榷，但Silent Scope无疑是一个必租的标题。"后来的一期中，Jake The Snake表示Dreamcast版的多个训练课程"提供了多样化的乐趣，包括不允许错过任何一枪、弹出目标和移动目标。但你在购买Silent Scope之前应该先租来看看，是否想在几小时后继续玩。"Edge给同一Dreamcast版打了7/10的分数，称"大多数玩家不会花太长时间完成游戏，但Silent Scope是关于通过高准确性获得高分的。这就是Konami需要移植到家用机的，一枪一杀的瞬间的狂喜和绝望使这成为成功。"NextGen的Randy Nelson评价PS2版："它不是开创性的，但是一个具有独特玩法机制的坚实射击游戏。"在日本，Famitsu给GBA版打了23/40的分数。Game Machine杂志在1999年9月1日的一期中，将街机版列为当月第二成功的专用街机游戏。</desc>
+    <desc>《Silent Scope》是一款以狙击和定点射击为核心的掌机动作射击游戏。玩家需要在限定时间内快速锁定目标、处理远距离敌人并尽量减少失误，乐趣主要来自高命中率和一枪解决关键目标的紧张感。它和普通扫图式射击不同，更强调瞄准、节奏和任务压力。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0767 - Silent Scope(JP).png</image>
@@ -36238,7 +36238,7 @@
     <genre>动作</genre>
     <players>1-4</players>
     <rating>0.60</rating>
-    <desc>《Silent Scope》是一款由Konami于1999年推出的街机游戏，玩家扮演一名狙击手，参与一系列反恐行动。游戏背景设定在美国第一家庭在伊利诺伊州芝加哥遭遇恐怖袭击后，总统全家被恐怖分子绑架，要求释放其领袖以换取总统安全。美国政府决定秘密使用军事力量解决问题。玩家在游戏中协助警方解救总统的女儿，追击恐怖分子头目以救出总统夫人，并最终潜入恐怖分子基地，击败最终boss Monica，解放总统。游戏使用实体步枪控制器，玩家需调整位置以精准射击，可使用夜视镜在黑暗环境中作战。玩家有限定的时间和生命值，通过击杀敌人获得额外时间，瞄准美女可获得额外生命和积分。游戏分为三个关卡，每个关卡对应第一家庭成员，玩家需在限定时间内尽可能多地击杀敌人，面对小boss和大boss。玩家可选择不同难度路径，影响后续任务和boss。游戏得分基于击中部位和连续命中次数，头射得最高分。家用版本有作弊码可交换生命和时间，还有隐藏目标指示器的难度增加秘籍。《Silent Scope》最初在家用机上推出时获得了适度好评。Metacritic网站给出的平均分为63%，表明"褒贬不一"，但这一评分基于样本量少且代表性不足的评论。AllGame的Brett Alan Weiss认为街机版"玩起来很有趣，但若能增加一些更真实的狙击任务会更好。画面可接受，动画不错，但音乐在动作中难以辨认，配音则无意中显得滑稽。"GamePro的Major Mike在2000年11月刊中评价PS2版："在这个缺乏竞争的领域，Silent Scope是一个强大的第一代产品，也是完美的街机移植。虽然是否值得购买还有待商榷，但Silent Scope无疑是一个必租的标题。"后来的一期中，Jake The Snake表示Dreamcast版的多个训练课程"提供了多样化的乐趣，包括不允许错过任何一枪、弹出目标和移动目标。但你在购买Silent Scope之前应该先租来看看，是否想在几小时后继续玩。"Edge给同一Dreamcast版打了7/10的分数，称"大多数玩家不会花太长时间完成游戏，但Silent Scope是关于通过高准确性获得高分的。这就是Konami需要移植到家用机的，一枪一杀的瞬间的狂喜和绝望使这成为成功。"NextGen的Randy Nelson评价PS2版："它不是开创性的，但是一个具有独特玩法机制的坚实射击游戏。"在日本，Famitsu给GBA版打了23/40的分数。Game Machine杂志在1999年9月1日的一期中，将街机版列为当月第二成功的专用街机游戏。</desc>
+    <desc>《Silent Scope》是一款以狙击和定点射击为核心的掌机动作射击游戏。玩家需要在限定时间内快速锁定目标、处理远距离敌人并尽量减少失误，乐趣主要来自高命中率和一枪解决关键目标的紧张感。它和普通扫图式射击不同，更强调瞄准、节奏和任务压力。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0585 - Silent Scope(US).png</image>
@@ -38669,7 +38669,7 @@
     <genre>益智</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《拼图数独九宫格》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《拼图数独九宫格》就是一款围绕数独规则展开的掌机益智游戏，卖点非常纯粹：随时开一局、慢慢提升熟练度。它不需要复杂包装，真正重要的是题量、难度曲线和解题手感。对喜欢数独的人来说，这种作品天然就很适合掌机。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2356 - Global Star Sudoku Fever(EU).png</image>
@@ -38703,7 +38703,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating>0.85</rating>
-    <desc>《召唤之夜：铸剑物语》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《召唤之夜：铸剑物语》是一款把横版即时战斗、武器锻造和剧情推进结合起来的动作角色扮演游戏。玩家在冒险过程中不断收集材料、打造武器并以连招和技能推进关卡，整体更偏掌机 ARPG，而不是传统 JRPG。它的魅力主要在锻造系统、伙伴互动和爽快的战斗手感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0980 - Summon Night - Craft Sword Monogatari(JP).png</image>
@@ -38737,7 +38737,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating>0.85</rating>
-    <desc>《召唤之夜：铸剑物语》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《召唤之夜：铸剑物语》是一款把横版即时战斗、武器锻造和剧情推进结合起来的动作角色扮演游戏。玩家在冒险过程中不断收集材料、打造武器并以连招和技能推进关卡，整体更偏掌机 ARPG，而不是传统 JRPG。它的魅力主要在锻造系统、伙伴互动和爽快的战斗手感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2458 - Summon Night - Swordcraft Story(US).png</image>
@@ -38771,7 +38771,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating />
-    <desc>《召唤之夜：铸剑物语 源石》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《召唤之夜：铸剑物语 源石》是一款把即时战斗、锻造成长和剧情冒险继续结合起来的动作角色扮演游戏。玩家围绕武器打造、材料收集和横版战斗不断推进，整体仍是《铸剑物语》系列的掌机 ARPG 路线，而不是传统 JRPG。它的看点主要在锻造系统、角色互动和系列一贯的轻快节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2273 - Summon Night - Craft Sword Monogatari Hajimari no Ishi(JP).png</image>
@@ -38788,7 +38788,7 @@
     <genre>体育</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《荣誉日：战争精髓》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《荣誉日：战争精髓》把飞行、空投和前线支援混成了一种很有个性的战场游戏，既不是纯空战，也不是纯即时战略。玩家需要在空中机动与战场支援之间反复切换，因此节奏和一般军事题材作品很不一样。它最大的辨识点就是这种类型混合带来的独特味道。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1911 - Super Army War(US).png</image>
@@ -39621,7 +39621,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《超级机器人大战R》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《超级机器人大战R》是一款以格子地图推进、机体编成和回合制战斗为核心的战棋 SRPG。玩家需要围绕机体性能、驾驶员精神指令和关卡目标逐步推进战局，整体属于《机战》系列典型的掌机战术路线，而不是普通 JRPG。它的看点主要在机器人跨作参战、演出和长线培养乐趣。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0514 - Super Robot Taisen R(JP).png</image>
@@ -39808,7 +39808,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating>0.70</rating>
-    <desc>《新约·圣剑传说》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《新约·圣剑传说》是一款以即时战斗、地图探索和武器成长为核心的动作角色扮演游戏。玩家围绕近战攻击、魔法运用和场景推进不断冒险，整体延续《圣剑传说》系列的 ARPG 路线，而不是传统回合 JRPG。它的看点主要在清爽的掌机动作节奏和系列经典的奇幻冒险氛围。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1415 - Sword of Mana(EU).png</image>
@@ -39825,7 +39825,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating>0.70</rating>
-    <desc>《新约·圣剑传说》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《新约·圣剑传说》是一款以即时战斗、地图探索和武器成长为核心的动作角色扮演游戏。玩家围绕近战攻击、魔法运用和场景推进不断冒险，整体延续《圣剑传说》系列的 ARPG 路线，而不是传统回合 JRPG。它的看点主要在清爽的掌机动作节奏和系列经典的奇幻冒险氛围。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1422 - Sword of Mana(EU).png</image>
@@ -39842,7 +39842,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating>0.70</rating>
-    <desc>《新约·圣剑传说》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《新约·圣剑传说》是一款以即时战斗、地图探索和武器成长为核心的动作角色扮演游戏。玩家围绕近战攻击、魔法运用和场景推进不断冒险，整体延续《圣剑传说》系列的 ARPG 路线，而不是传统回合 JRPG。它的看点主要在清爽的掌机动作节奏和系列经典的奇幻冒险氛围。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2478 - Sword of Mana(EU).png</image>
@@ -39859,7 +39859,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating>0.70</rating>
-    <desc>《新约·圣剑传说》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《新约·圣剑传说》是一款以即时战斗、地图探索和武器成长为核心的动作角色扮演游戏。玩家围绕近战攻击、魔法运用和场景推进不断冒险，整体延续《圣剑传说》系列的 ARPG 路线，而不是传统回合 JRPG。它的看点主要在清爽的掌机动作节奏和系列经典的奇幻冒险氛围。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1267 - Sword of Mana(US).png</image>
@@ -41287,7 +41287,7 @@
     <genre>清版动作</genre>
     <players>1</players>
     <rating>0.55</rating>
-    <desc>《超人总动员》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《超人总动员》把超能一家人的团队概念做进了动作关卡里，不同角色能力切换是它最重要的卖点。比起单一主角一路打到底，这种“全家都有用武之地”的设计更能体现原作魅力。对喜欢电影的人来说，角色分工和题材还原感就是它最吸引人的部分。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1771 - Incredibles, The(EU).png</image>
@@ -41304,7 +41304,7 @@
     <genre>清版动作</genre>
     <players>1</players>
     <rating>0.55</rating>
-    <desc>《超人总动员》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《超人总动员》把超能一家人的团队概念做进了动作关卡里，不同角色能力切换是它最重要的卖点。比起单一主角一路打到底，这种“全家都有用武之地”的设计更能体现原作魅力。对喜欢电影的人来说，角色分工和题材还原感就是它最吸引人的部分。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1749 - Incredibles, The(UE).png</image>
@@ -41797,7 +41797,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.60</rating>
-    <desc>《指环王：护戒使者》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《指环王：护戒使者》是一款以中土世界冒险、地图探索和战斗成长为核心的角色扮演游戏。玩家围绕剧情事件、队伍能力和区域推进不断展开旅程，整体更接近西式奇幻 RPG 的掌机改编，而不是通用日式 RPG 模板。它的看点主要在《指环王》题材和长线冒险氛围。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0715 - Lord of the Rings, The - The Fellowship of the Ring(EU).png</image>
@@ -41814,7 +41814,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating>0.60</rating>
-    <desc>《指环王：护戒使者》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《指环王：护戒使者》是一款以中土世界冒险、地图探索和战斗成长为核心的角色扮演游戏。玩家围绕剧情事件、队伍能力和区域推进不断展开旅程，整体更接近西式奇幻 RPG 的掌机改编，而不是通用日式 RPG 模板。它的看点主要在《指环王》题材和长线冒险氛围。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0613 - Lord of the Rings, The - The Fellowship of the Ring(US).png</image>
@@ -41967,7 +41967,7 @@
     <genre>弹珠台</genre>
     <players>1-4</players>
     <rating>0.70</rating>
-    <desc>《死亡弹珠台》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《死亡弹珠台》把僵尸恐怖题材和弹珠台玩法硬生生揉在了一起，是一款相当有记忆点的邪典作品。玩家一边要维持弹珠节奏，一边又能看到灾难电影式的夸张演出，这种混搭感在 GBA 上非常少见。它的魅力正来自弹珠台和恐怖氛围拼在一起后的反差。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0494 - Pinball of the Dead, The(JP).png</image>
@@ -41984,7 +41984,7 @@
     <genre>弹珠台</genre>
     <players>1-4</players>
     <rating>0.70</rating>
-    <desc>《死亡弹珠台》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《死亡弹珠台》把僵尸恐怖题材和弹珠台玩法硬生生揉在了一起，是一款相当有记忆点的邪典作品。玩家一边要维持弹珠节奏，一边又能看到灾难电影式的夸张演出，这种混搭感在 GBA 上非常少见。它的魅力正来自弹珠台和恐怖氛围拼在一起后的反差。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0480 - Pinball of the Dead, The(US).png</image>
@@ -42443,7 +42443,7 @@
     <genre>模拟</genre>
     <players>1</players>
     <rating />
-    <desc>《模拟大楼SP》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《模拟大楼SP》是一款以楼层建设、住户需求和平衡经营为核心的模拟经营作品。玩家需要规划电梯、店铺和住宅布局，再逐步处理收入、便利性和人流之间的关系。它的魅力在于看着一栋楼慢慢成形，并把零散管理拼成稳定运转的系统。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1978 - Welcome to the Tower SP(JP).png</image>
@@ -42460,7 +42460,7 @@
     <genre>模拟</genre>
     <players>1</players>
     <rating />
-    <desc>《模拟大楼SP》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《模拟大楼SP》是一款以楼层建设、住户需求和平衡经营为核心的模拟经营作品。玩家需要规划电梯、店铺和住宅布局，再逐步处理收入、便利性和人流之间的关系。它的魅力在于看着一栋楼慢慢成形，并把零散管理拼成稳定运转的系统。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2349 - Welcome to the Tower SP(US).png</image>
@@ -42732,7 +42732,7 @@
     <genre>格斗</genre>
     <players>1</players>
     <rating>0.85</rating>
-    <desc>《兔宝宝历险记：糟糕的梦》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《兔宝宝历险记：糟糕的梦》是一款以平台跳跃、敌人应对和梦境关卡推进为核心的动作作品。玩家操控巴斯特在夸张场景中跳跃、攻击并完成关卡目标，整体更像掌机平台动作/轻冒险，而不是传统对战格斗。它的魅力主要来自卡通题材、关卡变化和 Treasure 式的流畅动作手感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0507 - Tiny Toon Adventures - Buster's Bad Dream(EU).png</image>
@@ -42749,7 +42749,7 @@
     <genre>格斗</genre>
     <players>1</players>
     <rating>0.85</rating>
-    <desc>《兔宝宝历险记：糟糕的梦》是一款以近距离攻防为核心的格斗游戏。玩家需要把握招式判定、距离控制和出手节奏，在掌机有限键位下尽量打出角色差异和对战张力。它是否值得玩，很大程度取决于角色辨识度和输入反馈是否够利落。</desc>
+    <desc>《兔宝宝历险记：糟糕的梦》是一款以平台跳跃、敌人应对和梦境关卡推进为核心的动作作品。玩家操控巴斯特在夸张场景中跳跃、攻击并完成关卡目标，整体更像掌机平台动作/轻冒险，而不是传统对战格斗。它的魅力主要来自卡通题材、关卡变化和 Treasure 式的流畅动作手感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2293 - Tiny Toon Adventures - Scary Dreams(US).png</image>
@@ -43157,7 +43157,7 @@
     <genre>策略</genre>
     <players>1</players>
     <rating>0.60</rating>
-    <desc>《分裂细胞》是一款偏思考和规划的策略游戏，玩家需要在资源、单位或地图布局之间做出取舍，再通过多回合推进逐步扩大优势。GBA 上这类作品如果做得好，通常会兼顾掌机短局节奏和中长期决策，因此很适合慢慢打磨一关一关地推进。</desc>
+    <desc>《分裂细胞》是一款以潜入、观察和规避正面冲突为核心的动作冒险作品。玩家需要利用视野死角、时机判断和环境路线悄悄推进任务，重点不在硬拼火力，而在尽量不被发现地完成渗透。放在 GBA 上，它更像把系列的特工潜入感压缩成便携版关卡体验。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1043 - Tom Clancy's Splinter Cell(EU).png</image>
@@ -45537,7 +45537,7 @@
     <genre>RPG</genre>
     <players>1-4</players>
     <rating>0.75</rating>
-    <desc>《魔法俏佳人》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《魔法俏佳人》是一款以关卡推进、魔法能力和少女动画题材为卖点的轻动作冒险作品。玩家围绕场景探索、机关处理和角色能力运用不断前进，整体更偏粉丝向掌机冒险路线，而不是传统 JRPG。它的看点主要在题材代入感、角色能力和轻松明快的流程节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2301 - Winx Club(US).png</image>
@@ -47067,7 +47067,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating />
-    <desc>《零度旅行》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《零度旅行》是一款以探索、事件推进和轻量冒险结构为核心的掌机作品。玩家围绕场景调查、剧情触发和角色行动不断前进，整体更像题材型冒险游戏，而不是标准 JRPG 模板。它的看点主要在设定气氛和偏安静的掌机推进节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0076 - Zero-Tours(JP).png</image>
@@ -47203,7 +47203,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《机兽新世纪》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《机兽新世纪》把索斯机械兽题材和队伍培养型 RPG 结构结合在一起，重点在机兽收集、编队搭配和剧情推进。玩家会围绕不同机兽性能与成长路线慢慢扩充队伍，体验更偏粉丝向的掌机冒险节奏。它的吸引力主要来自机兽设定、机体组合和长期培养感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0259 - Zoids Saga(JP).png</image>
@@ -47220,7 +47220,7 @@
     <genre>RPG</genre>
     <players>1-2</players>
     <rating />
-    <desc>《机兽新世纪：融合斗士》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《机兽新世纪：融合斗士》延续了《Zoids Saga》系在机兽收集、队伍培养和剧情推进上的掌机 RPG 路线。玩家围绕机兽编成、能力成长和系列题材不断推进，整体仍是偏粉丝向的长线培养体验。它的看点主要在机兽阵容、收集搭配和世界观代入感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1905 - Zoids Saga - Fuzors(JP).png</image>
@@ -47254,7 +47254,7 @@
     <genre>平台动作</genre>
     <players>1-4</players>
     <rating>0.90</rating>
-    <desc>《续·我们的太阳：太阳少年加戈》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《续·我们的太阳：太阳少年加戈》延续了小岛秀夫系掌机动作冒险的太阳能题材，核心在地城探索、潜入式推进和阳光能量管理。它不是普通横版平台动作，而是把 GBA 硬件特色、吸血鬼题材和资源控制结合起来的异色续作。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1585 - Zoku Bokura no Taiyou - Taiyou Shounen Django(JP).png</image>
@@ -47271,7 +47271,7 @@
     <genre>平台动作</genre>
     <players>1-4</players>
     <rating>0.90</rating>
-    <desc>《续·我们的太阳：太阳少年加戈》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《续·我们的太阳：太阳少年加戈》延续了小岛秀夫系掌机动作冒险的太阳能题材，核心在地城探索、潜入式推进和阳光能量管理。它不是普通横版平台动作，而是把 GBA 硬件特色、吸血鬼题材和资源控制结合起来的异色续作。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2395 - Zoku Bokura no Taiyou - Taiyou Shounen Django(JP).png</image>
@@ -47849,7 +47849,7 @@
     <genre>RPG</genre>
     <players>1</players>
     <rating />
-    <desc>《苏生龙王传说：复苏试炼之岛》是一款日式角色扮演游戏，核心流程围绕探索、战斗、成长和剧情推进展开。GBA 上这类作品尤其看重便携节奏是否舒服，也就是城镇、迷宫和战斗之间的切换能不能让人随时拿起放下后还愿意继续推进。除了数值成长，世界设定和角色关系通常也是长期吸引力的重要来源。</desc>
+    <desc>《苏生龙王传说：复苏试炼之岛》是一款以怪兽题材和子供向冒险氛围为核心的掌机 RPG。玩家围绕伙伴收集、能力培养、战斗推进和剧情事件逐步前进，整体更接近动漫改编作品常见的养成收集路线。它的吸引力主要在龙兽题材、队伍培养和轻冒险节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2802 - Legendz - Buhwarhaneun Siryeonyi Seom(KS).png</image>
