@@ -2969,7 +2969,7 @@
     <genre>模拟</genre>
     <players>1-2</players>
     <rating>0.30</rating>
-    <desc>《宠物狗2（Dogz 2）》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《宠物狗2（Dogz 2）》延续宠物照料路线，重点仍是和小狗互动、完成日常养成目标，并用更丰富的宠物生活内容支撑碎片时间游玩。它适合喜欢轻松陪伴型软件的玩家，而不是追求动作或竞速刺激的人。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2723 - Dogz 2(US).png</image>
@@ -6964,7 +6964,7 @@
     <genre>休闲</genre>
     <players>1</players>
     <rating>0.50</rating>
-    <desc>《贝兹娃娃：Babyz》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《贝兹娃娃：Babyz》是 Bratz 品牌的低龄向衍生作，重点在可爱角色、换装气质和轻量小游戏式互动。它不是复杂动作游戏，而是把玩偶品牌的陪伴感和休闲任务放进 GBA 的短局节奏里。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2639 - Bratz - Babyz(EU).png</image>
@@ -6981,7 +6981,7 @@
     <genre>休闲</genre>
     <players>1</players>
     <rating>0.50</rating>
-    <desc>《贝兹娃娃：Babyz》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《贝兹娃娃：Babyz》是 Bratz 品牌的低龄向衍生作，重点在可爱角色、换装气质和轻量小游戏式互动。它不是复杂动作游戏，而是把玩偶品牌的陪伴感和休闲任务放进 GBA 的短局节奏里。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2646 - Bratz - Babyz(US).png</image>
@@ -7117,7 +7117,7 @@
     <genre>模拟</genre>
     <players>1</players>
     <rating>0.40</rating>
-    <desc>《贝兹娃娃：电影版》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《贝兹娃娃：电影版》围绕 Bratz 电影题材展开，重点在角色、时尚包装、校园/舞台气氛和轻量任务推进。它的定位更接近粉丝向休闲冒险，而不是需要高强度操作的传统动作游戏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2779 - Bratz - The Movie(DE).png</image>
@@ -7134,7 +7134,7 @@
     <genre>模拟</genre>
     <players>1</players>
     <rating>0.40</rating>
-    <desc>《贝兹娃娃：电影版》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《贝兹娃娃：电影版》围绕 Bratz 电影题材展开，重点在角色、时尚包装、校园/舞台气氛和轻量任务推进。它的定位更接近粉丝向休闲冒险，而不是需要高强度操作的传统动作游戏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2782 - Bratz - The Movie(EU).png</image>
@@ -7151,7 +7151,7 @@
     <genre>模拟</genre>
     <players>1</players>
     <rating>0.40</rating>
-    <desc>《贝兹娃娃：电影版》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《贝兹娃娃：电影版》围绕 Bratz 电影题材展开，重点在角色、时尚包装、校园/舞台气氛和轻量任务推进。它的定位更接近粉丝向休闲冒险，而不是需要高强度操作的传统动作游戏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2809 - Bratz - The Movie(EU).png</image>
@@ -7168,7 +7168,7 @@
     <genre>模拟</genre>
     <players>1</players>
     <rating>0.40</rating>
-    <desc>《贝兹娃娃：电影版》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《贝兹娃娃：电影版》围绕 Bratz 电影题材展开，重点在角色、时尚包装、校园/舞台气氛和轻量任务推进。它的定位更接近粉丝向休闲冒险，而不是需要高强度操作的传统动作游戏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2771 - Bratz - The Movie(US).png</image>
@@ -7644,7 +7644,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.55</rating>
-    <desc>《卷心菜娃娃：拯救斑点狗》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《卷心菜娃娃：拯救斑点狗》是玩偶品牌改编的家庭向冒险作品，围绕寻找和救助斑点狗展开。它的重点在可爱题材、轻量关卡和低压力推进，而不是硬核平台动作的高难跳跃。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2628 - Cabbage Patch Kids - The Patch Puppy Rescue(EU).png</image>
@@ -7661,7 +7661,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.55</rating>
-    <desc>《卷心菜娃娃：拯救斑点狗》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《卷心菜娃娃：拯救斑点狗》是玩偶品牌改编的家庭向冒险作品，围绕寻找和救助斑点狗展开。它的重点在可爱题材、轻量关卡和低压力推进，而不是硬核平台动作的高难跳跃。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2378 - Cabbage Patch Kids - The Patch Puppy Rescue(US).png</image>
@@ -7882,7 +7882,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.50</rating>
-    <desc>《爱心熊：爱心任务》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《爱心熊：爱心任务》是 Care Bears 题材的低龄向掌机冒险，重点在柔和角色、收集目标和轻松关卡推进。它更重视亲切包装和低压力游玩，而不是复杂操作或高难平台挑战。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2206 - Care Bears - The Care Quests(EU).png</image>
@@ -7899,7 +7899,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.50</rating>
-    <desc>《爱心熊：爱心任务》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《爱心熊：爱心任务》是 Care Bears 题材的低龄向掌机冒险，重点在柔和角色、收集目标和轻松关卡推进。它更重视亲切包装和低压力游玩，而不是复杂操作或高难平台挑战。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2266 - Care Bears - The Care Quests(US).png</image>
@@ -8086,7 +8086,7 @@
     <genre>桌游</genre>
     <players>1-4</players>
     <rating>0.60</rating>
-    <desc>《卡通网络：街头派对》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《卡通网络：街头派对》把多个 Cartoon Network 角色放进派对棋盘和小游戏结构里，重点在角色混搭、轻松竞争和短局项目轮换。它不是单人动作冒险，而是更偏多人同乐的动画频道联动小品。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1611 - Cartoon Network - Block Party(US).png</image>
@@ -8103,7 +8103,7 @@
     <genre>竞速运动</genre>
     <players>1-2</players>
     <rating>0.60</rating>
-    <desc>《卡通网络：赛车跑道》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《卡通网络：赛车跑道》把 Cartoon Network 角色放进卡丁车式竞速里，卖点在角色化赛道、道具干扰和轻松对抗。它的气质更接近动画频道的派对赛车，而不是严肃驾驶模拟。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1260 - Cartoon Network - Speedway(US).png</image>
@@ -8120,7 +8120,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.50</rating>
-    <desc>《鬼马小精灵》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《鬼马小精灵》把 Casper 的幽灵题材改成家庭向掌机冒险，重点在可爱角色、轻量探索和场景机关。它不适合只按普通跳台模板来写，真正的卖点是“友善小幽灵”题材和低压力关卡气氛。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0338 - Casper(EU).png</image>
@@ -8137,7 +8137,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.50</rating>
-    <desc>《鬼马小精灵》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《鬼马小精灵》把 Casper 的幽灵题材改成家庭向掌机冒险，重点在可爱角色、轻量探索和场景机关。它不适合只按普通跳台模板来写，真正的卖点是“友善小幽灵”题材和低压力关卡气氛。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2117 - Casper(US).png</image>
@@ -8681,7 +8681,7 @@
     <genre>桌游</genre>
     <players>1-4</players>
     <rating>0.65</rating>
-    <desc>《陆行鸟大陆：骰子游戏》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《陆行鸟大陆：骰子游戏》把《最终幻想》里的陆行鸟题材做成骰子与棋盘式玩法，重点在掷骰推进、事件触发和角色化桌游气氛。它不是传统 RPG，而是更轻松的系列衍生桌游。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0824 - Chocobo Land - A Game of Dice(JP).png</image>
@@ -9055,7 +9055,7 @@
     <genre>竞速运动</genre>
     <players>1</players>
     <rating>0.55</rating>
-    <desc>《小魔怪卡丁车》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《小魔怪卡丁车》是角色化卡丁车竞速作品，重点在轻松赛道、道具干扰和卡通题材带来的派对感。它不追求严肃驾驶，而是让玩家在短局比赛里反复换角色、抢道具、争名次。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2746 - Cocoto Kart Racer(EU).png</image>
@@ -9310,7 +9310,7 @@
     <genre>竞速运动</genre>
     <players>1</players>
     <rating>0.55</rating>
-    <desc>《克尔维特赛车》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《克尔维特赛车》主打雪佛兰 Corvette 授权车型，重点在跑车题材、赛道驾驶和不同年代车款的收藏感。它的吸引力主要来自品牌授权和车型情怀，而不是卡通道具式竞速。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1373 - Corvette(US).png</image>
@@ -9667,7 +9667,7 @@
     <genre>竞速运动</genre>
     <players>1-4</players>
     <rating>0.70</rating>
-    <desc>《古惑狼超级包》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《古惑狼超级包》是把多部古惑狼 GBA 作品打包的合集卡，价值在于一次收录系列掌机平台动作与赛车内容。它不能只按竞速写，因为真正卖点是古惑狼在 GBA 上不同玩法路线的集中补完。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2196 - 2 Games in 1 - Crash Bandicoot 2 - N-Tranced + Crash Nitro Kart(US).png</image>
@@ -9735,7 +9735,7 @@
     <genre>竞速运动</genre>
     <players>1</players>
     <rating>0.30</rating>
-    <desc>《疯狂青蛙赛车》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《疯狂青蛙赛车》把 Crazy Frog 这类流行文化角色包装成轻松竞速游戏，重点在夸张角色、短局比赛和卡通化赛道。它的意义更多在时代感和题材包装，而不是严肃赛车手感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2264 - Crazy Frog Racer(EU).png</image>
@@ -10398,7 +10398,7 @@
     <genre>体育</genre>
     <players>1-4</players>
     <rating>0.65</rating>
-    <desc>《黛夫·米亚自由式自行车越野赛2》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《黛夫·米亚自由式自行车越野赛2》是 BMX 极限运动题材作品，重点在骑行路线、花式动作、连招得分和场地目标。它更接近掌机上的极限运动挑战，而不是普通竞速或泛泛动作游戏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0302 - Dave Mirra Freestyle BMX 2(EU).png</image>
@@ -10415,7 +10415,7 @@
     <genre>体育</genre>
     <players>1-4</players>
     <rating>0.65</rating>
-    <desc>《黛夫·米亚自由式自行车越野赛2》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《黛夫·米亚自由式自行车越野赛2》是 BMX 极限运动题材作品，重点在骑行路线、花式动作、连招得分和场地目标。它更接近掌机上的极限运动挑战，而不是普通竞速或泛泛动作游戏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0209 - Dave Mirra Freestyle BMX 2(US).png</image>
@@ -10585,7 +10585,7 @@
     <genre>清版射击</genre>
     <players>1-2</players>
     <rating>0.30</rating>
-    <desc>《防御者》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《防御者》是经典街机射击《Defender》的掌机版本，核心在横向飞行、救援目标、敌群压力和高分挑战。它的规则直观但节奏很紧，真正价值在于把老街机的反应压力带到 GBA 上。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0904 - Defender(EU).png</image>
@@ -10602,7 +10602,7 @@
     <genre>清版射击</genre>
     <players>1-2</players>
     <rating>0.30</rating>
-    <desc>《防御者》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《防御者》是经典街机射击《Defender》的掌机版本，核心在横向飞行、救援目标、敌群压力和高分挑战。它的规则直观但节奏很紧，真正价值在于把老街机的反应压力带到 GBA 上。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0729 - Defender(US).png</image>
@@ -10908,7 +10908,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.60</rating>
-    <desc>《德克斯特的实验室：迪迪灾难来袭》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《德克斯特的实验室：迪迪灾难来袭》把动画里的实验室灾难改成掌机动作冒险，重点在德克斯特的发明、机关场景和迪迪惹出的混乱感。它的亮点主要来自 Cartoon Network 题材，而不只是普通平台跳跃。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1434 - Dexter's Laboratory - Deesaster Strikes!(EU).png</image>
@@ -10925,7 +10925,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.60</rating>
-    <desc>《德克斯特的实验室：迪迪灾难来袭》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《德克斯特的实验室：迪迪灾难来袭》把动画里的实验室灾难改成掌机动作冒险，重点在德克斯特的发明、机关场景和迪迪惹出的混乱感。它的亮点主要来自 Cartoon Network 题材，而不只是普通平台跳跃。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0126 - Dexter's Laboratory - Deesaster Strikes!(US).png</image>
@@ -14478,7 +14478,7 @@
     <genre>竞速运动</genre>
     <players>1-2</players>
     <rating>0.95</rating>
-    <desc>《F1赛车2002》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《F1赛车2002》主打一级方程式题材，重点在开放轮赛车、真实赛季氛围和高速赛道上的刹车入弯节奏。它比卡通赛车更偏正规赛事包装，适合想在 GBA 上体验轻量 F1 竞速的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1091 - F1 2002(EU).png</image>
@@ -14495,7 +14495,7 @@
     <genre>竞速运动</genre>
     <players>1-2</players>
     <rating>0.95</rating>
-    <desc>《F1赛车2002》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《F1赛车2002》主打一级方程式题材，重点在开放轮赛车、真实赛季氛围和高速赛道上的刹车入弯节奏。它比卡通赛车更偏正规赛事包装，适合想在 GBA 上体验轻量 F1 竞速的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0844 - F1 2002(UE).png</image>
@@ -15124,7 +15124,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.65</rating>
-    <desc>《神奇四侠：烈火再起》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《神奇四侠：烈火再起》是漫威电影改编的掌机动作游戏，重点在神奇四侠各自能力、横向关卡战斗和英雄团队题材。它更适合按漫画/电影授权动作来看，而不是普通平台跳跃作品。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2369 - Fantastic 4 - Flame On(EU).png</image>
@@ -15141,7 +15141,7 @@
     <genre>清版动作</genre>
     <players>1-2</players>
     <rating>0.65</rating>
-    <desc>《神奇四侠》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《神奇四侠》把漫威英雄团队改成 GBA 动作冒险，重点在四名成员的不同能力、关卡战斗和合作式题材包装。它的看点是如何把“橡皮人、隐形女、霹雳火、石头人”的能力压进掌机流程。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2050 - Fantastic 4(EU).png</image>
@@ -15158,7 +15158,7 @@
     <genre>清版动作</genre>
     <players>1-2</players>
     <rating>0.65</rating>
-    <desc>《神奇四侠》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《神奇四侠》把漫威英雄团队改成 GBA 动作冒险，重点在四名成员的不同能力、关卡战斗和合作式题材包装。它的看点是如何把“橡皮人、隐形女、霹雳火、石头人”的能力压进掌机流程。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2124 - Fantastic 4(EU).png</image>
@@ -15175,7 +15175,7 @@
     <genre>清版动作</genre>
     <players>1-2</players>
     <rating>0.65</rating>
-    <desc>《神奇四侠》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《神奇四侠》把漫威英雄团队改成 GBA 动作冒险，重点在四名成员的不同能力、关卡战斗和合作式题材包装。它的看点是如何把“橡皮人、隐形女、霹雳火、石头人”的能力压进掌机流程。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2038 - Fantastic 4(US).png</image>
@@ -15192,7 +15192,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.65</rating>
-    <desc>《神奇四侠：烈火再起》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《神奇四侠：烈火再起》是漫威电影改编的掌机动作游戏，重点在神奇四侠各自能力、横向关卡战斗和英雄团队题材。它更适合按漫画/电影授权动作来看，而不是普通平台跳跃作品。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2243 - Fantastic 4 - Flame On(US).png</image>
@@ -15396,7 +15396,7 @@
     <genre>体育</genre>
     <players>1-4</players>
     <rating>0.80</rating>
-    <desc>《FILA十项全能》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《FILA十项全能》是项目制田径体育游戏，核心在短跑、跳跃、投掷等十项项目轮换，以及用节奏输入和时机判断刷新成绩。它不讲剧情，价值就在一项项挑战纪录的掌机体育节奏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0385 - FILA Decathlon(EU).png</image>
@@ -15702,7 +15702,7 @@
     <genre>体育</genre>
     <players>1-2</players>
     <rating>0.70</rating>
-    <desc>《火炎职业摔跤2：梦之团体运营》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《火炎职业摔跤2：梦之团体运营》延续《Fire Pro Wrestling》的老派摔角系统，并加入团体运营题材。它的重点在擂台攻防、时机输入、角色编辑和经营层面的长期目标，是摔角迷向的深度掌机作品。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0504 - Final Fire Pro Wrestling - Yume no Dantai Unei!(JP).png</image>
@@ -15991,7 +15991,7 @@
     <genre>体育</genre>
     <players>1-4</players>
     <rating>0.55</rating>
-    <desc>《火炎职业摔角》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《火炎职业摔角》是《Fire Pro Wrestling》系列的 GBA 版，核心在擂台攻防、抓技时机、选手差异和丰富的摔角规则。它不是泛泛格斗游戏，而是面向摔角迷的高密度掌机擂台模拟。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0042 - Fire Pro Wrestling(UE).png</image>
@@ -16008,7 +16008,7 @@
     <genre>体育</genre>
     <players>1-2</players>
     <rating>0.70</rating>
-    <desc>《火炎职业摔跤2：梦之团体运营》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《火炎职业摔跤2：梦之团体运营》延续《Fire Pro Wrestling》的老派摔角系统，并加入团体运营题材。它的重点在擂台攻防、时机输入、角色编辑和经营层面的长期目标，是摔角迷向的深度掌机作品。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0641 - Fire Pro Wrestling 2(US).png</image>
@@ -16025,7 +16025,7 @@
     <genre>体育</genre>
     <players>1-4</players>
     <rating>0.55</rating>
-    <desc>《火炎职业摔角》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《火炎职业摔角》是《Fire Pro Wrestling》系列的 GBA 版，核心在擂台攻防、抓技时机、选手差异和丰富的摔角规则。它不是泛泛格斗游戏，而是面向摔角迷的高密度掌机擂台模拟。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0015 - Fire Pro Wrestling A(JP).png</image>
@@ -16076,7 +16076,7 @@
     <genre>竞速运动</genre>
     <players>1</players>
     <rating>0.65</rating>
-    <desc>《福特赛车3》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《福特赛车3》主打福特授权车型和多赛道驾驶，核心是用不同车辆完成常规竞速挑战。它的卖点并不复杂：品牌车款、赛道熟悉度和掌机上随时跑一局的节奏，适合喜欢真实车厂授权赛车的玩家。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2234 - Ford Racing 3(US).png</image>
@@ -16246,7 +16246,7 @@
     <genre>竞速运动</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《疯狂越野摩托》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《疯狂越野摩托》围绕越野摩托和粗犷赛道展开，重点在泥地、跳跃、落地控制和短局竞速。它不追求公路赛车的精密路线，而是更强调颠簸地形和户外运动感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1354 - Freekstyle(EU).png</image>
@@ -16263,7 +16263,7 @@
     <genre>竞速运动</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《疯狂越野摩托》是一款以速度感和路线控制为核心的竞速作品。玩家需要不断修正过弯角度、抓准加速时机，并尽量降低每圈中的失误。对掌机来说，这类游戏最重要的是赛道记忆和操控反馈能不能支撑起“一局接一局”的重开欲望。</desc>
+    <desc>《疯狂越野摩托》围绕越野摩托和粗犷赛道展开，重点在泥地、跳跃、落地控制和短局竞速。它不追求公路赛车的精密路线，而是更强调颠簸地形和户外运动感。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1145 - Freekstyle(US).png</image>
@@ -16280,7 +16280,7 @@
     <genre>体育</genre>
     <players>1-2</players>
     <rating>0.55</rating>
-    <desc>《劲爆单脚滑行车》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《劲爆单脚滑行车》是极限运动题材作品，核心在滑行路线、花式动作、得分目标和场地挑战。它更接近 BMX/滑板一类连招运动游戏，而不是普通竞速或动作闯关。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/0950 - Freestyle Scooter(EU).png</image>
@@ -16960,7 +16960,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《卡通网络频道合集：高级版》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《卡通网络频道合集：高级版》不是传统游戏，而是一张 GBA Video 媒体卡，重点在用掌机播放 Cartoon Network 相关动画内容。它的价值主要在平台生态和收藏意义，而不是操作系统或关卡设计。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1557 - Game Boy Advance Video - Cartoon Network Collection - Volume 1(US).png</image>
@@ -16977,7 +16977,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《卡通网络频道合集：高级版》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《卡通网络频道合集：高级版》不是传统游戏，而是一张 GBA Video 媒体卡，重点在用掌机播放 Cartoon Network 相关动画内容。它的价值主要在平台生态和收藏意义，而不是操作系统或关卡设计。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1711 - Game Boy Advance Video - Cartoon Network Collection - Volume 2(US).png</image>
@@ -17011,7 +17011,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《卡通网络频道合集：高级版》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《卡通网络频道合集：高级版》不是传统游戏，而是一张 GBA Video 媒体卡，重点在用掌机播放 Cartoon Network 相关动画内容。它的价值主要在平台生态和收藏意义，而不是操作系统或关卡设计。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2182 - Game Boy Advance Video - Cartoon Network Collection - Special Edition(US).png</image>
@@ -17028,7 +17028,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《卡通网络频道合集：高级版》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《卡通网络频道合集：高级版》不是传统游戏，而是一张 GBA Video 媒体卡，重点在用掌机播放 Cartoon Network 相关动画内容。它的价值主要在平台生态和收藏意义，而不是操作系统或关卡设计。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2630 - Game Boy Advance Video - Cartoon Network Collection - Premium Edition(US).png</image>
@@ -17045,7 +17045,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《小孩大联盟》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《小孩大联盟》这条属于 GBA Video 动画卡带，并不是常规可操作游戏。它的意义在于把 Cartoon Network 动画内容装进 GBA 卡带里，更多体现掌机时代的媒体播放实验和收藏价值。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1558 - Game Boy Advance Video - Codename Kids Next Door - Volume 1(US).png</image>
@@ -17062,7 +17062,7 @@
     <genre>未知</genre>
     <players>1</players>
     <rating />
-    <desc>《忍者神龟》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《忍者神龟》这条是 GBA Video 动画卡，而不是忍者神龟动作游戏。它的价值主要在于让玩家用 GBA 观看相关动画内容，属于平台媒体生态的一部分。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1578 - Game Boy Advance Video - Teenage Mutant Ninja Turtles - Volume 1(US).png</image>
@@ -17079,7 +17079,7 @@
     <genre>未知</genre>
     <players>1</players>
     <rating />
-    <desc>《长大后的小兵兵 卷1》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《长大后的小兵兵 卷1》是一张 GBA Video 动画卡带，重点在随身播放《长大后的小兵兵》相关剧集内容。它应按媒体载体和动画收藏来理解，而不是按游戏玩法来评价。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1524 - Game Boy Advance Video - All Grown Up! - Volume 1(US).png</image>
@@ -17113,7 +17113,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《卡通网络频道合集：高级版》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《卡通网络频道合集：高级版》不是传统游戏，而是一张 GBA Video 媒体卡，重点在用掌机播放 Cartoon Network 相关动画内容。它的价值主要在平台生态和收藏意义，而不是操作系统或关卡设计。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2393 - Game Boy Advance Video - Cartoon Network Collection - Edition Premium(FR).png</image>
@@ -17130,7 +17130,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《卡通网络频道合集：限量版》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《卡通网络频道合集：限量版》属于 GBA Video 媒体卡，重点是把 Cartoon Network 动画内容作为卡带发行。它的特殊性在“掌机看动画”的载体形式，而不是传统游戏系统。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1995 - Game Boy Advance Video - Cartoon Network Collection - Limited Edition(US).png</image>
@@ -17147,7 +17147,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《迪士尼频道合集 卷1》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《迪士尼频道合集 卷1》是 GBA Video 形式的迪士尼频道内容卡，定位更接近随身动画/节目载体。它的价值在题材、保存和平台生态，而不是游戏关卡或操作反馈。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1966 - Game Boy Advance Video - Disney Channel Collection - Volume 1(US).png</image>
@@ -17164,7 +17164,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《爱探险的朵拉 卷1》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《爱探险的朵拉 卷1》是 GBA Video 动画卡带，重点在用 GBA 播放《爱探险的朵拉》相关节目内容。它更像低龄向视频载体，而不是需要评价玩法循环的游戏。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1505 - Game Boy Advance Video - Dora the Explorer - Volume 1(US).png</image>
@@ -17181,7 +17181,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《龙珠GT 卷1》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《龙珠GT 卷1》是 GBA Video 动画卡带，核心价值在于把《龙珠GT》影像内容压缩到掌机卡带上随身观看。它不是格斗或冒险游戏，而是很有时代特色的媒体发行物。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1651 - Game Boy Advance Video - Dragon Ball GT - Volume 1(US).png</image>
@@ -17198,7 +17198,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《尼克卡通合集 卷1》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《尼克卡通合集 卷1》是 GBA Video 媒体卡，内容面向 Nickelodeon 卡通节目播放。它的意义主要在把电视动画带到掌机上，而不是提供传统游戏玩法。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1561 - Game Boy Advance Video - Nicktoon's Collection - Volume 1(US).png</image>
@@ -17215,7 +17215,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《尼克卡通合集 卷2》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《尼克卡通合集 卷2》延续 GBA Video 的动画合集定位，重点在 Nickelodeon 节目内容和便携播放形式。它更适合按媒体卡收藏来描述，而不是按游戏机制来评价。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1687 - Game Boy Advance Video - Nicktoon's Collection - Volume 2(US).png</image>
@@ -17232,7 +17232,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《尼克卡通合集 卷3》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《尼克卡通合集 卷3》是 GBA Video 动画合集卡，卖点在于把尼克频道节目装进掌机卡带。它没有传统游戏目标，价值主要在题材内容和特殊载体形式。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2615 - Game Boy Advance Video - Nicktoons - Volume 3(US).png</image>
@@ -17249,7 +17249,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《精灵宝可梦 卷1》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《精灵宝可梦 卷1》不是宝可梦游戏，而是 GBA Video 动画卡带，重点在用掌机观看《宝可梦》动画内容。它的收藏价值来自品牌热度和“游戏机看动画”的时代特色。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1550 - Game Boy Advance Video - Pokemon - Volume 1(US).png</image>
@@ -17266,7 +17266,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《精灵宝可梦 卷2》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《精灵宝可梦 卷2》是 GBA Video 媒体卡，核心在播放《宝可梦》动画剧集，而不是训练、捕捉或战斗系统。它适合按平台周边和影像内容来归档。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1549 - Game Boy Advance Video - Pokemon - Volume 2(US).png</image>
@@ -17283,7 +17283,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《精灵宝可梦 卷3》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《精灵宝可梦 卷3》属于 GBA Video 动画卡，卖点是随身观看《宝可梦》动画内容。它不是 RPG 或对战游戏，更多体现 GBA 时代把影视内容卡带化的尝试。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1683 - Game Boy Advance Video - Pokemon - Volume 3(US).png</image>
@@ -17300,7 +17300,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《海绵宝宝 卷1》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《海绵宝宝 卷1》是 GBA Video 动画卡带，内容用于在掌机上观看《海绵宝宝》相关剧集。它不是可操作游戏，价值主要在动画内容、便携观看和平台收藏意义。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1485 - Game Boy Advance Video - SpongeBob SquarePants - Volume 1(US).png</image>
@@ -17317,7 +17317,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《海绵宝宝 卷2》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《海绵宝宝 卷2》延续 GBA Video 的动画卡定位，重点在播放《海绵宝宝》剧集内容。它应按媒体卡和粉丝收藏品来描述，而不是按游戏系统来评价。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1486 - Game Boy Advance Video - SpongeBob SquarePants - Volume 2(US).png</image>
@@ -17334,7 +17334,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《海绵宝宝 卷3》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《海绵宝宝 卷3》是 GBA Video 媒体卡，卖点在于把《海绵宝宝》动画内容带到 GBA 上随身观看。它没有传统玩法循环，更多体现掌机时代的跨媒体发行形式。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1964 - Game Boy Advance Video - SpongeBob SquarePants - Volume 3(US).png</image>
@@ -17351,7 +17351,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《草莓女孩 卷1》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《草莓女孩 卷1》是 GBA Video 动画卡带，定位是随身播放《草莓女孩》相关内容。它的重点在低龄向动画题材和媒体保存价值，而不是游戏操作。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1515 - Game Boy Advance Video - Strawberry Shortcake - Volume 1(US).png</image>
@@ -17368,7 +17368,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《超级机器猴队 卷1》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《超级机器猴队 卷1》属于 GBA Video 动画卡，核心是播放《Super Robot Monkey Team Hyperforce Go!》相关剧集。它不是动作游戏，而是 GBA 平台少见的动画媒体发行物。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1968 - Game Boy Advance Video - Super Robot Monkey Team Hyper Force Go! - Volume 1(US).png</image>
@@ -17385,7 +17385,7 @@
     <genre>未知</genre>
     <players>1</players>
     <rating />
-    <desc>《忍者神龟》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《忍者神龟》这条是 GBA Video 动画卡，而不是忍者神龟动作游戏。它的价值主要在于让玩家用 GBA 观看相关动画内容，属于平台媒体生态的一部分。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2675 - Game Boy Advance Video - Teenage Mutant Ninja Turtles - Le Demenagement(FR).png</image>
@@ -17402,7 +17402,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《天才小子吉米大冒险 卷1》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《天才小子吉米大冒险 卷1》是 GBA Video 媒体卡，内容面向《天才小子吉米》动画播放。它的意义在掌机视频载体和尼克频道题材，而不是常规游戏玩法。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1564 - Game Boy Advance Video - The Adventures of Jimmy Neutron - Boy Genius - Volume 1(US).png</image>
@@ -17419,7 +17419,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《反斗家族 卷1》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《反斗家族 卷1》是 GBA Video 动画卡带，重点在播放《The Fairly OddParents》相关内容。它应按动画媒体卡和粉丝收藏来理解，而不是按游戏关卡来写。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1522 - Game Boy Advance Video - Fairly Odd Parents!, The - Volume 1(US).png</image>
@@ -17436,7 +17436,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《反斗家族 卷2》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《反斗家族 卷2》延续 GBA Video 的动画卡定位，卖点是随身观看《The Fairly OddParents》剧集内容。它没有传统游戏目标，主要价值在特殊载体和题材保存。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1487 - Game Boy Advance Video - Fairly Odd Parents!, The - Volume 2(US).png</image>
@@ -17453,7 +17453,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《荣耀家族 卷1》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《荣耀家族 卷1》是 GBA Video 动画卡，定位是用掌机播放《The Proud Family》相关剧集。它不是传统游戏，价值主要在迪士尼频道内容和媒体卡收藏意义。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1988 - Game Boy Advance Video - The Proud Family - Volume 1(US).png</image>
@@ -17470,7 +17470,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《游戏王：游戏VS城之内》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《游戏王：游戏VS城之内》这条是 GBA Video 影像卡，并不是卡牌对战游戏。它的重点在播放《游戏王》动画内容，收藏价值来自热门 IP 和掌机视频载体本身。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2676 - Game Boy Advance Video - Yu-Gi-Oh! Yugi vs. Joey(FR).png</image>
@@ -17487,7 +17487,7 @@
     <genre>未知</genre>
     <players />
     <rating />
-    <desc>《游戏王：游戏VS城之内》属于那种不太适合用单一句型概括的 GBA 作品。它的可玩性更多取决于核心循环是否顺畅、题材包装是否鲜明，以及掌机节奏是否足够适合短时间反复游玩。</desc>
+    <desc>《游戏王：游戏VS城之内》这条是 GBA Video 影像卡，并不是卡牌对战游戏。它的重点在播放《游戏王》动画内容，收藏价值来自热门 IP 和掌机视频载体本身。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1582 - Game Boy Advance Video - Yu-Gi-Oh! Yugi vs. Joey - Volume 1(US).png</image>
@@ -17521,7 +17521,7 @@
     <genre>合集</genre>
     <players>1-4</players>
     <rating>0.20</rating>
-    <desc>《游戏大爆炸》是一款以明确规则和稳定反馈为核心的 GBA 作品。玩家需要围绕它的基本系统不断熟悉节奏、优化操作，并在重复游玩中感受到掌机作品特有的轻快推进感。</desc>
+    <desc>《游戏大爆炸》是一张小游戏合集卡，重点在把多种短局、低门槛的项目集中到一起。它的价值不在单一系统深度，而在随时开局、快速换项目和多人/休闲场景下的实用性。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2470 - Games Explosion!(US).png</image>
@@ -17555,7 +17555,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《加菲猫：寻找布奇》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《加菲猫：寻找布奇》围绕加菲猫寻找玩具熊 Pooky 的故事展开，重点在卡通角色、轻量平台动作和家庭向关卡推进。它的吸引力主要来自加菲猫的题材和幽默气质，而不是高难动作挑战。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/1852 - Garfield - The Search for Pooky(EU).png</image>
@@ -17572,7 +17572,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.65</rating>
-    <desc>《加菲猫和他的九条命》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《加菲猫和他的九条命》把加菲猫的“九条命”概念做成多段风格化关卡，重点在卡通冒险、轻动作和题材变化。它不是单纯平台模板，真正卖点是加菲猫品牌下的幽默包装和不同场景体验。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2433 - Garfield and His Nine Lives(EU).png</image>
@@ -17589,7 +17589,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.65</rating>
-    <desc>《加菲猫和他的九条命》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《加菲猫和他的九条命》把加菲猫的“九条命”概念做成多段风格化关卡，重点在卡通冒险、轻动作和题材变化。它不是单纯平台模板，真正卖点是加菲猫品牌下的幽默包装和不同场景体验。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2413 - Garfield and His Nine Lives(US).png</image>
@@ -17606,7 +17606,7 @@
     <genre>平台动作</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《加菲猫：寻找布奇》是一款以横向闯关为核心的平台动作游戏，重点在跳跃、收集、机关处理和路线判断。放在 GBA 上，这类作品最重要的是节奏是否利落、手感是否顺手，以及能不能让玩家在碎片时间里也愿意反复开局。只要关卡变化够持续，它就很容易成为掌机上稳定耐玩的类型。</desc>
+    <desc>《加菲猫：寻找布奇》围绕加菲猫寻找玩具熊 Pooky 的故事展开，重点在卡通角色、轻量平台动作和家庭向关卡推进。它的吸引力主要来自加菲猫的题材和幽默气质，而不是高难动作挑战。</desc>
     <cloneof>0</cloneof>
     <system id="12" parentid="10">GBA</system>
     <image type="mixrbv2">media/images/2291 - Garfield - The Search for Pooky(US).png</image>
