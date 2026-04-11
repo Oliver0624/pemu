@@ -147,7 +147,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.65</rating>
-    <desc>《J联赛足球得分王3》仍然属于 Namco《Prime Goal》系，核心魅力是流畅、直接、偏街机化的足球对战手感。系列走到这一作时，作品的重点已经非常明确：不是追求厚重模拟，而是让J联赛授权与快速攻防结合，成为很适合对战和反复开局的足球游戏。</desc>
+    <desc>这款作品代表了欧洲家用机足球常见的对战取向，重视传球组织、边路推进和整场比赛的节奏控制。它不靠夸张演出取胜，而是用更稳健的攻防展开和持续压迫感来体现足球比赛的对抗味。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/90 Minutes - European Prime Goal (Europe) (Beta).png</image>
@@ -164,7 +164,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.65</rating>
-    <desc>《J联赛足球得分王3》仍然属于 Namco《Prime Goal》系，核心魅力是流畅、直接、偏街机化的足球对战手感。系列走到这一作时，作品的重点已经非常明确：不是追求厚重模拟，而是让J联赛授权与快速攻防结合，成为很适合对战和反复开局的足球游戏。</desc>
+    <desc>这款作品代表了欧洲家用机足球常见的对战取向，重视传球组织、边路推进和整场比赛的节奏控制。它不靠夸张演出取胜，而是用更稳健的攻防展开和持续压迫感来体现足球比赛的对抗味。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/90 Minutes - European Prime Goal (Europe).png</image>
@@ -249,7 +249,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.65</rating>
-    <desc>《ABC电视台周一美式足球之夜》是以电视节目授权包装的美式足球游戏，保留了这项运动最核心的阵型选择和推进博弈。进攻时要从不同战术中挑选最合适的跑传方案，防守时则要判断对手意图并及时补位。对不熟悉规则的玩家来说它门槛不低，但也因此更接近真实比赛的节奏。</desc>
+    <desc>《ABC电视台周一美式足球之夜》借电视节目授权强化了职业赛事演出感，玩法核心仍是美式橄榄球的阵型调用、推进码数与攻防判断。它门槛不算低，但因此也更贴近真实比赛逻辑。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/ABC Monday Night Football (Japan).png</image>
@@ -266,7 +266,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.65</rating>
-    <desc>《ABC电视台周一美式足球之夜》是以电视节目授权包装的美式足球游戏，保留了这项运动最核心的阵型选择和推进博弈。进攻时要从不同战术中挑选最合适的跑传方案，防守时则要判断对手意图并及时补位。对不熟悉规则的玩家来说它门槛不低，但也因此更接近真实比赛的节奏。</desc>
+    <desc>《ABC电视台周一美式足球之夜》借电视节目授权强化了职业赛事演出感，玩法核心仍是美式橄榄球的阵型调用、推进码数与攻防判断。它门槛不算低，但因此也更贴近真实比赛逻辑。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/ABC Monday Night Football (USA).png</image>
@@ -300,7 +300,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.60</rating>
-    <desc>《山本玲美香网球》改编自经典少女漫画《网球甜心》，因此除了普通比赛之外，也比一般体育游戏更强调角色和作品氛围。操作上仍以发球、底线抽球和网前截击为主，但包装明显服务于原作粉丝。它是SFC上较少见的少女漫画改编体育作品，题材辨识度很高。</desc>
+    <desc>《山本玲美香网球》改编自少女漫画《网球甜心》，因此除了普通比赛内容外，也特别强调角色和作品氛围。它的魅力不只在网球操作本身，也在那种少女漫画式的竞技叙事包装。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Ace o Nerae! (Japan).png</image>
@@ -1524,7 +1524,7 @@
     <genre>球类运动</genre>
     <players>1-4</players>
     <rating>0.60</rating>
-    <desc>《全美冠军足球赛》从题材看显然对应美式橄榄球而不是圆球足球，重点应放在推进码数、战术选择、传跑配合和阵型博弈。它的观感更接近北美职业体育那种强对抗、分回合推进的比赛节奏。</desc>
+    <desc>作品明显偏美式橄榄球路线，卖点在于推进码数、战术调用和强对抗带来的比赛张力。它的观感更接近北美职业赛事那种分回合推进的攻防，而不是圆球足球的连续传控。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/All-American Championship Football (Europe).png</image>
@@ -1643,7 +1643,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.70</rating>
-    <desc>《阿加西网球》是一款标准网球游戏，玩家要通过发球、接发、底线拉锯和上网截击来控制比赛节奏。不同角色或赛事包装会带来风格差异，但最核心的还是击球时机和跑位判断。它很适合喜欢反复磨手感的体育玩家。</desc>
+    <desc>《阿加西网球》以明星球员阿加西为招牌，核心仍是发球、底线对抽与网前截击的网球基本功。它走的是较标准的职业网球路线，胜负很看跑位、回球时机和落点控制。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Andre Agassi Tennis (Japan) (En).png</image>
@@ -1660,7 +1660,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.70</rating>
-    <desc>《阿加西网球》是一款标准网球游戏，玩家要通过发球、接发、底线拉锯和上网截击来控制比赛节奏。不同角色或赛事包装会带来风格差异，但最核心的还是击球时机和跑位判断。它很适合喜欢反复磨手感的体育玩家。</desc>
+    <desc>《阿加西网球》以明星球员阿加西为招牌，核心仍是发球、底线对抽与网前截击的网球基本功。它走的是较标准的职业网球路线，胜负很看跑位、回球时机和落点控制。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Andre Agassi Tennis (USA).png</image>
@@ -2833,7 +2833,7 @@
     <genre>球类运动</genre>
     <players>1-4</players>
     <rating>0.45</rating>
-    <desc>《巴克利：强力灌篮》借用NBA球星查尔斯·巴克利的名号，卖点自然在篮球明星包装与快节奏比赛感。它应按篮球题材来写，重点是投篮、篮板、快攻和球星气质，而不是泛用球类模板。</desc>
+    <desc>《巴克利：强力灌篮》借用NBA球星查尔斯·巴克利的名号，卖点自然在篮球明星包装与快节奏比赛感。它的重点是投篮、篮板、快攻与身体对抗，而不是泛化成普通球类对战。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Barkley no Power Dunk (Japan) (En).png</image>
@@ -2850,7 +2850,7 @@
     <genre>球类运动</genre>
     <players>1-4</players>
     <rating>0.45</rating>
-    <desc>《巴克利：强力灌篮》借用NBA球星查尔斯·巴克利的名号，卖点自然在篮球明星包装与快节奏比赛感。它应按篮球题材来写，重点是投篮、篮板、快攻和球星气质，而不是泛用球类模板。</desc>
+    <desc>《巴克利：强力灌篮》借用NBA球星查尔斯·巴克利的名号，卖点自然在篮球明星包装与快节奏比赛感。它的重点是投篮、篮板、快攻与身体对抗，而不是泛化成普通球类对战。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Barkley Shut Up and Jam! (Europe).png</image>
@@ -2867,7 +2867,7 @@
     <genre>球类运动</genre>
     <players>1-4</players>
     <rating>0.45</rating>
-    <desc>《巴克利：强力灌篮》借用NBA球星查尔斯·巴克利的名号，卖点自然在篮球明星包装与快节奏比赛感。它应按篮球题材来写，重点是投篮、篮板、快攻和球星气质，而不是泛用球类模板。</desc>
+    <desc>《巴克利：强力灌篮》借用NBA球星查尔斯·巴克利的名号，卖点自然在篮球明星包装与快节奏比赛感。它的重点是投篮、篮板、快攻与身体对抗，而不是泛化成普通球类对战。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Barkley Shut Up and Jam! (USA).png</image>
@@ -3411,7 +3411,7 @@
     <genre>球类运动</genre>
     <players>1-4</players>
     <rating>0.70</rating>
-    <desc>《战斗赛马》以赛马为主题，玩法围绕马匹培养、赛事选择和比赛过程中的节奏判断展开。不同作品侧重点可能偏经营、偏育成或偏竞赛，但核心都在于如何把长期培养成果转化成赛场表现。它属于日本主机市场非常有代表性的赛马题材分支。</desc>
+    <desc>《战斗赛马》把赛马题材做成更偏竞赛与培养结合的作品，玩家既要关注马匹状态和比赛节奏，也要思考长期养成带来的成绩变化。它属于日本主机市场很有代表性的赛马题材分支。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Battle Jockey (Japan).png</image>
@@ -4023,7 +4023,7 @@
     <genre>球类运动</genre>
     <players>1</players>
     <rating>0.70</rating>
-    <desc>《专业一杆职业高尔夫》是一款传统高尔夫游戏，核心在于击球力度、落点控制和对球场地形的判断。玩家需要根据风向、障碍和果岭走势选择最合适的杆数与打法。它属于那种规则稳定、适合慢慢磨成绩的体育作品。</desc>
+    <desc>《专业一杆职业高尔夫》是一款传统派高尔夫游戏，核心在于击球力度、落点控制和对球场地形的判断。它的乐趣不靠夸张演出，而在于稳定发挥和一杆一杆累积优势。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Best Shot Pro Golf (Japan).png</image>
@@ -4244,7 +4244,7 @@
     <genre>球类运动</genre>
     <players>1-5</players>
     <rating>0.80</rating>
-    <desc>《比尔·沃尔什 大学橄榄球》是一款以竞技赛事为核心的体育游戏，重点在比赛节奏、战术执行和对项目规则的掌握。根据题材不同，它可能更偏写实模拟，也可能带有街机化处理，但核心都在于把比赛过程做得紧张且可反复挑战。它属于很典型的90年代主机体育作品。</desc>
+    <desc>《比尔·沃尔什 大学橄榄球》以美国大学橄榄球为题材，重心在战术布阵、推进码数和攻防回合管理。它比普通球类作品更吃规则理解，也更强调教练式思路和阵型博弈。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Bill Walsh College Football (USA).png</image>
@@ -4618,7 +4618,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.70</rating>
-    <desc>《世界级橄英式榄球赛》对应橄榄球/英式橄榄球题材，重心应放在阵型推进、冲撞对抗、传递时机和防守压迫。它和普通足球、篮球在节奏上完全不同，比赛魅力来自高身体对抗与战术布置。</desc>
+    <desc>《世界级橄英式榄球赛》以英式橄榄球的持续推进和高强度身体对抗为卖点，比赛节奏与美式橄榄球、足球都明显不同。它更强调冲撞后的续攻、传递线路和整体阵型压迫。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Blanco World Class Rugby (France).png</image>
@@ -5332,7 +5332,7 @@
     <genre>球类运动</genre>
     <players>1</players>
     <rating>0.45</rating>
-    <desc>《布雷特·赫尔冰球》是一款冰球题材体育游戏，比赛节奏很快，身体碰撞和门前乱战会频繁出现。玩家需要同时处理滑行、传球、射门和防守站位，因此操作感和比赛流畅度会直接影响体验。它很好地体现了北美体育游戏的火爆氛围。</desc>
+    <desc>《布雷特·赫尔冰球》是一款典型的北美冰球题材作品，卖点在于高速攻防、硬碰硬对抗和职业联赛气氛。滑行、传球、射门与门前混战结合在一起，比赛张力相当强。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Brett Hull Hockey (Europe).png</image>
@@ -5349,7 +5349,7 @@
     <genre>球类运动</genre>
     <players>1</players>
     <rating>0.45</rating>
-    <desc>《布雷特·赫尔冰球》是一款冰球题材体育游戏，比赛节奏很快，身体碰撞和门前乱战会频繁出现。玩家需要同时处理滑行、传球、射门和防守站位，因此操作感和比赛流畅度会直接影响体验。它很好地体现了北美体育游戏的火爆氛围。</desc>
+    <desc>《布雷特·赫尔冰球》是一款典型的北美冰球题材作品，卖点在于高速攻防、硬碰硬对抗和职业联赛气氛。滑行、传球、射门与门前混战结合在一起，比赛张力相当强。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Brett Hull Hockey (USA).png</image>
@@ -5366,7 +5366,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.50</rating>
-    <desc>《布雷特·赫尔冰球95》是一款冰球题材体育游戏，比赛节奏很快，身体碰撞和门前乱战会频繁出现。玩家需要同时处理滑行、传球、射门和防守站位，因此操作感和比赛流畅度会直接影响体验。它很好地体现了北美体育游戏的火爆氛围。</desc>
+    <desc>《布雷特·赫尔冰球95》延续系列的北美职业冰球路线，强调高速滑行、门前混战和强烈的身体碰撞。它比很多传统球类都更火爆，打起来很看射门时机和防守站位。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Brett Hull Hockey 95 (USA).png</image>
@@ -5400,7 +5400,7 @@
     <genre>球类运动</genre>
     <players>1-4</players>
     <rating>0.60</rating>
-    <desc>《布伦瑞克保龄球世界冠军锦标赛》把对应运动项目搬上主机，重点在规则还原、击球手感和比赛节奏。虽然包装和授权会随作品不同而变化，但真正决定体验的仍是操作是否顺手、对抗是否流畅。它属于标准而耐玩的体育作品。</desc>
+    <desc>《布伦瑞克保龄球世界冠军锦标赛》把保龄球项目完整搬上主机，核心在于出手角度、旋转控制与补中的稳定性。它不像大球项目那样喧闹，真正乐趣在于一球一球磨手感、追求高分。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Brunswick World Tournament of Champions (USA).png</image>
@@ -5825,7 +5825,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.60</rating>
-    <desc>《小卡尔·瑞普肯棒球》是一款以棒球比赛为核心的体育游戏，玩家需要在投球、打击、跑垒和守备之间不断切换，抓住每个半局的关键机会。不同作品可能偏向写实或街机风格，但真正影响体验的始终是击球手感和比赛节奏。它属于很适合反复对战的主机体育题材。</desc>
+    <desc>《小卡尔·瑞普肯棒球》以MLB球星小卡尔·瑞普肯为招牌，主打投打轮替、守备处理和职业棒球比赛的基本节奏。它整体更偏美式联赛包装，强调的是一场完整棒球比赛的推进感。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Cal Ripken Jr. Baseball (Europe).png</image>
@@ -5842,7 +5842,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.60</rating>
-    <desc>《小卡尔·瑞普肯棒球》是一款以棒球比赛为核心的体育游戏，玩家需要在投球、打击、跑垒和守备之间不断切换，抓住每个半局的关键机会。不同作品可能偏向写实或街机风格，但真正影响体验的始终是击球手感和比赛节奏。它属于很适合反复对战的主机体育题材。</desc>
+    <desc>《小卡尔·瑞普肯棒球》以MLB球星小卡尔·瑞普肯为招牌，主打投打轮替、守备处理和职业棒球比赛的基本节奏。它整体更偏美式联赛包装，强调的是一场完整棒球比赛的推进感。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Cal Ripken Jr. Baseball (USA) (Beta).png</image>
@@ -5859,7 +5859,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.60</rating>
-    <desc>《小卡尔·瑞普肯棒球》是一款以棒球比赛为核心的体育游戏，玩家需要在投球、打击、跑垒和守备之间不断切换，抓住每个半局的关键机会。不同作品可能偏向写实或街机风格，但真正影响体验的始终是击球手感和比赛节奏。它属于很适合反复对战的主机体育题材。</desc>
+    <desc>《小卡尔·瑞普肯棒球》以MLB球星小卡尔·瑞普肯为招牌，主打投打轮替、守备处理和职业棒球比赛的基本节奏。它整体更偏美式联赛包装，强调的是一场完整棒球比赛的推进感。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Cal Ripken Jr. Baseball (USA).png</image>
@@ -5978,7 +5978,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.55</rating>
-    <desc>《卡普空MVP橄榄球》显然是美式橄榄球作品，重点在开球、推进、达阵与战术选择。它的看点不只是授权外壳，而是Capcom系主机体育作那种相对爽快、易懂的北美球类呈现。</desc>
+    <desc>《卡普空MVP橄榄球》显然是美式橄榄球作品，重点在开球、推进、达阵与战术选择。比起严肃模拟，它更像Capcom风格的爽快型北美体育作，上手门槛相对更友好。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Capcom's MVP Football (USA).png</image>
@@ -5995,7 +5995,7 @@
     <genre>球类运动</genre>
     <players>1-4</players>
     <rating>0.80</rating>
-    <desc>《J联盟热力足球94》属于SFC早期J联赛热潮下的足球作品，整体更偏街机化节奏，强调快速传递、直接射门和短时间内形成攻防交换。它的价值不只在足球规则本身，也在记录90年代日本职业足球刚起步时那股强烈的联赛热。</desc>
+    <desc>这款足球作明显带有Capcom式街机风格，强调夸张射门、快速攻防和短时间内连续制造威胁的爽快感。它比传统模拟派更热闹、更直接，核心魅力就在于上手就能踢得很刺激。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Capcom's Soccer Shootout (USA) (Beta).png</image>
@@ -6012,7 +6012,7 @@
     <genre>球类运动</genre>
     <players>1-4</players>
     <rating>0.80</rating>
-    <desc>《J联盟热力足球94》属于SFC早期J联赛热潮下的足球作品，整体更偏街机化节奏，强调快速传递、直接射门和短时间内形成攻防交换。它的价值不只在足球规则本身，也在记录90年代日本职业足球刚起步时那股强烈的联赛热。</desc>
+    <desc>这款足球作明显带有Capcom式街机风格，强调夸张射门、快速攻防和短时间内连续制造威胁的爽快感。它比传统模拟派更热闹、更直接，核心魅力就在于上手就能踢得很刺激。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Capcom's Soccer Shootout (USA).png</image>
@@ -6437,7 +6437,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.50</rating>
-    <desc>《世界级足球赛》是一款以竞技赛事为核心的体育游戏，重点在比赛节奏、战术执行和对项目规则的掌握。根据题材不同，它可能更偏写实模拟，也可能带有街机化处理，但核心都在于把比赛过程做得紧张且可反复挑战。它属于很典型的90年代主机体育作品。</desc>
+    <desc>《世界级足球赛》是一款走传统路线的足球游戏，重点在于传球组织、跑位配合和比赛节奏的整体掌控。它不追求花哨包装，而是靠稳定规则表现和顺手的对战感来支撑整场比赛。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Champions - World Class Soccer (Europe) (En,Fr,De,Es).png</image>
@@ -6454,7 +6454,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.50</rating>
-    <desc>《世界级足球赛》是一款以竞技赛事为核心的体育游戏，重点在比赛节奏、战术执行和对项目规则的掌握。根据题材不同，它可能更偏写实模拟，也可能带有街机化处理，但核心都在于把比赛过程做得紧张且可反复挑战。它属于很典型的90年代主机体育作品。</desc>
+    <desc>《世界级足球赛》是一款走传统路线的足球游戏，重点在于传球组织、跑位配合和比赛节奏的整体掌控。它不追求花哨包装，而是靠稳定规则表现和顺手的对战感来支撑整场比赛。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Champions - World Class Soccer (Japan).png</image>
@@ -6471,7 +6471,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.50</rating>
-    <desc>《世界级足球赛》是一款以竞技赛事为核心的体育游戏，重点在比赛节奏、战术执行和对项目规则的掌握。根据题材不同，它可能更偏写实模拟，也可能带有街机化处理，但核心都在于把比赛过程做得紧张且可反复挑战。它属于很典型的90年代主机体育作品。</desc>
+    <desc>《世界级足球赛》是一款走传统路线的足球游戏，重点在于传球组织、跑位配合和比赛节奏的整体掌控。它不追求花哨包装，而是靠稳定规则表现和顺手的对战感来支撑整场比赛。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Champions - World Class Soccer (USA) (En,Fr,De,Es).png</image>
@@ -6488,7 +6488,7 @@
     <genre>球类运动</genre>
     <players>1-8</players>
     <rating>0.60</rating>
-    <desc>《冠军桌球》是一款以竞技赛事为核心的体育游戏，重点在比赛节奏、战术执行和对项目规则的掌握。根据题材不同，它可能更偏写实模拟，也可能带有街机化处理，但核心都在于把比赛过程做得紧张且可反复挑战。它属于很典型的90年代主机体育作品。</desc>
+    <desc>《冠军桌球》是一款桌球题材作品，核心在于击球角度、力度控制和走位计算。它不像大球项目那样强调高速攻防，而是更讲究每一杆的线路判断与布局思路。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Championship Pool (Europe).png</image>
@@ -6505,7 +6505,7 @@
     <genre>球类运动</genre>
     <players>1-8</players>
     <rating>0.60</rating>
-    <desc>《冠军桌球》是一款以竞技赛事为核心的体育游戏，重点在比赛节奏、战术执行和对项目规则的掌握。根据题材不同，它可能更偏写实模拟，也可能带有街机化处理，但核心都在于把比赛过程做得紧张且可反复挑战。它属于很典型的90年代主机体育作品。</desc>
+    <desc>《冠军桌球》是一款桌球题材作品，核心在于击球角度、力度控制和走位计算。它不像大球项目那样强调高速攻防，而是更讲究每一杆的线路判断与布局思路。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Championship Pool (USA).png</image>
@@ -6522,7 +6522,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.70</rating>
-    <desc>《冠军足球赛94》是一款以竞技赛事为核心的体育游戏，重点在比赛节奏、战术执行和对项目规则的掌握。根据题材不同，它可能更偏写实模拟，也可能带有街机化处理，但核心都在于把比赛过程做得紧张且可反复挑战。它属于很典型的90年代主机体育作品。</desc>
+    <desc>这类作品更强调欧洲赛事包装下的足球对战体验，核心仍是传接、推进和射门时机的把握。它的完成度不靠夸张系统，而在于能否把一场传统足球比赛踢得紧凑、流畅、有压迫感。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Championship Soccer '94 (USA) (En,Fr,De,It).png</image>
@@ -11928,7 +11928,7 @@
     <genre>球类运动</genre>
     <players>1-5</players>
     <rating>0.65</rating>
-    <desc>这是一款偏欧美写实路线的足球游戏，重视阵型展开、传接配合与比赛节奏控制。它不像街机足球那样夸张热闹，而是更强调组织进攻和整体攻防的真实感，属于16位时代较典型的模拟派足球作品。</desc>
+    <desc>《精英足球》是一款偏欧美写实路线的足球游戏，重视阵型展开、传接配合与比赛节奏控制。它不像街机足球那样夸张热闹，而是更强调组织进攻和整体攻防的真实感，是16位时代很典型的模拟派足球作。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Elite Soccer (USA).png</image>
@@ -12115,7 +12115,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.85</rating>
-    <desc>这是一款节奏明快、上手直接的家用机足球游戏，重视传球、射门与多人对战的爽快感。整体更偏娱乐型欧洲足球，而不是复杂严谨的模拟派作品，适合喜欢轻快对抗的玩家。</desc>
+    <desc>《埃里克·坎通纳足球挑战赛》以名将坎通纳为招牌，走的是节奏明快、上手直接的欧洲风足球路线。游戏重视传球、射门与多人对战时的连续攻防，整体更偏娱乐型对战，而不是厚重的模拟派作品。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Eric Cantona Football Challenge (France) (En,Fr,De,Es,It,Nl,Sv).png</image>
@@ -12353,7 +12353,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.60</rating>
-    <desc>这是一款更偏街机感的足球游戏，强调快节奏攻防、直接射门和多人同乐的热闹气氛。它不像写实派作品那样追求完整模拟，而是更看重简单上手、比赛刺激和短时间内不断出现的进球机会。</desc>
+    <desc>这类足球作品更偏街机感，强调快节奏攻防、直接射门和多人同乐的热闹气氛。它不像写实派作品那样追求完整模拟，而是更看重简单上手、比赛刺激和短时间内不断出现的进球机会。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Euro Football Champ (Europe).png</image>
@@ -13356,7 +13356,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.80</rating>
-    <desc>这是一款偏街机取向的棒球游戏，更强调爽快击球、热闹演出和快速对抗，而不是严格还原真实职业棒球。整体节奏明快，重心放在击球快感与对战气氛上，属于那类适合短局娱乐的家用机棒球作品。</desc>
+    <desc>《战斗棒球》并不追求纯粹写实，而是更强调击球爽感、比分拉锯和比赛演出制造出的热度。投打对抗依旧是核心，但整体气质明显更热闹，也更偏家用机时代的娱乐化棒球路线。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Fighting Baseball (Japan).png</image>
@@ -17334,7 +17334,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.55</rating>
-    <desc>这是一款以职业棒球联赛为题材的作品，核心是投打对抗、守备处理和比赛节奏控制。它既强调联赛氛围，也保留了家用机棒球易上手但有战术味的特征，适合喜欢职业棒球题材的玩家。</desc>
+    <desc>这类作品都围绕职业棒球联赛的投打对抗展开，重点在配球思路、击球时机和守备轮转形成的比赛节奏。它们的魅力主要来自职业联赛题材和一场完整棒球比赛的推进感。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Hanguk Pro Yagu (Korea).png</image>
@@ -17589,7 +17589,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.60</rating>
-    <desc>这是一款更偏街机感的足球游戏，强调快节奏攻防、直接射门和多人同乐的热闹气氛。它不像写实派作品那样追求完整模拟，而是更看重简单上手、比赛刺激和短时间内不断出现的进球机会。</desc>
+    <desc>这类足球作品更偏街机感，强调快节奏攻防、直接射门和多人同乐的热闹气氛。它不像写实派作品那样追求完整模拟，而是更看重简单上手、比赛刺激和短时间内不断出现的进球机会。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Hat Trick Hero (Japan) (En).png</image>
@@ -19595,7 +19595,7 @@
     <genre>球类运动</genre>
     <players>1-4</players>
     <rating>0.75</rating>
-    <desc>这是一款Konami 16位时代代表性的足球游戏，强调流畅控球、快速传递和直接明快的比赛节奏。它不像纯写实模拟那样沉重，而是把操作手感和攻防转换做得非常顺，属于SFC时期最经典的一类足球游戏路线。</desc>
+    <desc>这代表了Konami在16位时代最有辨识度的一条足球路线，强调顺手的控球、快速传递和直接明快的攻防转换。它不像重模拟作品那样沉重，而是把对战手感和比赛流畅度放在第一位。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/International Superstar Soccer Deluxe (Europe) (Beta).png</image>
@@ -19612,7 +19612,7 @@
     <genre>球类运动</genre>
     <players>1-4</players>
     <rating>0.75</rating>
-    <desc>这是一款Konami 16位时代代表性的足球游戏，强调流畅控球、快速传递和直接明快的比赛节奏。它不像纯写实模拟那样沉重，而是把操作手感和攻防转换做得非常顺，属于SFC时期最经典的一类足球游戏路线。</desc>
+    <desc>这代表了Konami在16位时代最有辨识度的一条足球路线，强调顺手的控球、快速传递和直接明快的攻防转换。它不像重模拟作品那样沉重，而是把对战手感和比赛流畅度放在第一位。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/International Superstar Soccer Deluxe (Europe).png</image>
@@ -19629,7 +19629,7 @@
     <genre>球类运动</genre>
     <players>1-4</players>
     <rating>0.75</rating>
-    <desc>这是一款Konami 16位时代代表性的足球游戏，强调流畅控球、快速传递和直接明快的比赛节奏。它不像纯写实模拟那样沉重，而是把操作手感和攻防转换做得非常顺，属于SFC时期最经典的一类足球游戏路线。</desc>
+    <desc>这代表了Konami在16位时代最有辨识度的一条足球路线，强调顺手的控球、快速传递和直接明快的攻防转换。它不像重模拟作品那样沉重，而是把对战手感和比赛流畅度放在第一位。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/International Superstar Soccer Deluxe (USA).png</image>
@@ -19646,7 +19646,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.75</rating>
-    <desc>《国际网球公开赛》是一款标准网球游戏，玩家要通过发球、底线拉锯和上网截击来掌控比赛节奏。它的乐趣主要来自击球时机与跑位判断，而不是复杂剧情或花哨系统。属于那种规则稳定、很适合反复磨手感的体育作品。</desc>
+    <desc>《国际网球公开赛》是一款较正统的网球游戏，围绕发球、底线对抽、网前截击和跑位判断展开。它没有太多花哨包装，真正乐趣在于一来一回之间的节奏把握和落点控制。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/International Tennis Tour (Europe).png</image>
@@ -19663,7 +19663,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.75</rating>
-    <desc>《国际网球公开赛》是一款标准网球游戏，玩家要通过发球、底线拉锯和上网截击来掌控比赛节奏。它的乐趣主要来自击球时机与跑位判断，而不是复杂剧情或花哨系统。属于那种规则稳定、很适合反复磨手感的体育作品。</desc>
+    <desc>《国际网球公开赛》是一款较正统的网球游戏，围绕发球、底线对抽、网前截击和跑位判断展开。它没有太多花哨包装，真正乐趣在于一来一回之间的节奏把握和落点控制。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/International Tennis Tour (Japan) (En).png</image>
@@ -19680,7 +19680,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.75</rating>
-    <desc>《国际网球公开赛》是一款标准网球游戏，玩家要通过发球、底线拉锯和上网截击来掌控比赛节奏。它的乐趣主要来自击球时机与跑位判断，而不是复杂剧情或花哨系统。属于那种规则稳定、很适合反复磨手感的体育作品。</desc>
+    <desc>《国际网球公开赛》是一款较正统的网球游戏，围绕发球、底线对抽、网前截击和跑位判断展开。它没有太多花哨包装，真正乐趣在于一来一回之间的节奏把握和落点控制。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/International Tennis Tour (USA).png</image>
@@ -19935,7 +19935,7 @@
     <genre>球类运动</genre>
     <players>1-4</players>
     <rating>0.80</rating>
-    <desc>《J联盟热力足球94》属于SFC早期J联赛热潮下的足球作品，整体更偏街机化节奏，强调快速传递、直接射门和短时间内形成攻防交换。它的价值不只在足球规则本身，也在记录90年代日本职业足球刚起步时那股强烈的联赛热。</desc>
+    <desc>这款足球作明显带有Capcom式街机风格，强调夸张射门、快速攻防和短时间内连续制造威胁的爽快感。它比传统模拟派更热闹、更直接，核心魅力就在于上手就能踢得很刺激。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/J.League Excite Stage '94 (Japan) (Rev 1).png</image>
@@ -19952,7 +19952,7 @@
     <genre>球类运动</genre>
     <players>1-4</players>
     <rating>0.80</rating>
-    <desc>《J联盟热力足球94》属于SFC早期J联赛热潮下的足球作品，整体更偏街机化节奏，强调快速传递、直接射门和短时间内形成攻防交换。它的价值不只在足球规则本身，也在记录90年代日本职业足球刚起步时那股强烈的联赛热。</desc>
+    <desc>这款足球作明显带有Capcom式街机风格，强调夸张射门、快速攻防和短时间内连续制造威胁的爽快感。它比传统模拟派更热闹、更直接，核心魅力就在于上手就能踢得很刺激。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/J.League Excite Stage '94 (Japan).png</image>
@@ -20054,7 +20054,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.65</rating>
-    <desc>《J联赛足球得分王3》仍然属于 Namco《Prime Goal》系，核心魅力是流畅、直接、偏街机化的足球对战手感。系列走到这一作时，作品的重点已经非常明确：不是追求厚重模拟，而是让J联赛授权与快速攻防结合，成为很适合对战和反复开局的足球游戏。</desc>
+    <desc>这款作品代表了欧洲家用机足球常见的对战取向，重视传球组织、边路推进和整场比赛的节奏控制。它不靠夸张演出取胜，而是用更稳健的攻防展开和持续压迫感来体现足球比赛的对抗味。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/J.League Soccer - Prime Goal 3 (Japan).png</image>
@@ -20785,7 +20785,7 @@
     <genre>球类运动</genre>
     <players />
     <rating />
-    <desc>这是一款Konami 16位时代代表性的足球游戏，强调流畅控球、快速传递和直接明快的比赛节奏。它不像纯写实模拟那样沉重，而是把操作手感和攻防转换做得非常顺，属于SFC时期最经典的一类足球游戏路线。</desc>
+    <desc>这代表了Konami在16位时代最有辨识度的一条足球路线，强调顺手的控球、快速传递和直接明快的攻防转换。它不像重模拟作品那样沉重，而是把对战手感和比赛流畅度放在第一位。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Jikkyou World Soccer 2 - Fighting Eleven (Japan) (Rev 1) (NP).png</image>
@@ -20802,7 +20802,7 @@
     <genre>球类运动</genre>
     <players>1-4</players>
     <rating>0.75</rating>
-    <desc>这是一款Konami 16位时代代表性的足球游戏，强调流畅控球、快速传递和直接明快的比赛节奏。它不像纯写实模拟那样沉重，而是把操作手感和攻防转换做得非常顺，属于SFC时期最经典的一类足球游戏路线。</desc>
+    <desc>这代表了Konami在16位时代最有辨识度的一条足球路线，强调顺手的控球、快速传递和直接明快的攻防转换。它不像重模拟作品那样沉重，而是把对战手感和比赛流畅度放在第一位。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Jikkyou World Soccer 2 - Fighting Eleven (Japan) (Beta).png</image>
@@ -20819,7 +20819,7 @@
     <genre>球类运动</genre>
     <players>1-4</players>
     <rating>0.75</rating>
-    <desc>这是一款Konami 16位时代代表性的足球游戏，强调流畅控球、快速传递和直接明快的比赛节奏。它不像纯写实模拟那样沉重，而是把操作手感和攻防转换做得非常顺，属于SFC时期最经典的一类足球游戏路线。</desc>
+    <desc>这代表了Konami在16位时代最有辨识度的一条足球路线，强调顺手的控球、快速传递和直接明快的攻防转换。它不像重模拟作品那样沉重，而是把对战手感和比赛流畅度放在第一位。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Jikkyou World Soccer 2 - Fighting Eleven (Japan).png</image>
@@ -26939,7 +26939,7 @@
     <genre>球类运动</genre>
     <players>1</players>
     <rating>0.50</rating>
-    <desc>这是一款以高尔夫为基础、又加入了科幻包装的作品，核心仍在选杆、控力与落点判断。它既保留高尔夫游戏讲究手感与策略的一面，也因为题材设定显得比普通高尔夫作品更有怪趣味。</desc>
+    <desc>这是一类以高尔夫基本规则为核心、同时带有额外包装趣味的作品，真正考验的仍是选杆、控力和落点判断。它的节奏沉稳，但只要手感调得顺，反而很容易玩出一杆一杆积累优势的满足感。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Mecarobot Golf (USA).png</image>
@@ -28367,7 +28367,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.80</rating>
-    <desc>这是一款偏街机取向的棒球游戏，更强调爽快击球、热闹演出和快速对抗，而不是严格还原真实职业棒球。整体节奏明快，重心放在击球快感与对战气氛上，属于那类适合短局娱乐的家用机棒球作品。</desc>
+    <desc>《战斗棒球》并不追求纯粹写实，而是更强调击球爽感、比分拉锯和比赛演出制造出的热度。投打对抗依旧是核心，但整体气质明显更热闹，也更偏家用机时代的娱乐化棒球路线。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/MLBPA Baseball (USA).png</image>
@@ -36629,7 +36629,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.65</rating>
-    <desc>这是一款围绕足球比赛攻守转换展开的作品，重视传球、带球、射门与防守选位之间的连续判断。它的乐趣主要来自阵地推进和破门瞬间的反馈，既适合单人挑战，也很适合双人对战，关键就在于手感是否流畅、比赛节奏是否够紧凑。</desc>
+    <desc>这款足球作把重心放在传球、带球、射门与防守选位之间的连续判断上，玩起来更像一场持续推进的阵地战。它的价值在于对战节奏够紧，既适合单人磨手感，也很适合同屏较量。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Ramos Ruy no World Wide Soccer (Japan) (En).png</image>
@@ -39876,7 +39876,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.70</rating>
-    <desc>《冠军足球赛94》是一款以竞技赛事为核心的体育游戏，重点在比赛节奏、战术执行和对项目规则的掌握。根据题材不同，它可能更偏写实模拟，也可能带有街机化处理，但核心都在于把比赛过程做得紧张且可反复挑战。它属于很典型的90年代主机体育作品。</desc>
+    <desc>这类作品更强调欧洲赛事包装下的足球对战体验，核心仍是传接、推进和射门时机的把握。它的完成度不靠夸张系统，而在于能否把一场传统足球比赛踢得紧凑、流畅、有压迫感。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Sensible Soccer - European Champions (Europe) (En,Fr,De,It) (Beta).png</image>
@@ -39893,7 +39893,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.70</rating>
-    <desc>《冠军足球赛94》是一款以竞技赛事为核心的体育游戏，重点在比赛节奏、战术执行和对项目规则的掌握。根据题材不同，它可能更偏写实模拟，也可能带有街机化处理，但核心都在于把比赛过程做得紧张且可反复挑战。它属于很典型的90年代主机体育作品。</desc>
+    <desc>这类作品更强调欧洲赛事包装下的足球对战体验，核心仍是传接、推进和射门时机的把握。它的完成度不靠夸张系统，而在于能否把一场传统足球比赛踢得紧凑、流畅、有压迫感。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Sensible Soccer - European Champions (Europe) (En,Fr,De,It).png</image>
@@ -39927,7 +39927,7 @@
     <genre>球类运动</genre>
     <players>1</players>
     <rating>0.50</rating>
-    <desc>这是一款以高尔夫为基础、又加入了科幻包装的作品，核心仍在选杆、控力与落点判断。它既保留高尔夫游戏讲究手感与策略的一面，也因为题材设定显得比普通高尔夫作品更有怪趣味。</desc>
+    <desc>这是一类以高尔夫基本规则为核心、同时带有额外包装趣味的作品，真正考验的仍是选杆、控力和落点判断。它的节奏沉稳，但只要手感调得顺，反而很容易玩出一杆一杆积累优势的满足感。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Serizawa Nobuo no Birdie Try (Japan).png</image>
@@ -41950,7 +41950,7 @@
     <genre>球类运动</genre>
     <players>1-4</players>
     <rating>0.80</rating>
-    <desc>《J联盟热力足球94》属于SFC早期J联赛热潮下的足球作品，整体更偏街机化节奏，强调快速传递、直接射门和短时间内形成攻防交换。它的价值不只在足球规则本身，也在记录90年代日本职业足球刚起步时那股强烈的联赛热。</desc>
+    <desc>这款足球作明显带有Capcom式街机风格，强调夸张射门、快速攻防和短时间内连续制造威胁的爽快感。它比传统模拟派更热闹、更直接，核心魅力就在于上手就能踢得很刺激。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Soccer Shootout (Europe).png</image>
@@ -43174,7 +43174,7 @@
     <genre>球类运动</genre>
     <players>1-4</players>
     <rating>0.60</rating>
-    <desc>《全美冠军足球赛》从题材看显然对应美式橄榄球而不是圆球足球，重点应放在推进码数、战术选择、传跑配合和阵型博弈。它的观感更接近北美职业体育那种强对抗、分回合推进的比赛节奏。</desc>
+    <desc>作品明显偏美式橄榄球路线，卖点在于推进码数、战术调用和强对抗带来的比赛张力。它的观感更接近北美职业赛事那种分回合推进的攻防，而不是圆球足球的连续传控。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Sports Illustrated Championship Football &amp; Baseball (USA) (Beta 2).png</image>
@@ -43191,7 +43191,7 @@
     <genre>球类运动</genre>
     <players>1-4</players>
     <rating>0.60</rating>
-    <desc>《全美冠军足球赛》从题材看显然对应美式橄榄球而不是圆球足球，重点应放在推进码数、战术选择、传跑配合和阵型博弈。它的观感更接近北美职业体育那种强对抗、分回合推进的比赛节奏。</desc>
+    <desc>作品明显偏美式橄榄球路线，卖点在于推进码数、战术调用和强对抗带来的比赛张力。它的观感更接近北美职业赛事那种分回合推进的攻防，而不是圆球足球的连续传控。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Sports Illustrated Championship Football &amp; Baseball (USA) (Beta 1) (1993-08-04).png</image>
@@ -43208,7 +43208,7 @@
     <genre>球类运动</genre>
     <players>1-4</players>
     <rating>0.60</rating>
-    <desc>《全美冠军足球赛》从题材看显然对应美式橄榄球而不是圆球足球，重点应放在推进码数、战术选择、传跑配合和阵型博弈。它的观感更接近北美职业体育那种强对抗、分回合推进的比赛节奏。</desc>
+    <desc>作品明显偏美式橄榄球路线，卖点在于推进码数、战术调用和强对抗带来的比赛张力。它的观感更接近北美职业赛事那种分回合推进的攻防，而不是圆球足球的连续传控。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Sports Illustrated Championship Football &amp; Baseball (USA).png</image>
@@ -44789,7 +44789,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.85</rating>
-    <desc>这是一款节奏明快、上手直接的家用机足球游戏，重视传球、射门与多人对战的爽快感。整体更偏娱乐型欧洲足球，而不是复杂严谨的模拟派作品，适合喜欢轻快对抗的玩家。</desc>
+    <desc>《埃里克·坎通纳足球挑战赛》以名将坎通纳为招牌，走的是节奏明快、上手直接的欧洲风足球路线。游戏重视传球、射门与多人对战时的连续攻防，整体更偏娱乐型对战，而不是厚重的模拟派作品。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Striker (Europe) (En,Fr,De,Es,It,Nl,Sv) (Beta 1).png</image>
@@ -44806,7 +44806,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.85</rating>
-    <desc>这是一款节奏明快、上手直接的家用机足球游戏，重视传球、射门与多人对战的爽快感。整体更偏娱乐型欧洲足球，而不是复杂严谨的模拟派作品，适合喜欢轻快对抗的玩家。</desc>
+    <desc>《埃里克·坎通纳足球挑战赛》以名将坎通纳为招牌，走的是节奏明快、上手直接的欧洲风足球路线。游戏重视传球、射门与多人对战时的连续攻防，整体更偏娱乐型对战，而不是厚重的模拟派作品。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Striker (Europe) (En,Fr,De,Es,It,Nl,Sv) (Beta 2).png</image>
@@ -44823,7 +44823,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.85</rating>
-    <desc>这是一款节奏明快、上手直接的家用机足球游戏，重视传球、射门与多人对战的爽快感。整体更偏娱乐型欧洲足球，而不是复杂严谨的模拟派作品，适合喜欢轻快对抗的玩家。</desc>
+    <desc>《埃里克·坎通纳足球挑战赛》以名将坎通纳为招牌，走的是节奏明快、上手直接的欧洲风足球路线。游戏重视传球、射门与多人对战时的连续攻防，整体更偏娱乐型对战，而不是厚重的模拟派作品。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Striker (Europe) (En,Fr,De,Es,It,Nl,Sv).png</image>
@@ -45010,7 +45010,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.55</rating>
-    <desc>这是一款以职业棒球联赛为题材的作品，核心是投打对抗、守备处理和比赛节奏控制。它既强调联赛氛围，也保留了家用机棒球易上手但有战术味的特征，适合喜欢职业棒球题材的玩家。</desc>
+    <desc>这类作品都围绕职业棒球联赛的投打对抗展开，重点在配球思路、击球时机和守备轮转形成的比赛节奏。它们的魅力主要来自职业联赛题材和一场完整棒球比赛的推进感。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Super 3D Baseball (Japan).png</image>
@@ -45418,7 +45418,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.55</rating>
-    <desc>这是一款以职业棒球联赛为题材的作品，核心是投打对抗、守备处理和比赛节奏控制。它既强调联赛氛围，也保留了家用机棒球易上手但有战术味的特征，适合喜欢职业棒球题材的玩家。</desc>
+    <desc>这类作品都围绕职业棒球联赛的投打对抗展开，重点在配球思路、击球时机和守备轮转形成的比赛节奏。它们的魅力主要来自职业联赛题材和一场完整棒球比赛的推进感。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Super Bases Loaded 2 (USA).png</image>
@@ -45622,7 +45622,7 @@
     <genre>球类运动</genre>
     <players>1-8</players>
     <rating>0.60</rating>
-    <desc>《冠军桌球》是一款以竞技赛事为核心的体育游戏，重点在比赛节奏、战术执行和对项目规则的掌握。根据题材不同，它可能更偏写实模拟，也可能带有街机化处理，但核心都在于把比赛过程做得紧张且可反复挑战。它属于很典型的90年代主机体育作品。</desc>
+    <desc>《冠军桌球》是一款桌球题材作品，核心在于击球角度、力度控制和走位计算。它不像大球项目那样强调高速攻防，而是更讲究每一杆的线路判断与布局思路。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Super Billiard - Championship Pool (Japan).png</image>
@@ -47764,7 +47764,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.60</rating>
-    <desc>这是一款走爽快路线的家用机足球游戏，重视比赛节奏、快速射门和多人对战的即兴乐趣。整体偏街机化，不太追求复杂战术，而是强调上手直接和攻防转换够快。</desc>
+    <desc>《Super Goal! 2》是一款走爽快路线的家用机足球游戏，强调快速推进、直接射门和短时间内不断交换攻防。它不追求复杂模拟，而是把足球对战最直观的刺激感做得很足，非常适合多人开局。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Super Goal! 2 (USA).png</image>
@@ -51334,7 +51334,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.60</rating>
-    <desc>这是一款更偏街机感的足球游戏，强调快节奏攻防、直接射门和多人同乐的热闹气氛。它不像写实派作品那样追求完整模拟，而是更看重简单上手、比赛刺激和短时间内不断出现的进球机会。</desc>
+    <desc>这类足球作品更偏街机感，强调快节奏攻防、直接射门和多人同乐的热闹气氛。它不像写实派作品那样追求完整模拟，而是更看重简单上手、比赛刺激和短时间内不断出现的进球机会。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Super Soccer Champ (USA).png</image>
@@ -53527,7 +53527,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.60</rating>
-    <desc>这是一款走爽快路线的家用机足球游戏，重视比赛节奏、快速射门和多人对战的即兴乐趣。整体偏街机化，不太追求复杂战术，而是强调上手直接和攻防转换够快。</desc>
+    <desc>《Super Goal! 2》是一款走爽快路线的家用机足球游戏，强调快速推进、直接射门和短时间内不断交换攻防。它不追求复杂模拟，而是把足球对战最直观的刺激感做得很足，非常适合多人开局。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Takeda Nobuhiro no Super Cup Soccer (Japan).png</image>
@@ -58797,7 +58797,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.65</rating>
-    <desc>这是一款围绕足球比赛攻守转换展开的作品，重视传球、带球、射门与防守选位之间的连续判断。它的乐趣主要来自阵地推进和破门瞬间的反馈，既适合单人挑战，也很适合双人对战，关键就在于手感是否流畅、比赛节奏是否够紧凑。</desc>
+    <desc>这款足球作把重心放在传球、带球、射门与防守选位之间的连续判断上，玩起来更像一场持续推进的阵地战。它的价值在于对战节奏够紧，既适合单人磨手感，也很适合同屏较量。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Tony Meola's Sidekicks Soccer (USA) (Beta 3) [b].png</image>
@@ -58814,7 +58814,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.65</rating>
-    <desc>这是一款围绕足球比赛攻守转换展开的作品，重视传球、带球、射门与防守选位之间的连续判断。它的乐趣主要来自阵地推进和破门瞬间的反馈，既适合单人挑战，也很适合双人对战，关键就在于手感是否流畅、比赛节奏是否够紧凑。</desc>
+    <desc>这款足球作把重心放在传球、带球、射门与防守选位之间的连续判断上，玩起来更像一场持续推进的阵地战。它的价值在于对战节奏够紧，既适合单人磨手感，也很适合同屏较量。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Tony Meola's Sidekicks Soccer (USA) (Beta 1).png</image>
@@ -58831,7 +58831,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.65</rating>
-    <desc>这是一款围绕足球比赛攻守转换展开的作品，重视传球、带球、射门与防守选位之间的连续判断。它的乐趣主要来自阵地推进和破门瞬间的反馈，既适合单人挑战，也很适合双人对战，关键就在于手感是否流畅、比赛节奏是否够紧凑。</desc>
+    <desc>这款足球作把重心放在传球、带球、射门与防守选位之间的连续判断上，玩起来更像一场持续推进的阵地战。它的价值在于对战节奏够紧，既适合单人磨手感，也很适合同屏较量。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Tony Meola's Sidekicks Soccer (USA) (Beta 2).png</image>
@@ -58848,7 +58848,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.65</rating>
-    <desc>这是一款围绕足球比赛攻守转换展开的作品，重视传球、带球、射门与防守选位之间的连续判断。它的乐趣主要来自阵地推进和破门瞬间的反馈，既适合单人挑战，也很适合双人对战，关键就在于手感是否流畅、比赛节奏是否够紧凑。</desc>
+    <desc>这款足球作把重心放在传球、带球、射门与防守选位之间的连续判断上，玩起来更像一场持续推进的阵地战。它的价值在于对战节奏够紧，既适合单人磨手感，也很适合同屏较量。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/Tony Meola's Sidekicks Soccer (USA).png</image>
@@ -62911,7 +62911,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.70</rating>
-    <desc>《世界级橄英式榄球赛》对应橄榄球/英式橄榄球题材，重心应放在阵型推进、冲撞对抗、传递时机和防守压迫。它和普通足球、篮球在节奏上完全不同，比赛魅力来自高身体对抗与战术布置。</desc>
+    <desc>《世界级橄英式榄球赛》以英式橄榄球的持续推进和高强度身体对抗为卖点，比赛节奏与美式橄榄球、足球都明显不同。它更强调冲撞后的续攻、传递线路和整体阵型压迫。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/World Class Rugby (Europe).png</image>
@@ -62928,7 +62928,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.70</rating>
-    <desc>《世界级橄英式榄球赛》对应橄榄球/英式橄榄球题材，重心应放在阵型推进、冲撞对抗、传递时机和防守压迫。它和普通足球、篮球在节奏上完全不同，比赛魅力来自高身体对抗与战术布置。</desc>
+    <desc>《世界级橄英式榄球赛》以英式橄榄球的持续推进和高强度身体对抗为卖点，比赛节奏与美式橄榄球、足球都明显不同。它更强调冲撞后的续攻、传递线路和整体阵型压迫。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/World Class Rugby (Japan) (En).png</image>
@@ -62962,7 +62962,7 @@
     <genre>球类运动</genre>
     <players>1-5</players>
     <rating>0.65</rating>
-    <desc>这是一款偏欧美写实路线的足球游戏，重视阵型展开、传接配合与比赛节奏控制。它不像街机足球那样夸张热闹，而是更强调组织进攻和整体攻防的真实感，属于16位时代较典型的模拟派足球作品。</desc>
+    <desc>《精英足球》是一款偏欧美写实路线的足球游戏，重视阵型展开、传接配合与比赛节奏控制。它不像街机足球那样夸张热闹，而是更强调组织进攻和整体攻防的真实感，是16位时代很典型的模拟派足球作。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/World Cup Striker (Europe) (En,Fr,De) (Beta).png</image>
@@ -62979,7 +62979,7 @@
     <genre>球类运动</genre>
     <players>1-5</players>
     <rating>0.65</rating>
-    <desc>这是一款偏欧美写实路线的足球游戏，重视阵型展开、传接配合与比赛节奏控制。它不像街机足球那样夸张热闹，而是更强调组织进攻和整体攻防的真实感，属于16位时代较典型的模拟派足球作品。</desc>
+    <desc>《精英足球》是一款偏欧美写实路线的足球游戏，重视阵型展开、传接配合与比赛节奏控制。它不像街机足球那样夸张热闹，而是更强调组织进攻和整体攻防的真实感，是16位时代很典型的模拟派足球作。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/World Cup Striker (Europe) (En,Fr,De).png</image>
@@ -62996,7 +62996,7 @@
     <genre>球类运动</genre>
     <players>1-5</players>
     <rating>0.65</rating>
-    <desc>这是一款偏欧美写实路线的足球游戏，重视阵型展开、传接配合与比赛节奏控制。它不像街机足球那样夸张热闹，而是更强调组织进攻和整体攻防的真实感，属于16位时代较典型的模拟派足球作品。</desc>
+    <desc>《精英足球》是一款偏欧美写实路线的足球游戏，重视阵型展开、传接配合与比赛节奏控制。它不像街机足球那样夸张热闹，而是更强调组织进攻和整体攻防的真实感，是16位时代很典型的模拟派足球作。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/World Cup Striker (Japan).png</image>
@@ -63234,7 +63234,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.65</rating>
-    <desc>这是一款围绕足球比赛攻守转换展开的作品，重视传球、带球、射门与防守选位之间的连续判断。它的乐趣主要来自阵地推进和破门瞬间的反馈，既适合单人挑战，也很适合双人对战，关键就在于手感是否流畅、比赛节奏是否够紧凑。</desc>
+    <desc>这款足球作把重心放在传球、带球、射门与防守选位之间的连续判断上，玩起来更像一场持续推进的阵地战。它的价值在于对战节奏够紧，既适合单人磨手感，也很适合同屏较量。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/World Soccer (Europe) (Proto).png</image>
@@ -63251,7 +63251,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.85</rating>
-    <desc>这是一款节奏明快、上手直接的家用机足球游戏，重视传球、射门与多人对战的爽快感。整体更偏娱乐型欧洲足球，而不是复杂严谨的模拟派作品，适合喜欢轻快对抗的玩家。</desc>
+    <desc>《埃里克·坎通纳足球挑战赛》以名将坎通纳为招牌，走的是节奏明快、上手直接的欧洲风足球路线。游戏重视传球、射门与多人对战时的连续攻防，整体更偏娱乐型对战，而不是厚重的模拟派作品。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/World Soccer (Japan) (En).png</image>
@@ -63268,7 +63268,7 @@
     <genre>球类运动</genre>
     <players>1-2</players>
     <rating>0.85</rating>
-    <desc>这是一款节奏明快、上手直接的家用机足球游戏，重视传球、射门与多人对战的爽快感。整体更偏娱乐型欧洲足球，而不是复杂严谨的模拟派作品，适合喜欢轻快对抗的玩家。</desc>
+    <desc>《埃里克·坎通纳足球挑战赛》以名将坎通纳为招牌，走的是节奏明快、上手直接的欧洲风足球路线。游戏重视传球、射门与多人对战时的连续攻防，整体更偏娱乐型对战，而不是厚重的模拟派作品。</desc>
     <cloneof>0</cloneof>
     <system id="4" parentid="0">SFC</system>
     <image type="mixrbv2">media/images/World Soccer 94 - Road to Glory (USA).png</image>
