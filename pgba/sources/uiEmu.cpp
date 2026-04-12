@@ -43,6 +43,7 @@ int PGBAUiEmu::load(const ss_api::Game &game) {
 }
 
 void PGBAUiEmu::stop() {
+    saveAutoState();
     mgba_stop();
     UiEmu::stop();
 }

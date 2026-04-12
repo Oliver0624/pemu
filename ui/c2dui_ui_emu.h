@@ -49,6 +49,12 @@ namespace c2dui {
 
     protected:
 
+        std::string getAutoStatePath(const ss_api::Game &game) const;
+
+        bool promptLoadAutoState();
+
+        bool saveAutoState();
+
         void onUpdate() override;
 
         ss_api::Game currentGame;

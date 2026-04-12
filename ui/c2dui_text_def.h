@@ -175,6 +175,7 @@
 #define TEXT_MSG_PRESS_MENU1_2_FOR_INGAME_MENU          "TIPS: PRESS MENU1 + MENU2 BUTTONS FOR IN GAME MENU..."
 #define TEXT_MSG_PRESS_BUTTON2_FOR_DIAG_MENU            "TIPS: PRESS START BUTTON 2 SECONDS FOR DIAG MENU..."
 #define TEXT_MSG_PRESS_COIN_BUTTON_TO_RESET             "TIPS: PRESS COIN BUTTON 2 SECONDS TO RESET CURRENT GAME..."
+#define TEXT_MSG_AUTO_SAVE_FOUND                        "Previous auto-save found. Load it?"
 
 #define TEXT_MSG_PNES_INVALID_FILE                      "INVALID FILE"
 
@@ -373,6 +374,7 @@
 #define TEXT_MSG_PRESS_MENU1_2_FOR_INGAME_MENU          "提示: 同时按下MENU1键和MENU2键可以在游戏中打开菜单..."
 #define TEXT_MSG_PRESS_BUTTON2_FOR_DIAG_MENU            "提示: 按住START键2秒可以打开对话菜单..."
 #define TEXT_MSG_PRESS_COIN_BUTTON_TO_RESET             "提示: 按住投币键2秒可以重置当前游戏..."
+#define TEXT_MSG_AUTO_SAVE_FOUND                        "发现之前的自动存档，是否加载？"
 
 #define TEXT_MSG_PNES_INVALID_FILE                      "文件非法"
 

@@ -98,6 +98,7 @@ int PNESUiEmu::load(const ss_api::Game &game) {
 
 void PNESUiEmu::stop() {
     nst_pause();
+    saveAutoState();
 
     // Remove the cartridge and shut down the NES
     nst_unload();

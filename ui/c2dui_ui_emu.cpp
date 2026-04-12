@@ -61,6 +61,7 @@ int UiEmu::load(const Game &game) {
     pMain->getUiRomList()->setVisibility(Visibility::Hidden);
     pMain->getUiRomList()->getBlur()->setVisibility(Visibility::Hidden);
 
+    promptLoadAutoState();
     resume();
 
     return 0;
@@ -177,4 +178,39 @@ c2d::Text *UiEmu::getFpsText() {
 
 bool UiEmu::isPaused() {
     return paused;
+}
+
+std::string UiEmu::getAutoStatePath(const Game &game) const {
+    if (game.path.empty()) {
+        return "";
+    }
+
+    return pMain->getIo()->getDataPath() + "saves/" + Utility::removeExt(game.path) + ".auto.sav";
+}
+
+bool UiEmu::promptLoadAutoState() {
+    std::string path = getAutoStatePath(currentGame);
+    if (path.empty() || !pMain->getIo()->exist(path)) {
+        return false;
+    }
+
+    int res = pMain->getUiMessageBox()->show(
+            currentGame.name,
+            TEXT_MSG_AUTO_SAVE_FOUND,
+            TEXT_BUTTON_LOAD,
+            TEXT_BUTTON_CANCEL);
+    if (res == MessageBox::LEFT) {
+        return pMain->getUiStateMenu()->loadStateCore(path.c_str());
+    }
+
+    return false;
+}
+
+bool UiEmu::saveAutoState() {
+    std::string path = getAutoStatePath(currentGame);
+    if (path.empty()) {
+        return false;
+    }
+
+    return pMain->getUiStateMenu()->saveStateCore(path.c_str());
 }

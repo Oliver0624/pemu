@@ -136,6 +136,7 @@ int PGENUiEmu::load(const ss_api::Game &game) {
 }
 
 void PGENUiEmu::stop() {
+    saveAutoState();
     saveBram();
     saveSram();
     audio_shutdown();

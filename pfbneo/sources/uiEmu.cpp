@@ -243,6 +243,7 @@ void Reinitialise(void) {
 }
 
 void PFBAUiEmu::stop() {
+    saveAutoState();
     DrvExit();
     if (pBurnSoundOut) {
         free(pBurnSoundOut);

@@ -369,6 +369,7 @@ void PSNESUiEmu::stop() {
     Settings.StopEmulation = TRUE;
     pendingMenuAction = MenuAction::None;
     superScopeTurboEnabled = false;
+    saveAutoState();
 
     Memory.SaveSRAM(S9xGetFilename(".srm", SRAM_DIR).c_str());
 
