@@ -27,6 +27,42 @@ extern Nes::Core::Input::Controllers *cNstPads;
 extern Emulator emulator;
 /// NESTOPIA
 
+static bool mapPointerToNesVideo(c2dui::C2DUIVideo *video, const c2d::Input::Pointer &pointer,
+                                 uint &x, uint &y) {
+    if (video == nullptr || !pointer.active) {
+        return false;
+    }
+
+    auto bounds = video->getGlobalBounds();
+    if (bounds.width <= 0 || bounds.height <= 0) {
+        return false;
+    }
+
+    float localX = pointer.position.x - bounds.left;
+    float localY = pointer.position.y - bounds.top;
+    if (localX < 0 || localX > bounds.width || localY < 0 || localY > bounds.height) {
+        return false;
+    }
+
+    float mappedX = (localX * (float) Video::Output::WIDTH) / bounds.width;
+    float mappedY = (localY * (float) Video::Output::HEIGHT) / bounds.height;
+
+    if (mappedX < 0) {
+        mappedX = 0;
+    } else if (mappedX >= Video::Output::WIDTH) {
+        mappedX = (float) Video::Output::WIDTH - 1;
+    }
+    if (mappedY < 0) {
+        mappedY = 0;
+    } else if (mappedY >= Video::Output::HEIGHT) {
+        mappedY = (float) Video::Output::HEIGHT - 1;
+    }
+
+    x = (uint) mappedX;
+    y = (uint) mappedY;
+    return true;
+}
+
 PNESUiEmu::PNESUiEmu(UiMain *ui) : UiEmu(ui) {
     printf("PNESGuiEmu()\n");
 }
@@ -123,6 +159,22 @@ void PNESUiEmu::onUpdate() {
             cNstPads->pad[i].buttons |= (players[i].buttons & c2d::Input::Button::Y) > 0 ?
                                         Nes::Core::Input::Controllers::Pad::A : 0;
 #endif
+        }
+
+        uint pointerX = 0;
+        uint pointerY = 0;
+        bool pointerOnScreen = mapPointerToNesVideo(video, players[0].pointer, pointerX, pointerY);
+        bool fire = (players[0].pointer.buttons & c2d::Input::Pointer::Primary) > 0;
+        bool hasZapper = Nes::Api::Input(emulator).GetConnectedController(0) == Nes::Api::Input::ZAPPER
+                         || Nes::Api::Input(emulator).GetConnectedController(1) == Nes::Api::Input::ZAPPER;
+        if (hasZapper) {
+            cNstPads->zapper.fire = fire;
+            if (pointerOnScreen) {
+                cNstPads->zapper.x = pointerX;
+                cNstPads->zapper.y = pointerY;
+            } else if (fire) {
+                cNstPads->zapper.x = ~1U;
+            }
         }
 
         // step nestopia core
@@ -319,6 +371,9 @@ int PNESUiEmu::nestopia_core_init(const char *rom_path) {
     if (!nst_load(rom_path)) {
         return -1;
     }
+
+    Nes::Api::Input(emulator).AutoSelectControllers();
+    Nes::Api::Input(emulator).AutoSelectAdapter();
 
     nst_video_set_dimensions_screen(nst_video_get_dimensions_screen());
 

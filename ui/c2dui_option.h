@@ -70,6 +70,7 @@ namespace c2dui {
             ROM_PSNES_BLOCK_VRAM,
             ROM_PSNES_TRANSPARENCY,
             ROM_PSNES_DISPLAY_MESSAGES,
+            ROM_PSNES_CONTROLLER,
             ROM_PSNES_FRAMESKIP,
             ROM_PSNES_TURBO_MODE,
             ROM_PSNES_TURBO_FRAMESKIP,

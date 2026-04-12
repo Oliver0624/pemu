@@ -25,6 +25,42 @@ static uint8 brm_format[0x40] = {
         0x5f
 };
 
+static bool mapPointerToGenesisVideo(c2dui::C2DUIVideo *video, const c2d::Input::Pointer &pointer,
+                                     int &x, int &y) {
+    if (video == nullptr || !pointer.active) {
+        return false;
+    }
+
+    auto bounds = video->getGlobalBounds();
+    if (bounds.width <= 0 || bounds.height <= 0) {
+        return false;
+    }
+
+    float localX = pointer.position.x - bounds.left;
+    float localY = pointer.position.y - bounds.top;
+    if (localX < 0 || localX > bounds.width || localY < 0 || localY > bounds.height) {
+        return false;
+    }
+
+    float mappedX = (localX * (float) bitmap.viewport.w) / bounds.width;
+    float mappedY = (localY * (float) bitmap.viewport.h) / bounds.height;
+
+    if (mappedX < 0) {
+        mappedX = 0;
+    } else if (mappedX >= bitmap.viewport.w) {
+        mappedX = (float) bitmap.viewport.w - 1;
+    }
+    if (mappedY < 0) {
+        mappedY = 0;
+    } else if (mappedY >= bitmap.viewport.h) {
+        mappedY = (float) bitmap.viewport.h - 1;
+    }
+
+    x = (int) mappedX;
+    y = (int) mappedY;
+    return true;
+}
+
 PGENUiEmu::PGENUiEmu(UiMain *ui) : UiEmu(ui) {
     printf("PGENUiEmu()\n");
     set_config_defaults();
@@ -108,9 +144,14 @@ void PGENUiEmu::stop() {
 
 void PGENUiEmu::onUpdate() {
     if (!isPaused()) {
+        auto *players = getUi()->getInput()->getPlayers();
+        int pointerX = -1000;
+        int pointerY = -1000;
+        bool pointerOnScreen = mapPointerToGenesisVideo(video, players[0].pointer, pointerX, pointerY);
+
         // inputs
         for (int i = 0; i < PLAYER_MAX; i++) {
-            unsigned int buttons = getUi()->getInput()->getButtons(i);
+            unsigned int buttons = players[i].buttons;
             input.pad[i] = 0;
             switch (input.dev[i]) {
                 case DEVICE_PAD6B:
@@ -127,6 +168,28 @@ void PGENUiEmu::onUpdate() {
                     if (buttons & Input::Button::LT) input.pad[i] |= INPUT_Y;
                     if (buttons & Input::Button::RT) input.pad[i] |= INPUT_Z;
                     if (buttons & Input::Button::Select) input.pad[i] |= INPUT_MODE;
+                    if (buttons & Input::Button::Start) input.pad[i] |= INPUT_START;
+                    break;
+                case DEVICE_LIGHTGUN:
+                    input.analog[i][0] = pointerOnScreen ? pointerX : -1000;
+                    input.analog[i][1] = pointerOnScreen ? pointerY : -1000;
+                    if (players[0].pointer.buttons & Input::Pointer::Primary) input.pad[i] |= INPUT_A;
+                    if (players[0].pointer.buttons & Input::Pointer::Secondary) input.pad[i] |= INPUT_B;
+                    if (players[0].pointer.buttons & Input::Pointer::Middle) input.pad[i] |= INPUT_C;
+                    if (buttons & Input::Button::Start) input.pad[i] |= INPUT_START;
+                    break;
+                case DEVICE_MOUSE:
+                    input.analog[i][0] = (int) players[0].pointer.delta.x * 2;
+                    input.analog[i][1] = ::config.invert_mouse
+                                         ? (int) players[0].pointer.delta.y * 2
+                                         : (int) -players[0].pointer.delta.y * 2;
+                    if (input.analog[i][0] < -255) input.analog[i][0] = -255;
+                    else if (input.analog[i][0] > 255) input.analog[i][0] = 255;
+                    if (input.analog[i][1] < -255) input.analog[i][1] = -255;
+                    else if (input.analog[i][1] > 255) input.analog[i][1] = 255;
+                    if (players[0].pointer.buttons & Input::Pointer::Primary) input.pad[i] |= INPUT_MOUSE_LEFT;
+                    if (players[0].pointer.buttons & Input::Pointer::Secondary) input.pad[i] |= INPUT_MOUSE_RIGHT;
+                    if (players[0].pointer.buttons & Input::Pointer::Middle) input.pad[i] |= INPUT_MOUSE_CENTER;
                     if (buttons & Input::Button::Start) input.pad[i] |= INPUT_START;
                     break;
                 default:

@@ -122,6 +122,7 @@
 #define TEXT_MENU_BLOCK_INVALID_VRAM                    "BLOCK_INVALID_VRAM"
 #define TEXT_MENU_TRANSPARENCY                          "TRANSPARENCY"
 #define TEXT_MENU_DISPLAY_MESSAGES                      "DISPLAY_MESSAGES"
+#define TEXT_MENU_CONTROLLER                            "CONTROLLER"
 #define TEXT_MENU_TURBO_MODE                            "TURBO_MODE"
 #define TEXT_MENU_TURBO_FRAMESKIP                       "TURBO_FRAMESKIP"
 
@@ -304,6 +305,7 @@
 #define TEXT_MENU_BLOCK_INVALID_VRAM                    "阻止非法显存块"
 #define TEXT_MENU_TRANSPARENCY                          "透明度"
 #define TEXT_MENU_DISPLAY_MESSAGES                      "显示提示信息"
+#define TEXT_MENU_CONTROLLER                            "控制器"
 #define TEXT_MENU_TURBO_MODE                            "TURBO模式"
 #define TEXT_MENU_TURBO_FRAMESKIP                       "TURBO跳帧"
 
