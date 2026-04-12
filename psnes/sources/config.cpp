@@ -27,7 +27,12 @@ PSNESConfig::PSNESConfig(UiMain *ui, int version) : Config(ui, version) {
     add(Option::Id::ROM_PSNES_TRANSPARENCY, "DISPLAY_MESSAGES", TEXT_MENU_DISPLAY_MESSAGES, {"OFF", "ON"}, 1,
         Option::Id::ROM_PSNES_DISPLAY_MESSAGES, Option::Flags::BOOLEAN);
 
-    add(Option::Id::ROM_PSNES_DISPLAY_MESSAGES, "FRAMESKIP", TEXT_MENU_FRAMESKIP,
+    add(Option::Id::ROM_PSNES_DISPLAY_MESSAGES, "CONTROLLER", TEXT_MENU_CONTROLLER,
+        {"AUTO", "JOYPAD", "MOUSE", "SUPERSCOPE", "JUSTIFIER"}, 0,
+        Option::Id::ROM_PSNES_CONTROLLER, Option::Flags::STRING);
+    get(Option::Id::ROM_PSNES_CONTROLLER)->setInfo(TEXT_MSG_PSNES_CONTROLLER_AUTO_INFO);
+
+    add(Option::Id::ROM_PSNES_CONTROLLER, "FRAMESKIP", TEXT_MENU_FRAMESKIP,
         {"OFF", "AUTO", "1", "2", "3", "4", "5", "6", "7", "8", "9"}, 0,
         Option::Id::ROM_PSNES_FRAMESKIP, Option::Flags::STRING);
 #ifdef __VITA__

@@ -33,6 +33,20 @@ static const char *s9x_base_dir = nullptr;
 
 static char default_dir[PATH_MAX + 1];
 
+static constexpr uint32 kSnesPointer1 = 0x100;
+static constexpr uint32 kSnesPointer2 = 0x101;
+static constexpr uint32 kSnesMouseLeft1 = 0x110;
+static constexpr uint32 kSnesMouseRight1 = 0x111;
+static constexpr uint32 kSnesMouseLeft2 = 0x112;
+static constexpr uint32 kSnesMouseRight2 = 0x113;
+static constexpr uint32 kSnesScopeFire = 0x120;
+static constexpr uint32 kSnesScopeCursor = 0x121;
+static constexpr uint32 kSnesScopePause = 0x122;
+static constexpr uint32 kSnesScopeTurbo = 0x123;
+static constexpr uint32 kSnesJustifierTrigger = 0x130;
+static constexpr uint32 kSnesJustifierStart = 0x131;
+static constexpr uint32 kSnesJustifierOffscreenTrigger = 0x132;
+
 static const char dirNames[13][32] = {
         "",             // DEFAULT_DIR
         "",             // HOME_DIR
@@ -55,12 +69,176 @@ std::string getButtonId(int player, const std::string &name) {
     return "Joypad" + std::to_string(player) + " " + name;
 }
 
+static void mapSnesInput() {
+    S9xUnmapAllControls();
+
+    for (int i = 0; i < 4; i++) {
+        S9xMapButton(0 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "Up").c_str()), false);
+        S9xMapButton(1 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "Down").c_str()), false);
+        S9xMapButton(2 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "Left").c_str()), false);
+        S9xMapButton(3 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "Right").c_str()), false);
+        S9xMapButton(4 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "A").c_str()), false);
+        S9xMapButton(5 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "B").c_str()), false);
+        S9xMapButton(6 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "X").c_str()), false);
+        S9xMapButton(7 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "Y").c_str()), false);
+        S9xMapButton(8 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "L").c_str()), false);
+        S9xMapButton(9 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "R").c_str()), false);
+        S9xMapButton(10 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "Start").c_str()), false);
+        S9xMapButton(11 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "Select").c_str()), false);
+    }
+
+    S9xMapPointer(kSnesPointer1, S9xGetCommandT("Pointer Mouse1+Superscope+Justifier1+MacsRifle"),
+                  false);
+    S9xMapPointer(kSnesPointer2, S9xGetCommandT("Pointer Mouse2+Justifier2"), false);
+    S9xMapButton(kSnesMouseLeft1, S9xGetCommandT("Mouse1 L"), false);
+    S9xMapButton(kSnesMouseRight1, S9xGetCommandT("Mouse1 R"), false);
+    S9xMapButton(kSnesMouseLeft2, S9xGetCommandT("Mouse2 L"), false);
+    S9xMapButton(kSnesMouseRight2, S9xGetCommandT("Mouse2 R"), false);
+    S9xMapButton(kSnesScopeFire, S9xGetCommandT("Superscope Fire"), false);
+    S9xMapButton(kSnesScopeCursor, S9xGetCommandT("Superscope Cursor"), false);
+    S9xMapButton(kSnesScopePause, S9xGetCommandT("Superscope Pause"), false);
+    S9xMapButton(kSnesScopeTurbo, S9xGetCommandT("Superscope ToggleTurbo"), false);
+    S9xMapButton(kSnesJustifierTrigger, S9xGetCommandT("Justifier1 Trigger"), false);
+    S9xMapButton(kSnesJustifierStart, S9xGetCommandT("Justifier1 Start"), false);
+    S9xMapButton(kSnesJustifierOffscreenTrigger,
+                 S9xGetCommandT("Justifier1 AimOffscreen Trigger"), false);
+}
+
+static void setupSnesControllers() {
+    S9xSetController(0, CTL_JOYPAD, 0, 0, 0, 0);
+    S9xSetController(1, CTL_JOYPAD, 1, 0, 0, 0);
+
+    Option *controllerOption = m_ui ? m_ui->getConfig()->get(Option::ROM_PSNES_CONTROLLER, true) : nullptr;
+    std::string controllerMode = controllerOption ? controllerOption->getValueString() : "AUTO";
+    if (controllerMode == "JOYPAD") {
+        S9xReportControllers();
+        return;
+    }
+    if (controllerMode == "MOUSE") {
+        S9xSetController(0, CTL_MOUSE, 0, 0, 0, 0);
+        S9xReportControllers();
+        return;
+    }
+    if (controllerMode == "SUPERSCOPE") {
+        S9xSetController(1, CTL_SUPERSCOPE, 0, 0, 0, 0);
+        S9xReportControllers();
+        return;
+    }
+    if (controllerMode == "JUSTIFIER") {
+        S9xSetController(1, CTL_JUSTIFIER, 1, 0, 0, 0);
+        S9xReportControllers();
+        return;
+    }
+
+    if (strncmp((const char *) Memory.NSRTHeader + 24, "NSRT", 4) != 0) {
+        S9xReportControllers();
+        return;
+    }
+
+    switch (Memory.NSRTHeader[29]) {
+        case 0x10:
+        case 0x20:
+            S9xSetController(0, CTL_MOUSE, 0, 0, 0, 0);
+            break;
+
+        case 0x01:
+        case 0x08:
+            S9xSetController(1, CTL_MOUSE, 1, 0, 0, 0);
+            break;
+
+        case 0x03:
+        case 0x04:
+            S9xSetController(1, CTL_SUPERSCOPE, 0, 0, 0, 0);
+            break;
+
+        case 0x05:
+            S9xSetController(1, CTL_JUSTIFIER, 1, 0, 0, 0);
+            break;
+
+        case 0x06:
+            S9xSetController(1, CTL_MP5, 1, 2, 3, 4);
+            break;
+
+        case 0x22:
+            S9xSetController(0, CTL_MOUSE, 0, 0, 0, 0);
+            S9xSetController(1, CTL_MOUSE, 1, 0, 0, 0);
+            break;
+
+        case 0x24:
+        case 0x27:
+            S9xSetController(0, CTL_MOUSE, 0, 0, 0, 0);
+            S9xSetController(1, CTL_SUPERSCOPE, 0, 0, 0, 0);
+            break;
+
+        case 0x66:
+            S9xSetController(0, CTL_MP5, 0, 1, 2, 3);
+            S9xSetController(1, CTL_MP5, 4, 5, 6, 7);
+            break;
+
+        default:
+            break;
+    }
+
+    S9xReportControllers();
+}
+
+static bool mapPointerToSnesVideo(C2DUIVideo *video, const c2d::Input::Pointer &pointer, int16 &x, int16 &y) {
+    if (video == nullptr || !pointer.active) {
+        return false;
+    }
+
+    auto bounds = video->getGlobalBounds();
+    if (bounds.width <= 0 || bounds.height <= 0) {
+        return false;
+    }
+
+    float localX = pointer.position.x - bounds.left;
+    float localY = pointer.position.y - bounds.top;
+    if (localX < 0 || localX > bounds.width || localY < 0 || localY > bounds.height) {
+        return false;
+    }
+
+    float mappedX = (localX * (float) video->getTextureRect().width) / bounds.width;
+    float mappedY = (localY * (float) video->getTextureRect().height) / bounds.height;
+
+    if (mappedX < 0) {
+        mappedX = 0;
+    } else if (mappedX >= video->getTextureRect().width) {
+        mappedX = (float) video->getTextureRect().width - 1;
+    }
+    if (mappedY < 0) {
+        mappedY = 0;
+    } else if (mappedY >= video->getTextureRect().height) {
+        mappedY = (float) video->getTextureRect().height - 1;
+    }
+
+    x = (int16) mappedX;
+    y = (int16) mappedY;
+    return true;
+}
+
+static bool portHasController(int port, controllers controller, int8 *id = nullptr) {
+    controllers current = CTL_NONE;
+    int8 currentId1 = -1;
+    int8 currentId2 = -1;
+    int8 currentId3 = -1;
+    int8 currentId4 = -1;
+    S9xGetController(port, &current, &currentId1, &currentId2, &currentId3, &currentId4);
+    if (id != nullptr) {
+        *id = currentId1;
+    }
+    return current == controller;
+}
+
 PSNESUiEmu::PSNESUiEmu(UiMain *ui) : UiEmu(ui) {
     printf("PSNESUIEmu()\n");
     m_ui = ui;
 }
 
 int PSNESUiEmu::load(const ss_api::Game &game) {
+    pendingMenuAction = MenuAction::None;
+    superScopeTurboEnabled = false;
+
     pMain->getUiProgressBox()->setTitle(game.name);
     pMain->getUiProgressBox()->setMessage(TEXT_MSG_PLEASE_WAIT);
     pMain->getUiProgressBox()->setProgress(0);
@@ -75,10 +253,10 @@ int PSNESUiEmu::load(const ss_api::Game &game) {
     S9xLoadConfigFiles(nullptr, 0);
 
     // override S9xLoadConfigFiles
-    Settings.MouseMaster = FALSE;
-    Settings.SuperScopeMaster = FALSE;
-    Settings.JustifierMaster = FALSE;
-    Settings.MultiPlayer5Master = FALSE;
+    Settings.MouseMaster = TRUE;
+    Settings.SuperScopeMaster = TRUE;
+    Settings.JustifierMaster = TRUE;
+    Settings.MultiPlayer5Master = TRUE;
     Settings.FrameTimePAL = 20000;
     Settings.FrameTimeNTSC = 16667;
     // audio
@@ -138,24 +316,7 @@ int PSNESUiEmu::load(const ss_api::Game &game) {
     S9xSetSoundMute(FALSE);
     S9xSetSamplesAvailableCallback(nullptr, nullptr);
 
-    //getButtonId
-    S9xUnmapAllControls();
-    for (int i = 0; i < 4; i++) {
-        S9xSetController(i, CTL_JOYPAD, (int8) i, 0, 0, 0);
-        S9xMapButton(0 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "Up").c_str()), false);
-        S9xMapButton(1 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "Down").c_str()), false);
-        S9xMapButton(2 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "Left").c_str()), false);
-        S9xMapButton(3 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "Right").c_str()), false);
-        S9xMapButton(4 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "A").c_str()), false);
-        S9xMapButton(5 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "B").c_str()), false);
-        S9xMapButton(6 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "X").c_str()), false);
-        S9xMapButton(7 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "Y").c_str()), false);
-        S9xMapButton(8 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "L").c_str()), false);
-        S9xMapButton(9 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "R").c_str()), false);
-        S9xMapButton(10 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "Start").c_str()), false);
-        S9xMapButton(11 + (i * 12), S9xGetCommandT(getButtonId(i + 1, "Select").c_str()), false);
-    }
-    S9xReportControllers();
+    mapSnesInput();
 
     uint32 saved_flags = CPU.Flags;
 
@@ -181,6 +342,7 @@ int PSNESUiEmu::load(const ss_api::Game &game) {
 
     CPU.Flags = saved_flags;
     Settings.StopEmulation = FALSE;
+    setupSnesControllers();
 
     // audio
     int samples = Audio::toSamples((int) Settings.SoundPlaybackRate,
@@ -205,6 +367,8 @@ int PSNESUiEmu::load(const ss_api::Game &game) {
 
 void PSNESUiEmu::stop() {
     Settings.StopEmulation = TRUE;
+    pendingMenuAction = MenuAction::None;
+    superScopeTurboEnabled = false;
 
     Memory.SaveSRAM(S9xGetFilename(".srm", SRAM_DIR).c_str());
 
@@ -247,6 +411,62 @@ void PSNESUiEmu::onUpdate() {
             S9xReportButton(11 + (i * 12), (buttons & Input::Button::Select) > 0);
         }
 
+        int16 pointerX = 0;
+        int16 pointerY = 0;
+        bool pointerOnScreen = mapPointerToSnesVideo(video, players[0].pointer, pointerX, pointerY);
+        bool primaryPressed = players[0].pointer.active &&
+                              (players[0].pointer.buttons & Input::Pointer::Primary) != 0;
+        bool secondaryPressed = (players[0].buttons & Input::Button::A) != 0 ||
+                                (players[0].pointer.buttons & Input::Pointer::Secondary) != 0;
+        bool menuScopeTurbo = pendingMenuAction == MenuAction::SuperScopeTurbo;
+        pendingMenuAction = MenuAction::None;
+
+        S9xReportButton(kSnesMouseLeft1, false);
+        S9xReportButton(kSnesMouseRight1, false);
+        S9xReportButton(kSnesMouseLeft2, false);
+        S9xReportButton(kSnesMouseRight2, false);
+        S9xReportButton(kSnesScopeFire, false);
+        S9xReportButton(kSnesScopeCursor, false);
+        S9xReportButton(kSnesScopePause, false);
+        S9xReportButton(kSnesScopeTurbo, false);
+        S9xReportButton(kSnesJustifierTrigger, false);
+        S9xReportButton(kSnesJustifierStart, false);
+        S9xReportButton(kSnesJustifierOffscreenTrigger, false);
+
+        int8 mouseId = -1;
+        if (portHasController(0, CTL_MOUSE, &mouseId) || portHasController(1, CTL_MOUSE, &mouseId)) {
+            if (pointerOnScreen) {
+                S9xReportPointer(kSnesPointer1, pointerX, pointerY);
+                S9xReportPointer(kSnesPointer2, pointerX, pointerY);
+            }
+            const uint32 leftId = mouseId == 1 ? kSnesMouseLeft2 : kSnesMouseLeft1;
+            const uint32 rightId = mouseId == 1 ? kSnesMouseRight2 : kSnesMouseRight1;
+            S9xReportButton(leftId, (players[0].buttons & Input::Button::LT) != 0);
+            S9xReportButton(rightId, (players[0].buttons & Input::Button::LB) != 0);
+        }
+
+        if (isSuperScopeConnected()) {
+            if (pointerOnScreen) {
+                S9xReportPointer(kSnesPointer1, pointerX, pointerY);
+                S9xReportPointer(kSnesPointer2, pointerX, pointerY);
+            }
+            S9xReportButton(kSnesScopeFire, pointerOnScreen && primaryPressed);
+            S9xReportButton(kSnesScopeCursor, secondaryPressed);
+            S9xReportButton(kSnesScopePause, (players[0].buttons & Input::Button::Start) != 0);
+            S9xReportButton(kSnesScopeTurbo, menuScopeTurbo);
+        }
+
+        if (isJustifierConnected()) {
+            if (pointerOnScreen) {
+                S9xReportPointer(kSnesPointer1, pointerX, pointerY);
+                S9xReportPointer(kSnesPointer2, pointerX, pointerY);
+            }
+            S9xReportButton(kSnesJustifierTrigger, pointerOnScreen && primaryPressed);
+            S9xReportButton(kSnesJustifierStart, secondaryPressed);
+            S9xReportButton(kSnesJustifierOffscreenTrigger,
+                            players[0].pointer.active && !pointerOnScreen && primaryPressed);
+        }
+
         S9xMainLoop();
     }
 }
@@ -260,6 +480,39 @@ void PSNESUiEmu::pause() {
 void PSNESUiEmu::resume() {
     S9xSetSoundMute(FALSE);
     UiEmu::resume();
+}
+
+void PSNESUiEmu::triggerMenuAction(MenuAction action) {
+    pendingMenuAction = action;
+}
+
+bool PSNESUiEmu::isSuperScopeTurboEnabled() const {
+    return superScopeTurboEnabled;
+}
+
+void PSNESUiEmu::setSuperScopeTurboEnabled(bool enabled) {
+    if (superScopeTurboEnabled == enabled) {
+        return;
+    }
+
+    superScopeTurboEnabled = enabled;
+    pendingMenuAction = MenuAction::SuperScopeTurbo;
+}
+
+static bool isControllerConnected(controllers controller) {
+    return portHasController(0, controller) || portHasController(1, controller);
+}
+
+bool PSNESUiEmu::isSuperScopeConnected() const {
+    return ::isControllerConnected(CTL_SUPERSCOPE);
+}
+
+bool PSNESUiEmu::isMouseConnected() const {
+    return ::isControllerConnected(CTL_MOUSE);
+}
+
+bool PSNESUiEmu::isJustifierConnected() const {
+    return ::isControllerConnected(CTL_JUSTIFIER);
 }
 
 ///////////////////////////////////////////////////////////////////////////////

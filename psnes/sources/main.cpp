@@ -1,5 +1,6 @@
 #include "c2dui.h"
 #include "uiEmu.h"
+#include "uiMenu.h"
 #include "uiStateMenu.h"
 #include "config.h"
 #include "psnes_io.h"
@@ -60,7 +61,7 @@ int main(int argc, char **argv) {
     romList = new RomList(ui, snes9x_version, {".zip", ".sfc", ".smc", ".swc", ".fig"});
     romList->build();
     uiRomList = new UIRomList(ui, romList, ui->getSize());
-    uiMenu = new UiMenu(ui);
+    uiMenu = new PSNESUiMenu(ui);
     uiEmu = new PSNESUiEmu(ui);
     uiState = new PSNESUIStateMenu(ui);
     ui->init(uiRomList, uiMenu, uiEmu, uiState);

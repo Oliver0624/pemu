@@ -101,6 +101,7 @@
 #define TEXT_MENU_KEY_MENU2                             "KEY_MENU2"
 
 #define TEXT_PNES_DISK_FLIP                             "FLIP DISK(FDS ONLY)"
+#define TEXT_PSNES_SUPERSCOPE_TURBO                     "SUPER SCOPE TURBO"
 
 #define TEXT_OTHER                                      "OTHER"
 #define TEXT_STATES                                     "STATES"
@@ -178,6 +179,7 @@
 #define TEXT_MSG_PNES_INVALID_FILE                      "INVALID FILE"
 
 #define TEXT_MSG_PSNES_INVALID_ROM                      "INVALID ROM"
+#define TEXT_MSG_PSNES_CONTROLLER_AUTO_INFO             "AUTO uses ROM metadata when available."
 
 #define TEXT_MSG_PGEN_MISSING_MEGA_CD_BIOS              "MISSING MEGA-CD BIOS DETECTED, EMULATION WILL LIKELY NOT WORK..."
 #define TEXT_MSG_PGEN_INVALID_FILE_OR_MISSING_BIOS      "INVALID FILE OR MISSING BIOS..."
@@ -284,6 +286,7 @@
 #define TEXT_MENU_KEY_MENU2                             "键盘 MENU2"
 
 #define TEXT_PNES_DISK_FLIP                             "碟片换面（仅磁碟机）"
+#define TEXT_PSNES_SUPERSCOPE_TURBO                     "光枪连发"
 
 #define TEXT_OTHER                                      "其它"
 #define TEXT_STATES                                     "存档"
@@ -374,6 +377,7 @@
 #define TEXT_MSG_PNES_INVALID_FILE                      "文件非法"
 
 #define TEXT_MSG_PSNES_INVALID_ROM                      "ROM文件非法"
+#define TEXT_MSG_PSNES_CONTROLLER_AUTO_INFO             "AUTO会用ROM元数据自动选择控制器"
 
 #define TEXT_MSG_PGEN_MISSING_MEGA_CD_BIOS              "没有找到MEGA-CD的BIOS文件,模拟可能无法成功..."
 #define TEXT_MSG_PGEN_INVALID_FILE_OR_MISSING_BIOS      "ROM文件非法或找不到BIOS文件..."
