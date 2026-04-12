@@ -5,8 +5,7 @@
 #ifndef PEMU_PGBAUISTATEMENU_H
 #define PEMU_PGBAUISTATEMENU_H
 
-#include "c2dui_ui_main.h"
-#include "c2dui_ui_menu_state.h"
+#include "c2dui.h"
 
 class PGBAUIStateMenu : public c2dui::UiStateMenu {
 

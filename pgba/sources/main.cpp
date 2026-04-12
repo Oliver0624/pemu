@@ -8,7 +8,10 @@
 #include "pgba_config.h"
 #include "pgba_romlist.h"
 #include "pgba_io.h"
-#include "pgba_core.h"
+
+extern "C" {
+#include "mgba/core/version.h"
+}
 
 using namespace c2d;
 using namespace c2dui;
@@ -45,9 +48,15 @@ int main(int argc, char **argv) {
     // create paths
     io->create(io->getDataPath());
     io->create(io->getDataPath() + "roms");
+    io->create(io->getDataPath() + "roms/gb");
+    io->create(io->getDataPath() + "roms/gbc");
+    io->create(io->getDataPath() + "roms/gba");
+    io->create(io->getDataPath() + "bios");
     io->create(io->getDataPath() + "configs");
     io->create(io->getDataPath() + "saves");
     io->create(io->getDataPath() + "save");
+    io->create(io->getDataPath() + "patches");
+    io->create(io->getDataPath() + "cheats");
 
     // create main ui
     ui = new UiMain(io);
@@ -62,7 +71,7 @@ int main(int argc, char **argv) {
     ui->setSkin(skin);
 
     // ui
-    std::string mgba_version = "mGBA " MGBA_VERSION ;
+    std::string mgba_version = std::string("mGBA ") + (projectVersion ? projectVersion : "");
     romList = new PGBARomList(ui, mgba_version, {".zip", ".7z", ".gba", ".gbc", ".gb", ".sgb"});
     romList->build();
     uiRomList = new UIRomList(ui, romList, ui->getSize(), UIRomList::Pnes);

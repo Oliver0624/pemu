@@ -21,3 +21,4 @@
 [submodule "cores/mgba"]
 	path = cores/mgba
 	url = https://github.com/mgba-emu/mgba.git
+	branch = 0.10

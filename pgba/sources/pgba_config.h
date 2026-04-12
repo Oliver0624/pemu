@@ -5,6 +5,7 @@
 #ifndef PGBA_CONFIG_H
 #define PGBA_CONFIG_H
 
+#include "mgba/core/version.h"
 #include "c2dui_config.h"
 
 class PGBAConfig : public c2dui::Config {

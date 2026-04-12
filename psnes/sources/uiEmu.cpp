@@ -325,7 +325,7 @@ int PSNESUiEmu::load(const ss_api::Game &game) {
     if (!Memory.LoadROM(fullPath.c_str())) {
         printf("Could not open ROM: %s\n", fullPath.c_str());
         pMain->getUiProgressBox()->setVisibility(Visibility::Hidden);
-        pMain->getUiMessageBox()->show(TEXT_MSG_TITTLE_ERROR, TEXT_MSG_PSNES_INVALID_ROM, TEXT_BUTTON_OK);
+        pMain->getUiMessageBox()->show(TEXT_MSG_TITTLE_ERROR, TEXT_MSG_INVALID_ROM, TEXT_BUTTON_OK);
         stop();
         return -1;
     }

@@ -7,10 +7,11 @@
 
 #include <string>
 
+struct mCore;
+
 class PGBAUiEmu : public c2dui::UiEmu {
 public:
     explicit PGBAUiEmu(c2dui::UiMain *ui);
-    virtual ~PGBAUiEmu();
 
     int  load(const ss_api::Game &game) override;
     void stop() override;
