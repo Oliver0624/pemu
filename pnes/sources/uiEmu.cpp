@@ -250,6 +250,9 @@ void audio_deinit() {
 void audio_queue() {
     Audio *audio = uiEmu->getAudio();
     if (audio) {
+        if (uiEmu->isPaused()) {
+            return;
+        }
 #if 0
         int samples = uiEmu->getAudio()->getSamples();
         int queued = audio->getSampleBufferQueued();
