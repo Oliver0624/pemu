@@ -430,7 +430,7 @@ bool PGENUiEmu::serializeState(std::vector<uint8_t> &out) {
 
 bool PGENUiEmu::deserializeState(const std::vector<uint8_t> &data) {
     if (data.empty()) return false;
-    return state_load(const_cast<uint8_t *>(data.data())) == 1;
+    return state_load(const_cast<uint8_t *>(data.data())) > 0;
 }
 
 void PGENUiEmu::renderPreviewFrame() {
