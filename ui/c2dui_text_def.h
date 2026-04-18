@@ -101,9 +101,9 @@
 #define TEXT_MENU_KEY_MENU2                             "KEY_MENU2"
 
 #define TEXT_PNES_DISK_FLIP                             "FLIP DISK(FDS ONLY)"
-#define TEXT_PNES_REWIND_TITLE                          "REWIND"
-#define TEXT_PNES_REWIND_HINT                           "L+R OPEN  LEFT/RIGHT SELECT  A LOAD  B CANCEL"
-#define TEXT_PNES_REWIND_EMPTY                          "NO REWIND HISTORY"
+#define TEXT_REWIND_TITLE                               "REWIND"
+#define TEXT_REWIND_HINT                                "L+R OPEN  LEFT/RIGHT SELECT  A LOAD  B CANCEL"
+#define TEXT_REWIND_EMPTY                               "NO REWIND HISTORY"
 #define TEXT_PSNES_SUPERSCOPE_TURBO                     "SUPER SCOPE TURBO"
 
 #define TEXT_OTHER                                      "OTHER"
@@ -290,9 +290,9 @@
 #define TEXT_MENU_KEY_MENU2                             "键盘 MENU2"
 
 #define TEXT_PNES_DISK_FLIP                             "碟片换面（仅磁碟机）"
-#define TEXT_PNES_REWIND_TITLE                          "倒带"
-#define TEXT_PNES_REWIND_HINT                           "L+R 打开  左右选择  A 读取  B 取消"
-#define TEXT_PNES_REWIND_EMPTY                          "暂无倒带记录"
+#define TEXT_REWIND_TITLE                               "倒带模式"
+#define TEXT_REWIND_HINT                                "L+R 打开  左右选择  A 读取  B 取消"
+#define TEXT_REWIND_EMPTY                               "暂无历史快照"
 #define TEXT_PSNES_SUPERSCOPE_TURBO                     "光枪连发"
 
 #define TEXT_OTHER                                      "其它"

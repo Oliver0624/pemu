@@ -165,10 +165,12 @@ int PGBAUiEmu::load(const ss_api::Game &game) {
     mCoreAutoloadCheats(s_core);
     mCoreAutoloadPatch(s_core);
 
+    initRewindUi();
     return UiEmu::load(game);
 }
 
 void PGBAUiEmu::stop() {
+    resetRewind();
     saveAutoState();
 
     if (s_core) {
@@ -208,6 +210,7 @@ void PGBAUiEmu::onUpdate() {
         s_core->setKeys(s_core, keys);
 
         s_core->runFrame(s_core);
+        tickRewind();
         video->unlock();
 
         if (!audioSampleBuffer) {
@@ -237,4 +240,42 @@ void PGBAUiEmu::onUpdate() {
     }
 
     return UiEmu::onUpdate();
+}
+
+bool PGBAUiEmu::serializeState(std::vector<uint8_t> &out) {
+    if (!s_core) return false;
+    struct VFile *vf = VFileMemChunk(NULL, O_CREAT | O_TRUNC | O_RDWR);
+    if (!vf) return false;
+    bool ok = mCoreSaveStateNamed(s_core, vf, SAVESTATE_SAVEDATA | SAVESTATE_RTC | SAVESTATE_METADATA);
+    if (!ok) { vf->close(vf); return false; }
+    off_t size = vf->size(vf);
+    out.resize(size);
+    vf->seek(vf, 0, SEEK_SET);
+    vf->read(vf, out.data(), size);
+    vf->close(vf);
+    return true;
+}
+
+bool PGBAUiEmu::deserializeState(const std::vector<uint8_t> &data) {
+    if (!s_core || data.empty()) return false;
+    struct VFile *vf = VFileFromMemory((void *) data.data(), data.size());
+    if (!vf) return false;
+    bool ok = mCoreLoadStateNamed(s_core, vf, SAVESTATE_SAVEDATA | SAVESTATE_RTC | SAVESTATE_METADATA);
+    vf->close(vf);
+    return ok;
+}
+
+void PGBAUiEmu::renderPreviewFrame() {
+    // Render a preview frame. Rewind manager restores state after preview.
+    if (s_core) {
+        s_core->runFrame(s_core);
+        if (video) video->unlock();
+    }
+}
+
+void PGBAUiEmu::clearAudio() {
+    if (s_core) {
+        blip_clear(s_core->getAudioChannel(s_core, 0));
+        blip_clear(s_core->getAudioChannel(s_core, 1));
+    }
 }

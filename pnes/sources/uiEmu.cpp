@@ -2,7 +2,9 @@
 // Created by cpasjuste on 01/06/18.
 //
 
+#include <algorithm>
 #include <fstream>
+#include <sstream>
 
 #include "fltkui/nstcommon.h"
 #include "fltkui/video.h"
@@ -26,6 +28,32 @@ extern Nes::Core::Input::Controllers *cNstPads;
 
 extern Emulator emulator;
 /// NESTOPIA
+
+int nestopia_state_load(const char *path);
+int nestopia_state_save(const char *path);
+
+namespace {
+    bool nestopia_state_load_memory(const std::vector<uint8_t> &data) {
+        if (data.empty()) return false;
+        std::string stateData(data.begin(), data.end());
+        std::istringstream is(stateData, std::ios::binary);
+        Machine machine(emulator);
+        return machine.LoadState(is) == 0;
+    }
+
+    bool nestopia_state_save_memory(std::vector<uint8_t> &data) {
+        std::ostringstream os(std::ios::binary);
+        Machine machine(emulator);
+        if (machine.SaveState(os, Nes::Api::Machine::NO_COMPRESSION) != 0) return false;
+        
+        // Use the underlying string directly to avoid one copy if possible, 
+        // though ostringstream::str() still creates a copy. 
+        // For a more complete fix we'd need a custom ostream.
+        std::string s = os.str();
+        data.assign(s.begin(), s.end());
+        return !data.empty();
+    }
+}
 
 static bool mapPointerToNesVideo(c2dui::C2DUIVideo *video, const c2d::Input::Pointer &pointer,
                                  uint &x, uint &y) {
@@ -93,10 +121,13 @@ int PNESUiEmu::load(const ss_api::Game &game) {
     getUi()->delay(500);
     getUi()->getUiProgressBox()->setVisibility(Visibility::Hidden);
 
+    initRewindUi();
+
     return UiEmu::load(game);
 }
 
 void PNESUiEmu::stop() {
+    resetRewind();
     nst_pause();
     saveAutoState();
 
@@ -119,12 +150,6 @@ void PNESUiEmu::onUpdate() {
     if (!isPaused()) {
         // update nestopia buttons
         auto *players = getUi()->getInput()->getPlayers();
-
-        if (players[0].buttons & c2d::Input::Button::X) {
-            nst_set_rewind(0);
-        } else if (Rewinder(emulator).GetDirection() == Rewinder::BACKWARD) {
-            nst_set_rewind(1);
-        }
 
         for (int i = 0; i < NUMGAMEPADS; i++) {
             cNstPads->pad[i].buttons = 0;
@@ -180,9 +205,29 @@ void PNESUiEmu::onUpdate() {
 
         // step nestopia core
         nst_emuloop();
+
+        tickRewind();
     }
 
     return UiEmu::onUpdate();
+}
+
+bool PNESUiEmu::serializeState(std::vector<uint8_t> &out) {
+    return nestopia_state_save_memory(out);
+}
+
+bool PNESUiEmu::deserializeState(const std::vector<uint8_t> &data) {
+    return nestopia_state_load_memory(data);
+}
+
+void PNESUiEmu::renderPreviewFrame() {
+    // Render a preview frame. Rewind manager restores state after preview.
+    nst_emuloop();
+    if (video) video->unlock();
+}
+
+void PNESUiEmu::clearAudio() {
+    // Nestopia resets audio on state load
 }
 
 /// NESTOPIA

@@ -6,6 +6,7 @@
 #define PGBA_UIEMU_H
 
 #include <string>
+#include <vector>
 
 struct mCore;
 
@@ -17,6 +18,12 @@ public:
     void stop() override;
     bool onInput(c2d::Input::Player *players) override;
     void onUpdate() override;
+
+    bool serializeState(std::vector<uint8_t> &out) override;
+    bool deserializeState(const std::vector<uint8_t> &data) override;
+    void renderPreviewFrame() override;
+    void clearAudio() override;
+    bool supportsRewind() override { return true; }
 };
 
 #endif //PGBA_UIEMU_H

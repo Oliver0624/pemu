@@ -132,10 +132,12 @@ int PGENUiEmu::load(const ss_api::Game &game) {
     /* reset system hardware */
     system_reset();
 
+    initRewindUi();
     return UiEmu::load(game);
 }
 
 void PGENUiEmu::stop() {
+    resetRewind();
     saveAutoState();
     saveBram();
     saveSram();
@@ -244,6 +246,7 @@ void PGENUiEmu::onUpdate() {
 #endif
         getAudio()->play(sound_buffer, samples,
                          vdp_pal ? Audio::SyncMode::LowLatency : Audio::SyncMode::None);
+        tickRewind();
     }
 
     return UiEmu::onUpdate();
@@ -413,4 +416,35 @@ void PGENUiEmu::saveSram() {
         pMain->getIo()->write(ramPath + Utility::removeExt(currentGame.path) + ".srm",
                               (const char *) sram.sram, 0x10000);
     }
+}
+
+bool PGENUiEmu::serializeState(std::vector<uint8_t> &out) {
+    // Increase size for Sega CD or just use a safe margin
+    size_t size = system_hw == SYSTEM_MCD ? 1024 * 1024 * 8 : STATE_SIZE;
+    out.resize(size);
+    int len = state_save(out.data());
+    if (len <= 0) return false;
+    out.resize(len);
+    return true;
+}
+
+bool PGENUiEmu::deserializeState(const std::vector<uint8_t> &data) {
+    if (data.empty()) return false;
+    return state_load(const_cast<uint8_t *>(data.data())) == 1;
+}
+
+void PGENUiEmu::renderPreviewFrame() {
+    // Render a preview frame. Rewind manager restores state after preview.
+    if (system_hw == SYSTEM_MCD) {
+        system_frame_scd(0);
+    } else if ((system_hw & SYSTEM_PBC) == SYSTEM_MD) {
+        system_frame_gen(0);
+    } else {
+        system_frame_sms(0);
+    }
+    if (video) video->unlock();
+}
+
+void PGENUiEmu::clearAudio() {
+    // Genesis Plus GX resets audio on state load
 }

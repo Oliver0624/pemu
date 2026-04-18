@@ -6,6 +6,7 @@
 #define PGEN_UI_EMU_H
 
 #include <string>
+#include <vector>
 
 class PGENUiEmu : public c2dui::UiEmu {
 
@@ -21,15 +22,17 @@ public:
 
     void resizeVideo(bool isGameGear = false);
 
+    bool serializeState(std::vector<uint8_t> &out) override;
+    bool deserializeState(const std::vector<uint8_t> &data) override;
+    void renderPreviewFrame() override;
+    void clearAudio() override;
+    bool supportsRewind() override { return true; }
+
 private:
     void loadBios();
-
     void loadBram();
-
     void saveBram();
-
     void loadSram();
-
     void saveSram();
 };
 

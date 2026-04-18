@@ -6,6 +6,7 @@
 #include "uiEmu.h"
 
 #include <snes9x.h>
+#include <snapshot.h>
 #include <memmap.h>
 #include <apu/apu.h>
 #include <controls.h>
@@ -362,10 +363,12 @@ int PSNESUiEmu::load(const ss_api::Game &game) {
     pMain->delay(500);
     pMain->getUiProgressBox()->setVisibility(Visibility::Hidden);
 
+    initRewindUi();
     return UiEmu::load(game);
 }
 
 void PSNESUiEmu::stop() {
+    resetRewind();
     Settings.StopEmulation = TRUE;
     pendingMenuAction = MenuAction::None;
     superScopeTurboEnabled = false;
@@ -469,6 +472,7 @@ void PSNESUiEmu::onUpdate() {
         }
 
         S9xMainLoop();
+        tickRewind();
     }
 }
 
@@ -646,3 +650,25 @@ bool S9xPollPointer(uint32 id, int16 *x, int16 *y) { return false; }
 const char *S9xChooseFilename(bool8 read_only) { return nullptr; }
 
 const char *S9xChooseMovieFilename(bool8 read_only) { return nullptr; }
+
+bool PSNESUiEmu::serializeState(std::vector<uint8_t> &out) {
+    uint32 size = S9xFreezeSize();
+    if (size == 0) return false;
+    out.resize(size);
+    return S9xFreezeGameMem(out.data(), size) == TRUE;
+}
+
+bool PSNESUiEmu::deserializeState(const std::vector<uint8_t> &data) {
+    if (data.empty()) return false;
+    return S9xUnfreezeGameMem(data.data(), data.size()) == TRUE;
+}
+
+void PSNESUiEmu::renderPreviewFrame() {
+    // Render a preview frame. Rewind manager restores state after preview.
+    S9xMainLoop();
+    if (video) video->unlock();
+}
+
+void PSNESUiEmu::clearAudio() {
+    // Snes9x resets audio on state load
+}

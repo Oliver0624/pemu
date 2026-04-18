@@ -19,6 +19,17 @@ UiEmu::UiEmu(UiMain *u) : RectangleShape(u->getSize()) {
     fpsText->setVisibility(Visibility::Hidden);
     RectangleShape::add(fpsText);
 
+    // Create rewind hint text
+    rewindHintText = new Text("", (unsigned int) (20 * pMain->getSkin()->getFontScaling()),
+                              pMain->getSkin()->getFont());
+    rewindHintText->setFillColor(Color::White);
+    rewindHintText->setOutlineColor(Color::Black);
+    rewindHintText->setOutlineThickness(2);
+    rewindHintText->setPosition(16, pMain->getSize().y - (32 * pMain->getScaling().y));
+    rewindHintText->setLayer(100);
+    rewindHintText->setVisibility(Visibility::Hidden);
+    RectangleShape::add(rewindHintText);
+
     RectangleShape::setVisibility(Visibility::Hidden);
 }
 
@@ -137,6 +148,42 @@ bool UiEmu::onInput(c2d::Input::Player *players) {
         return true;
     }
 
+    // Handle rewind input
+    if (supportsRewind()) {
+        unsigned int buttons = players[0].buttons;
+        bool lb = (buttons & Input::Button::LB) != 0;
+        bool rb = (buttons & Input::Button::RB) != 0;
+        bool left = (buttons & Input::Button::Left) != 0;
+        bool right = (buttons & Input::Button::Right) != 0;
+        bool a = (buttons & Input::Button::A) != 0;
+        bool b = (buttons & Input::Button::B) != 0;
+
+        auto updateHint = [](void *userData, const char *text) -> bool {
+            UiEmu *self = static_cast<UiEmu *>(userData);
+            self->rewindHintText->setString(text);
+            self->rewindHintText->setVisibility(Visibility::Visible);
+            return true;
+        };
+
+        bool handled = rewindManager.handleInput(
+                lb, rb, left, right, a, b,
+                [this](std::vector<uint8_t> &data) { return serializeState(data); },
+                [this](const std::vector<uint8_t> &data) { return deserializeState(data); },
+                [this]() { pMain->getInput()->clear(); },
+                [this]() { pause(); },
+                [this]() { resume(); },
+                [this]() { previewRewind(); },
+                [this]() { clearAudio(); },
+                updateHint, this);
+
+        if (handled) {
+            if (!rewindManager.isTimelineVisible()) {
+                rewindHintText->setVisibility(Visibility::Hidden);
+            }
+            return true;
+        }
+    }
+
     return C2DObject::onInput(players);
 }
 
@@ -213,4 +260,31 @@ bool UiEmu::saveAutoState() {
     }
 
     return pMain->getUiStateMenu()->saveStateCore(path.c_str());
+}
+
+void UiEmu::initRewindUi() {
+    if (!supportsRewind()) {
+        return;
+    }
+    rewindManager.init((int) targetFps, 128);
+}
+
+void UiEmu::tickRewind() {
+    if (!supportsRewind()) {
+        return;
+    }
+    // Always capture snapshots during normal gameplay
+    if (!rewindManager.isTimelineVisible()) {
+        rewindManager.tickAndCapture([this](std::vector<uint8_t> &data) { return serializeState(data); });
+    }
+}
+
+void UiEmu::resetRewind() {
+    rewindManager.reset();
+    rewindHintText->setVisibility(Visibility::Hidden);
+}
+
+void UiEmu::previewRewind() {
+    // Refresh current video buffer without advancing emulation.
+    renderPreviewFrame();
 }

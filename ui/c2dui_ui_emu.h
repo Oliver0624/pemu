@@ -5,6 +5,10 @@
 #ifndef C2DUI_UI_EMU_H
 #define C2DUI_UI_EMU_H
 
+#include <vector>
+#include <cstdint>
+#include "c2dui_rewind_manager.h"
+
 namespace c2dui {
 
     class UiEmu : public c2d::RectangleShape {
@@ -47,6 +51,18 @@ namespace c2dui {
             return currentGame;
         }
 
+        // Rewind interface - override in derived classes
+        virtual bool serializeState(std::vector<uint8_t> &out) { return false; }
+        virtual bool deserializeState(const std::vector<uint8_t> &data) { return false; }
+        virtual void renderPreviewFrame() {}  // Render one frame without advancing time
+        virtual void clearAudio() {}          // Clear core audio buffers
+        virtual bool supportsRewind() { return false; }
+
+        void initRewindUi();
+        void tickRewind();
+        void resetRewind();
+        void previewRewind();
+
     protected:
 
         std::string getAutoStatePath(const ss_api::Game &game) const;
@@ -59,12 +75,15 @@ namespace c2dui {
 
         ss_api::Game currentGame;
         c2d::Text *fpsText = nullptr;
+        c2d::Text *rewindHintText = nullptr;
         UiMain *pMain = nullptr;
         C2DUIVideo *video = nullptr;
         c2d::Audio *audio = nullptr;
         char fpsString[32];
         float targetFps = 60;
         bool paused = true;
+
+        RewindManager rewindManager;
     };
 }
 
