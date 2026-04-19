@@ -240,12 +240,12 @@ bool UIRomList::onInput(c2d::Input::Player *players) {
         mTimerLoadInfoDone = 0;
         mTimerLoadVideoDone = 0;
     } else if (buttons & Input::Button::Right) {
-        pListBox->setSelection(pListBox->getIndex() + pListBox->getMaxLines());
+        pListBox->page(1);
         pRomInfo->load();
         mTimerLoadInfoDone = 0;
         mTimerLoadVideoDone = 0;
     } else if (buttons & Input::Button::Left) {
-        pListBox->setSelection(pListBox->getIndex() - pListBox->getMaxLines());
+        pListBox->page(-1);
         pRomInfo->load();
         mTimerLoadInfoDone = 0;
         mTimerLoadVideoDone = 0;

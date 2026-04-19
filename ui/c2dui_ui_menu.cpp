@@ -28,19 +28,29 @@ UiMenu::UiMenu(UiMain *uiMain) : SkinnedRectangle(uiMain, {"OPTIONS_MENU"}) {
         lineHeight = getSize().y / (float) maxLines;
     }
 
+    // animated content container
+    content = new RectangleShape({0, 0, UiMenu::getSize().x, UiMenu::getSize().y});
+    content->setFillColor(Color::Transparent);
+    contentBasePos = {0, 0};
+    content->setPosition(contentBasePos);
+    UiMenu::add(content);
+
+    contentTween = new TweenPosition(contentBasePos, contentBasePos, 0.1f);
+    contentTween->setState(TweenState::Stopped);
+    content->add(contentTween);
+
     // add selection rectangle (highlight)
-    highlight = new RectangleShape({16, 16});
+    highlight = new UIHighlight();
     ui->getSkin()->loadRectangleShape(highlight, {"SKIN_CONFIG", "HIGHLIGHT"});
     highlight->setSize(UiMenu::getSize().x - 2, lineHeight);
-    highlight->move(1, 0);
-    UiMenu::add(highlight);
+    content->add(highlight);
 
     // add options items
     for (unsigned int i = 0; i < (unsigned int) maxLines; i++) {
         FloatRect r = {0, lineHeight * (float) i, getSize().x, lineHeight};
         auto line = new MenuLine(ui, r, textGroup);
         lines.push_back(line);
-        UiMenu::add(line);
+        content->add(line);
     }
 
     // tween
@@ -83,7 +93,7 @@ void UiMenu::load(bool isRom) {
     setAlpha(isEmuRunning ? (uint8_t) (alpha - 50) : (uint8_t) alpha);
 
     // update options lines/items (first option should always be a menu option)
-    onKeyDown();
+    onKeyDown(false);
 
     // finally, show me
     if (!isVisible()) {
@@ -103,59 +113,94 @@ void UiMenu::updateLines() {
         lines[i]->set(option);
         // set highlight position and color
         if ((int) i == highlightIndex) {
-            highlight->setPosition({highlight->getPosition().x, lines[i]->getPosition().y});
+            FloatRect targetRect = {
+                    lines[i]->getPosition().x + 1.0f,
+                    lines[i]->getPosition().y,
+                    UiMenu::getSize().x - 2.0f,
+                    lineHeight
+            };
+            if (pendingCursorAnimMs > 0) {
+                highlight->tweenPosition(targetRect, pendingCursorAnimMs);
+            } else {
+                highlight->setPosition(targetRect.left, targetRect.top);
+                highlight->setSize(targetRect.width, targetRect.height);
+            }
             lines[i]->value->setOutlineColor(getOutlineColor());
         } else {
             lines[i]->value->setOutlineColor(textGroup.outlineColor);
         }
     }
+    pendingCursorAnimMs = 0;
 }
 
-void UiMenu::onKeyUp() {
-    int index = optionIndex + highlightIndex;
-    int middle = maxLines / 2;
-
-    if (highlightIndex <= middle && index - middle > 0) {
-        optionIndex--;
-    } else {
-        highlightIndex--;
-    }
-
-    if (highlightIndex < 0) {
-        highlightIndex = maxLines - 1;
-        highlightIndex = (int) options.size() < maxLines - 1 ? (int) options.size() - 1 : maxLines - 1;
-        optionIndex = ((int) options.size() - 1) - highlightIndex;
-    }
-
-    // skip menus
-    if (options.at(optionIndex + highlightIndex).getFlags() & Option::Flags::MENU) {
-        return onKeyUp();
-    }
-
-    updateLines();
+void UiMenu::onKeyUp(bool animate) {
+    moveSelection(-1, animate);
 }
 
-void UiMenu::onKeyDown() {
-    int index = optionIndex + highlightIndex;
-    int middle = maxLines / 2;
+void UiMenu::onKeyDown(bool animate) {
+    moveSelection(1, animate);
+}
 
-    if (highlightIndex >= middle && index + (maxLines - middle) < (int) options.size()) {
-        optionIndex++;
-    } else {
-        highlightIndex++;
+void UiMenu::moveSelection(int direction, bool animate) {
+    if (options.empty()) {
+        return;
     }
 
-    if (highlightIndex >= maxLines || optionIndex + highlightIndex >= (int) options.size()) {
-        optionIndex = 0;
-        highlightIndex = 0;
+    resetContentAnimation();
+
+    int oldOptionIndex = optionIndex;
+    int oldHighlightIndex = highlightIndex;
+
+    int guard = 0;
+    do {
+        int index = optionIndex + highlightIndex;
+        int middle = maxLines / 2;
+
+        if (direction < 0) {
+            if (highlightIndex <= middle && index - middle > 0) {
+                optionIndex--;
+            } else {
+                highlightIndex--;
+            }
+
+            if (highlightIndex < 0) {
+                highlightIndex = maxLines - 1;
+                highlightIndex = (int) options.size() < maxLines - 1 ? (int) options.size() - 1 : maxLines - 1;
+                optionIndex = ((int) options.size() - 1) - highlightIndex;
+            }
+        } else {
+            if (highlightIndex >= middle && index + (maxLines - middle) < (int) options.size()) {
+                optionIndex++;
+            } else {
+                highlightIndex++;
+            }
+
+            if (highlightIndex >= maxLines || optionIndex + highlightIndex >= (int) options.size()) {
+                optionIndex = 0;
+                highlightIndex = 0;
+            }
+        }
+
+        guard++;
+        if (guard > (int) options.size() + maxLines) {
+            break;
+        }
+    } while (options.at(optionIndex + highlightIndex).getFlags() & Option::Flags::MENU);
+
+    if (optionIndex == oldOptionIndex && highlightIndex == oldHighlightIndex) {
+        return;
     }
 
-    // skip menus
-    if (options.at(optionIndex + highlightIndex).getFlags() & Option::Flags::MENU) {
-        return onKeyDown();
-    }
-
+    pendingCursorAnimMs = animate ? cursorAnimMs : 0;
     updateLines();
+
+    if (animate) {
+        if (optionIndex == oldOptionIndex + 1) {
+            startContentScrollAnimation(lineHeight, contentAnimMs);
+        } else if (optionIndex == oldOptionIndex - 1) {
+            startContentScrollAnimation(-lineHeight, contentAnimMs);
+        }
+    }
 }
 
 bool UiMenu::onInput(c2d::Input::Player *players) {
@@ -189,7 +234,10 @@ bool UiMenu::onInput(c2d::Input::Player *players) {
         }
         // update option everywhere (todo: simplify)
         options.at(optionIndex + highlightIndex).set(option);
-        lines.at(highlightIndex)->set(option);
+        lines.at(highlightIndex)->setWithValueSlide(
+                option,
+                (buttons & Input::Button::Left) ? -1 : 1,
+                valueSlideAnimMs);
         ui->getConfig()->get(option.getId(), isRomMenu)->set(option);
 
         if (!option.getInfo().empty()) {
@@ -321,6 +369,25 @@ bool UiMenu::onInput(c2d::Input::Player *players) {
     return true;
 }
 
+void UiMenu::resetContentAnimation() {
+    if (content) {
+        content->setPosition(contentBasePos);
+    }
+    if (contentTween) {
+        contentTween->setState(TweenState::Stopped);
+    }
+}
+
+void UiMenu::startContentScrollAnimation(float fromY, int durationMs) {
+    if (!content || !contentTween) {
+        return;
+    }
+
+    content->setPosition(contentBasePos.x, contentBasePos.y + fromY);
+    contentTween->setFromTo(content->getPosition(), contentBasePos, (float) durationMs * 0.001f);
+    contentTween->play(TweenDirection::Forward, true);
+}
+
 void UiMenu::setVisibility(Visibility visibility, bool tweenPlay) {
     if (ui->getUiRomList() && ui->getUiRomList()->isVisible()) {
         ui->getUiRomList()->getBlur()->setVisibility(visibility, true);
@@ -336,4 +403,3 @@ void UiMenu::setVisibility(Visibility visibility, bool tweenPlay) {
 UiMenu::~UiMenu() {
     printf("~UIMenuNew\n");
 }
-

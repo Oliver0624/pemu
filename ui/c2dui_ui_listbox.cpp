@@ -126,9 +126,21 @@ void UIListBox::init(Font *font, int fontSize, bool useIcons) {
         line_height = getSize().y / (float) max_lines;
     }
 
+    // animated content container (lines + highlight)
+    content = new RectangleShape({0, 0, getSize().x, getSize().y});
+    content->setFillColor(Color::Transparent);
+    contentBasePos = {0, 0};
+    content->setPosition(contentBasePos);
+    add(content);
+
+    contentTween = new TweenPosition(contentBasePos, contentBasePos, 0.1f);
+    contentTween->setState(TweenState::Stopped);
+    content->add(contentTween);
+
     // add selection rectangle (highlight)
-    highlight = new RectangleShape(Vector2f(getSize().x - 2, line_height));
-    add(highlight);
+    highlight = new UIHighlight();
+    highlight->setSize(Vector2f(getSize().x - 2, line_height));
+    content->add(highlight);
 
     // add lines of text
     for (unsigned int i = 0; i < (unsigned int) max_lines; i++) {
@@ -142,7 +154,7 @@ void UIListBox::init(Font *font, int fontSize, bool useIcons) {
         auto *line = new UIListBoxLine(r, "W", font, (unsigned int) fontSize,
                                        ui->getScaling(), icon, use_icons);
         lines.push_back(line);
-        add(line);
+        content->add(line);
     }
 }
 
@@ -162,8 +174,18 @@ void UIListBox::updateLines() {
             lines[i]->setColor(game.available ? colorAvailable : colorMissing);
             // set highlight position and color
             if ((int) i == highlight_index) {
-                highlight->setPosition(lines[i]->getPosition());
-                highlight->move(1, 0);
+                FloatRect targetRect = {
+                        lines[i]->getPosition().x + 1.0f,
+                        lines[i]->getPosition().y,
+                        getSize().x - 2.0f,
+                        line_height
+                };
+                if (pendingCursorAnimMs > 0) {
+                    highlight->tweenPosition(targetRect, pendingCursorAnimMs);
+                } else {
+                    highlight->setPosition(targetRect.left, targetRect.top);
+                    highlight->setSize(targetRect.width, targetRect.height);
+                }
                 Color color = highlight_use_files_color ?
                               lines[i]->getText()->getFillColor() : highlight->getFillColor();
                 color.a = highlight->getAlpha();
@@ -183,9 +205,15 @@ void UIListBox::updateLines() {
             highlight->setVisibility(Visibility::Visible, false);
         }
     }
+
+    pendingCursorAnimMs = 0;
 }
 
 void UIListBox::up() {
+    resetContentAnimation();
+    pendingCursorAnimMs = cursorAnimMsStep;
+
+    int oldFileIndex = file_index;
     int index = file_index + highlight_index;
     int middle = max_lines / 2;
 
@@ -201,9 +229,17 @@ void UIListBox::up() {
     }
 
     updateLines();
+
+    if (file_index == oldFileIndex - 1) {
+        startContentScrollAnimation(-line_height, contentAnimMsStep);
+    }
 }
 
 void UIListBox::down() {
+    resetContentAnimation();
+    pendingCursorAnimMs = cursorAnimMsStep;
+
+    int oldFileIndex = file_index;
     int index = file_index + highlight_index;
     int middle = max_lines / 2;
 
@@ -219,9 +255,29 @@ void UIListBox::down() {
     }
 
     updateLines();
+
+    if (file_index == oldFileIndex + 1) {
+        startContentScrollAnimation(line_height, contentAnimMsStep);
+    }
 }
 
 void UIListBox::setSelection(int new_index) {
+    resetContentAnimation();
+
+    if (games.empty()) {
+        file_index = 0;
+        highlight_index = 0;
+        pendingCursorAnimMs = 0;
+        updateLines();
+        return;
+    }
+
+    if (new_index < 0) {
+        new_index = 0;
+    } else if (new_index >= (int) games.size()) {
+        new_index = (int) games.size() - 1;
+    }
+
     if (new_index < max_lines / 2) {
         file_index = 0;
         highlight_index = 0;
@@ -240,12 +296,31 @@ void UIListBox::setSelection(int new_index) {
     updateLines();
 }
 
+void UIListBox::page(int delta) {
+    if (games.empty() || delta == 0) {
+        return;
+    }
+
+    int oldIndex = getIndex();
+    int targetIndex = oldIndex + (delta * max_lines);
+    pendingCursorAnimMs = cursorAnimMsPage;
+    setSelection(targetIndex);
+
+    if (getIndex() != oldIndex) {
+        float offset = line_height * 0.45f;
+        startContentScrollAnimation(delta > 0 ? offset : -offset, contentAnimMsPage);
+    }
+}
+
 void UIListBox::setSize(const Vector2f &size) {
     UIListBox::setSize(size.x, size.y);
 }
 
 void UIListBox::setSize(float width, float height) {
     RectangleShape::setSize(width, height);
+    if (content) {
+        content->setSize(width, height);
+    }
     highlight->setSize(width, highlight->getSize().y);
     for (auto &line: lines) {
         line->setSize(width, line->getSize().y);
@@ -308,6 +383,25 @@ int UIListBox::getMaxLines() {
 
 RectangleShape *UIListBox::getHighlight() {
     return highlight;
+}
+
+void UIListBox::resetContentAnimation() {
+    if (content) {
+        content->setPosition(contentBasePos);
+    }
+    if (contentTween) {
+        contentTween->setState(TweenState::Stopped);
+    }
+}
+
+void UIListBox::startContentScrollAnimation(float fromY, int durationMs) {
+    if (!content || !contentTween) {
+        return;
+    }
+
+    content->setPosition(contentBasePos.x, contentBasePos.y + fromY);
+    contentTween->setFromTo(content->getPosition(), contentBasePos, (float) durationMs * 0.001f);
+    contentTween->play(TweenDirection::Forward, true);
 }
 
 UIListBox::~UIListBox() {

@@ -19,13 +19,42 @@ UiEmu::UiEmu(UiMain *u) : RectangleShape(u->getSize()) {
     fpsText->setVisibility(Visibility::Hidden);
     RectangleShape::add(fpsText);
 
-    // Create rewind hint text
-    rewindHintText = new Text("", (unsigned int) (20 * pMain->getSkin()->getFontScaling()),
+    // Create rewind panel and texts
+    float panelHeight = 118.0f * pMain->getScaling().y;
+    rewindPanel = new RectangleShape({pMain->getSize().x, panelHeight});
+    rewindPanel->setFillColor(Color(0, 0, 0, 180));
+    rewindPanel->setOutlineColor(Color(255, 255, 255, 90));
+    rewindPanel->setOutlineThickness(1);
+    rewindPanel->setPosition(0, pMain->getSize().y - panelHeight);
+    rewindPanel->setLayer(90);
+    rewindPanel->setVisibility(Visibility::Hidden);
+    RectangleShape::add(rewindPanel);
+
+    rewindTitleText = new Text("", (unsigned int) (20 * pMain->getSkin()->getFontScaling()),
+                               pMain->getSkin()->getFont());
+    rewindTitleText->setFillColor(Color::White);
+    rewindTitleText->setOutlineColor(Color::Black);
+    rewindTitleText->setOutlineThickness(2);
+    rewindTitleText->setPosition(16, rewindPanel->getPosition().y + (10 * pMain->getScaling().y));
+    rewindTitleText->setLayer(100);
+    rewindTitleText->setVisibility(Visibility::Hidden);
+    RectangleShape::add(rewindTitleText);
+
+    rewindTimelineText = new Text("", (unsigned int) (22 * pMain->getSkin()->getFontScaling()),
+                                  pMain->getSkin()->getFont());
+    rewindTimelineText->setFillColor(Color::White);
+    rewindTimelineText->setOutlineColor(Color::Black);
+    rewindTimelineText->setOutlineThickness(2);
+    rewindTimelineText->setLayer(100);
+    rewindTimelineText->setVisibility(Visibility::Hidden);
+    RectangleShape::add(rewindTimelineText);
+
+    rewindHintText = new Text("", (unsigned int) (18 * pMain->getSkin()->getFontScaling()),
                               pMain->getSkin()->getFont());
     rewindHintText->setFillColor(Color::White);
     rewindHintText->setOutlineColor(Color::Black);
     rewindHintText->setOutlineThickness(2);
-    rewindHintText->setPosition(16, pMain->getSize().y - (32 * pMain->getScaling().y));
+    rewindHintText->setPosition(16, rewindPanel->getPosition().y + (84 * pMain->getScaling().y));
     rewindHintText->setLayer(100);
     rewindHintText->setVisibility(Visibility::Hidden);
     RectangleShape::add(rewindHintText);
@@ -106,6 +135,8 @@ void UiEmu::resume() {
 #endif
 
     if (audio) {
+        // Keep audio muted if rewind fade is active; otherwise full volume.
+        audio->setGain(rewindAudioFadeActive ? 0.0f : 1.0f);
         audio->pause(0);
     }
 
@@ -116,6 +147,7 @@ void UiEmu::stop() {
     printf("UiEmu::stop()\n");
     if (audio) {
         printf("Closing audio...\n");
+        audio->setGain(1.0f);
         audio->pause(1);
         delete (audio);
         audio = nullptr;
@@ -133,6 +165,8 @@ void UiEmu::stop() {
 
     pMain->updateInputMapping(false);
     setVisibility(Visibility::Hidden);
+    rewindOverlayVisiblePrev = false;
+    rewindAudioFadeActive = false;
 }
 
 bool UiEmu::onInput(c2d::Input::Player *players) {
@@ -158,10 +192,9 @@ bool UiEmu::onInput(c2d::Input::Player *players) {
         bool a = (buttons & Input::Button::A) != 0;
         bool b = (buttons & Input::Button::B) != 0;
 
-        auto updateHint = [](void *userData, const char *text) -> bool {
+        auto updateHint = [](void *userData, const char * /*text*/) -> bool {
             UiEmu *self = static_cast<UiEmu *>(userData);
-            self->rewindHintText->setString(text);
-            self->rewindHintText->setVisibility(Visibility::Visible);
+            self->updateRewindOverlay();
             return true;
         };
 
@@ -177,9 +210,7 @@ bool UiEmu::onInput(c2d::Input::Player *players) {
                 updateHint, this);
 
         if (handled) {
-            if (!rewindManager.isTimelineVisible()) {
-                rewindHintText->setVisibility(Visibility::Hidden);
-            }
+            updateRewindOverlay();
             return true;
         }
     }
@@ -204,6 +235,11 @@ void UiEmu::onUpdate() {
                 fpsText->setVisibility(c2d::Visibility::Hidden);
             }
         }
+    }
+
+    if (supportsRewind()) {
+        updateRewindOverlay();
+        updateRewindAudioFade();
     }
 }
 
@@ -281,10 +317,77 @@ void UiEmu::tickRewind() {
 
 void UiEmu::resetRewind() {
     rewindManager.reset();
-    rewindHintText->setVisibility(Visibility::Hidden);
+    updateRewindOverlay();
 }
 
 void UiEmu::previewRewind() {
     // Refresh current video buffer without advancing emulation.
     renderPreviewFrame();
+}
+
+void UiEmu::updateRewindOverlay() {
+    bool visible = supportsRewind() && rewindManager.isTimelineVisible();
+    rewindPanel->setVisibility(visible ? Visibility::Visible : Visibility::Hidden);
+    rewindTitleText->setVisibility(visible ? Visibility::Visible : Visibility::Hidden);
+    rewindTimelineText->setVisibility(visible ? Visibility::Visible : Visibility::Hidden);
+    rewindHintText->setVisibility(visible ? Visibility::Visible : Visibility::Hidden);
+
+    if (!visible) {
+        if (rewindOverlayVisiblePrev) {
+            // Leaving rewind mode: fade audio in to avoid abrupt pop/click.
+            if (audio && !audio->isPaused()) {
+                audio->setGain(0.0f);
+                rewindAudioFadeActive = true;
+                rewindAudioFadeStart = std::chrono::steady_clock::now();
+            }
+        }
+        rewindOverlayVisiblePrev = false;
+        return;
+    }
+
+    // Entering rewind mode: keep output muted while browsing timeline.
+    if (!rewindOverlayVisiblePrev && audio) {
+        audio->setGain(0.0f);
+        rewindAudioFadeActive = false;
+    }
+    rewindOverlayVisiblePrev = true;
+
+    int selected = rewindManager.getSelectionSecondsAgo();
+    int total = rewindManager.getHistorySeconds();
+    char titleBuf[128];
+    std::snprintf(titleBuf, sizeof(titleBuf), "%s  %02ds / %02ds",
+                  TEXT_REWIND_TITLE, selected, total);
+    rewindTitleText->setString(titleBuf);
+
+    std::string slots = rewindManager.getTimelineSlotsText(7);
+    rewindTimelineText->setString(slots.empty() ? TEXT_REWIND_EMPTY : slots);
+    auto timelineBounds = rewindTimelineText->getLocalBounds();
+    float timelineX = (pMain->getSize().x - timelineBounds.width) / 2.0f;
+    float timelineY = rewindPanel->getPosition().y + (44 * pMain->getScaling().y);
+    rewindTimelineText->setPosition(timelineX, timelineY);
+
+    rewindHintText->setString(TEXT_REWIND_HINT);
+}
+
+void UiEmu::updateRewindAudioFade() {
+    if (!rewindAudioFadeActive || !audio || audio->isPaused()) {
+        return;
+    }
+
+    constexpr float fadeDurationSec = 0.20f;
+    auto now = std::chrono::steady_clock::now();
+    float elapsedSec = (float) std::chrono::duration_cast<std::chrono::milliseconds>(
+            now - rewindAudioFadeStart).count() / 1000.0f;
+
+    float t = elapsedSec / fadeDurationSec;
+    if (t >= 1.0f) {
+        audio->setGain(1.0f);
+        rewindAudioFadeActive = false;
+        return;
+    }
+
+    if (t < 0.0f) {
+        t = 0.0f;
+    }
+    audio->setGain(t);
 }

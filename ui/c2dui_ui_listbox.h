@@ -9,6 +9,8 @@
 
 namespace c2dui {
 
+    class UIHighlight;
+
     class UIListBoxLine : public c2d::RectangleShape {
 
     public:
@@ -56,6 +58,8 @@ namespace c2dui {
 
         void down();
 
+        void page(int delta);
+
         void setSize(const c2d::Vector2f &size) override;
 
         void setSize(float width, float height) override;
@@ -89,10 +93,18 @@ namespace c2dui {
 
         void updateLines();
 
+        void resetContentAnimation();
+
+        void startContentScrollAnimation(float fromY, int durationMs);
+
         UiMain *ui = nullptr;
         std::vector<ss_api::Game> games;
         std::vector<UIListBoxLine *> lines;
-        RectangleShape *highlight;
+        RectangleShape *content = nullptr;
+        c2d::TweenPosition *contentTween = nullptr;
+        UIHighlight *highlight = nullptr;
+        c2d::Vector2f contentBasePos = {0, 0};
+        int pendingCursorAnimMs = 0;
         float line_height;
         int max_lines;
         int file_index = 0;
@@ -100,6 +112,10 @@ namespace c2dui {
         bool use_icons = false;
         bool use_highlight = true;
         bool highlight_use_files_color = false;
+        const int cursorAnimMsStep = 100;
+        const int cursorAnimMsPage = 70;
+        const int contentAnimMsStep = 100;
+        const int contentAnimMsPage = 70;
     };
 }
 

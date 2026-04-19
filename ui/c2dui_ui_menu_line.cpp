@@ -27,13 +27,33 @@ MenuLine::MenuLine(UiMain *u, c2d::FloatRect &rect, Skin::TextGroup &tg) : Recta
     value->setPosition((MenuLine::getSize().x * 0.6f), MenuLine::getSize().y / 2);
     value->setSizeMax(MenuLine::getSize().x * 0.38f, 0);
     MenuLine::add(value);
+    valueBasePos = value->getPosition();
+
+    valueIncoming = new Text("OPTION VALUE", textGroup.size, font);
+    valueIncoming->setFillColor(textGroup.color);
+    valueIncoming->setOutlineThickness(textGroup.outlineSize);
+    valueIncoming->setOutlineColor(textGroup.outlineColor);
+    valueIncoming->setOrigin(Origin::Left);
+    valueIncoming->setPosition(valueBasePos);
+    valueIncoming->setSizeMax(MenuLine::getSize().x * 0.38f, 0);
+    valueIncoming->setVisibility(Visibility::Hidden);
+    MenuLine::add(valueIncoming);
 
     sprite = new Sprite();
     MenuLine::add(sprite);
+
+    valueTweenCurrent = new TweenPosition(valueBasePos, valueBasePos, 0.1f);
+    valueTweenCurrent->setState(TweenState::Stopped);
+    value->add(valueTweenCurrent);
+
+    valueTweenIncoming = new TweenPosition(valueBasePos, valueBasePos, 0.1f);
+    valueTweenIncoming->setState(TweenState::Stopped);
+    valueIncoming->add(valueTweenIncoming);
 }
 
 void MenuLine::set(const Option &opt) {
     option = opt;
+    resetValueAnimation();
 
     setVisibility(Visibility::Visible);
     sprite->setVisibility(Visibility::Hidden);
@@ -73,5 +93,96 @@ void MenuLine::set(const Option &opt) {
     } else {
         value->setVisibility(Visibility::Visible);
         value->setString(option.getValueDisplayString());
+    }
+}
+
+void MenuLine::setWithValueSlide(const Option &opt, int direction, int durationMs) {
+    Option animOpt = opt;
+
+    if (direction == 0 || durationMs <= 0) {
+        set(opt);
+        return;
+    }
+
+    // Do not animate non-text value representations.
+    if ((animOpt.getFlags() & Option::Flags::INPUT) || (animOpt.getFlags() & Option::Flags::MENU)) {
+        set(opt);
+        return;
+    }
+
+    resetValueAnimation();
+
+    option = opt;
+    setVisibility(Visibility::Visible);
+    sprite->setVisibility(Visibility::Hidden);
+    setFillColor(Color::Transparent);
+    name->setString(option.getDisplayName());
+    value->setVisibility(Visibility::Visible);
+    value->setOutlineColor(textGroup.outlineColor);
+    valueIncoming->setVisibility(Visibility::Visible);
+    valueIncoming->setOutlineColor(textGroup.outlineColor);
+
+    std::string oldValue = value->getString();
+    std::string newValue = option.getValueDisplayString();
+    if (oldValue.empty() || oldValue == newValue) {
+        value->setString(newValue);
+        valueIncoming->setVisibility(Visibility::Hidden);
+        return;
+    }
+
+    valueIncoming->setString(newValue);
+
+    float offset = getSize().x * 0.08f;
+    if (offset < 8.0f) {
+        offset = 8.0f;
+    }
+
+    float incomingStartX = direction < 0 ? valueBasePos.x - offset : valueBasePos.x + offset;
+    float outgoingEndX = direction < 0 ? valueBasePos.x + offset : valueBasePos.x - offset;
+
+    value->setPosition(valueBasePos);
+    valueIncoming->setPosition(incomingStartX, valueBasePos.y);
+
+    float sec = (float) durationMs * 0.001f;
+    valueTweenCurrent->setFromTo(valueBasePos, {outgoingEndX, valueBasePos.y}, sec);
+    valueTweenIncoming->setFromTo({incomingStartX, valueBasePos.y}, valueBasePos, sec);
+    valueTweenCurrent->play(TweenDirection::Forward, true);
+    valueTweenIncoming->play(TweenDirection::Forward, true);
+}
+
+void MenuLine::onUpdate() {
+    RectangleShape::onUpdate();
+
+    if (!valueIncoming->isVisible()) {
+        return;
+    }
+
+    if (valueTweenCurrent->getState() == TweenState::Stopped
+        && valueTweenIncoming->getState() == TweenState::Stopped) {
+        value->setString(valueIncoming->getString());
+        value->setPosition(valueBasePos);
+        valueIncoming->setVisibility(Visibility::Hidden);
+        valueIncoming->setPosition(valueBasePos);
+    }
+}
+
+void MenuLine::resetValueAnimation() {
+    if (valueTweenCurrent) {
+        valueTweenCurrent->setState(TweenState::Stopped);
+    }
+    if (valueTweenIncoming) {
+        valueTweenIncoming->setState(TweenState::Stopped);
+    }
+
+    if (valueIncoming && valueIncoming->isVisible()) {
+        value->setString(valueIncoming->getString());
+    }
+
+    if (value) {
+        value->setPosition(valueBasePos);
+    }
+    if (valueIncoming) {
+        valueIncoming->setVisibility(Visibility::Hidden);
+        valueIncoming->setPosition(valueBasePos);
     }
 }

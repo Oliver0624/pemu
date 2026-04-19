@@ -18,6 +18,7 @@ set(GENESIS_INC
         ${CMAKE_SOURCE_DIR}/cores/genesis/core/m68k
         ${CMAKE_SOURCE_DIR}/cores/genesis/core/ntsc
         ${CMAKE_SOURCE_DIR}/cores/genesis/core/sound
+        ${CMAKE_SOURCE_DIR}/cores/genesis/core/sound/minimp3
         ${CMAKE_SOURCE_DIR}/cores/genesis/core/z80
         )
 
@@ -42,19 +43,30 @@ set(GENESIS_CFLAGS
         )
 
 if (OPTION_CHD)
+    set(LIBCHDR_DIR ${CMAKE_SOURCE_DIR}/cores/genesis/core/cd_hw/libchdr)
+
     list(APPEND GENESIS_INC
-            ${CMAKE_SOURCE_DIR}/cores/genesis/core/cd_hw/libchdr/src
-            ${CMAKE_SOURCE_DIR}/cores/genesis/core/cd_hw/libchdr/deps/libFLAC/include
-            ${CMAKE_SOURCE_DIR}/cores/genesis/core/cd_hw/libchdr/deps/lzma
+            ${LIBCHDR_DIR}/include
+            ${LIBCHDR_DIR}/src
+            ${LIBCHDR_DIR}/deps/zstd-1.5.6/lib
             )
-    file(GLOB CHD_SRC ${CMAKE_SOURCE_DIR}/cores/genesis/core/cd_hw/libchdr/src/*.c)
-    file(GLOB FLAC_SRC ${CMAKE_SOURCE_DIR}/cores/genesis/core/cd_hw/libchdr/deps/libFLAC/*.c)
-    file(GLOB LZMA_SRC ${CMAKE_SOURCE_DIR}/cores/genesis/core/cd_hw/libchdr/deps/lzma/*.c)
+
+    if (EXISTS ${LIBCHDR_DIR}/deps/lzma-24.05/include/LzmaEnc.h)
+        list(APPEND GENESIS_INC ${LIBCHDR_DIR}/deps/lzma-24.05/include)
+        file(GLOB LZMA_SRC ${LIBCHDR_DIR}/deps/lzma-24.05/src/*.c)
+    else ()
+        list(APPEND GENESIS_INC ${LIBCHDR_DIR}/deps/lzma)
+        file(GLOB LZMA_SRC ${LIBCHDR_DIR}/deps/lzma/*.c)
+    endif ()
+
+    file(GLOB CHD_SRC ${LIBCHDR_DIR}/src/*.c)
+    file(GLOB FLAC_SRC ${LIBCHDR_DIR}/deps/libFLAC/*.c)
     list(APPEND GENESIS_SRC ${CHD_SRC} ${FLAC_SRC} ${LZMA_SRC})
+    list(APPEND GENESIS_LDFLAGS -lzstd -lz)
     list(APPEND GENESIS_CFLAGS
             -DUSE_LIBCHDR -DPACKAGE_VERSION=\"1.3.2\"
             -DFLAC_API_EXPORTS -DFLAC__HAS_OGG=0
-            -DHAVE_LROUND -DHAVE_STDINT_H -D_7ZIP_ST)
+            -DHAVE_LROUND -DHAVE_STDINT_H -D_7ZIP_ST -DZ7_ST)
 endif ()
 
 ##############

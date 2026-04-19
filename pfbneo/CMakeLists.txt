@@ -36,6 +36,7 @@ set(BURNER_DIRS
 file(GLOB SRC_BURNER
         ${CMAKE_SOURCE_DIR}/cores/fbneo/src/burner/*.c*
         ${CMAKE_SOURCE_DIR}/cores/fbneo/src/burner/sdl/neocdlist.cpp
+        ${CMAKE_SOURCE_DIR}/cores/fbneo/src/burner/sdl/romdata.cpp
         ${CMAKE_SOURCE_DIR}/cores/fbneo/src/burner/sdl/stringset.cpp
         )
 list(REMOVE_ITEM SRC_BURNER
@@ -134,7 +135,9 @@ set(CPU_DIRS
         ${CMAKE_SOURCE_DIR}/cores/fbneo/src/cpu/f8
         ${CMAKE_SOURCE_DIR}/cores/fbneo/src/cpu/h6280
         ${CMAKE_SOURCE_DIR}/cores/fbneo/src/cpu/hd6309
+        ${CMAKE_SOURCE_DIR}/cores/fbneo/src/cpu/hmcs40
         ${CMAKE_SOURCE_DIR}/cores/fbneo/src/cpu/i386
+        ${CMAKE_SOURCE_DIR}/cores/fbneo/src/cpu/i8085
         ${CMAKE_SOURCE_DIR}/cores/fbneo/src/cpu/i8039
         ${CMAKE_SOURCE_DIR}/cores/fbneo/src/cpu/i8x41
         ${CMAKE_SOURCE_DIR}/cores/fbneo/src/cpu/i8051
@@ -171,6 +174,7 @@ list(REMOVE_ITEM SRC_CPU
         ${CMAKE_SOURCE_DIR}/cores/fbneo/src/cpu/tms34010/tms34010_newdasm.cpp
         ${CMAKE_SOURCE_DIR}/cores/fbneo/src/cpu/tms34010/tms34010_dasm.cpp
         ${CMAKE_SOURCE_DIR}/cores/fbneo/src/cpu/mips3/x64/mips3_x64.cpp
+        ${CMAKE_SOURCE_DIR}/cores/fbneo/src/cpu/hmcs40/hmcs40op.cpp
         )
 
 if (OPTION_LIGHT)
@@ -407,8 +411,6 @@ add_custom_target(${PROJECT_NAME}.deps
         # driverlist.h
         COMMAND ${PERL_EXECUTABLE} ${CMAKE_SOURCE_DIR}/cores/fbneo/src/dep/scripts/gamelist.pl -o ${CMAKE_CURRENT_BINARY_DIR}/deps/driverlist.h -l ${CMAKE_CURRENT_BINARY_DIR}/deps/gamelist.txt ${SRC_DRV}
         )
-if (PLATFORM_ANDROID)
-    add_dependencies(${PROJECT_NAME} ${PROJECT_NAME}.deps)
-endif ()
+add_dependencies(${PROJECT_NAME} ${PROJECT_NAME}.deps)
 
 message("-- C2D: Be sure to build \"${PROJECT_NAME}.deps\" target before \"${PROJECT_NAME}\" target")

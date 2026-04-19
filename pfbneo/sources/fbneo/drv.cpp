@@ -21,8 +21,10 @@ bool GetIpsDrvProtection() { return false; }
 
 // replaces ips_manager.cpp
 bool bDoIpsPatch = false;
+UINT32 nIpsDrvDefine = 0;
+UINT32 nIpsMemExpLen[SND2_ROM + 1] = {0};
 
-void IpsApplyPatches(UINT8 *base, char *rom_name) {}
+void IpsApplyPatches(UINT8 *base, char *rom_name, UINT32 rom_crc, bool readonly) {}
 
 bool bRunPause;
 
@@ -40,6 +42,10 @@ INT32 UnfreezeInput(const UINT8 *buf, INT32 size) { return 0; }
 
 bool is_netgame_or_recording() {
     return false;
+}
+
+void ReinitialiseVideo() {
+    Reinitialise();
 }
 
 static int ProgressCreate();

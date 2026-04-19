@@ -326,6 +326,22 @@ void Config::load(const ss_api::Game &game) {
         }
     }
 
+#ifdef __SWITCH__
+    // Migrate legacy Switch menu keys (+/-) to L3/R3 once when still using defaults.
+    if (!isRomCfg) {
+        Option *joyMenu1 = get(Option::Id::JOY_MENU1, false);
+        Option *joyMenu2 = get(Option::Id::JOY_MENU2, false);
+        if (joyMenu1 && joyMenu2
+            && joyMenu1->getValueInt() == SDL_CONTROLLER_BUTTON_START
+            && joyMenu2->getValueInt() == SDL_CONTROLLER_BUTTON_BACK) {
+            joyMenu1->setValueInt(SDL_CONTROLLER_BUTTON_LEFTSTICK);
+            joyMenu2->setValueInt(SDL_CONTROLLER_BUTTON_RIGHTSTICK);
+            printf("Config::load: migrated Switch menu keys to L3/R3\n");
+            save(ss_api::Game());
+        }
+    }
+#endif
+
     config_destroy(&cfg);
 }
 

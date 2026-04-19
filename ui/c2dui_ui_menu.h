@@ -6,6 +6,8 @@
 #define C2DUI_UI_MENU_NEW_H
 
 namespace c2dui {
+    class UIHighlight;
+    class MenuLine;
 
     class UiMenu : public SkinnedRectangle {
 
@@ -23,9 +25,9 @@ namespace c2dui {
 
         virtual bool isOptionHidden(Option *option) { return false; };
 
-        void onKeyUp();
+        void onKeyUp(bool animate = true);
 
-        void onKeyDown();
+        void onKeyDown(bool animate = true);
 
         bool onInput(c2d::Input::Player *players) override;
 
@@ -35,10 +37,20 @@ namespace c2dui {
 
         void updateLines();
 
+        void moveSelection(int direction, bool animate);
+
+        void resetContentAnimation();
+
+        void startContentScrollAnimation(float fromY, int durationMs);
+
         UiMain *ui = nullptr;
         SkinnedText *title = nullptr;
-        c2d::RectangleShape *highlight = nullptr;
+        c2d::RectangleShape *content = nullptr;
+        c2d::TweenPosition *contentTween = nullptr;
+        UIHighlight *highlight = nullptr;
         std::vector<MenuLine *> lines;
+        c2d::Vector2f contentBasePos = {0, 0};
+        int pendingCursorAnimMs = 0;
         float alpha = 230;
 
         std::vector<Option> options;
@@ -49,6 +61,9 @@ namespace c2dui {
         int maxLines = 0;
         int optionIndex = 0;
         int highlightIndex = 0;
+        const int cursorAnimMs = 100;
+        const int contentAnimMs = 100;
+        const int valueSlideAnimMs = 100;
 
         bool isRomMenu = false;
         bool isEmuRunning = false;

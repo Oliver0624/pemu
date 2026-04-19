@@ -7,6 +7,7 @@
 
 #include <vector>
 #include <cstdint>
+#include <chrono>
 #include "c2dui_rewind_manager.h"
 
 namespace c2dui {
@@ -62,6 +63,8 @@ namespace c2dui {
         void tickRewind();
         void resetRewind();
         void previewRewind();
+        void updateRewindOverlay();
+        void updateRewindAudioFade();
 
     protected:
 
@@ -75,6 +78,9 @@ namespace c2dui {
 
         ss_api::Game currentGame;
         c2d::Text *fpsText = nullptr;
+        c2d::RectangleShape *rewindPanel = nullptr;
+        c2d::Text *rewindTitleText = nullptr;
+        c2d::Text *rewindTimelineText = nullptr;
         c2d::Text *rewindHintText = nullptr;
         UiMain *pMain = nullptr;
         C2DUIVideo *video = nullptr;
@@ -82,6 +88,9 @@ namespace c2dui {
         char fpsString[32];
         float targetFps = 60;
         bool paused = true;
+        bool rewindOverlayVisiblePrev = false;
+        bool rewindAudioFadeActive = false;
+        std::chrono::steady_clock::time_point rewindAudioFadeStart{};
 
         RewindManager rewindManager;
     };

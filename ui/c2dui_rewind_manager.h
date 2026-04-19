@@ -192,10 +192,12 @@ namespace c2dui {
 
         void adjustFrequency(double avgSerializeMs) {
             double slowThreshold = 15.0;
+            int minSampleFrames = std::max(1, targetFps);     // fastest: 1 snapshot/sec
+            int maxSampleFrames = std::max(minSampleFrames, targetFps * 10);
             if (avgSerializeMs > slowThreshold) {
-                sampleFrames = std::min(targetFps * 10, sampleFrames + 10);
+                sampleFrames = std::min(maxSampleFrames, sampleFrames + 10);
             } else if (avgSerializeMs < slowThreshold / 2) {
-                sampleFrames = std::max(targetFps / 4, sampleFrames - 10);
+                sampleFrames = std::max(minSampleFrames, sampleFrames - 10);
             }
         }
 
@@ -215,6 +217,54 @@ namespace c2dui {
                 return 0;
             }
             return entries[selection].secondsAgo;
+        }
+
+        int getHistorySeconds() const {
+            if (entries.empty()) {
+                return 0;
+            }
+            return entries.front().secondsAgo;
+        }
+
+        std::string getTimelineSlotsText(int visibleSlots = 7) const {
+            if (entries.empty() || selection < 0 || selection >= (int) entries.size()) {
+                return "";
+            }
+
+            if (visibleSlots < 1) {
+                visibleSlots = 1;
+            }
+            if ((visibleSlots % 2) == 0) {
+                visibleSlots++;
+            }
+
+            int half = visibleSlots / 2;
+            std::string text;
+            text.reserve((size_t) visibleSlots * 10);
+
+            for (int i = -half; i <= half; i++) {
+                if (i != -half) {
+                    text += "  ";
+                }
+
+                int idx = selection + i;
+                if (idx < 0 || idx >= (int) entries.size()) {
+                    text += "----";
+                    continue;
+                }
+
+                char secBuf[16];
+                std::snprintf(secBuf, sizeof(secBuf), "%02ds", entries[idx].secondsAgo);
+                if (i == 0) {
+                    text += "[";
+                    text += secBuf;
+                    text += "]";
+                } else {
+                    text += secBuf;
+                }
+            }
+
+            return text;
         }
 
     private:
